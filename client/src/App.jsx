@@ -1,6 +1,7 @@
 // import { useState, useEffect} from 'react'
 import './App.css'
 import './index.css'
+import LandingPage from './components/landingPage'
 // import axios from "axios";
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
 
   return (
     <>
-      <h1 className=' text-2xl'> HOLA MUNDO</h1>
-      <p className=' bg-slate-500 text-lg text-red-400'>HOLA MUNDO</p>
+      <LandingPage></LandingPage>
       
     </>
   )
