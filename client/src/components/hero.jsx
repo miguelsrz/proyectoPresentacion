@@ -1,5 +1,5 @@
-import banner from "../assets/bannerUnal.jpg";
-import techWave from "../assets/pngGradient.png";
+import banner from "../../public/assets/bannerUnal.jpg";
+import techWave from "../../public/assets/pngGradient.png";
 
 function Hero() {
   return (

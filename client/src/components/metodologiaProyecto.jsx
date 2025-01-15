@@ -1,13 +1,12 @@
 import { useContext, useState } from "react";
 import { AppContext } from "../context/presentacionContext";
 
-// import bgDecoration1 from "../assets/bgDecoration1.svg";
-import bgDecoration1 from "../assets/bgDecoration1.svg";
-import bgDecoration3 from "../assets/bgDecoration3.svg";
-// import bgDecoration4 from "../assets/bgDecoration4.svg";
-import plazaChe from "../assets/imgs/Plaza_Che,_Bogotá.jpg";
-import img2 from "../assets/imgs/img2.jpg";
-import img3 from "../assets/imgs/img3.png";
+import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
+// import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
+import bgDecoration3 from "../../public/assets/bgDecoration3.svg";
+import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.jpg";
+import img2 from "../../public/assets/imgs/img2.jpg";
+import img3 from "../../public/assets/imgs/img3.png";
 
 const MetodologiaProyecto = () => {
   const { activeComponent } = useContext(AppContext);
