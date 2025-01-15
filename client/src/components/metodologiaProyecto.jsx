@@ -31,7 +31,7 @@ const MetodologiaProyecto = () => {
       <>
         <section
           id="intro"
-          className="bg-blend- relative z-0 flex min-h-[750px] justify-center bg-gray-100 bg-parallax bg-cover px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
+          className="relative z-0 flex min-h-[750px] justify-center bg-gray-100 bg-parallax bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
         >
           <img
             className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
@@ -66,8 +66,7 @@ const MetodologiaProyecto = () => {
                   className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "h-full py-4" : "h-0 py-0"}`}
                 >
                   <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    TIPO{" "}
-                    <span className="md:hidden xl:block">DE INVESTIGACION</span>
+                    TIPO
                   </h2>
                   <p>
                     Cuantitativa ya que esta nos permite realizar un estudio de

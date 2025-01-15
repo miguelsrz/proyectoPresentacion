@@ -44,7 +44,7 @@ const ContextoProyecto = () => {
                   </figure>
 
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       1. DESCRIPCION
                     </h2>
                     <p className="text-pretty pb-8">
@@ -59,7 +59,7 @@ const ContextoProyecto = () => {
 
                 <div className="grid grid-rows-1 gap-8 border-b-4 border-dotted border-black pb-8 md:mb-0 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold text-gray-950">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold text-gray-950">
                       2. FORMULACION
                     </h2>
                     <p className="text-pretty md:pb-8">
@@ -91,7 +91,7 @@ const ContextoProyecto = () => {
                   </figure>
 
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       3. SITUACION
                     </h2>
                     <p className="text-pretty pb-8">
@@ -192,7 +192,7 @@ const ContextoProyecto = () => {
               <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                 OBJETIVO <span className="-purple-900">PRINCIPAL</span>
               </h2>
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -200,11 +200,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       DEFINICION
                     </h2>
                     <p className="text-pretty">
@@ -232,7 +232,7 @@ const ContextoProyecto = () => {
                 <span className="text-purple-900">ESPECIFICOS</span>
               </h2>
 
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -240,11 +240,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       PRIMERO
                     </h2>
                     <p className="text-pretty">
@@ -262,7 +262,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -270,11 +270,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       SEGUNDO
                     </h2>
                     <p className="text-pretty">
@@ -292,7 +292,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -300,11 +300,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       TERCERO
                     </h2>
                     <p className="text-pretty">
@@ -321,7 +321,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -329,11 +329,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       CUARTO
                     </h2>
                     <p className="text-pretty">
@@ -350,7 +350,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 rounded border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -358,11 +358,11 @@ const ContextoProyecto = () => {
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                   </figure>
 
                   <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
                       QUINTO
                     </h2>
                     <p className="text-pretty">

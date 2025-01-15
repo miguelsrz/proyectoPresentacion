@@ -9,7 +9,7 @@ export default {
         dmsans: ['DM Sans', 'sans-serif'],
       },
       backgroundImage: {
-        'parallax': 'url("./src/assets/pngGradient.png")'
+        'parallax': 'url("./public/assets/pngGradient.png)'
       }
     
   }

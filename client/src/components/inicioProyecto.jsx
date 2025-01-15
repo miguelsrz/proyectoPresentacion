@@ -31,7 +31,7 @@ const InicioProyecto = () => {
                   alt="Proyecto"
                   className="z-10 h-full object-cover shadow"
                 />
-                <div className="absolute right-[5%] top-[5%] z-0 h-full w-full border-4 border-black"></div>
+                <div className="absolute right-[5%] top-[5%] z-0 h-full w-full border-2 border-black"></div>
                 <div className="absolute bottom-[2%] right-[2%] z-0 h-full w-full bg-black"></div>
               </figure>
               <div className="xl:ml-12">
@@ -114,7 +114,7 @@ const InicioProyecto = () => {
                   alt="Proyecto"
                   className="z-10 h-full object-cover shadow"
                 />
-                <div className="absolute bottom-[5%] left-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
+                <div className="absolute bottom-[5%] left-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                 <div className="absolute left-[2%] top-[2%] z-0 h-full w-full bg-black"></div>
               </figure>
             </div>
@@ -137,7 +137,7 @@ const InicioProyecto = () => {
                   alt="Proyecto"
                   className="z-10 h-full object-cover shadow"
                 />
-                <div className="absolute bottom-[5%] right-[5%] z-0 h-full w-full border-4 border-black"></div>
+                <div className="absolute bottom-[5%] right-[5%] z-0 h-full w-full border-2 border-black"></div>
                 <div className="absolute right-[2%] top-[2%] z-0 h-full w-full bg-purple-900"></div>
               </figure>
 
