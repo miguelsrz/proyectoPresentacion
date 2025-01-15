@@ -10,3 +10,7 @@
     src: url('../public/fonts/SCHABO-Condensed.otf') format('opentype');
     ascent-override: 100%;
 }
+
+html {
+    scroll-behavior: smooth;
+}

@@ -7,9 +7,14 @@ export default {
       fontFamily: {
         schabo: ['Schabo', 'serif'],
         dmsans: ['DM Sans', 'sans-serif'],
+      },
+      backgroundImage: {
+        'parallax': 'url("./src/assets/pngGradient.png")'
       }
+    
   }
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: ["prettier-plugin-tailwindcss", require('tailwindcss-motion')],
 }
 

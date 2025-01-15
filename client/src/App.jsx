@@ -1,23 +1,22 @@
 // import { useState, useEffect} from 'react'
-import './App.css'
-import './index.css'
-import LandingPage from './components/landingPage'
+import "./App.css";
+import "./index.css";
+import { AppProvider } from "./context/presentacionContext";
+
+import LandingPage from "./pages/landingPage";
 // import axios from "axios";
 
 function App() {
-
-
-
   return (
     <>
-      <LandingPage></LandingPage>
-      
+      <AppProvider>
+        <LandingPage></LandingPage>
+      </AppProvider>
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
 
 /* 
 
