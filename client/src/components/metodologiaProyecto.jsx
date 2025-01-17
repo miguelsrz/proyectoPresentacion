@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
 import { AppContext } from "../context/presentacionContext";
 
-import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
-// import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
+// import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
+import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
 import bgDecoration3 from "../../public/assets/bgDecoration3.svg";
 import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.jpg";
 import img2 from "../../public/assets/imgs/img2.jpg";
@@ -241,11 +241,11 @@ const MetodologiaProyecto = () => {
 
         <section
           id="intro"
-          className="bg-parallax relative z-0 flex min-h-[750px] justify-center bg-white bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
+          className="bg-parallax relative z-0 flex min-h-[750px] justify-center bg-purple-100 bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
         >
           <img
             className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
-            src={bgDecoration1}
+            src={bgDecoration2}
             alt=""
           />
 
@@ -291,7 +291,7 @@ const MetodologiaProyecto = () => {
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={img2}
+                      src={img3}
                       alt=""
                     />
                   </figure>
@@ -313,7 +313,7 @@ const MetodologiaProyecto = () => {
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={img2}
+                      src={plazaChe}
                       alt=""
                     />
                   </figure>

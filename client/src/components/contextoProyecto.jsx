@@ -68,7 +68,7 @@ const ContextoProyecto = () => {
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
                         className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
-                        src={img2}
+                        src={plazaChe}
                         alt=""
                       />
                     </figure>
@@ -90,7 +90,7 @@ const ContextoProyecto = () => {
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
                         className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
-                        src={img2}
+                        src={img3}
                         alt=""
                       />
                     </figure>
@@ -224,10 +224,10 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex items-center justify-end xl:mr-16">
-                  <p className="block font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden lg:block lg:text-9xl">
+                  <p className="block font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden md:text-9xl lg:block lg:text-9xl">
                     GNRL
                   </p>
-                  <p className="hidden font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block lg:hidden lg:text-9xl">
+                  <p className="hidden font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block md:text-9xl lg:hidden lg:text-9xl">
                     GN <br /> RL
                   </p>
                 </div>
@@ -263,7 +263,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
                     01
                   </p>
                 </div>
@@ -293,7 +293,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
                     02
                   </p>
                 </div>
@@ -322,7 +322,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
                     03
                   </p>
                 </div>
@@ -351,7 +351,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
                     04
                   </p>
                 </div>
@@ -381,7 +381,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-9xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
                     05
                   </p>
                 </div>

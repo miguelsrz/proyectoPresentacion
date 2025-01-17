@@ -3,6 +3,7 @@ import { AppContext } from "../context/presentacionContext";
 
 import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
 import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
+import bgDecoration3 from "../../public/assets/bgDecoration3.svg";
 import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.jpg";
 import img2 from "../../public/assets/imgs/img2.jpg";
 import img3 from "../../public/assets/imgs/img3.png";
@@ -17,11 +18,11 @@ const InicioProyecto = () => {
         <div className="relative">
           <section
             id="intro"
-            className="relative z-20 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
+            className="relative z-20 flex min-h-[750px] justify-center bg-gray-100 px-10 py-20 text-gray-950 sm:px-16"
           >
             <img
               className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
-              src={bgDecoration1}
+              src={bgDecoration3}
               alt=""
             />
             <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
@@ -75,7 +76,7 @@ const InicioProyecto = () => {
 
             <img
               className="absolute -bottom-[10px] left-0 w-1/2 -scale-y-100 md:-bottom-[25px] xl:-bottom-[40px]"
-              src={bgDecoration1}
+              src={bgDecoration3}
               alt=""
             />
           </section>
@@ -128,7 +129,7 @@ const InicioProyecto = () => {
 
           <section
             id="intro"
-            className="relative z-0 flex min-h-[750px] justify-center bg-gray-100 px-10 py-20 text-gray-950 sm:px-16"
+            className="relative z-0 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
           >
             <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
               <figure className="relative z-10 flex w-full">
