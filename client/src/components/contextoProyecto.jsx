@@ -19,7 +19,7 @@ const ContextoProyecto = () => {
         <div className="relative">
           <section
             id="intro"
-            className="relative z-0 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
+            className="bg-parallax relative z-0 flex min-h-[750px] justify-center bg-white bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
           >
             <img
               className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
@@ -27,82 +27,89 @@ const ContextoProyecto = () => {
               alt=""
             />
 
-            <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-8">
-              <h2 className="text-gray-950sm:text-7xl mb-9 font-schabo text-5xl tracking-widest sm:text-7xl lg:text-8xl">
-                DEFINICION PROBLEMA
+            <div className="flex h-auto w-full max-w-[1320px] flex-col justify-center gap-12">
+              <h2 className="font-schabo text-6xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+                DEFINICION <span className="text-purple-900">PROBLEMA</span>
               </h2>
-              <div className="grid grid-cols-1 grid-rows-3 gap-8">
-                <div className="grid grid-rows-1 gap-8 border-b-2 border-black pb-8 md:my-6 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 md:pb-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                  <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
-                    <img
-                      src={img3}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
+              <p className="text-pretty">
+                Se trabajará con base a las aflicciones económicas que una
+                cantidad considerable de estudiantes han manifestado tener, con
+                énfasis en el manejo del dinero, puesto que les resulta
+                imposible conllevar los gastos que se les presentan diariamente,
+                principalmente debido a la falta de conocimientos y aplicaciones
+                de conceptos de finanzas personales.
+              </p>
+              <div className="overflow-x-scroll">
+                <div className="grid h-[480px] w-max grid-cols-3 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-3">
+                  <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                    <figure className="absolute z-[-1] h-full w-full opacity-25">
+                      <img
+                        className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
+                        src={img2}
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                    >
+                      <h2 className="text-2xl font-bold">DESCRIPCION</h2>
+                      <div className="my-4 h-1 w-full bg-white"></div>
+                      <p className="text-balance">
+                        Se centra en la falta de conocimientos y aplicaciones de
+                        las finanzas personales como la principal problemática
+                        enfrentada por los estudiantes. Este desconocimiento
+                        financiero se presenta en una comprensión limitada de
+                        conceptos fundamentales.
+                      </p>
+                    </div>
+                  </article>
 
-                    <div className="absolute bottom-[4%] right-[1%] z-0 h-full w-full bg-black"></div>
-                  </figure>
+                  <article className="group relative z-0 w-72 overflow-hidden bg-gray-700 text-white sm:w-auto">
+                    <figure className="absolute z-[-1] h-full w-full opacity-25">
+                      <img
+                        className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
+                        src={img2}
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                    >
+                      <h2 className="text-2xl font-bold">FORMULACION</h2>
+                      <div className="my-4 h-1 w-full bg-white"></div>
+                      <p className="text-balance">
+                        Los estudiantes de pregrado de Ingeniería de Sistemas y
+                        Computación en primer semestre de la Universidad
+                        Nacional de Colombia Sede Bogotá carecen de
+                        conocimientos y aplicaciones de las finanzas personales.
+                      </p>
+                    </div>
+                  </article>
 
-                  <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 text-balance border-black pb-2 text-2xl font-bold sm:w-1/2 sm:border-b">
-                      1. DESCRIPCION
-                    </h2>
-                    <p className="text-pretty">
-                      Se centra en la falta de conocimientos y aplicaciones de
-                      las finanzas personales como la principal problemática
-                      enfrentada por los estudiantes. Este desconocimiento
-                      financiero se presenta en una comprensión limitada de
-                      conceptos fundamentales.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="grid grid-rows-1 gap-8 border-b-2 border-black pb-8 md:my-6 md:mb-0 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 md:pb-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                  <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 text-balance border-black pb-2 text-2xl font-bold text-gray-950 sm:w-1/2 sm:border-b">
-                      2. FORMULACION
-                    </h2>
-                    <p className="text-pretty md:pb-8">
-                      Los estudiantes de pregrado de Ingeniería de Sistemas y
-                      Computación en primer semestre de la Universidad Nacional
-                      de Colombia Sede Bogotá carecen de conocimientos y
-                      aplicaciones de las finanzas personales.
-                    </p>
-                  </div>
-
-                  <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
-                    <img
-                      src={plazaChe}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute bottom-[4%] left-[1%] z-0 h-full w-full bg-black"></div>
-                  </figure>
-                </div>
-
-                <div className="grid grid-rows-1 gap-8 sm:my-6 md:h-56 md:grid-cols-3 md:gap-12 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                  <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
-                    <img
-                      src={img2}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute right-[1%] top-[4%] z-0 h-full w-full bg-black"></div>
-                  </figure>
-
-                  <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="text-balancesm : mb-4 border-b border-black pb-2 text-2xl font-bold sm:w-1/2">
-                      3. SITUACION
-                    </h2>
-                    <p className="text-pretty">
-                      A pesar de la diversidad cultural y económica de los
-                      estudiantes, proviniendo de distintos entornos sociales,
-                      la ausencia de estrategias financieras claras deja en
-                      exposición una mala distribución de los recursos
-                      monetarios, empeorando debido a la carencia de estrategias
-                      organizadas para el acceso a la información financiera.
-                    </p>
-                  </div>
+                  <article className="group relative z-0 w-72 overflow-hidden bg-black text-white sm:w-auto md:col-span-2 xl:col-span-1">
+                    <figure className="absolute z-[-1] h-full w-full opacity-25">
+                      <img
+                        className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
+                        src={img2}
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out md:w-3/5 xl:w-auto`}
+                    >
+                      <h2 className="text-2xl font-bold">SITUACION</h2>
+                      <div className="my-4 h-1 w-full bg-white"></div>
+                      <p className="text-pretty">
+                        A pesar de la diversidad cultural y económica de los
+                        estudiantes, proviniendo de distintos entornos sociales,
+                        la ausencia de estrategias financieras claras deja en
+                        exposición una mala distribución de los recursos
+                        monetarios, empeorando debido a la carencia de
+                        estrategias organizadas para el acceso a la información
+                        financiera.
+                      </p>
+                    </div>
+                  </article>
                 </div>
               </div>
             </div>
@@ -189,10 +196,10 @@ const ContextoProyecto = () => {
             className="relative z-0 flex min-h-[750px] flex-col items-center justify-center gap-16 bg-white bg-opacity-60 px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
           >
             <div className="flex h-auto max-w-[1320px] flex-col">
-              <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+              <h2 className="mb-9 font-schabo text-6xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                 OBJETIVO <span className="-purple-900">PRINCIPAL</span>
               </h2>
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -228,11 +235,11 @@ const ContextoProyecto = () => {
             </div>
 
             <div className="flex h-auto max-w-[1320px] flex-col">
-              <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+              <h2 className="mb-9 font-schabo text-6xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                 <span className="text-purple-900">ESPECIFICOS</span>
               </h2>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -262,7 +269,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -292,7 +299,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -321,7 +328,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img
@@ -350,7 +357,7 @@ const ContextoProyecto = () => {
                 </div>
               </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 md:hover:bg-gray-200/60 lg:h-64">
+              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
                     <img

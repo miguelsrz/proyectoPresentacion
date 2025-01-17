@@ -39,7 +39,7 @@ const MetodologiaProyecto = () => {
             alt=""
           />
 
-          <div className="flex h-auto w-full max-w-[1320px] flex-col gap-12">
+          <div className="flex h-auto w-full max-w-[1320px] flex-col gap-8 sm:gap-12">
             <h2 className="font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
               DISEÑO DE <span className="text-purple-900">INVESTIGACION</span>
             </h2>
@@ -50,188 +50,190 @@ const MetodologiaProyecto = () => {
               población y se generarán unas hipótesis de acuerdo a lo planteado
               en el mismo.
             </p>
-            <div className="grid w-full gap-4 lg:grid-cols-4">
-              <div
-                onClick={() => handleBox(boxes[0])}
-                className="group relative z-0 col-span-2 h-80 cursor-pointer sm:col-span-1"
-              >
-                <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={plazaChe}
-                    alt=""
-                  />
-                </figure>
+            <div className="scroll w-full overflow-x-scroll sm:overflow-auto">
+              <div className="h grid w-max grid-cols-5 gap-2 sm:h-auto sm:w-full sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
                 <div
-                  className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "opacity-0" : "opacity-100"}`}
+                  onClick={() => handleBox(boxes[0])}
+                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto"
                 >
-                  <div className="h-1 w-20 bg-purple-900"></div>
-                  <h2 className="pt-4 text-2xl font-bold text-white">TIPO</h2>
+                  <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
+                    <img
+                      className="h-full w-full object-cover"
+                      src={plazaChe}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "opacity-0" : "opacity-100"}`}
+                  >
+                    <div className="h-1 w-20 bg-purple-900"></div>
+                    <h2 className="pt-4 text-2xl font-bold text-white">TIPO</h2>
+                  </div>
+
+                  <article
+                    className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "h-full py-4" : "h-0 py-0"}`}
+                  >
+                    <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
+                      TIPO
+                    </h2>
+                    <p>
+                      Cuantitativa ya que esta nos permite realizar un estudio
+                      de un población específica en nuestro caso sobre la
+                      educación financiera en los estudiantes universitarios.
+                    </p>
+                  </article>
                 </div>
 
-                <article
-                  className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "h-full py-4" : "h-0 py-0"}`}
-                >
-                  <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    TIPO
-                  </h2>
-                  <p>
-                    Cuantitativa ya que esta nos permite realizar un estudio de
-                    un población específica en nuestro caso sobre la educación
-                    financiera en los estudiantes universitarios.
-                  </p>
-                </article>
-              </div>
-
-              <div
-                onClick={() => handleBox(boxes[1])}
-                className="group relative z-0 col-span-2 h-80 cursor-pointer sm:col-span-1"
-              >
-                <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
                 <div
-                  className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "opacity-0" : "opacity-100"}`}
+                  onClick={() => handleBox(boxes[1])}
+                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto"
                 >
-                  <div className="h-1 w-20 bg-purple-900"></div>
-                  <h2 className="pt-4 text-2xl font-bold text-white">
-                    POBLACION
-                  </h2>
+                  <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
+                    <img
+                      className="h-full w-full object-cover"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "opacity-0" : "opacity-100"}`}
+                  >
+                    <div className="h-1 w-20 bg-purple-900"></div>
+                    <h2 className="pt-4 text-2xl font-bold text-white">
+                      POBLACION
+                    </h2>
+                  </div>
+
+                  <article
+                    className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "h-full py-4" : "h-0 py-0"}`}
+                  >
+                    <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
+                      POBLACION
+                    </h2>
+                    <p>
+                      Enfocándose en los estudiantes de primer semestre de
+                      pregrado de Ingeniería de Sistemas y Computación.
+                    </p>
+                  </article>
                 </div>
 
-                <article
-                  className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "h-full py-4" : "h-0 py-0"}`}
-                >
-                  <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    POBLACION
-                  </h2>
-                  <p>
-                    Enfocándose en los estudiantes de primer semestre de
-                    pregrado de Ingeniería de Sistemas y Computación.
-                  </p>
-                </article>
-              </div>
-
-              <div
-                onClick={() => handleBox(boxes[2])}
-                className="group relative z-0 col-span-2 h-80 cursor-pointer"
-              >
-                <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={img3}
-                    alt=""
-                  />
-                </figure>
                 <div
-                  className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "opacity-0" : "opacity-100"}`}
+                  onClick={() => handleBox(boxes[2])}
+                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-2 sm:w-auto"
                 >
-                  <div className="h-1 w-20 bg-purple-900"></div>
-                  <h2 className="pt-4 text-2xl font-bold text-white">
-                    HIPOTESIS
-                  </h2>
+                  <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
+                    <img
+                      className="h-full w-full object-cover"
+                      src={img3}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "opacity-0" : "opacity-100"}`}
+                  >
+                    <div className="h-1 w-20 bg-purple-900"></div>
+                    <h2 className="pt-4 text-2xl font-bold text-white">
+                      HIPOTESIS
+                    </h2>
+                  </div>
+
+                  <article
+                    className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "h-full py-4" : "h-0 py-0"}`}
+                  >
+                    <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
+                      HIPOTESIS
+                    </h2>
+                    <p>
+                      El desarrollo del sitio web con las interfaces de
+                      educación y el gestor financiero logran mejorar de manera
+                      significativa el conocimiento adquirido sobre educación
+                      financiera y la capacidad de gestionar las finanzas
+                      personales eficientemente.
+                    </p>
+                  </article>
                 </div>
 
-                <article
-                  className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "h-full py-4" : "h-0 py-0"}`}
-                >
-                  <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    HIPOTESIS
-                  </h2>
-                  <p>
-                    El desarrollo del sitio web con las interfaces de educación
-                    y el gestor financiero logran mejorar de manera
-                    significativa el conocimiento adquirido sobre educación
-                    financiera y la capacidad de gestionar las finanzas
-                    personales eficientemente.
-                  </p>
-                </article>
-              </div>
-
-              <div
-                onClick={() => handleBox(boxes[3])}
-                className="group relative z-0 col-span-2 h-80 cursor-pointer sm:col-span-1 lg:col-span-2"
-              >
-                <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={plazaChe}
-                    alt=""
-                  />
-                </figure>
                 <div
-                  className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "opacity-0" : "opacity-100"}`}
+                  onClick={() => handleBox(boxes[3])}
+                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
-                  <div className="h-1 w-20 bg-purple-900"></div>
-                  <h2 className="pt-4 text-2xl font-bold text-white">
-                    RECOPILACION
-                  </h2>
+                  <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
+                    <img
+                      className="h-full w-full object-cover"
+                      src={plazaChe}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "opacity-0" : "opacity-100"}`}
+                  >
+                    <div className="h-1 w-20 bg-purple-900"></div>
+                    <h2 className="pt-4 text-2xl font-bold text-white">
+                      RECOPILACION
+                    </h2>
+                  </div>
+
+                  <article
+                    className={`absolute bottom-0 flex w-full flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "h-full py-4" : "h-0 py-0"}`}
+                  >
+                    <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
+                      RECOPILACION
+                    </h2>
+                    <p>
+                      <ul className="flex flex-col gap-4">
+                        <li>
+                          Encuestas en linea. Serie de preguntas mediante un
+                          formulario el cual estará dirigido a los estudiantes.
+                        </li>
+                        <li>
+                          Revision documental. Estudios e informes previos así
+                          mismo como materiales académicos.
+                        </li>
+                      </ul>
+                    </p>
+                  </article>
                 </div>
 
-                <article
-                  className={`absolute bottom-0 flex w-full flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "h-full py-4" : "h-0 py-0"}`}
-                >
-                  <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    RECOPILACION
-                  </h2>
-                  <p>
-                    <ul className="flex flex-col gap-4">
-                      <li>
-                        Encuestas en linea. Serie de preguntas mediante un
-                        formulario el cual estará dirigido a los estudiantes.
-                      </li>
-                      <li>
-                        Revision documental. Estudios e informes previos así
-                        mismo como materiales académicos.
-                      </li>
-                    </ul>
-                  </p>
-                </article>
-              </div>
-
-              <div
-                onClick={() => handleBox(boxes[4])}
-                className="group relative z-0 col-span-2 h-80 cursor-pointer sm:col-span-1 lg:col-span-2"
-              >
-                <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
                 <div
-                  className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "opacity-0" : "opacity-100"}`}
+                  onClick={() => handleBox(boxes[4])}
+                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
-                  <div className="h-1 w-20 bg-purple-900"></div>
-                  <h2 className="pt-4 text-2xl font-bold text-white">
-                    ANALISIS
-                  </h2>
-                </div>
+                  <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
+                    <img
+                      className="h-full w-full object-cover"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 mx-8 mb-8 transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "opacity-0" : "opacity-100"}`}
+                  >
+                    <div className="h-1 w-20 bg-purple-900"></div>
+                    <h2 className="pt-4 text-2xl font-bold text-white">
+                      ANALISIS
+                    </h2>
+                  </div>
 
-                <article
-                  className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "h-full py-4" : "h-0 py-0"}`}
-                >
-                  <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
-                    ANALISIS
-                  </h2>
-                  <p>
-                    <ul className="flex flex-col gap-4">
-                      <li>
-                        Analisis descriptivo. Se resumen todos los datos
-                        obtenidos de la encuesta.
-                      </li>
-                      <li>
-                        Evalaucion usabilidad. evaluar la funcionalidad del
-                        sitio web y de esta manera revisar su estructura.
-                      </li>
-                    </ul>
-                  </p>
-                </article>
+                  <article
+                    className={`absolute bottom-0 flex flex-col justify-end overflow-hidden bg-purple-400/40 px-6 text-white transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "h-full py-4" : "h-0 py-0"}`}
+                  >
+                    <h2 className="mb-4 border-b-2 border-white pb-4 text-2xl font-bold">
+                      ANALISIS
+                    </h2>
+                    <p>
+                      <ul className="flex flex-col gap-4">
+                        <li>
+                          Analisis descriptivo. Se resumen todos los datos
+                          obtenidos de la encuesta.
+                        </li>
+                        <li>
+                          Evalaucion usabilidad. evaluar la funcionalidad del
+                          sitio web y de esta manera revisar su estructura.
+                        </li>
+                      </ul>
+                    </p>
+                  </article>
+                </div>
               </div>
             </div>
           </div>
@@ -261,94 +263,96 @@ const MetodologiaProyecto = () => {
               transformación de dicha información para exponer la solución
               propuesta independiente para cada sujeto a evaluar.
             </p>
-            <div className="grid h-[1600px] w-full grid-cols-1 gap-2 sm:h-[1200px] md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-4">
-              <article className="group relative z-0 overflow-hidden bg-purple-900 text-white">
-                <figure className="absolute z-[-1] h-full w-full opacity-25">
-                  <img
-                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
-                <div
-                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
-                >
-                  <h2 className="text-2xl font-bold">SOFTWARE</h2>
-                  <div className="my-4 h-1 w-full bg-white"></div>
-                  <p className="text-balance">
-                    Se selecciona el modelo cascada como la metodología de
-                    desarrollo de software gracias a su estructura ordenada y
-                    sistemática. Permitiendo abordar todos los objetivos del
-                    proyecto eficiente y claramente
-                  </p>
-                </div>
-              </article>
+            <div className="overflow-x-scroll">
+              <div className="grid h-[480px] w-max grid-cols-4 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-4">
+                <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                  <figure className="absolute z-[-1] h-full w-full opacity-25">
+                    <img
+                      className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                  >
+                    <h2 className="text-2xl font-bold">SOFTWARE</h2>
+                    <div className="my-4 h-1 w-full bg-white"></div>
+                    <p className="text-balance">
+                      Se selecciona el modelo cascada como la metodología de
+                      desarrollo de software gracias a su estructura ordenada y
+                      sistemática. Permitiendo abordar todos los objetivos del
+                      proyecto eficiente y claramente
+                    </p>
+                  </div>
+                </article>
 
-              <article className="group relative z-0 overflow-hidden bg-gray-900 text-white">
-                <figure className="absolute z-[-1] h-full w-full opacity-25">
-                  <img
-                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
-                <div
-                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
-                >
-                  <h2 className="text-2xl font-bold">REQUISITOS</h2>
-                  <div className="my-4 h-1 w-full bg-white"></div>
-                  <p className="text-balance">
-                    Diseño de herramientas tecnológicas que sean capaces de
-                    adaptarse a un número mayor de necesidades, como lo son
-                    mayores usuarios o funcionalidades más complejas, sin
-                    comprometer el rendimiento esperado
-                  </p>
-                </div>
-              </article>
+                <article className="group relative z-0 w-72 overflow-hidden bg-gray-900 text-white sm:w-auto">
+                  <figure className="absolute z-[-1] h-full w-full opacity-25">
+                    <img
+                      className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                  >
+                    <h2 className="text-2xl font-bold">REQUISITOS</h2>
+                    <div className="my-4 h-1 w-full bg-white"></div>
+                    <p className="text-balance">
+                      Diseño de herramientas tecnológicas que sean capaces de
+                      adaptarse a un número mayor de necesidades, como lo son
+                      mayores usuarios o funcionalidades más complejas, sin
+                      comprometer el rendimiento esperado
+                    </p>
+                  </div>
+                </article>
 
-              <article className="group relative z-0 overflow-hidden bg-purple-900 text-white">
-                <figure className="absolute z-[-1] h-full w-full opacity-25">
-                  <img
-                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
-                <div
-                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
-                >
-                  <h2 className="text-2xl font-bold">IMPLEMENTACION</h2>
-                  <div className="my-4 h-1 w-full bg-white"></div>
-                  <p className="text-balance">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla sagittis eget orci in malesuada. Suspendisse varius
-                    viverra arcu. Duis elementum rutrum pharetra. Integer tempor
-                    diam a justo sollicitudin, a pulvinar.
-                  </p>
-                </div>
-              </article>
+                <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                  <figure className="absolute z-[-1] h-full w-full opacity-25">
+                    <img
+                      className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                  >
+                    <h2 className="text-2xl font-bold">IMPLEMENTACION</h2>
+                    <div className="my-4 h-1 w-full bg-white"></div>
+                    <p className="text-balance">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla sagittis eget orci in malesuada. Suspendisse varius
+                      viverra arcu. Duis elementum rutrum pharetra. Integer
+                      tempor diam a justo sollicitudin, a pulvinar.
+                    </p>
+                  </div>
+                </article>
 
-              <article className="group relative z-0 overflow-hidden bg-gray-900 text-white">
-                <figure className="absolute z-[-1] h-full w-full opacity-25">
-                  <img
-                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                    src={img2}
-                    alt=""
-                  />
-                </figure>
-                <div
-                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
-                >
-                  <h2 className="text-2xl font-bold">PRUEBAS</h2>
-                  <div className="my-4 h-1 w-full bg-white"></div>
-                  <p className="text-balance">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla sagittis eget orci in malesuada. Suspendisse varius
-                    viverra arcu. Duis elementum rutrum pharetra. Integer tempor
-                    diam a justo sollicitudin, a pulvinar.
-                  </p>
-                </div>
-              </article>
+                <article className="group relative z-0 w-72 overflow-hidden bg-gray-900 text-white sm:w-auto">
+                  <figure className="absolute z-[-1] h-full w-full opacity-25">
+                    <img
+                      className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                      src={img2}
+                      alt=""
+                    />
+                  </figure>
+                  <div
+                    className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                  >
+                    <h2 className="text-2xl font-bold">PRUEBAS</h2>
+                    <div className="my-4 h-1 w-full bg-white"></div>
+                    <p className="text-balance">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla sagittis eget orci in malesuada. Suspendisse varius
+                      viverra arcu. Duis elementum rutrum pharetra. Integer
+                      tempor diam a justo sollicitudin, a pulvinar.
+                    </p>
+                  </div>
+                </article>
+              </div>
             </div>
           </div>
         </section>
