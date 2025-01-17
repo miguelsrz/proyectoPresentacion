@@ -50,7 +50,7 @@ const MetodologiaProyecto = () => {
               población y se generarán unas hipótesis de acuerdo a lo planteado
               en el mismo.
             </p>
-            <div className="scroll w-full overflow-x-scroll sm:overflow-auto">
+            <div className="w-full overflow-x-scroll pb-4 sm:overflow-auto">
               <div className="h grid w-max grid-cols-5 gap-2 sm:h-auto sm:w-full sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
                 <div
                   onClick={() => handleBox(boxes[0])}
@@ -263,7 +263,7 @@ const MetodologiaProyecto = () => {
               transformación de dicha información para exponer la solución
               propuesta independiente para cada sujeto a evaluar.
             </p>
-            <div className="overflow-x-scroll">
+            <div className="overflow-x-scroll pb-4 sm:overflow-auto">
               <div className="grid h-[480px] w-max grid-cols-4 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-4">
                 <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
