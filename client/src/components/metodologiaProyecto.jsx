@@ -31,7 +31,7 @@ const MetodologiaProyecto = () => {
       <>
         <section
           id="intro"
-          className="relative z-0 flex min-h-[750px] justify-center bg-gray-100 bg-parallax bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
+          className="bg-parallax relative z-0 flex min-h-[750px] justify-center bg-gray-100 bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
         >
           <img
             className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
@@ -39,10 +39,17 @@ const MetodologiaProyecto = () => {
             alt=""
           />
 
-          <div className="flex h-auto w-full max-w-[1320px] flex-col gap-8">
-            <h2 className="mb-4 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+          <div className="flex h-auto w-full max-w-[1320px] flex-col gap-12">
+            <h2 className="font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
               DISEÑO DE <span className="text-purple-900">INVESTIGACION</span>
             </h2>
+            <p className="text-pretty">
+              En el diseño de la investigación se define el tipo de
+              investigación junto con el análisis y técnicas a utilizar durante
+              el desarrollo el mismo, se seleccionará una muestra de la
+              población y se generarán unas hipótesis de acuerdo a lo planteado
+              en el mismo.
+            </p>
             <div className="grid w-full gap-4 lg:grid-cols-4">
               <div
                 onClick={() => handleBox(boxes[0])}
@@ -140,7 +147,7 @@ const MetodologiaProyecto = () => {
                     y el gestor financiero logran mejorar de manera
                     significativa el conocimiento adquirido sobre educación
                     financiera y la capacidad de gestionar las finanzas
-                    personales de manera eficiente
+                    personales eficientemente.
                   </p>
                 </article>
               </div>
@@ -222,10 +229,6 @@ const MetodologiaProyecto = () => {
                         Evalaucion usabilidad. evaluar la funcionalidad del
                         sitio web y de esta manera revisar su estructura.
                       </li>
-                      <li>
-                        Microsoft Excel. Organización y análisis de los datos
-                        cuantitativos
-                      </li>
                     </ul>
                   </p>
                 </article>
@@ -236,7 +239,7 @@ const MetodologiaProyecto = () => {
 
         <section
           id="intro"
-          className="relative z-0 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
+          className="bg-parallax relative z-0 flex min-h-[750px] justify-center bg-white bg-cover bg-fixed px-10 py-20 text-gray-950 bg-blend-luminosity sm:px-16"
         >
           <img
             className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
@@ -244,86 +247,108 @@ const MetodologiaProyecto = () => {
             alt=""
           />
 
-          <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-8">
-            <h2 className="mb-9 font-schabo text-5xl tracking-widest text-purple-900 sm:text-7xl lg:text-8xl">
-              DISEÑO DE <span className="text-gray-950">INVESTIGACION</span>
+          <div className="flex h-auto w-full max-w-[1320px] flex-col justify-center gap-12">
+            <h2 className="font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+              METODOLOGIA <span className="text-purple-900">APLICADA</span>
             </h2>
-            <div className="grid grid-cols-1 grid-rows-3 gap-8">
-              <div className="grid grid-rows-1 gap-8 border-b-4 border-dotted border-black md:h-56 md:grid-cols-3 md:gap-16 md:border-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
+            <p className="text-pretty">
+              Se formula el modelo metodológico que nos será de ayuda para
+              llevar a cabo los objetivos que se tienen planteados: análisis de
+              la información recolectada por medio de la encuesta hecha a los
+              estudiantes que servirán como muestra poblacional, adaptación de
+              la misma para poder tomarla de base para crear el sitio web que
+              servirá de mediación para conectar con la muestra poblacional,
+              transformación de dicha información para exponer la solución
+              propuesta independiente para cada sujeto a evaluar.
+            </p>
+            <div className="grid h-[1600px] w-full grid-cols-1 gap-2 sm:h-[1200px] md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-4">
+              <article className="group relative z-0 overflow-hidden bg-purple-900 text-white">
+                <figure className="absolute z-[-1] h-full w-full opacity-25">
                   <img
-                    src={img3}
-                    alt="Proyecto"
-                    className="z-10 h-full w-full rounded object-cover shadow"
-                  />
-                  <div className="absolute bottom-[5%] right-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
-                  <div className="absolute bottom-[2%] right-[2%] z-0 h-full w-full bg-black"></div>
-                </figure>
-
-                <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                  <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
-                    1. DEFINICION
-                  </h2>
-                  <p className="text-pretty pb-8">
-                    Se centra en la falta de conocimientos y aplicaciones de las
-                    finanzas personales como la principal problemática
-                    enfrentada por los estudiantes. Este desconocimiento
-                    financiero se presenta en una comprensión limitada de
-                    conceptos fundamentales como presupuestación, ahorro,
-                    inversión, manejo de crédito, entre otros.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid grid-rows-1 gap-8 border-b-4 border-dotted border-black pb-8 md:mb-0 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                  <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold text-gray-950">
-                    2. FORMULACION
-                  </h2>
-                  <p className="text-pretty md:pb-8">
-                    Los estudiantes de pregrado de Ingeniería de Sistemas y
-                    Computación en primer semestre de la Universidad Nacional de
-                    Colombia Sede Bogotá carecen de conocimientos y aplicaciones
-                    de las finanzas personales.
-                  </p>
-                </div>
-
-                <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
-                  <img
-                    src={plazaChe}
-                    alt="Proyecto"
-                    className="z-10 h-full w-full rounded object-cover shadow"
-                  />
-                  <div className="absolute left-[5%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
-                  <div className="absolute bottom-[2%] left-[2%] z-0 h-full w-full bg-black"></div>
-                </figure>
-              </div>
-
-              <div className="grid grid-rows-1 gap-8 md:h-56 md:grid-cols-3 md:gap-16 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
-                <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
-                  <img
+                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
                     src={img2}
-                    alt="Proyecto"
-                    className="z-10 h-full w-full rounded object-cover shadow"
+                    alt=""
                   />
-                  <div className="absolute right-[5%] top-[5%] z-0 h-full w-full border-4 border-purple-900"></div>
-                  <div className="absolute right-[2%] top-[2%] z-0 h-full w-full bg-black"></div>
                 </figure>
-
-                <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                  <h2 className="mb-4 w-1/2 text-balance border-b-2 border-black pb-2 text-2xl font-bold">
-                    3. SITUACION
-                  </h2>
-                  <p className="text-pretty pb-8">
-                    A pesar de la diversidad cultural y económica de los
-                    estudiantes, proviniendo de distintos entornos sociales, la
-                    ausencia de estrategias financieras claras deja en
-                    exposición una mala distribución de los recursos monetarios,
-                    empeorando debido a la carencia de estrategias organizadas
-                    para el acceso a la información financiera.
+                <div
+                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                >
+                  <h2 className="text-2xl font-bold">SOFTWARE</h2>
+                  <div className="my-4 h-1 w-full bg-white"></div>
+                  <p className="text-balance">
+                    Se selecciona el modelo cascada como la metodología de
+                    desarrollo de software gracias a su estructura ordenada y
+                    sistemática. Permitiendo abordar todos los objetivos del
+                    proyecto eficiente y claramente
                   </p>
                 </div>
-              </div>
+              </article>
+
+              <article className="group relative z-0 overflow-hidden bg-gray-900 text-white">
+                <figure className="absolute z-[-1] h-full w-full opacity-25">
+                  <img
+                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                    src={img2}
+                    alt=""
+                  />
+                </figure>
+                <div
+                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                >
+                  <h2 className="text-2xl font-bold">REQUISITOS</h2>
+                  <div className="my-4 h-1 w-full bg-white"></div>
+                  <p className="text-balance">
+                    Diseño de herramientas tecnológicas que sean capaces de
+                    adaptarse a un número mayor de necesidades, como lo son
+                    mayores usuarios o funcionalidades más complejas, sin
+                    comprometer el rendimiento esperado
+                  </p>
+                </div>
+              </article>
+
+              <article className="group relative z-0 overflow-hidden bg-purple-900 text-white">
+                <figure className="absolute z-[-1] h-full w-full opacity-25">
+                  <img
+                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                    src={img2}
+                    alt=""
+                  />
+                </figure>
+                <div
+                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                >
+                  <h2 className="text-2xl font-bold">IMPLEMENTACION</h2>
+                  <div className="my-4 h-1 w-full bg-white"></div>
+                  <p className="text-balance">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla sagittis eget orci in malesuada. Suspendisse varius
+                    viverra arcu. Duis elementum rutrum pharetra. Integer tempor
+                    diam a justo sollicitudin, a pulvinar.
+                  </p>
+                </div>
+              </article>
+
+              <article className="group relative z-0 overflow-hidden bg-gray-900 text-white">
+                <figure className="absolute z-[-1] h-full w-full opacity-25">
+                  <img
+                    className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
+                    src={img2}
+                    alt=""
+                  />
+                </figure>
+                <div
+                  className={`absolute bottom-0 m-8 transition-all duration-500 ease-in-out`}
+                >
+                  <h2 className="text-2xl font-bold">PRUEBAS</h2>
+                  <div className="my-4 h-1 w-full bg-white"></div>
+                  <p className="text-balance">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla sagittis eget orci in malesuada. Suspendisse varius
+                    viverra arcu. Duis elementum rutrum pharetra. Integer tempor
+                    diam a justo sollicitudin, a pulvinar.
+                  </p>
+                </div>
+              </article>
             </div>
           </div>
         </section>

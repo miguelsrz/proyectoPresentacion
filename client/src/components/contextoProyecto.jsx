@@ -19,7 +19,7 @@ const ContextoProyecto = () => {
         <div className="relative">
           <section
             id="intro"
-            className="bg--100 relative z-0 flex min-h-[750px] justify-center px-10 py-20 text-gray-950 sm:px-16"
+            className="relative z-0 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
           >
             <img
               className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
@@ -32,7 +32,7 @@ const ContextoProyecto = () => {
                 DEFINICION PROBLEMA
               </h2>
               <div className="grid grid-cols-1 grid-rows-3 gap-8">
-                <div className="grid grid-rows-1 gap-8 border-b-4 border-dotted border-black md:h-56 md:grid-cols-3 md:gap-16 md:border-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
+                <div className="grid grid-rows-1 gap-8 border-b-2 border-black pb-8 md:my-6 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 md:pb-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
                   <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
                     <img
                       src={img3}
@@ -44,10 +44,10 @@ const ContextoProyecto = () => {
                   </figure>
 
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                    <h2 className="mb-4 text-balance border-black pb-2 text-2xl font-bold sm:w-1/2 sm:border-b">
                       1. DESCRIPCION
                     </h2>
-                    <p className="text-pretty pb-8">
+                    <p className="text-pretty">
                       Se centra en la falta de conocimientos y aplicaciones de
                       las finanzas personales como la principal problemática
                       enfrentada por los estudiantes. Este desconocimiento
@@ -57,9 +57,9 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-rows-1 gap-8 border-b-4 border-dotted border-black pb-8 md:mb-0 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
+                <div className="grid grid-rows-1 gap-8 border-b-2 border-black pb-8 md:my-6 md:mb-0 md:h-56 md:grid-cols-3 md:gap-16 md:border-0 md:pb-0 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold text-gray-950">
+                    <h2 className="mb-4 text-balance border-black pb-2 text-2xl font-bold text-gray-950 sm:w-1/2 sm:border-b">
                       2. FORMULACION
                     </h2>
                     <p className="text-pretty md:pb-8">
@@ -80,7 +80,7 @@ const ContextoProyecto = () => {
                   </figure>
                 </div>
 
-                <div className="grid grid-rows-1 gap-8 md:h-56 md:grid-cols-3 md:gap-16 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
+                <div className="grid grid-rows-1 gap-8 sm:my-6 md:h-56 md:grid-cols-3 md:gap-12 lg:grid-cols-5 xl:h-48 xl:grid-cols-2">
                   <figure className="relative z-10 col-span-1 flex h-full w-full lg:col-span-2 xl:col-span-1">
                     <img
                       src={img2}
@@ -91,10 +91,10 @@ const ContextoProyecto = () => {
                   </figure>
 
                   <div className="md:col-span-2 lg:col-span-3 xl:col-span-1">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                    <h2 className="text-balancesm : mb-4 border-b border-black pb-2 text-2xl font-bold sm:w-1/2">
                       3. SITUACION
                     </h2>
-                    <p className="text-pretty pb-8">
+                    <p className="text-pretty">
                       A pesar de la diversidad cultural y económica de los
                       estudiantes, proviniendo de distintos entornos sociales,
                       la ausencia de estrategias financieras claras deja en
@@ -118,7 +118,7 @@ const ContextoProyecto = () => {
               alt=""
             />
             <div className="relative z-10 grid h-auto max-w-[700px] gap-12 bg-purple-300 md:max-h-[900px] md:pb-24 xl:left-8 xl:ml-auto xl:max-w-[900px] xl:pb-0">
-              <div className="p-12 lg:pr-24">
+              <div className="p-6 sm:p-12 lg:pr-24">
                 <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                   ORIENTACION
                 </h2>
@@ -151,14 +151,14 @@ const ContextoProyecto = () => {
                   es difícil de encontrar ya que esta información generalmente
                   se encuentra segmentada.
                 </p>
-                <div className="absolute bottom-[5%] right-[6%] h-full w-full border-4 border-purple-900"></div>
+                <div className="absolute bottom-[5%] right-[6%] hidden h-full w-full border-4 border-purple-900 sm:block"></div>
                 <div className="absolute left-0 top-0 -z-10 h-full w-full bg-purple-300"></div>
                 <div className="absolute left-[6%] top-[5%] -z-20 h-full w-full border-2 border-black"></div>
               </div>
             </div>
 
             <div className="relative z-10 grid h-auto gap-12 self-center bg-purple-200 md:bottom-24 md:left-24 md:max-h-[600px] md:max-w-[600px] xl:left-0 xl:right-8 xl:top-8 xl:mr-auto">
-              <div className="p-12">
+              <div className="p-6 sm:p-12">
                 <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                   JUSTIFICACION
                 </h2>
