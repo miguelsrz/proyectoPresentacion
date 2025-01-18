@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid w-full grid-cols-1 gap-12 text-white sm:grid-cols-2 lg:grid-cols-4">
           <div className="mb-6 flex flex-col gap-4 pr-2">
             <div className="flex flex-row gap-4">
-              <figure className="mb-1 h-16 animate-[spin_12s_linear_infinite]">
+              <figure className="mb-1 h-16 animate-[spin_16s_linear_infinite]">
                 <img className="h-full" src={focus} alt="Focus LOGO" />
               </figure>
               <h1 className="select-none font-schabo text-6xl tracking-widest">
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h2 className="mb text-xl font-bold">INFORMACION LEGAL</h2>
+            <h2 className="mb text-xl font-bold">NORMATIVAS</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-2">
               <a
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h2 className="mb text-xl font-bold">CREDITOS ATRIBUIDOS</h2>
+            <h2 className="mb text-xl font-bold">RECURSOS</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-2">
               <a
@@ -147,7 +147,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h2 className="mb text-xl font-bold">CONTACTANOS</h2>
+            <h2 className="mb text-xl font-bold">CONTACTO</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-4">
               <div className="flex flex-col gap-2">
@@ -254,7 +254,7 @@ const Footer = () => {
         <div className="border-t-2 border-gray-400 text-gray-400">
           <div className="flex flex-col gap-8 pt-8 xl:flex-row xl:justify-between">
             <p className="text-center xl:text-left">
-              Ubicacion: Universidad Nacional de Colombia - Sede Bogota
+              Universidad Nacional de Colombia - Sede Bogota
             </p>
             <div className="flex flex-col justify-center gap-1 sm:flex-row xl:justify-start">
               <p className="text-center xl:text-left">Creador pagina: </p>

@@ -101,7 +101,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[0])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={img2}
@@ -112,8 +112,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        TEORICO
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-black px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">TEORICO</div>
                       </h2>
                     </div>
 
@@ -188,7 +188,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[1])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={img3}
@@ -199,8 +199,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        CONCEPTUAL
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-gray-600 px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">CONCEPTUAL</div>
                       </h2>
                     </div>
                     <figure
@@ -278,7 +278,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[2])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={plazaChe}
@@ -289,8 +289,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        HISTORICO
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-purple-900 px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">HISTORICO</div>
                       </h2>
                     </div>
                     <figure
@@ -348,7 +348,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[3])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={img3}
@@ -359,8 +359,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        DEMOGRAFICO
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-black px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">DEMOGRAFICO</div>
                       </h2>
                     </div>
                     <figure
@@ -418,7 +418,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[4])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={plazaChe}
@@ -429,8 +429,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        LEGAL
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-gray-600 px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">LEGAL</div>
                       </h2>
                     </div>
                     <figure
@@ -508,7 +508,7 @@ const FundamentosProyecto = () => {
                     onClick={() => handleBox(boxes[5])}
                     className="group relative h-16 cursor-pointer"
                   >
-                    <figure className="absolute z-[-1] h-16 w-full opacity-5 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-15">
+                    <figure className="absolute z-[-1] h-16 w-full opacity-40 bg-blend-luminosity transition-all duration-200 ease-in-out group-hover:opacity-65">
                       <img
                         className="h-full w-full object-cover"
                         src={img2}
@@ -519,8 +519,8 @@ const FundamentosProyecto = () => {
                       className={`flex h-full justify-start align-middle transition-all duration-500 ease-in-out`}
                     >
                       {/* <div className="h-1 w-20 bg-purple-900"></div> */}
-                      <h2 className="my-auto pl-8 text-xl font-bold text-white">
-                        ETICO
+                      <h2 className="flex h-full w-48 flex-col justify-center bg-purple-900 px-8 text-base font-bold text-white sm:w-[220px] sm:text-xl">
+                        <div className="h-max">ETICO</div>
                       </h2>
                     </div>
                     <figure
