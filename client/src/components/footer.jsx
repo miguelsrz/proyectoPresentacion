@@ -8,12 +8,14 @@ const Footer = () => {
     <footer className="flex justify-center bg-black px-10 py-16">
       <div className="flex h-auto w-full max-w-[1320px] flex-col gap-8">
         <div className="grid w-full grid-cols-1 gap-12 text-white sm:grid-cols-2 lg:grid-cols-4">
-          <div className="mb-6 flex flex-col gap-4">
+          <div className="mb-6 flex flex-col gap-4 pr-2">
             <div className="flex flex-row gap-4">
-              <figure className="mb-1 h-16 animate-[spin_8s_linear_infinite]">
+              <figure className="mb-1 h-16 animate-[spin_12s_linear_infinite]">
                 <img className="h-full" src={focus} alt="Focus LOGO" />
               </figure>
-              <h1 className="font-schabo text-6xl tracking-widest">FOCUS</h1>
+              <h1 className="select-none font-schabo text-6xl tracking-widest">
+                FOCUS
+              </h1>
             </div>
             <p className="text-pretty text-xl font-bold">
               Finanzas Organizadas para Crecimiento y Uso Sostenible
@@ -149,7 +151,7 @@ const Footer = () => {
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-4">
               <div className="flex flex-col gap-2">
-                <p>Miguel Suarez</p>
+                <p>Miguel Angel Suarez Montiel</p>
                 <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
@@ -181,56 +183,68 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div>
-                <p>Cristian Parada</p>
-                <div className="flex w-full flex-row gap-8">
+              <div className="flex flex-col gap-2">
+                <p>Cristian Rodolfo Parada Estupiñan</p>
+                <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
-                    href=""
+                    href="https://github.com/miguelsrz"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                   <a
                     target="_blank"
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                   <a
                     target="_blank"
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                 </div>
               </div>
 
-              <div>
-                <p>David Arias</p>
-                <div className="flex w-full flex-row gap-8">
+              <div className="flex flex-col gap-2">
+                <p>Edgar David Arias Castañeda</p>
+                <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
-                    href=""
+                    href="https://github.com/miguelsrz"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                   <a
                     target="_blank"
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                   <a
                     target="_blank"
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    A
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={github} alt="" />
+                    </figure>
                   </a>
                 </div>
               </div>
@@ -238,19 +252,23 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t-2 border-gray-400 text-gray-400">
-          <div className="flex justify-between gap-8 pt-4">
-            <p>Ubicacion: Universidad Nacional de Colombia - Sede Bogota</p>
-            <div className="flex gap-1">
-              <p>Creador pagina: </p>
+          <div className="flex flex-col gap-8 pt-8 xl:flex-row xl:justify-between">
+            <p className="text-center xl:text-left">
+              Ubicacion: Universidad Nacional de Colombia - Sede Bogota
+            </p>
+            <div className="flex flex-col justify-center gap-1 sm:flex-row xl:justify-start">
+              <p className="text-center xl:text-left">Creador pagina: </p>
               <a
-                className="underline-offset-8 hover:text-white hover:underline"
+                className="text-center underline-offset-8 hover:text-white hover:underline xl:text-left"
                 target="_blank"
                 href="https://github.com/miguelsrz"
               >
                 Miguel Angel Suarez Montiel
               </a>
             </div>
-            <p>Ultima actualizacion: Enero 18 de 2025</p>
+            <p className="text-center xl:text-left">
+              Ultima actualizacion: Enero 18 de 2025
+            </p>
           </div>
         </div>
       </div>

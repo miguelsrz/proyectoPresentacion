@@ -125,7 +125,7 @@ const ContextoProyecto = () => {
               alt=""
             />
             <div className="relative z-10 grid h-auto max-w-[700px] gap-12 bg-purple-300 md:max-h-[900px] md:pb-24 xl:left-8 xl:ml-auto xl:max-w-[900px] xl:pb-0">
-              <div className="m-6 h-96 overflow-y-scroll sm:m-12 md:h-auto md:overflow-auto lg:pr-24">
+              <div className="m-6 h-96 overflow-x-hidden overflow-y-scroll sm:m-12 md:h-auto md:overflow-y-auto lg:pr-24">
                 <div>
                   <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                     ORIENTACION
@@ -161,9 +161,9 @@ const ContextoProyecto = () => {
                   </p>
                 </div>
 
-                <div className="absolute bottom-[5%] right-[6%] hidden h-full w-full border-4 border-purple-900 md:block"></div>
-                <div className="absolute left-0 top-0 -z-10 h-full w-full bg-purple-300"></div>
-                <div className="absolute left-[6%] top-[5%] -z-20 h-full w-full border-2 border-black"></div>
+                <div className="absolute bottom-[5%] right-[6%] -z-10 hidden h-full w-full border-4 border-purple-900 md:block"></div>
+                <div className="absolute left-0 top-0 -z-20 h-full w-full bg-purple-300"></div>
+                <div className="absolute left-[6%] top-[5%] -z-30 h-full w-full border-2 border-black"></div>
               </div>
             </div>
 
@@ -204,7 +204,7 @@ const ContextoProyecto = () => {
               </h2>
               <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
+                  <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                     <img
                       src={img3}
                       alt="Proyecto"
@@ -227,10 +227,10 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex items-center justify-end xl:mr-16">
-                  <p className="block font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden md:text-9xl lg:block lg:text-8xl">
+                  <p className="block font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden md:text-8xl lg:block lg:text-8xl">
                     GNRL
                   </p>
-                  <p className="hidden font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block md:text-9xl lg:hidden lg:text-8xl">
+                  <p className="hidden font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block md:text-8xl lg:hidden lg:text-8xl">
                     GN <br /> RL
                   </p>
                 </div>
@@ -242,153 +242,155 @@ const ContextoProyecto = () => {
                 <span className="text-purple-900">ESPECIFICOS</span>
               </h2>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
-                <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
-                    <img
-                      src={plazaChe}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
-                  </figure>
+              <section className="h-[640px] overflow-x-hidden overflow-y-scroll sm:h-[560px] md:h-96 lg:h-72">
+                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                  <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                      <img
+                        src={plazaChe}
+                        alt="Proyecto"
+                        className="z-10 h-full w-full object-cover shadow"
+                      />
+                      <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
+                    </figure>
 
-                  <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
-                      PRIMERO
-                    </h2>
-                    <p className="text-pretty">
-                      Recolectar diversa información de formación financiera
-                      focalizada en la población estudiantil delimitada, tomando
-                      en cuenta sus conocimientos y aplicaciones de conceptos de
-                      las finanzas personales.
+                    <div className="w-full md:w-2/3 xl:w-1/2">
+                      <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                        PRIMERO
+                      </h2>
+                      <p className="text-pretty">
+                        Recolectar diversa información de formación financiera
+                        focalizada en la población estudiantil delimitada,
+                        tomando en cuenta sus conocimientos y aplicaciones de
+                        conceptos de las finanzas personales.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
+                    <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-8xl lg:text-8xl">
+                      01
                     </p>
                   </div>
                 </div>
-                <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
-                    01
-                  </p>
-                </div>
-              </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
-                <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
-                    <img
-                      src={img2}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
-                  </figure>
+                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                  <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                      <img
+                        src={img2}
+                        alt="Proyecto"
+                        className="z-10 h-full w-full object-cover shadow"
+                      />
+                      <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
+                    </figure>
 
-                  <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
-                      SEGUNDO
-                    </h2>
-                    <p className="text-pretty">
-                      Analizar la información previamente recolectada,
-                      definiendo los criterios clave y requisitos funcionales
-                      necesarios para el desarrollo de estrategias de educación
-                      y gestión financiera.
+                    <div className="w-full md:w-2/3 xl:w-1/2">
+                      <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                        SEGUNDO
+                      </h2>
+                      <p className="text-pretty">
+                        Analizar la información previamente recolectada,
+                        definiendo los criterios clave y requisitos funcionales
+                        necesarios para el desarrollo de estrategias de
+                        educación y gestión financiera.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
+                    <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-8xl lg:text-8xl">
+                      02
                     </p>
                   </div>
                 </div>
-                <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
-                    02
-                  </p>
-                </div>
-              </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
-                <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
-                    <img
-                      src={img3}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
-                  </figure>
+                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                  <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                      <img
+                        src={img3}
+                        alt="Proyecto"
+                        className="z-10 h-full w-full object-cover shadow"
+                      />
+                      <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
+                    </figure>
 
-                  <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
-                      TERCERO
-                    </h2>
-                    <p className="text-pretty">
-                      Orientar a los estudiantes hacia la apropiación de
-                      conceptos de educación financiera mediante la realización
-                      de una serie de guías en la web.
+                    <div className="w-full md:w-2/3 xl:w-1/2">
+                      <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                        TERCERO
+                      </h2>
+                      <p className="text-pretty">
+                        Orientar a los estudiantes hacia la apropiación de
+                        conceptos de educación financiera mediante la
+                        realización de una serie de guías en la web.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
+                    <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-8xl lg:text-8xl">
+                      03
                     </p>
                   </div>
                 </div>
-                <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
-                    03
-                  </p>
-                </div>
-              </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
-                <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
-                    <img
-                      src={plazaChe}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
-                  </figure>
+                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                  <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                      <img
+                        src={plazaChe}
+                        alt="Proyecto"
+                        className="z-10 h-full w-full object-cover shadow"
+                      />
+                      <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
+                    </figure>
 
-                  <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
-                      CUARTO
-                    </h2>
-                    <p className="text-pretty">
-                      Argumentar la información recopilada y las soluciones
-                      encontradas al divulgarse en diferentes contextos
-                      sociales.
+                    <div className="w-full md:w-2/3 xl:w-1/2">
+                      <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                        CUARTO
+                      </h2>
+                      <p className="text-pretty">
+                        Argumentar la información recopilada y las soluciones
+                        encontradas al divulgarse en diferentes contextos
+                        sociales.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
+                    <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-8xl lg:text-8xl">
+                      04
                     </p>
                   </div>
                 </div>
-                <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
-                    04
-                  </p>
-                </div>
-              </div>
 
-              <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
-                <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full pl-4 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5">
-                    <img
-                      src={img2}
-                      alt="Proyecto"
-                      className="z-10 h-full w-full object-cover shadow"
-                    />
-                    <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
-                  </figure>
+                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                  <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                      <img
+                        src={img2}
+                        alt="Proyecto"
+                        className="z-10 h-full w-full object-cover shadow"
+                      />
+                      <div className="absolute left-[10%] top-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
+                    </figure>
 
-                  <div className="w-full md:w-2/3 xl:w-1/2">
-                    <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
-                      QUINTO
-                    </h2>
-                    <p className="text-pretty">
-                      Construir un gestor financiero como herramienta de
-                      acompañamiento que posibilite a los estudiantes entender
-                      cuáles son sus gastos e ingresos, dándoles una exposición
-                      organizada de alternativas para el ahorro.
+                    <div className="w-full md:w-2/3 xl:w-1/2">
+                      <h2 className="mb-4 w-1/2 text-balance border-b border-black pb-2 text-2xl font-bold">
+                        QUINTO
+                      </h2>
+                      <p className="text-pretty">
+                        Construir un gestor financiero como herramienta de
+                        acompañamiento que posibilite a los estudiantes entender
+                        cuáles son sus gastos e ingresos, dándoles una
+                        exposición organizada de alternativas para el ahorro.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
+                    <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-8xl lg:text-8xl">
+                      05
                     </p>
                   </div>
                 </div>
-                <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
-                    05
-                  </p>
-                </div>
-              </div>
+              </section>
             </div>
           </section>
         </div>

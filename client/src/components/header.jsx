@@ -45,7 +45,7 @@ function Header() {
           <div className="flex items-center">
             <a
               href="#home"
-              className="w-[125px] pr-4 text-center font-schabo text-4xl tracking-widest text-white transition-all duration-200 hover:tracking-wider"
+              className="w-[125px] select-none pr-4 text-center font-schabo text-4xl tracking-widest text-white transition-all duration-200 hover:tracking-wider"
             >
               FOCUS
             </a>

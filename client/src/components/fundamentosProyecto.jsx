@@ -43,11 +43,11 @@ const FundamentosProyecto = () => {
             alt=""
           />
           <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
-            <figure className="relative z-10 flex w-full">
+            <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
               <img
                 src={img2}
                 alt="Proyecto"
-                className="z-10 h-full object-cover shadow"
+                className="z-10 h-full w-full object-cover shadow"
               />
               <div className="absolute right-[5%] top-[5%] z-0 h-full w-full border-2 border-black"></div>
               <div className="absolute bottom-[2%] right-[2%] z-0 h-full w-full bg-black"></div>
@@ -96,7 +96,7 @@ const FundamentosProyecto = () => {
                 MARCO <span className="text-purple-900">REFERENCIAL</span>
               </h2>
               <div className="flex flex-col gap-8">
-                <section className="relative z-0 h-auto w-auto bg-black shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-black shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[0])}
                     className="group relative h-16 cursor-pointer"
@@ -125,7 +125,7 @@ const FundamentosProyecto = () => {
                   </div>
 
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[0] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img
@@ -183,7 +183,7 @@ const FundamentosProyecto = () => {
                   </article>
                 </section>
 
-                <section className="relative z-0 h-auto w-auto bg-gray-600 shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-gray-600 shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[1])}
                     className="group relative h-16 cursor-pointer"
@@ -210,7 +210,7 @@ const FundamentosProyecto = () => {
                     </figure>
                   </div>
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[1] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img
@@ -273,7 +273,7 @@ const FundamentosProyecto = () => {
                   </article>
                 </section>
 
-                <section className="relative z-0 h-auto w-auto bg-purple-900 shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-purple-900 shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[2])}
                     className="group relative h-16 cursor-pointer"
@@ -301,7 +301,7 @@ const FundamentosProyecto = () => {
                   </div>
 
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[2] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img
@@ -343,7 +343,7 @@ const FundamentosProyecto = () => {
                   </article>
                 </section>
 
-                <section className="relative z-0 h-auto w-auto bg-black shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-black shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[3])}
                     className="group relative h-16 cursor-pointer"
@@ -371,7 +371,7 @@ const FundamentosProyecto = () => {
                   </div>
 
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[3] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img
@@ -413,7 +413,7 @@ const FundamentosProyecto = () => {
                   </article>
                 </section>
 
-                <section className="relative z-0 h-auto w-auto bg-gray-600 shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-gray-600 shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[4])}
                     className="group relative h-16 cursor-pointer"
@@ -441,7 +441,7 @@ const FundamentosProyecto = () => {
                   </div>
 
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[4] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img
@@ -503,7 +503,7 @@ const FundamentosProyecto = () => {
                   </article>
                 </section>
 
-                <section className="relative z-0 h-auto w-auto bg-purple-900 shadow-lg sm:col-span-1">
+                <section className="relative z-0 h-auto w-auto rounded bg-purple-900 shadow-lg sm:col-span-1">
                   <div
                     onClick={() => handleBox(boxes[5])}
                     className="group relative h-16 cursor-pointer"
@@ -531,7 +531,7 @@ const FundamentosProyecto = () => {
                   </div>
 
                   <article
-                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[5] ? "h-64 border border-black" : "h-0 border-0"}`}
+                    className={`relative z-0 flex flex-col justify-start overflow-hidden overflow-y-scroll rounded bg-white text-black transition-all duration-500 ease-in-out ${activeBox == boxes[5] ? "h-64 border border-black" : "h-0 border-0"}`}
                   >
                     {/* <figure className="absolute z-[-1] h-full w-full opacity-25 transition-all duration-200 ease-in-out">
                     <img

@@ -30,7 +30,7 @@ const InicioProyecto = () => {
                 <img
                   src={plazaChe}
                   alt="Proyecto"
-                  className="z-10 h-full object-cover shadow"
+                  className="z-10 h-full w-full object-cover shadow"
                 />
                 <div className="absolute right-[5%] top-[5%] z-0 h-full w-full border-2 border-black"></div>
                 <div className="absolute bottom-[2%] right-[2%] z-0 h-full w-full bg-black"></div>
@@ -113,7 +113,7 @@ const InicioProyecto = () => {
                 <img
                   src={img2}
                   alt="Proyecto"
-                  className="z-10 h-full object-cover shadow"
+                  className="z-10 h-full w-full object-cover shadow"
                 />
                 <div className="absolute bottom-[5%] left-[5%] z-0 h-full w-full border-2 border-purple-900"></div>
                 <div className="absolute left-[2%] top-[2%] z-0 h-full w-full bg-black"></div>
@@ -136,7 +136,7 @@ const InicioProyecto = () => {
                 <img
                   src={img3}
                   alt="Proyecto"
-                  className="z-10 h-full object-cover shadow"
+                  className="z-10 h-full w-full object-cover shadow"
                 />
                 <div className="absolute bottom-[5%] right-[5%] z-0 h-full w-full border-2 border-black"></div>
                 <div className="absolute right-[2%] top-[2%] z-0 h-full w-full bg-purple-900"></div>
