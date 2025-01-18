@@ -18,15 +18,15 @@ const InicioProyecto = () => {
         <div className="relative">
           <section
             id="intro"
-            className="relative z-20 flex min-h-[750px] justify-center bg-gray-100 px-10 py-20 text-gray-950 sm:px-16"
+            className="relative z-20 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
           >
             <img
               className="absolute -top-[10px] right-0 w-1/2 -scale-x-100 md:-top-[25px] xl:-top-[40px]"
-              src={bgDecoration3}
+              src={bgDecoration1}
               alt=""
             />
             <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
-              <figure className="relative z-10 flex w-full">
+              <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
                 <img
                   src={plazaChe}
                   alt="Proyecto"
@@ -76,7 +76,7 @@ const InicioProyecto = () => {
 
             <img
               className="absolute -bottom-[10px] left-0 w-1/2 -scale-y-100 md:-bottom-[25px] xl:-bottom-[40px]"
-              src={bgDecoration3}
+              src={bgDecoration1}
               alt=""
             />
           </section>
@@ -109,7 +109,7 @@ const InicioProyecto = () => {
                   guiarán el desarrollo y aplicación de las soluciones.
                 </p>
               </div>
-              <figure className="relative z-10 flex w-full">
+              <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
                 <img
                   src={img2}
                   alt="Proyecto"
@@ -129,10 +129,10 @@ const InicioProyecto = () => {
 
           <section
             id="intro"
-            className="relative z-0 flex min-h-[750px] justify-center bg-white px-10 py-20 text-gray-950 sm:px-16"
+            className="relative z-0 flex min-h-[750px] justify-center bg-gray-100 px-10 py-20 text-gray-950 sm:px-16"
           >
             <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
-              <figure className="relative z-10 flex w-full">
+              <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
                 <img
                   src={img3}
                   alt="Proyecto"

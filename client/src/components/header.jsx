@@ -33,7 +33,7 @@ function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 z-50 flex h-[80px] w-full justify-center rounded-b ${
+        className={`fixed top-0 z-50 flex h-[64px] w-full justify-center rounded-b ${
           isScrolled
             ? "bg-black shadow-lg transition-all duration-1000 ease-out"
             : activeMenu
@@ -45,10 +45,12 @@ function Header() {
           <div className="flex items-center">
             <a
               href="#home"
-              className="w-[125px] pr-4 text-center font-schabo text-5xl tracking-widest text-white transition-all duration-200 hover:tracking-wider xl:border-r-2 xl:border-white"
+              className="w-[125px] pr-4 text-center font-schabo text-4xl tracking-widest text-white transition-all duration-200 hover:tracking-wider"
             >
               FOCUS
             </a>
+
+            <div className="hidden h-10 w-0.5 bg-white xl:block"></div>
 
             <nav className="hidden gap-4 pl-4 text-sm font-semibold xl:flex">
               <a
@@ -135,7 +137,7 @@ function Header() {
         ></div> */}
 
         <aside
-          className={`fixed bottom-0 right-[32px] z-10 flex h-[50%] max-h-[350px] w-[70%] max-w-[200px] flex-col rounded-b border-b-2 border-black bg-white px-8 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[80px]" : "-top-[350px]"}`}
+          className={`fixed bottom-0 right-[32px] z-10 flex h-[50%] max-h-[350px] w-[70%] max-w-[200px] flex-col rounded-b border-b-2 border-black bg-white px-8 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[64px]" : "-top-[350px]"}`}
         >
           {/* <div className="relative flex items-center justify-center border-b border-white pb-4">
             <XMarkIcon className="absolute left-0 top-0.5 h-8 w-8 cursor-pointer transition-all duration-200 hover:rotate-90" />

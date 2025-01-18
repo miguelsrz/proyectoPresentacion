@@ -40,7 +40,7 @@ const ContextoProyecto = () => {
                 de conceptos de finanzas personales.
               </p>
               <div className="overflow-x-scroll pb-4 sm:overflow-auto">
-                <div className="grid h-[480px] w-max grid-cols-3 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-3">
+                <div className="grid h-[480px] w-max grid-cols-3 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-[480px] xl:grid-cols-3">
                   <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
@@ -125,40 +125,43 @@ const ContextoProyecto = () => {
               alt=""
             />
             <div className="relative z-10 grid h-auto max-w-[700px] gap-12 bg-purple-300 md:max-h-[900px] md:pb-24 xl:left-8 xl:ml-auto xl:max-w-[900px] xl:pb-0">
-              <div className="p-6 sm:p-12 lg:pr-24">
-                <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
-                  ORIENTACION
-                </h2>
-                <p className="mb-9 text-balance">
-                  Nuestro proyecto busca orientar a los estudiantes por medio de
-                  un sitio web donde habrán dos interfaces: la primera busca
-                  brindar un espacio digital donde los estudiantes tienen
-                  información a la mano y pueden aprender sobre educación
-                  financiera con el fin de enriquecer su educación y logren
-                  hacer hacer un mejor uso de su dinero y la segunda contendrá
-                  un gestor financiero automático en el cual los estudiantes
-                  podrán gestionar sus ingresos y gastos de una manera más
-                  eficiente. Se ha de aclarar que nuestro proyecto está
-                  orientado a contribuir con el cuarto Objetivo de Desarrollo
-                  Sostenible (ODS): Educación de Calidad, el cual busca un
-                  correcto desarrollo de la cognición de cualquier persona,
-                  estableciendo que la educación es fundamental para cada ser
-                  humano.
-                </p>
+              <div className="m-6 h-96 overflow-y-scroll sm:m-12 md:h-auto md:overflow-auto lg:pr-24">
+                <div>
+                  <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
+                    ORIENTACION
+                  </h2>
+                  <p className="mb-9 text-balance">
+                    Nuestro proyecto busca orientar a los estudiantes por medio
+                    de un sitio web donde habrán dos interfaces: la primera
+                    busca brindar un espacio digital donde los estudiantes
+                    tienen información a la mano y pueden aprender sobre
+                    educación financiera con el fin de enriquecer su educación y
+                    logren hacer hacer un mejor uso de su dinero y la segunda
+                    contendrá un gestor financiero automático en el cual los
+                    estudiantes podrán gestionar sus ingresos y gastos de una
+                    manera más eficiente. Se ha de aclarar que nuestro proyecto
+                    está orientado a contribuir con el cuarto Objetivo de
+                    Desarrollo Sostenible (ODS): Educación de Calidad, el cual
+                    busca un correcto desarrollo de la cognición de cualquier
+                    persona, estableciendo que la educación es fundamental para
+                    cada ser humano.
+                  </p>
 
-                <p className="mb-9 text-balance">
-                  Nuestro proyecto responde a la necesidad de integrar
-                  soluciones digitales haciendo uso de la tecnología para
-                  brindar un sitio web que ayude a fortalecer los conocimientos
-                  en educación financiera de los universitarios de manera
-                  accesible, personalizada y además fácil de usar. Además, la
-                  creación de esta solución tecnológica se justifica ya que esta
-                  guiará a los estudiantes en su educación financiera y a su vez
-                  les permitirá gestionar su dinero en un mismo lugar, lo cual
-                  es difícil de encontrar ya que esta información generalmente
-                  se encuentra segmentada.
-                </p>
-                <div className="absolute bottom-[5%] right-[6%] hidden h-full w-full border-4 border-purple-900 sm:block"></div>
+                  <p className="mb-9 text-balance">
+                    Nuestro proyecto responde a la necesidad de integrar
+                    soluciones digitales haciendo uso de la tecnología para
+                    brindar un sitio web que ayude a fortalecer los
+                    conocimientos en educación financiera de los universitarios
+                    de manera accesible, personalizada y además fácil de usar.
+                    Además, la creación de esta solución tecnológica se
+                    justifica ya que esta guiará a los estudiantes en su
+                    educación financiera y a su vez les permitirá gestionar su
+                    dinero en un mismo lugar, lo cual es difícil de encontrar ya
+                    que esta información generalmente se encuentra segmentada.
+                  </p>
+                </div>
+
+                <div className="absolute bottom-[5%] right-[6%] hidden h-full w-full border-4 border-purple-900 md:block"></div>
                 <div className="absolute left-0 top-0 -z-10 h-full w-full bg-purple-300"></div>
                 <div className="absolute left-[6%] top-[5%] -z-20 h-full w-full border-2 border-black"></div>
               </div>
@@ -224,10 +227,10 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex items-center justify-end xl:mr-16">
-                  <p className="block font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden md:text-9xl lg:block lg:text-9xl">
+                  <p className="block font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:hidden md:text-9xl lg:block lg:text-8xl">
                     GNRL
                   </p>
-                  <p className="hidden font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block md:text-9xl lg:hidden lg:text-9xl">
+                  <p className="hidden font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:block md:text-9xl lg:hidden lg:text-8xl">
                     GN <br /> RL
                   </p>
                 </div>
@@ -263,7 +266,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
                     01
                   </p>
                 </div>
@@ -293,7 +296,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
                     02
                   </p>
                 </div>
@@ -322,7 +325,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
                     03
                   </p>
                 </div>
@@ -351,7 +354,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
                     04
                   </p>
                 </div>
@@ -381,7 +384,7 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
                 <div className="flex min-w-32 items-center justify-end lg:min-w-64 xl:mr-16">
-                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-9xl">
+                  <p className="font-schabo text-5xl tracking-widest text-gray-950/50 transition-all duration-500 ease-in-out group-hover:text-gray-950 md:text-9xl lg:text-8xl">
                     05
                   </p>
                 </div>

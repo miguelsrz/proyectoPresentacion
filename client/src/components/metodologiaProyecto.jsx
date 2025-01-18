@@ -264,7 +264,7 @@ const MetodologiaProyecto = () => {
               propuesta independiente para cada sujeto a evaluar.
             </p>
             <div className="overflow-x-scroll pb-4 sm:overflow-auto">
-              <div className="grid h-[480px] w-max grid-cols-4 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-96 xl:grid-cols-4">
+              <div className="grid h-[480px] w-max grid-cols-4 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-[480px] xl:grid-cols-4">
                 <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
