@@ -41,11 +41,11 @@ function Header() {
               : "bg-transparent transition-all delay-[600ms] duration-1000 ease-in"
         }`}
       >
-        <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 py-5 sm:px-16">
+        <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 py-5 sm:px-16 2xl:px-32">
           <div className="flex items-center">
             <a
               href="#home"
-              className="w-[125px] select-none pr-4 text-center font-schabo text-4xl tracking-widest text-white transition-all duration-200 hover:tracking-wider"
+              className="w-auto select-none pr-4 text-center font-schabo text-4xl tracking-widest text-white transition-all duration-200 hover:tracking-wider"
             >
               FOCUS
             </a>

@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div
       id="home"
-      className="relative z-0 flex h-[800px] w-full justify-center overflow-hidden text-white"
+      className="relative z-0 flex h-[720px] w-full justify-center overflow-hidden text-white lg:h-[800px]"
     >
       <figure className="absolute z-[-1] h-full w-full brightness-[0.25]">
         <img className="h-full w-full object-cover" src={banner} alt="" />
@@ -25,27 +25,27 @@ function Hero() {
 
       <div className="flex-center flex max-w-[1800px] flex-col">
         {/* Hero Section */}
-        <section className="h-[710px] pt-[64px] lg:w-3/5 xl:grid xl:w-full xl:grid-cols-2">
+        <section className="h-[720px] pt-[64px] lg:w-3/5 xl:grid xl:w-full xl:grid-cols-2">
           <div className="flex flex-col justify-center gap-6 p-4 px-8 py-16 sm:px-16 xl:col-span-1 2xl:px-32">
             <div>
-              <h1 className="text-xl tracking-widest sm:text-2xl md:text-3xl">
+              <h1 className="text-xl tracking-widest sm:text-3xl md:text-3xl">
                 DESARROLLO DE
               </h1>
-              <h1 className="font-schabo text-6xl tracking-widest text-white sm:text-7xl md:text-8xl lg:text-9xl">
+              <h1 className="font-schabo text-6xl tracking-widest text-white sm:text-8xl md:text-8xl lg:text-9xl">
                 ESTRATEGIAS TECNOLOGICAS
               </h1>
             </div>
-            <p className="mt-4 text-balance sm:text-xl">
+            <p className="mt-4 text-pretty sm:text-xl">
               Soluciones para el déficit de educación y gestión financiera de
               estudiantes de pregrado en Ingenieria de Sistemas y Computación en
               primer semestre de la Universidad Nacional de Colombia - Sede
               Bogotá.
             </p>
-            <div className="mt-6 flex flex-col justify-start gap-8 sm:flex-row">
-              <button className="rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
+            <div className="mt-6 flex w-full flex-col justify-start gap-8 sm:flex-row">
+              <button className="w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
                 Aprendizaje
               </button>
-              <button className="rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
+              <button className="w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
                 Gestor Financiero
               </button>
             </div>
