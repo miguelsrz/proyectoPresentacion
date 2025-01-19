@@ -6,7 +6,7 @@ import img3 from "../../public/assets/imgs/img3.png";
 
 import { Carousel } from "flowbite-react";
 
-const CarouselDesarrollo = () => {
+const CrInicial = () => {
   return (
     <>
       <Carousel slide={false}>
@@ -18,4 +18,4 @@ const CarouselDesarrollo = () => {
   );
 };
 
-export default CarouselDesarrollo;
+export default CrInicial;

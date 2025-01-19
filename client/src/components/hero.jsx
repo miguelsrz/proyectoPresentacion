@@ -25,7 +25,7 @@ function Hero() {
 
       <div className="flex-center flex max-w-[1800px] flex-col">
         {/* Hero Section */}
-        <section className="h-[720px] pt-[64px] lg:w-3/5 xl:grid xl:w-full xl:grid-cols-2">
+        <section className="h-[720px] pt-[72px] lg:w-3/5 xl:grid xl:w-full xl:grid-cols-2">
           <div className="flex flex-col justify-center gap-6 p-4 px-8 py-16 sm:px-16 xl:col-span-1 2xl:px-32">
             <div>
               <h1 className="text-xl tracking-widest sm:text-3xl md:text-3xl">

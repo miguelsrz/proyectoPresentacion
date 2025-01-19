@@ -85,7 +85,7 @@ const Footer = () => {
                 href="https://www.un.org/sustainabledevelopment/es/"
                 className="underline-offset-8 hover:text-purple-500 hover:underline"
               >
-                Objetivos de Desarrollo Sostenible
+                17 ODS de la ONU
               </a>
             </ul>
           </div>
