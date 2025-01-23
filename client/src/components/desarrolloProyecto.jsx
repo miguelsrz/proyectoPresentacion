@@ -1,12 +1,7 @@
 import { useContext } from "react";
 import { AppContext } from "../context/presentacionContext";
-
-import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
-import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
 import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
-import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.webp";
-import img2 from "../../public/assets/imgs/img2.webp";
-import img3 from "../../public/assets/imgs/img3.webp";
+import img38 from "../../public/assets/imgs/img38.png";
 
 import CarouselDesarrollo from "./carouselDesarrollo";
 
@@ -51,7 +46,7 @@ const DesarrolloProyecto = () => {
             </div>
             <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
               <img
-                src={img3}
+                src={img38}
                 alt="Proyecto"
                 className="z-10 h-full w-full object-cover shadow"
               />

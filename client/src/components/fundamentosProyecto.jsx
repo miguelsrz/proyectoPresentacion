@@ -9,7 +9,7 @@ import img13 from "../../public/assets/imgs/img13.avif";
 import img4 from "../../public/assets/imgs/img4.webp";
 import img5 from "../../public/assets/imgs/img5.webp";
 import img8 from "../../public/assets/imgs/img8.webp";
-import img9 from "../../public/assets/imgs/img9.webp";
+import img37 from "../../public/assets/imgs/img37.avif";
 import down from "../../public/assets/icons/arrowDown.svg";
 
 // import techWave from "../../public/assets/pngGradient.png";
@@ -47,7 +47,7 @@ const FundamentosProyecto = () => {
           <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
             <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
               <img
-                src={img9}
+                src={img37}
                 alt="Proyecto"
                 className="z-10 h-full w-full object-cover shadow"
               />
