@@ -1,12 +1,17 @@
 import { useContext, useState } from "react";
 import { AppContext } from "../context/presentacionContext";
 
-// import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
-import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/bgDecoration3.svg";
-import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.jpg";
-import img2 from "../../public/assets/imgs/img2.jpg";
-import img3 from "../../public/assets/imgs/img3.png";
+import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
+import img10 from "../../public/assets/imgs/img10.webp";
+import img11 from "../../public/assets/imgs/img11.webp";
+import img12 from "../../public/assets/imgs/img12.webp";
+import img13 from "../../public/assets/imgs/img13.avif";
+import img14 from "../../public/assets/imgs/img14.webp";
+import img15 from "../../public/assets/imgs/img15.webp";
+import img16 from "../../public/assets/imgs/img16.webp";
+import img2 from "../../public/assets/imgs/img2.webp";
+import img3 from "../../public/assets/imgs/img3.webp";
 
 const MetodologiaProyecto = () => {
   const { activeComponent } = useContext(AppContext);
@@ -50,16 +55,16 @@ const MetodologiaProyecto = () => {
               población y se generarán unas hipótesis de acuerdo a lo planteado
               en el mismo.
             </p>
-            <div className="w-full overflow-x-scroll pb-4 sm:overflow-auto">
-              <div className="h grid w-max grid-cols-5 gap-2 sm:h-auto sm:w-full sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+            <div className="w-full snap-x snap-mandatory overflow-x-scroll pb-4 sm:overflow-auto">
+              <div className="grid w-max grid-cols-5 gap-2 sm:h-auto sm:w-full sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
                 <div
                   onClick={() => handleBox(boxes[0])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
                       className="h-full w-full object-cover"
-                      src={plazaChe}
+                      src={img10}
                       alt=""
                     />
                   </figure>
@@ -86,12 +91,12 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[1])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
                       className="h-full w-full object-cover"
-                      src={img2}
+                      src={img11}
                       alt=""
                     />
                   </figure>
@@ -119,12 +124,12 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[2])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-2 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-2 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
                       className="h-full w-full object-cover"
-                      src={img3}
+                      src={img12}
                       alt=""
                     />
                   </figure>
@@ -155,12 +160,12 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[3])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto lg:col-span-2"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
                       className="h-full w-full object-cover"
-                      src={plazaChe}
+                      src={img13}
                       alt=""
                     />
                   </figure>
@@ -196,12 +201,12 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[4])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer sm:col-span-1 sm:w-auto lg:col-span-2"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
                       className="h-full w-full object-cover"
-                      src={img2}
+                      src={img14}
                       alt=""
                     />
                   </figure>
@@ -263,13 +268,13 @@ const MetodologiaProyecto = () => {
               transformación de dicha información para exponer la solución
               propuesta independiente para cada sujeto a evaluar.
             </p>
-            <div className="overflow-x-scroll pb-4 sm:overflow-auto">
+            <div className="snap-x snap-mandatory overflow-x-scroll pb-4 sm:overflow-auto">
               <div className="grid h-[480px] w-max grid-cols-4 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-[480px] xl:grid-cols-4">
-                <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-purple-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={img2}
+                      src={img15}
                       alt=""
                     />
                   </figure>
@@ -287,11 +292,11 @@ const MetodologiaProyecto = () => {
                   </div>
                 </article>
 
-                <article className="group relative z-0 w-72 overflow-hidden bg-gray-900 text-white sm:w-auto">
+                <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-gray-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={img3}
+                      src={img16}
                       alt=""
                     />
                   </figure>
@@ -309,11 +314,11 @@ const MetodologiaProyecto = () => {
                   </div>
                 </article>
 
-                <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-purple-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={plazaChe}
+                      src={img2}
                       alt=""
                     />
                   </figure>
@@ -331,11 +336,11 @@ const MetodologiaProyecto = () => {
                   </div>
                 </article>
 
-                <article className="group relative z-0 w-72 overflow-hidden bg-gray-900 text-white sm:w-auto">
+                <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-gray-900 text-white sm:w-auto">
                   <figure className="absolute z-[-1] h-full w-full opacity-25">
                     <img
                       className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:h-[115%] group-hover:w-[115%]"
-                      src={img2}
+                      src={img3}
                       alt=""
                     />
                   </figure>

@@ -1,7 +1,9 @@
-import React from "react";
+// import React from "react";
 import focus from "../../public/assets/icons/focus.svg";
-import pen from "../../public/assets/icons/pen.svg";
 import github from "../../public/assets/icons/github.svg";
+import linkedin from "../../public/assets/icons/linkedin.svg";
+import instagram from "../../public/assets/icons/instagram.svg";
+import left from "../../public/assets/icons/arrowLeft.svg";
 
 const Footer = () => {
   return (
@@ -24,11 +26,17 @@ const Footer = () => {
               Soluciones tecnologicas para el déficit de educación y gestión
               financiera.
             </p>
-            <button className="rounded-sm border-2 border-transparent bg-purple-700 px-4 py-2 text-center font-semibold hover:bg-purple-600">
-              Aprendizaje
+            <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+              <div className="flex h-full items-center justify-center">
+                <p className="line-clamp-1">Aprendizaje</p>
+                <img className="h-7" src={left} alt="" />
+              </div>
             </button>
-            <button className="rounded-sm border-2 border-transparent bg-purple-700 px-4 py-2 text-center font-semibold hover:bg-purple-600">
-              Gestor Financiero
+            <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+              <div className="flex h-full items-center justify-center">
+                <p className="line-clamp-1">Gestor Financiero</p>
+                <img className="h-7" src={left} alt="" />
+              </div>
             </button>
           </div>
 
@@ -167,8 +175,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={linkedin} alt="" />
                     </figure>
                   </a>
                   <a
@@ -176,8 +184,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -200,8 +208,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={linkedin} alt="" />
                     </figure>
                   </a>
                   <a
@@ -209,8 +217,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -233,8 +241,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={linkedin} alt="" />
                     </figure>
                   </a>
                   <a
@@ -242,8 +250,8 @@ const Footer = () => {
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>

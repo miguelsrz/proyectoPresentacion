@@ -1,11 +1,18 @@
-import banner from "../../public/assets/bannerUnal.jpg";
-import techWave from "../../public/assets/pngGradient.png";
+import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
+import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
+import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.webp";
+import banner from "../../public/assets/imgs/bannerUnal.webp";
+import img2 from "../../public/assets/imgs/img2.webp";
+import img3 from "../../public/assets/imgs/img3.webp";
+import gradient from "../../public/assets/deco/pngGradient.png";
+import left from "../../public/assets/icons/arrowLeft.svg";
 
 function Hero() {
   return (
     <div
       id="home"
-      className="relative z-0 flex h-[720px] w-full justify-center overflow-hidden text-white lg:h-[800px]"
+      className="relative z-0 flex h-[720px] w-full justify-center overflow-hidden bg-black text-white lg:h-[800px]"
     >
       <figure className="absolute z-[-1] h-full w-full brightness-[0.25]">
         <img className="h-full w-full object-cover" src={banner} alt="" />
@@ -14,14 +21,10 @@ function Hero() {
       <figure className="absolute z-[-1] h-full w-full brightness-[.75]">
         <img
           className="h-full w-full animate-[pulse_4s_cubic-bezier(0.4,_0,_0.6,_1)_infinite] object-fill"
-          src={techWave}
+          src={gradient}
           alt=""
         />
       </figure>
-
-      {/* <figure className="absolute z-[-1] h-full w-full brightness-[0.01]">
-          <img className="h-full w-full object-fill" src={techWave} alt="" />
-        </figure> */}
 
       <div className="flex-center flex max-w-[1800px] flex-col">
         {/* Hero Section */}
@@ -42,11 +45,17 @@ function Hero() {
               Bogotá.
             </p>
             <div className="mt-6 flex w-full flex-col justify-start gap-8 sm:flex-row">
-              <button className="w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
-                Aprendizaje
+              <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+                <div className="flex h-full items-center justify-center">
+                  <p className="line-clamp-1">Aprendizaje</p>
+                  <img className="h-7" src={left} alt="" />
+                </div>
               </button>
-              <button className="w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold hover:bg-purple-600">
-                Gestor Financiero
+              <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+                <div className="flex h-full items-center justify-center">
+                  <p className="line-clamp-1">Gestor Financiero</p>
+                  <img className="h-7" src={left} alt="" />
+                </div>
               </button>
             </div>
           </div>

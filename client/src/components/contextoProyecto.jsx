@@ -1,12 +1,18 @@
 import { useContext } from "react";
 import { AppContext } from "../context/presentacionContext";
 
-import bgDecoration1 from "../../public/assets/bgDecoration1.svg";
-// import bgDecoration2 from "../../public/assets/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/bgDecoration3.svg";
-import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.jpg";
-import img2 from "../../public/assets/imgs/img2.jpg";
-import img3 from "../../public/assets/imgs/img3.png";
+import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
+// import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
+import img4 from "../../public/assets/imgs/img4.webp";
+import img5 from "../../public/assets/imgs/img5.webp";
+import img6 from "../../public/assets/imgs/img6.webp";
+import img31 from "../../public/assets/imgs/img31.webp";
+import img32 from "../../public/assets/imgs/img32.webp";
+import img33 from "../../public/assets/imgs/img33.webp";
+import img34 from "../../public/assets/imgs/img34.webp";
+import img35 from "../../public/assets/imgs/img35.webp";
+import img36 from "../../public/assets/imgs/img36.webp";
 
 const ContextoProyecto = () => {
   const { activeComponent } = useContext(AppContext);
@@ -39,13 +45,13 @@ const ContextoProyecto = () => {
                 principalmente debido a la falta de conocimientos y aplicaciones
                 de conceptos de finanzas personales.
               </p>
-              <div className="overflow-x-scroll pb-4 sm:overflow-auto">
+              <div className="snap-x snap-mandatory overflow-x-scroll pb-4 sm:overflow-auto">
                 <div className="grid h-[480px] w-max grid-cols-3 gap-2 sm:h-[1200px] sm:w-full sm:grid-cols-1 md:h-[900px] md:grid-cols-2 xl:h-[480px] xl:grid-cols-3">
-                  <article className="group relative z-0 w-72 overflow-hidden bg-purple-900 text-white sm:w-auto">
+                  <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-purple-900 text-white sm:w-auto">
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
                         className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
-                        src={img2}
+                        src={img5}
                         alt=""
                       />
                     </figure>
@@ -64,11 +70,11 @@ const ContextoProyecto = () => {
                     </div>
                   </article>
 
-                  <article className="group relative z-0 w-72 overflow-hidden bg-gray-700 text-white sm:w-auto">
+                  <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-gray-700 text-white sm:w-auto">
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
                         className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
-                        src={plazaChe}
+                        src={img4}
                         alt=""
                       />
                     </figure>
@@ -86,11 +92,11 @@ const ContextoProyecto = () => {
                     </div>
                   </article>
 
-                  <article className="group relative z-0 w-72 overflow-hidden bg-black text-white sm:w-auto md:col-span-2 xl:col-span-1">
+                  <article className="group relative z-0 w-72 snap-center snap-normal overflow-hidden bg-black text-white sm:w-auto md:col-span-2 xl:col-span-1">
                     <figure className="absolute z-[-1] h-full w-full opacity-25">
                       <img
                         className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-125"
-                        src={img3}
+                        src={img6}
                         alt=""
                       />
                     </figure>
@@ -206,7 +212,7 @@ const ContextoProyecto = () => {
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                   <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                     <img
-                      src={img3}
+                      src={img31}
                       alt="Proyecto"
                       className="z-10 h-full w-full object-cover shadow"
                     />
@@ -242,12 +248,12 @@ const ContextoProyecto = () => {
                 <span className="text-purple-900">ESPECIFICOS</span>
               </h2>
 
-              <section className="h-[640px] overflow-x-hidden overflow-y-scroll sm:h-[560px] md:h-96 lg:h-72">
-                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+              <section className="h-[640px] snap-y snap-mandatory overflow-x-hidden overflow-y-scroll sm:h-[560px] md:h-96 lg:h-72">
+                <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                     <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                       <img
-                        src={plazaChe}
+                        src={img32}
                         alt="Proyecto"
                         className="z-10 h-full w-full object-cover shadow"
                       />
@@ -273,11 +279,11 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
 
-                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                     <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                       <img
-                        src={img2}
+                        src={img33}
                         alt="Proyecto"
                         className="z-10 h-full w-full object-cover shadow"
                       />
@@ -303,11 +309,11 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
 
-                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                     <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                       <img
-                        src={img3}
+                        src={img34}
                         alt="Proyecto"
                         className="z-10 h-full w-full object-cover shadow"
                       />
@@ -332,11 +338,11 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
 
-                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                     <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                       <img
-                        src={plazaChe}
+                        src={img35}
                         alt="Proyecto"
                         className="z-10 h-full w-full object-cover shadow"
                       />
@@ -361,11 +367,11 @@ const ContextoProyecto = () => {
                   </div>
                 </div>
 
-                <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
+                <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
                     <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
                       <img
-                        src={img2}
+                        src={img36}
                         alt="Proyecto"
                         className="z-10 h-full w-full object-cover shadow"
                       />
