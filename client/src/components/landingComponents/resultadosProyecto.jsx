@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { AppContext } from "../context/presentacionContext";
+import { AppContext } from "../../context/presentacionContext";
 
-import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
-import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
+import bgDecoration1 from "/public/assets/deco/bgDecoration1.svg";
+import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "/public/assets/deco/bgDecoration3.svg";
 import CrInicial from "./crInicial";
 
 const ResultadosProyecto = () => {

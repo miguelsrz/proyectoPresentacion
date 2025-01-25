@@ -1,4 +1,4 @@
-import img40 from "../../public/assets/imgs/img40.png";
+import img40 from "/public/assets/imgs/img40.png";
 import { Carousel } from "flowbite-react";
 
 const CarouselDesarrollo = () => {

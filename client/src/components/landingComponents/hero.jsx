@@ -1,14 +1,17 @@
-import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
-import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
-import plazaChe from "../../public/assets/imgs/Plaza_Che,_Bogotá.webp";
-import banner from "../../public/assets/imgs/bannerUnal.webp";
-import img2 from "../../public/assets/imgs/img2.webp";
-import img3 from "../../public/assets/imgs/img3.webp";
-import gradient from "../../public/assets/deco/pngGradient.png";
-import left from "../../public/assets/icons/arrowLeft.svg";
+import banner from "/public/assets/imgs/bannerUnal.webp";
+import gradient from "/public/assets/deco/pngGradient.png";
+import left from "/public/assets/icons/arrowLeft.svg";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+  const goToLearning = () => {
+    navigate("/aprendizaje");
+  };
+
+  const goToGestor = () => {
+    navigate("/gestor");
+  };
   return (
     <div
       id="home"
@@ -45,13 +48,19 @@ function Hero() {
               Bogotá.
             </p>
             <div className="mt-6 flex w-full flex-col justify-start gap-8 sm:flex-row">
-              <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+              <button
+                onClick={() => goToLearning()}
+                className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
+              >
                 <div className="flex h-full items-center justify-center">
                   <p className="line-clamp-1">Aprendizaje</p>
                   <img className="h-7" src={left} alt="" />
                 </div>
               </button>
-              <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+              <button
+                onClick={() => goToGestor()}
+                className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
+              >
                 <div className="flex h-full items-center justify-center">
                   <p className="line-clamp-1">Gestor Financiero</p>
                   <img className="h-7" src={left} alt="" />

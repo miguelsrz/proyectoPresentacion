@@ -5,7 +5,19 @@ import linkedin from "../../public/assets/icons/linkedin.svg";
 import instagram from "../../public/assets/icons/instagram.svg";
 import left from "../../public/assets/icons/arrowLeft.svg";
 
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const goToLearning = () => {
+    navigate("/aprendizaje");
+  };
+
+  const goToGestor = () => {
+    navigate("/gestor");
+  };
+
   return (
     <footer className="flex justify-center bg-black px-10 py-16">
       <div className="flex h-auto w-full max-w-[1320px] flex-col gap-8">
@@ -26,13 +38,19 @@ const Footer = () => {
               Soluciones tecnologicas para el déficit de educación y gestión
               financiera.
             </p>
-            <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+            <button
+              onClick={() => goToLearning()}
+              className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
+            >
               <div className="flex h-full items-center justify-center">
                 <p className="line-clamp-1">Aprendizaje</p>
                 <img className="h-7" src={left} alt="" />
               </div>
             </button>
-            <button className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600">
+            <button
+              onClick={() => goToGestor()}
+              className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
+            >
               <div className="flex h-full items-center justify-center">
                 <p className="line-clamp-1">Gestor Financiero</p>
                 <img className="h-7" src={left} alt="" />

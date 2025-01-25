@@ -1,9 +1,7 @@
-require('dotenv').config();
-
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT || 8080;;
+const PORT = 8080;
 
 // Habilitar CORS para permitir peticiones desde el frontend
 app.use(cors());
@@ -19,8 +17,7 @@ app.get("/api/modules", (req, res) => {
 // Endpoint: Obtener un módulo específico
 app.get("/api/modules/:moduleId", (req, res) => {
   const moduleId = parseInt(req.params.moduleId, 10);
-  console.log(moduleId)
-  const module = data.modules.find((mod) => mod.moduleId === moduleId);
+  const module = data.modules.find((mod) => mod.id === moduleId);
   module ? res.json(module) : res.status(404).json({ error: "Módulo no encontrado" });
 });
 
@@ -28,9 +25,9 @@ app.get("/api/modules/:moduleId", (req, res) => {
 app.get("/api/modules/:moduleId/sections/:sectionId", (req, res) => {
   const moduleId = parseInt(req.params.moduleId, 10);
   const sectionId = parseInt(req.params.sectionId, 10);
-  const module = data.modules.find((mod) => mod.moduleId === moduleId);
+  const module = data.modules.find((mod) => mod.id === moduleId);
   if (module) {
-    const section = module.sections.find((sec) => sec.sectionId === sectionId);
+    const section = module.sections.find((sec) => sec.id === sectionId);
     section ? res.json(section) : res.status(404).json({ error: "Sección no encontrada" });
   } else {
     res.status(404).json({ error: "Módulo no encontrado" });

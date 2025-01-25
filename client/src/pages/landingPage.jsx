@@ -1,22 +1,20 @@
 import "../index.css";
 
-import { useContext } from "react";
-import { AppContext } from "../context/presentacionContext";
+// import { useContext } from "react";
+// import { AppContext } from "../context/presentacionContext";
 
 import Footer from "../components/footer";
-import InicioProyecto from "../components/inicioProyecto";
-import ContextoProyecto from "../components/contextoProyecto";
-import ResultadosProyecto from "../components/ResultadosProyecto";
-import MetodologiaProyecto from "../components/metodologiaProyecto";
-import FundamentosProyecto from "../components/fundamentosProyecto";
-import DesarrolloProyecto from "../components/desarrolloProyecto";
+import InicioProyecto from "../components/landingComponents/inicioProyecto";
+import ContextoProyecto from "../components/landingComponents/contextoProyecto";
+import ResultadosProyecto from "../components/landingComponents/ResultadosProyecto";
+import MetodologiaProyecto from "../components/landingComponents/metodologiaProyecto";
+import FundamentosProyecto from "../components/landingComponents/fundamentosProyecto";
+import DesarrolloProyecto from "../components/landingComponents/desarrolloProyecto";
 import Header from "../components/header";
-import Hero from "../components/hero";
+import Hero from "../components/landingComponents/hero";
 
 const LandingPage = () => {
-  const { activeComponent } = useContext(AppContext);
-
-  console.log(activeComponent);
+  // const { activeComponent } = useContext(AppContext);
 
   return (
     <div className="overflow-x-hidden">

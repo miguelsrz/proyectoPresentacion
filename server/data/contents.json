@@ -1,0 +1,148 @@
+{
+  "modules": [
+    {
+      "moduleId": 1,
+      "moduleTitle": "Introducción al Aprendizaje",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            { "type": "video", "title": "¿Qué es el aprendizaje?", "url": "https://www.youtube.com/embed/z0pdqj3zH3s" },
+            { "type": "video", "title": "Historia del aprendizaje", "url": "https://example.com/video2" },
+            { "type": "articulo", "title": "Lectura: Fundamentos del aprendizaje", "url": "https://example.com/reading1" }
+          ],
+          "quiz": { "title": "Quiz: Conceptos Básicos", "url": "https://example.com/quiz1" }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Tipos de Aprendizaje",
+          "activities": [
+            { "type": "video", "title": "Aprendizaje visual y auditivo", "url": "https://example.com/video3" },
+            { "type": "video", "title": "Aprendizaje kinestésico", "url": "https://example.com/video4" },
+            { "type": "articulo", "title": "Lectura: Estilos de aprendizaje", "url": "https://example.com/reading2" }
+          ],
+          "quiz": { "title": "Quiz: Tipos de Aprendizaje", "url": "https://example.com/quiz2" }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Factores que influyen",
+          "activities": [
+            { "type": "video", "title": "Factores internos y externos", "url": "https://example.com/video5" },
+            { "type": "video", "title": "Motivación en el aprendizaje", "url": "https://example.com/video6" },
+            { "type": "articulo", "title": "Lectura: Influencias externas", "url": "https://example.com/reading3" }
+          ],
+          "quiz": { "title": "Quiz: Factores que influyen", "url": "https://example.com/quiz3" }
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "moduleTitle": "Habilidades Cognitivas",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Memoria",
+          "activities": [
+            { "type": "video", "title": "Cómo funciona la memoria", "url": "https://example.com/video7" },
+            { "type": "video", "title": "Técnicas para mejorar la memoria", "url": "https://example.com/video8" },
+            { "type": "articulo", "title": "Lectura: Tipos de memoria", "url": "https://example.com/reading4" }
+          ],
+          "quiz": { "title": "Quiz: Memoria", "url": "https://example.com/quiz4" }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Atención",
+          "activities": [
+            { "type": "video", "title": "La importancia de la atención", "url": "https://example.com/video9" },
+            { "type": "video", "title": "Cómo mejorar tu atención", "url": "https://example.com/video10" },
+            { "type": "articulo", "title": "Lectura: Distractores comunes", "url": "https://example.com/reading5" }
+          ],
+          "quiz": { "title": "Quiz: Atención", "url": "https://example.com/quiz5" }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Resolución de Problemas",
+          "activities": [
+            { "type": "video", "title": "Pasos para resolver problemas", "url": "https://example.com/video11" },
+            { "type": "video", "title": "Ejemplos prácticos", "url": "https://example.com/video12" },
+            { "type": "articulo", "title": "Lectura: Técnicas de resolución", "url": "https://example.com/reading6" }
+          ],
+          "quiz": { "title": "Quiz: Resolución de Problemas", "url": "https://example.com/quiz6" }
+        }
+      ]
+    },
+    {
+      "moduleId": 3,
+      "moduleTitle": "Aprendizaje Colaborativo",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Trabajo en Equipo",
+          "activities": [
+            { "type": "video", "title": "Beneficios del trabajo en equipo", "url": "https://example.com/video13" },
+            { "type": "video", "title": "Cómo formar un equipo efectivo", "url": "https://example.com/video14" },
+            { "type": "articulo", "title": "Lectura: Comunicación en equipo", "url": "https://example.com/reading7" }
+          ],
+          "quiz": { "title": "Quiz: Trabajo en Equipo", "url": "https://example.com/quiz7" }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Toma de Decisiones",
+          "activities": [
+            { "type": "video", "title": "Procesos para tomar decisiones", "url": "https://example.com/video15" },
+            { "type": "video", "title": "Errores comunes", "url": "https://example.com/video16" },
+            { "type": "articulo", "title": "Lectura: Decisiones en grupo", "url": "https://example.com/reading8" }
+          ],
+          "quiz": { "title": "Quiz: Toma de Decisiones", "url": "https://example.com/quiz8" }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Herramientas Digitales",
+          "activities": [
+            { "type": "video", "title": "Tecnología para el aprendizaje", "url": "https://example.com/video17" },
+            { "type": "video", "title": "Plataformas de colaboración", "url": "https://example.com/video18" },
+            { "type": "articulo", "title": "Lectura: Herramientas populares", "url": "https://example.com/reading9" }
+          ],
+          "quiz": { "title": "Quiz: Herramientas Digitales", "url": "https://example.com/quiz9" }
+        }
+      ]
+    },
+    {
+      "moduleId": 4,
+      "moduleTitle": "Evaluación y Retroalimentación",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Métodos de Evaluación",
+          "activities": [
+            { "type": "video", "title": "Cómo evaluar el aprendizaje", "url": "https://example.com/video19" },
+            { "type": "video", "title": "Evaluaciones formativas", "url": "https://example.com/video20" },
+            { "type": "articulo", "title": "Lectura: Métodos efectivos", "url": "https://example.com/reading10" }
+          ],
+          "quiz": { "title": "Quiz: Métodos de Evaluación", "url": "https://example.com/quiz10" }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Retroalimentación Efectiva",
+          "activities": [
+            { "type": "video", "title": "Importancia de la retroalimentación", "url": "https://example.com/video21" },
+            { "type": "video", "title": "Cómo dar retroalimentación", "url": "https://example.com/video22" },
+            { "type": "articulo", "title": "Lectura: Estrategias de retroalimentación", "url": "https://example.com/reading11" }
+          ],
+          "quiz": { "title": "Quiz: Retroalimentación Efectiva", "url": "https://example.com/quiz11" }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Autoevaluación",
+          "activities": [
+            { "type": "video", "title": "La importancia de autoevaluarse", "url": "https://example.com/video23" },
+            { "type": "video", "title": "Herramientas para autoevaluación", "url": "https://example.com/video24" },
+            { "type": "articulo", "title": "Lectura: Beneficios de autoevaluarse", "url": "https://example.com/reading12" }
+          ],
+          "quiz": { "title": "Quiz: Autoevaluación", "url": "https://example.com/quiz12" }
+        }
+      ]
+    }
+  ]
+}

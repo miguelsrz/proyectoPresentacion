@@ -1,17 +1,17 @@
 import { useContext, useState } from "react";
-import { AppContext } from "../context/presentacionContext";
+import { AppContext } from "../../context/presentacionContext";
 
-import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
-import img10 from "../../public/assets/imgs/img10.webp";
-import img11 from "../../public/assets/imgs/img11.webp";
-import img12 from "../../public/assets/imgs/img12.webp";
-import img13 from "../../public/assets/imgs/img13.avif";
-import img14 from "../../public/assets/imgs/img14.webp";
-import img15 from "../../public/assets/imgs/img15.webp";
-import img16 from "../../public/assets/imgs/img16.webp";
-import img2 from "../../public/assets/imgs/img2.webp";
-import img3 from "../../public/assets/imgs/img3.webp";
+import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "/public/assets/deco/bgDecoration3.svg";
+import img10 from "/public/assets/imgs/img10.webp";
+import img11 from "/public/assets/imgs/img11.webp";
+import img12 from "/public/assets/imgs/img12.webp";
+import img13 from "/public/assets/imgs/img13.avif";
+import img14 from "/public/assets/imgs/img14.webp";
+import img15 from "/public/assets/imgs/img15.webp";
+import img16 from "/public/assets/imgs/img16.webp";
+import img2 from "/public/assets/imgs/img2.webp";
+import img3 from "/public/assets/imgs/img3.webp";
 
 const MetodologiaProyecto = () => {
   const { activeComponent } = useContext(AppContext);
@@ -26,7 +26,6 @@ const MetodologiaProyecto = () => {
     } else {
       setActiveBox(box);
     }
-    console.log(activeBox);
   };
 
   const boxes = [0, 1, 2, 3, 4];

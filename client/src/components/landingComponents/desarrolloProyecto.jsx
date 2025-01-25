@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { AppContext } from "../context/presentacionContext";
-import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
-import img38 from "../../public/assets/imgs/img38.png";
+import { AppContext } from "../../context/presentacionContext";
+import bgDecoration3 from "/public/assets/deco/bgDecoration3.svg";
+import img38 from "/public/assets/imgs/img38.png";
 
 import CarouselDesarrollo from "./carouselDesarrollo";
 

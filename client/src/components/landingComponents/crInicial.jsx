@@ -1,4 +1,3 @@
-import React, { PureComponent } from "react";
 import {
   BarChart,
   Bar,
@@ -9,9 +8,6 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-
-import img2 from "../../public/assets/imgs/img2.webp";
-import img3 from "../../public/assets/imgs/img3.webp";
 
 import { Carousel } from "flowbite-react";
 
@@ -42,7 +38,7 @@ const CrInicial = () => {
     <>
       <Carousel
         slide={false}
-        className="bg-white"
+        className="bg-white px-0"
         // leftControl="bg-black rounded"
       >
         <div

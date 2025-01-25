@@ -1,18 +1,18 @@
 import { useContext, useState } from "react";
-import { AppContext } from "../context/presentacionContext";
+import { AppContext } from "../../context/presentacionContext";
 
-import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
-import img10 from "../../public/assets/imgs/img10.webp";
-import img11 from "../../public/assets/imgs/img11.webp";
-import img12 from "../../public/assets/imgs/img12.webp";
-import img13 from "../../public/assets/imgs/img13.avif";
-import img4 from "../../public/assets/imgs/img4.webp";
-import img5 from "../../public/assets/imgs/img5.webp";
-import img8 from "../../public/assets/imgs/img8.webp";
-import img37 from "../../public/assets/imgs/img37.avif";
-import down from "../../public/assets/icons/arrowDown.svg";
+import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
+import img10 from "/public/assets/imgs/img10.webp";
+import img11 from "/public/assets/imgs/img11.webp";
+import img12 from "/public/assets/imgs/img12.webp";
+import img13 from "/public/assets/imgs/img13.avif";
+import img4 from "/public/assets/imgs/img4.webp";
+import img5 from "/public/assets/imgs/img5.webp";
+import img8 from "/public/assets/imgs/img8.webp";
+import img37 from "/public/assets/imgs/img37.avif";
+import down from "/public/assets/icons/arrowDown.svg";
 
-// import techWave from "../../public/assets/pngGradient.png";
+// import techWave from "/public/assets/pngGradient.png";
 
 const FundamentosProyecto = () => {
   const { activeComponent } = useContext(AppContext);
@@ -27,7 +27,6 @@ const FundamentosProyecto = () => {
     } else {
       setActiveBox(box);
     }
-    console.log(activeBox);
   };
 
   const boxes = [0, 1, 2, 3, 4, 5];
@@ -68,8 +67,8 @@ const FundamentosProyecto = () => {
                 El propósito fue encargado por el ministerio de educación
                 nacional (MEN), que buscaba aumentar el conocimiento y el uso de
                 servicios y productos financieros por parte de los jóvenes, todo
-                esto con el fin de fomentar el ahorro y el uso responsable del
-                dinero de los mismos, para lograr esto creó un programa
+                esto con <e></e>l fin de fomentar el ahorro y el uso responsable
+                del dinero de los mismos, para lograr esto creó un programa
                 educativo para transmitir los conceptos y planificación básicos
                 de las finanzas personales con el objetivo de educar a los
                 jóvenes en educación financiera (Banco de la República, 2013).

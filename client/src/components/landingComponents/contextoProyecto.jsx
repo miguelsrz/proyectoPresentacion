@@ -1,18 +1,18 @@
 import { useContext } from "react";
-import { AppContext } from "../context/presentacionContext";
+import { AppContext } from "../../context/presentacionContext";
 
-import bgDecoration1 from "../../public/assets/deco/bgDecoration1.svg";
-// import bgDecoration2 from "../../public/assets/deco/bgDecoration2.svg";
-import bgDecoration3 from "../../public/assets/deco/bgDecoration3.svg";
-import img4 from "../../public/assets/imgs/img4.webp";
-import img5 from "../../public/assets/imgs/img5.webp";
-import img6 from "../../public/assets/imgs/img6.webp";
-import img31 from "../../public/assets/imgs/img31.webp";
-import img32 from "../../public/assets/imgs/img32.webp";
-import img33 from "../../public/assets/imgs/img33.webp";
-import img34 from "../../public/assets/imgs/img34.webp";
-import img35 from "../../public/assets/imgs/img35.webp";
-import img36 from "../../public/assets/imgs/img36.webp";
+import bgDecoration1 from "/public/assets/deco/bgDecoration1.svg";
+// import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
+import bgDecoration3 from "/public/assets/deco/bgDecoration3.svg";
+import img4 from "/public/assets/imgs/img4.webp";
+import img5 from "/public/assets/imgs/img5.webp";
+import img6 from "/public/assets/imgs/img6.webp";
+import img31 from "/public/assets/imgs/img31.webp";
+import img32 from "/public/assets/imgs/img32.webp";
+import img33 from "/public/assets/imgs/img33.webp";
+import img34 from "/public/assets/imgs/img34.webp";
+import img35 from "/public/assets/imgs/img35.webp";
+import img36 from "/public/assets/imgs/img36.webp";
 
 const ContextoProyecto = () => {
   const { activeComponent } = useContext(AppContext);

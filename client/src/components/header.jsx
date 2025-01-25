@@ -30,6 +30,7 @@ function Header() {
   const closeMenu = () => {
     setActiveMenu(false);
   };
+
   return (
     <>
       <header
