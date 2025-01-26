@@ -31,7 +31,20 @@ const Quiz = () => {
   return (
     <div>
       <h2>{content.title}</h2>
-      <p>{content.url}</p>
+      <p>{content.descripcion}</p>
+      <div>
+        {content.preguntas.map((pr, index) => (
+          <>
+            <p key={index}>{pr.pregunta}</p>
+            <div className="flex flex-col" key={index + 1}>
+              {pr.opciones.map((opcion, index) => (
+                <p key={index}>{opcion}</p>
+              ))}
+            </div>
+            <p key={index + 2}>{pr.correcta}</p>
+          </>
+        ))}
+      </div>
     </div>
   );
 };

@@ -8,7 +8,9 @@ const Video = () => {
   return (
     <div>
       <h2>{content.title}</h2>
-      <p>{content.url}</p>
+      <h2>{content.tituloOriginal}</h2>
+      <p>{content.urlOriginal}</p>
+      <p>{content.descripcion}</p>
       <iframe
         width="1096"
         height="616"

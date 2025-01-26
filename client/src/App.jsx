@@ -20,6 +20,7 @@ import ModuloPage from "./pages/moduloPage";
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: "/presentacion", element: <LandingPage /> },
+    { path: "/", element: <LandingPage /> },
     { path: "/aprendizaje", element: <AprendizajePage /> },
     { path: "/aprendizaje/modulo/:moduleId", element: <ModuloPage /> },
     {
