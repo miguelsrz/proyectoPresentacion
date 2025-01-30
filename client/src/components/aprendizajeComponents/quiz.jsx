@@ -1,10 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
+import { DatabaseContext } from "../../context/databaseContext";
+import { UserContext } from "../../context/userContext";
 // import { fetchSection, submitProgress } from "../../api";
 
 const Quiz = () => {
   const location = useLocation();
-  const { content } = location.state;
+  const { usuario, getUser } = useContext(UserContext);
+
+  const { content, puntaje } = location.state;
+  const {
+    progreso,
+    updateProgreso,
+    setProgreso,
+    fetchProgreso,
+    fetchPuntajes,
+    setPuntajes,
+  } = useContext(DatabaseContext);
+
   // const [content, setContent] = useState(null);
   // const [answers, setAnswers] = useState({});
 
@@ -25,12 +38,32 @@ const Quiz = () => {
   //   //   alert(`Progreso guardado con puntuación: ${score}`);
   //   // });
   // };
+  useEffect(() => {
+    getUser();
+    const storedProgreso = localStorage.getItem("progreso");
+    const storedPuntajes = localStorage.getItem("puntajes");
+    if (storedProgreso) {
+      setProgreso(JSON.parse(storedProgreso)); // Recupera del localStorage
+    } else {
+      // Si no hay datos en localStorage, realiza la petición a la base de datos
+      fetchProgreso(usuario);
+    }
+    if (storedPuntajes) {
+      setPuntajes(JSON.parse(storedPuntajes)); // Recupera del localStorage
+    } else {
+      // Si no hay datos en localStorage, realiza la petición a la base de datos
+      fetchPuntajes(usuario);
+    }
+
+    console.log("RECARGA");
+  }, []); // Dependencia en 'usuario' para que se ejecute cuando el usuario se loguee
 
   if (!content) return <p>Cargando preguntas del quiz...</p>;
 
   return (
     <div>
       <h2>{content.title}</h2>
+      <h2>{puntaje?.puntaje}/100</h2>
       <p>{content.descripcion}</p>
       <div>
         {content.preguntas.map((pr, index) => (

@@ -1,12 +1,8 @@
 // import { useState, useEffect} from 'react'
 import "./index.css";
 import { AppProvider } from "./context/presentacionContext";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useRoutes,
-} from "react-router-dom";
+import { DatabaseProvider } from "./context/databaseContext";
+import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 
 import LandingPage from "./pages/landingPage";
 import AprendizajePage from "./pages/aprendizajePage";
@@ -15,6 +11,7 @@ import Video from "./components/aprendizajeComponents/video";
 import Quiz from "./components/aprendizajeComponents/quiz";
 import NotFound from "./components/notFound";
 import ModuloPage from "./pages/moduloPage";
+import { UserProvider } from "./context/userContext";
 // import axios from "axios";
 
 const AppRoutes = () => {
@@ -44,11 +41,15 @@ const AppRoutes = () => {
 function App() {
   return (
     <>
-      <AppProvider>
-        <Router basename="">
-          <AppRoutes></AppRoutes>
-        </Router>
-      </AppProvider>
+      <DatabaseProvider>
+        <AppProvider>
+          <UserProvider>
+            <Router basename="">
+              <AppRoutes></AppRoutes>
+            </Router>
+          </UserProvider>
+        </AppProvider>
+      </DatabaseProvider>
     </>
   );
 }

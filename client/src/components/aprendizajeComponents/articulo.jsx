@@ -1,11 +1,24 @@
 // import React from "react";
+import { useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { DatabaseContext } from "../../context/databaseContext";
+import { UserContext } from "../../context/userContext";
 
 const Articulo = () => {
   const location = useLocation();
   const { content } = location.state;
 
   const info = content.contenido;
+
+  const { usuario, getUser } = useContext(UserContext);
+  const {
+    progreso,
+    updateProgreso,
+    setProgreso,
+    fetchProgreso,
+    fetchPuntajes,
+    setPuntajes,
+  } = useContext(DatabaseContext);
 
   const maxLength = Math.max(info.imagenes.length, info.texto.length);
 
@@ -34,11 +47,51 @@ const Articulo = () => {
     });
   }
 
+  useEffect(() => {
+    getUser();
+
+    const storedProgreso = localStorage.getItem("progreso");
+    const storedPuntajes = localStorage.getItem("puntajes");
+    if (storedProgreso) {
+      setProgreso(JSON.parse(storedProgreso)); // Recupera del localStorage
+    } else {
+      // Si no hay datos en localStorage, realiza la petición a la base de datos
+      fetchProgreso(usuario);
+    }
+    if (storedPuntajes) {
+      setPuntajes(JSON.parse(storedPuntajes)); // Recupera del localStorage
+    } else {
+      // Si no hay datos en localStorage, realiza la petición a la base de datos
+      fetchPuntajes(usuario);
+    }
+
+    console.log("RECARGA");
+  }, []); // Dependencia en 'usuario' para que se ejecute cuando el usuario se loguee
+
+  const handleVisto = () => {
+    const includes = progreso.includes(content.id);
+
+    if (includes) {
+      updateProgreso(usuario, content.id, false);
+      console.log("Enviando progreso:", usuario, content.id, false);
+    } else {
+      updateProgreso(usuario, content.id, true);
+      console.log("Enviando progreso:", usuario, content.id, true);
+    }
+  };
+
   return (
     <div>
       <h2> {content.title}</h2>
       <h2> {content.tituloOriginal}</h2>
       <p>{content.url}</p>
+      <p>{content.id}</p>
+      <button
+        onClick={() => handleVisto()}
+        className="bg-purple-700 px-8 py-4 text-white"
+      >
+        MARCAR VISTO
+      </button>
       <div>
         {Array.from({ length: maxLength }).map((_, index) => (
           <div key={index} className="content-block mb-8 flex flex-col gap-8">

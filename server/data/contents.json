@@ -10,6 +10,7 @@
           "activities": [
             {
               "type": "articulo",
+              "id": "c1",
               "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
               "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
               "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
@@ -53,6 +54,7 @@
             },
             {
               "type": "video",
+              "id": "c2",
               "title": "Oferta y demanda: Conceptos clave en la economía.",
               "tituloOriginal": "Ley de Oferta y Demanda",
               "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
@@ -61,6 +63,7 @@
             },
             {
               "type": "articulo",
+              "id": "c3",
               "title": " Rol de los gobiernos y los bancos en el sistema económico.",
               "tituloOriginal": "El Sistema Economico - Banco de la Republica",
               "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
@@ -94,6 +97,7 @@
           ],
           "quiz": {
             "title": "Quiz: El Sistema Económico",
+            "id": "q1",
             "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de un sistema económico, incluyendo oferta y demanda, así como el rol de los gobiernos y bancos en la economía.",
             "preguntas": [
               {
@@ -155,6 +159,7 @@
           "activities": [
             {
               "type": "video",
+              "id": "c4",
               "title": "¿Qué es el aprendizaje?",
               "tituloOriginal": "What is Learning?",
               "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
@@ -162,6 +167,7 @@
             },
             {
               "type": "video",
+              "id": "c5",
               "title": "Historia del aprendizaje",
               "tituloOriginal": "History of Learning",
               "url": "https://example.com/video2",
@@ -169,6 +175,7 @@
             },
             {
               "type": "articulo",
+              "id": "c6",
               "title": "Lectura: Fundamentos del aprendizaje",
               "tituloOriginal": "Reading: Learning Fundamentals",
               "url": "https://example.com/reading1",
@@ -183,6 +190,7 @@
           ],
           "quiz": {
             "title": "Quiz: Conceptos Básicos",
+            "id":"q2",
             "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
             "preguntas": [
               {
@@ -244,6 +252,7 @@
           "activities": [
             {
               "type": "video",
+              "id": "c7",
               "title": "¿Qué es el aprendizaje?",
               "tituloOriginal": "What is Learning?",
               "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
@@ -251,6 +260,7 @@
             },
             {
               "type": "video",
+              "id": "c8",
               "title": "Historia del aprendizaje",
               "tituloOriginal": "History of Learning",
               "url": "https://example.com/video2",
@@ -258,6 +268,7 @@
             },
             {
               "type": "articulo",
+              "id": "c9",
               "title": "Lectura: Fundamentos del aprendizaje",
               "tituloOriginal": "Reading: Learning Fundamentals",
               "url": "https://example.com/reading1",
@@ -272,6 +283,7 @@
           ],
           "quiz": {
             "title": "Quiz: Conceptos Básicos",
+            "id":"q3",
             "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
             "preguntas": [
               {
