@@ -6,32 +6,37 @@ export const UserProvider = ({ children }) => {
   const [usuario, setUsuario] = useState(null);
 
   useEffect(() => {
-    // const storedUserId = localStorage.getItem("usuarioID");
+    // const storedUserId = localStorage.getItem("token");
     // if (storedUserId) {
     //   fetch(`http://localhost:3000/api/usuario?usuario_id=${storedUserId}`)
     //     .then((res) => res.json())
     //     .then((data) => setUsuario(data))
-    //     .catch(() => localStorage.removeItem("usuarioID"));
+    //     .catch(() => localStorage.removeItem("token"));
     // }
   }, []);
-  const getUser = () => {
-    const receivedUser = localStorage.getItem("usuarioID");
-    setUsuario(receivedUser);
-    console.log("USUARIO CARGADO");
+
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
   };
-  const login = (usuarioId) => {
-    localStorage.setItem("usuarioID", usuarioId);
-    setUsuario(usuarioId);
-    console.log(localStorage.getItem("usuarioID"));
+
+  const getUser = () => {
+    const receivedUser = localStorage.getItem("token");
+    setUsuario(receivedUser);
+  };
+  const login = (token) => {
+    localStorage.setItem("token", token);
+    setUsuario(token);
   };
 
   const logout = () => {
-    localStorage.removeItem("usuarioID");
+    localStorage.removeItem("token");
     setUsuario(null);
   };
 
   return (
-    <UserContext.Provider value={{ usuario, getUser, login, logout }}>
+    <UserContext.Provider
+      value={{ usuario, getUser, login, logout, capitalizeFirstLetter }}
+    >
       {children}
     </UserContext.Provider>
   );

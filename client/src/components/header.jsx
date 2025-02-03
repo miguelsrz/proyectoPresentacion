@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/presentacionContext";
+import { Link } from "react-router-dom";
 
 function Header() {
   const { activeComponent, setActiveComponent } = useContext(AppContext);
@@ -99,10 +100,16 @@ function Header() {
             </nav>
           </div>
 
-          <button className="hidden rounded-sm border-2 border-transparent bg-purple-700 px-8 py-2 font-semibold tracking-wider text-white hover:bg-purple-600 xl:block">
-            INGRESAR
-          </button>
-
+          <Link
+            to={"https://focus.42web.io/"}
+            className="hidden h-11 w-max items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold text-white hover:bg-purple-600 xl:flex"
+          >
+            <button className="h-full w-full">
+              <div className="flex h-full items-center justify-center">
+                <p className="line-clamp-1">INGRESAR</p>
+              </div>
+            </button>
+          </Link>
           <button
             onClick={() => setActiveMenu(!activeMenu)}
             className="relative z-20 flex h-10 w-10 flex-col items-center justify-center gap-1.5 xl:hidden"
@@ -193,9 +200,16 @@ function Header() {
           </section>
 
           <section className="mt-2 flex flex-col gap-4">
-            <button className="rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600">
-              INGRESAR
-            </button>
+            <Link
+              to={"https://focus.42web.io/"}
+              className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold text-white hover:bg-purple-600"
+            >
+              <button className="h-full w-full">
+                <div className="flex h-full items-center justify-center">
+                  <p className="">INGRESAR</p>
+                </div>
+              </button>
+            </Link>
           </section>
         </aside>
       </div>

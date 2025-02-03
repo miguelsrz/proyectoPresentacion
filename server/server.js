@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const mysql = require('mysql2/promise');
 
 const express = require("express");
@@ -21,11 +20,38 @@ const db = mysql.createPool({
   database: 'focus'
 });
 
+const validarUsuarioActivo = async (req, res, next) => {
+  const token = req.headers.authorization;
+  console.log("Token recibido:", token);
+  
+  if (!token) {
+      console.log("❌ No se recibió token");
+      return res.status(401).json({ error: "No autenticado" });
+  }
+
+  try {
+      const [results] = await db.query("SELECT usuario_id FROM sesiones WHERE token = ? LIMIT 1", [token]);
+      console.log("Resultados de la consulta:", results);
+
+      if (results.length === 0) {
+          console.log("❌ Token no encontrado en la base de datos");
+          return res.status(401).json({ error: "Sesión inválida" });
+      }
+
+      req.usuarioID = results[0].usuario_id;
+      console.log("✅ Usuario validado:", req.usuarioID);
+      next();
+  } catch (error) {
+      console.error("⚠️ Error en validación de sesión:", error);
+      res.status(500).json({ error: "Error en validación de sesión" });
+  }
+};
+
 // // Endpoint para obtener datos del usuario
 // app.get('/api/usuario', async (req, res) => {
 //   const { usuario_id } = req.query;
 //   try {
-//     const [rows] = await db.query('SELECT * FROM usuarios WHERE id = ?', [usuario_id]);
+//     const [rows] = await db.query('SELECT * FROM usuarios WHERE id = ?', [req.usuarioID]);
 //     if (rows.length > 0) {
 //       res.json(rows[0]); // Retorna el usuario si existe
 //     } else {
@@ -37,10 +63,57 @@ const db = mysql.createPool({
 // });
 // Endpoint: Obtener progreso de un usuario
 
-app.get('/api/progreso', async (req, res) => {
-  const { usuario_id } = req.query;
+
+// Obtener usuario activo desde la tabla de sesiones
+// const obtenerUsuarioActivo = async (token) => {
+//   return new Promise((resolve, reject) => {
+//       db.query("SELECT usuario_id FROM sesiones WHERE token = ? LIMIT 1", [token], (err, results) => {
+//           if (err) return reject(err);
+//           resolve(results.length > 0 ? results[0].usuario_id : null);
+//       });
+//   });
+// };
+
+app.get('/api/sesiones',  async (req, res) => {
   try {
-    const [rows] = await db.query('SELECT * FROM progreso WHERE usuario_id = ?', [usuario_id]);
+    const [rows] = await db.query('SELECT * FROM sesiones'  );
+    res.json(rows);
+  } catch (err) {
+    res.status(500).json({ error: 'Error al obtener el progreso' });
+  }
+});
+
+app.delete("/api/sesiones", async (req, res) => {
+  const { usuario_id } = req.body;
+
+  if (!usuario_id) return res.status(400).json({ error: "ID de usuario requerido" });
+
+  try {
+    await db.query("DELETE FROM sesiones WHERE usuario_id = ?", [usuario_id]);
+    res.json({ success: true, message: "Sesión eliminada correctamente" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Error al eliminar sesiones previas" });
+  }
+});
+
+app.post("/api/sesiones", async (req, res) => {
+  const { usuario_id, token } = req.body;
+
+  if (!usuario_id || !token) return res.status(400).json({ error: "Datos incompletos" });
+
+  try {
+    await db.query("INSERT INTO sesiones (usuario_id, token) VALUES (?, ?)", [usuario_id, token]);
+    res.json({ success: true, message: "Sesión creada con éxito" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Error al registrar sesión" });
+  }
+});
+
+app.get('/api/progreso', validarUsuarioActivo, async (req, res) => {
+  try {
+    const [rows] = await db.query('SELECT * FROM progreso WHERE usuario_id = ?', [req.usuarioID]);
     res.json(rows);
   } catch (err) {
     res.status(500).json({ error: 'Error al obtener el progreso' });
@@ -48,23 +121,26 @@ app.get('/api/progreso', async (req, res) => {
 });
 
 // Endpoint: Registrar progreso
-app.post('/api/progreso', async (req, res) => {
-  const { usuario_id, contenido_id, visto } = req.body;
+
+app.post('/api/progreso', validarUsuarioActivo, async (req, res) => {
+  const {contenido_id, visto } = req.body;
 
   try {
+    
+
     if (visto) {
       // Si se marca como visto, se inserta en la base de datos
       await db.query(
         `INSERT INTO progreso (usuario_id, contenido_id, visto, fecha_visto) 
          VALUES (?, ?, ?, NOW()) 
          ON DUPLICATE KEY UPDATE visto = VALUES(visto), fecha_visto = VALUES(fecha_visto)`,
-        [usuario_id, contenido_id, visto]
+        [req.usuarioID,contenido_id, visto]
       );
     } else {
       // Si se marca como no visto, se elimina de la base de datos
       await db.query(
         `DELETE FROM progreso WHERE usuario_id = ? AND contenido_id = ?`,
-        [usuario_id, contenido_id]
+        [req.usuarioID,contenido_id]
       );
     }
     res.json({ message: 'Progreso actualizado correctamente' });
@@ -74,10 +150,9 @@ app.post('/api/progreso', async (req, res) => {
 });
 
 // Endpoint: Obtener puntajes de un usuario
-app.get('/api/puntajes', async (req, res) => {
-  const { usuario_id } = req.query;
+app.get('/api/puntajes', validarUsuarioActivo, async (req, res) => {
   try {
-    const [rows] = await db.query('SELECT * FROM puntajes WHERE usuario_id = ?', [usuario_id]);
+    const [rows] = await db.query('SELECT * FROM puntajes WHERE usuario_id = ?', [req.usuarioID]);
     res.json(rows);
   } catch (err) {
     res.status(500).json({ error: 'Error al obtener los puntajes' });
@@ -85,21 +160,58 @@ app.get('/api/puntajes', async (req, res) => {
 });
 
 // Endpoint: Registrar puntaje
-app.post('/api/puntajes', async (req, res) => {
-  const { usuario_id, quiz_id, puntaje } = req.body;
+app.post('/api/puntajes', validarUsuarioActivo, async (req, res) => {
+  const { quiz_id, puntaje, completado } = req.body;
   const fecha = new Date();
 
-  try {
-    const [result] = await db.query(
-      `INSERT INTO puntajes (usuario_id, quiz_id, puntaje, fecha) 
-       VALUES (?, ?, ?, ?)`,
-      [usuario_id, quiz_id, puntaje, fecha]
-    );
-    res.json({ message: 'Puntaje registrado', id: result.insertId });
-  } catch (err) {
-    res.status(500).json({ error: 'Error al registrar el puntaje' });
+  console.log(completado)
+  if(completado) {
+    try {
+      await db.query(
+        `DELETE FROM puntajes WHERE usuario_id = ? AND quiz_id = ?`,
+        [req.usuarioID,quiz_id]
+      );
+
+      const [result] = await db.query(
+        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje, fecha) 
+         VALUES (?, ?, ?, ?)`,
+        [req.usuarioID, quiz_id, puntaje, fecha]
+      );
+          res.json({ message: 'Puntaje registrado', id: result.insertId });
+        } catch (err) {
+          res.status(500).json({ error: 'Error al registrar el puntaje' });
+        }
+  } else 
+  {
+    try {
+      const [result] = await db.query(
+        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje, fecha) 
+         VALUES (?, ?, ?, ?)`,
+        [req.usuarioID, quiz_id, puntaje, fecha]
+      );
+      res.json({ message: 'Puntaje registrado', id: result.insertId });
+    } catch (err) {
+      res.status(500).json({ error: 'Error al registrar el puntaje' });
+    }
   }
 });
+
+// app.update('/api/puntajes', validarUsuarioActivo, async (req, res) => {
+//   const { quiz_id, puntaje } = req.body;
+//   const fecha = new Date();
+
+//   try {
+//     const [result] = await db.query(
+//       `UPDATE puntajes (usuario_id, quiz_id, puntaje, fecha) 
+//        VALUES (?, ?, ?, ?)`,
+//       [req.usuarioID, quiz_id, puntaje, fecha]
+//     );
+//     res.json({ message: 'Puntaje registrado', id: result.insertId });
+//   } catch (err) {
+//     res.status(500).json({ error: 'Error al registrar el puntaje' });
+//   }
+// });
+
 
 
 // MANEJAR CONTENIDOS EN JSON

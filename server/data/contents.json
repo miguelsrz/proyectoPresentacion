@@ -3,6 +3,370 @@
     {
       "moduleId": 1,
       "moduleTitle": "Introducción a Educación Financiera",
+      "desc":"En este módulo, explorarás los fundamentos del sistema económico y su relación con las finanzas personales. Comprender cómo funciona la economía es esencial para tomar mejores decisiones financieras en la vida cotidiana. A lo largo de las secciones, aprenderás sobre conceptos clave como la oferta y la demanda, la inflación, los ciclos económicos y el papel de las instituciones financieras. Además, conocerás cómo los gobiernos y los bancos influyen en la economía y cómo estos factores afectan tus finanzas personales. Este conocimiento te proporcionará una base sólida para gestionar tu dinero de manera más efectiva y anticiparte a los cambios en el entorno económico.",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Entendiendo un Sistema Económico",
+          "activities": [
+            {
+              "type": "articulo",
+              "id": "c1",
+              "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
+              "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
+              "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "autor": "José Francisco López, Economipedia",
+              
+              "contenido": {
+                "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "Introducción",
+                    "sub": "Un sistema económico es una estructura diseñada para gestionar los recursos de una sociedad, con el fin de producir bienes y servicios que satisfagan las necesidades y deseos de sus habitantes. Estos recursos, como la tierra, el trabajo y el capital, son limitados, lo que obliga a tomar decisiones sobre cómo usarlos eficientemente. En términos sencillos, se trata de la manera en que una sociedad organiza la producción y distribución de estos recursos para lograr el bienestar general."
+                  },
+                  {
+                    "subtitulo": "Tipos de sistemas económicos",
+                    "sub": "Existen diferentes formas de organizar una economía, pero los dos enfoques más conocidos son el **capitalismo** y el **socialismo**. El **capitalismo** defiende la libertad de mercado y la propiedad privada, donde las decisiones económicas son tomadas por los individuos y empresas. En contraste, el **socialismo** aboga por la propiedad colectiva, donde el Estado regula la economía y distribuye los recursos. Además, existe un modelo intermedio llamado **economía mixta**, que combina elementos de ambos sistemas, ajustando la intervención estatal según las necesidades y particularidades de cada país."
+                  },
+                  {
+                    "subtitulo": "Objetivo de un sistema económico",
+                    "sub": "El principal objetivo de un sistema económico es resolver los problemas fundamentales de la economía: qué producir, cómo producirlo, para quién producirlo y cómo generar crecimiento económico. La administración de estos recursos tiene como propósito satisfacer las **necesidades humanas**, que van desde las más básicas (como la **alimentación**) hasta las más complejas (como el acceso a **educación superior** o servicios de **salud avanzados**). En este sentido, la economía también se ocupa de la **escasez**, ya que no se pueden producir todos los bienes y servicios deseados debido a las limitaciones de los recursos disponibles."
+                  },
+                  {
+                    "subtitulo": "Componentes del sistema económico",
+                    "sub": "Los sistemas económicos están formados por diversos componentes que interactúan entre sí:\n\n1. **Bienes y servicios**: Son los productos que satisfacen nuestras necesidades y deseos.\n\n2. **Agentes económicos**: Son las entidades que participan en la economía. Se destacan las **familias**, que toman decisiones sobre consumo y ahorro; las **empresas**, que producen bienes y servicios; y el **Estado**, que regula y distribuye recursos, además de imponer impuestos.\n\n3. **Factores productivos**: Son los recursos necesarios para producir bienes y servicios, como la **tierra**, el **trabajo** y el **capital**. Estos se organizan y se utilizan de manera diferente en cada sistema económico."
+                  },
+                  {
+                    "subtitulo": "La economía en la vida diaria",
+                    "sub": "La economía no solo es un concepto abstracto; afecta directamente a nuestra vida cotidiana. En primer lugar, la gestión de las **finanzas personales** es un reflejo de los principios económicos en acción. Al administrar correctamente nuestros ingresos y gastos, podemos satisfacer nuestras necesidades y ahorrar para el futuro. Esta es la esencia de la economía en la vida personal: maximizar el uso de recursos limitados.\n\nAdemás, la economía está profundamente vinculada al desarrollo de la sociedad. Las decisiones económicas de los **gobiernos** influyen en el bienestar colectivo, ya sea a través de la creación de **empleo**, el control de la **inflación** o la provisión de **servicios públicos**. Un sistema económico bien gestionado puede llevar a una mayor prosperidad y crecimiento."
+                  },
+                  {
+                    "subtitulo": "Impacto de la economía en las empresas",
+                    "sub": "Las **empresas** son un pilar fundamental en cualquier sistema económico, ya que no solo crean bienes y servicios, sino que también generan **empleo**. La salud de las empresas influye directamente en la estabilidad económica, ya que una caída en la actividad empresarial puede resultar en pérdida de empleos y una disminución en el bienestar social. A su vez, las empresas dependen de las economías domésticas (**familias**), tanto como consumidores de productos como fuentes de trabajo."
+                  },
+                  {
+                    "subtitulo": "El proceso económico y sus etapas",
+                    "sub": "El proceso económico abarca varias etapas clave:\n\n1. **Producción**: Es la creación de bienes y servicios.\n\n2. **Circulación y distribución**: Es el proceso mediante el cual los productos llegan a los mercados.\n\n3. **Comercialización**: Implica la venta de los bienes y servicios.\n\n4. **Consumo**: Es el uso de estos productos para satisfacer las necesidades de los consumidores.\n\n5. **Inversión**: Los ingresos generados en la actividad económica se destinan a la creación de nuevos bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "La importancia de la economía",
+                    "sub": "La economía es fundamental porque permite la organización y el desarrollo de la sociedad. A nivel personal, nos ayuda a gestionar los recursos que tenemos de manera efectiva para alcanzar nuestras metas. A nivel nacional, un sistema económico saludable contribuye a la **prosperidad**, la creación de **empleo** y el bienestar social.\n\nEntender cómo funciona la economía nos ayuda a tomar decisiones informadas, no solo sobre nuestras finanzas personales, sino también sobre el impacto de nuestras decisiones en la sociedad. En este sentido, la economía no es solo una herramienta académica, sino un medio para mejorar nuestra calidad de vida."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "video",
+              "id": "c2",
+              "title": "Oferta y demanda: Conceptos clave en la economía.",
+              "tituloOriginal": "Ley de Oferta y Demanda",
+              "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "autor": "Alumno Financiero",
+      
+              "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
+            },
+            {
+              "type": "articulo",
+              "id": "c3",
+              "title": " Rol de los gobiernos y los bancos en el sistema económico.",
+              "tituloOriginal": "El Sistema Economico - Banco de la Republica",
+              "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "autor": "Banco de la República",
+              "contenido": {
+                "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
+                "texto": [
+                  {
+                    "subtitulo": "Rol de los Gobiernos y los Bancos en el Sistema Económico",
+                    "sub": "En una economía moderna, los gobiernos y los bancos desempeñan roles cruciales que influyen directamente en la estabilidad económica y el bienestar social. Estos actores contribuyen a la regulación del sistema económico y a la creación de un entorno propicio para el crecimiento y la prosperidad. El Banco de la República de Colombia y el gobierno, en general, tienen funciones clave relacionadas con la estabilidad monetaria, la regulación financiera, la infraestructura y la promoción de la equidad."
+                  },
+                  {
+                    "subtitulo": "El Banco de la República y su Función en la Economía",
+                    "sub": "El Banco de la República, como órgano autónomo del Estado, tiene la responsabilidad de manejar la política monetaria del país. Su principal objetivo es preservar el poder adquisitivo de la moneda, contribuyendo a estabilizar la producción y el empleo en niveles sostenibles a largo plazo. En este contexto, el Banco ejerce varias funciones esenciales para garantizar la estabilidad económica. Entre estas se incluyen la regulación de la moneda, los cambios internacionales, el crédito y la emisión de la moneda legal colombiana.\n\nUna de las principales competencias del Banco es su capacidad para intervenir en el mercado de divisas, sin fijar una tasa de cambio específica, y regular el crédito en el sistema financiero para mantener la estabilidad. Además, el Banco administra las reservas internacionales y actúa como prestamista y banquero de los establecimientos de crédito. También es responsable de controlar la inflación, lo cual es fundamental para proteger el poder adquisitivo de los ciudadanos y crear un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "El Rol del Gobierno en la Economía",
+                    "sub": "El gobierno, por su parte, desempeña un papel fundamental en la economía de mercado a través de la regulación y provisión de bienes públicos. Según los economistas como Samuelson, el gobierno tiene cuatro funciones principales dentro de una economía de mercado: aumentar la eficiencia, aportar infraestructura, promover la equidad y fomentar la estabilidad y el crecimiento macroeconómicos.\n\n**Eficiencia**: El gobierno debe intervenir para corregir fallas del mercado, como los monopolios y la contaminación, que afectan la eficiencia del sistema económico. Además, debe corregir las externalidades, como los costos sociales derivados de las actividades empresariales.\n\n**Infraestructura**: El gobierno debe proporcionar infraestructura para mejorar la productividad y eficiencia en la economía. Esto incluye sistemas de transporte, energía, comunicación, y servicios educativos y de salud. Dado el alto costo de estas inversiones, es necesario que el gobierno financie estas actividades.\n\n**Equidad**: El gobierno debe asegurar una distribución justa de los ingresos, utilizando los impuestos y el gasto público para redistribuir la riqueza hacia los grupos más vulnerables.\n\n**Estabilidad o Crecimiento Económico**: El gobierno juega un papel crucial en la estabilidad macroeconómica a través de políticas fiscales y monetarias. Las políticas fiscales incluyen el manejo de impuestos y el gasto público, mientras que las políticas monetarias afectan las tasas de interés y las condiciones crediticias. Estas políticas son esenciales para reducir el desempleo, controlar la inflación y fomentar el crecimiento económico."
+                  },
+                  {
+                    "subtitulo": "La Intervención Estatal y su Evolución",
+                    "sub": "El Estado tiene un rol activo en las economías modernas, donde su intervención no se limita solo a la provisión de bienes públicos, sino que también regula mercados y distribuye activos. En países con mayores capacidades, el Estado coordina mercados y regula actividades como el medio ambiente y el sector financiero. Aunque el Estado ya no es el único proveedor de servicios básicos, sigue siendo un actor central en garantizar el acceso a la educación, la salud y otros servicios esenciales.\n\nEn las últimas décadas, las economías han experimentado reformas que han enfatizado la importancia de los fundamentos sociales e institucionales, además de los económicos. A medida que la regulación estatal se ha ampliado, el gobierno sigue siendo responsable de asegurar que todos los ciudadanos tengan acceso a los servicios fundamentales y a un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "El Banco de la República y el gobierno tienen roles complementarios en la gestión económica. El Banco se encarga de la política monetaria, garantizando la estabilidad financiera y el buen funcionamiento del sistema económico. Mientras tanto, el gobierno actúa como regulador y proveedor de infraestructura y bienestar social, con el objetivo de mejorar la eficiencia, promover la equidad y fomentar la estabilidad económica. Juntos, estos actores son fundamentales para crear un entorno económico próspero y estable, beneficiando a los ciudadanos y fortaleciendo la economía nacional."
+                  }
+                ]
+              }
+            }
+            
+          ],
+          "quiz": {
+            "title": "El Sistema Económico",
+            "id": "q1",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de un sistema económico, incluyendo oferta y demanda, así como el rol de los gobiernos y bancos en la economía.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
+                "opciones": [
+                  "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+                  "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+                  "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes.",
+                  "Es un modelo teórico sin implicaciones prácticas en la vida diaria."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+                "opciones": [
+                  "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+                  "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+                  "La cantidad de recursos naturales disponibles en una economía.",
+                  "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+                "opciones": [
+                  "La cantidad de productos que los productores desean vender.",
+                  "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+                  "El precio al cual los bienes se producen.",
+                  "El nivel de producción que los gobiernos imponen."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+                "opciones": [
+                  "Fomentar el consumo a través de la regulación de la oferta de bienes.",
+                  "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+                  "Proporcionar infraestructura y servicios educativos.",
+                  "Monitorear únicamente las grandes empresas y monopolios."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+                "opciones": [
+                  "Corrigiendo fallas del mercado como monopolios y externalidades.",
+                  "Aumentando los precios de todos los productos.",
+                  "Excluyendo a las empresas privadas de la economía.",
+                  "Eliminando toda intervención en el mercado."
+                ],
+                "correcta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c4",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c5",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c6",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q2",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c7",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c8",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c9",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q3",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        }
+      ],
+      "finalExam": {
+        "title": "Introducción al Aprendizaje",
+        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "opciones": [
+              "Acumular datos irrelevantes.",
+              "Relacionar conocimientos nuevos con los existentes.",
+              "Realizar actividades mecánicas.",
+              "Resolver únicamente problemas matemáticos."
+            ],
+            "respuestaCorrecta": 1
+          }
+        ]
+      }
+    },
+    {
+      "moduleId": 2,
+      "moduleTitle": "Produndizacion Finanzas Personales",
+      "desc":"En este módulo, explorarás los fundamentos del sistema económico y su relación con las finanzas personales. Comprender cómo funciona la economía es esencial para tomar mejores decisiones financieras en la vida cotidiana. A lo largo de las secciones, aprenderás sobre conceptos clave como la oferta y la demanda, la inflación, los ciclos económicos y el papel de las instituciones financieras. Además, conocerás cómo los gobiernos y los bancos influyen en la economía y cómo estos factores afectan tus finanzas personales. Este conocimiento te proporcionará una base sólida para gestionar tu dinero de manera más efectiva y anticiparte a los cambios en el entorno económico.",
       "sections": [
         {
           "sectionId": 1,
@@ -96,7 +460,7 @@
             
           ],
           "quiz": {
-            "title": "Quiz: El Sistema Económico",
+            "title": "El Sistema Económico",
             "id": "q1",
             "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de un sistema económico, incluyendo oferta y demanda, así como el rol de los gobiernos y bancos en la economía.",
             "preguntas": [
@@ -189,7 +553,7 @@
             }
           ],
           "quiz": {
-            "title": "Quiz: Conceptos Básicos",
+            "title": "Conceptos Básicos",
             "id":"q2",
             "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
             "preguntas": [
@@ -282,7 +646,7 @@
             }
           ],
           "quiz": {
-            "title": "Quiz: Conceptos Básicos",
+            "title": "Conceptos Básicos",
             "id":"q3",
             "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
             "preguntas": [
@@ -341,7 +705,723 @@
         }
       ],
       "finalExam": {
-        "title": "Examen Final: Introducción al Aprendizaje",
+        "title": "Introducción al Aprendizaje",
+        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "opciones": [
+              "Acumular datos irrelevantes.",
+              "Relacionar conocimientos nuevos con los existentes.",
+              "Realizar actividades mecánicas.",
+              "Resolver únicamente problemas matemáticos."
+            ],
+            "respuestaCorrecta": 1
+          }
+        ]
+      }
+    },
+    {
+      "moduleId": 3,
+      "moduleTitle": "Presupuestacion y Flujo de Caja",
+      "desc":"En este módulo, explorarás los fundamentos del sistema económico y su relación con las finanzas personales. Comprender cómo funciona la economía es esencial para tomar mejores decisiones financieras en la vida cotidiana. A lo largo de las secciones, aprenderás sobre conceptos clave como la oferta y la demanda, la inflación, los ciclos económicos y el papel de las instituciones financieras. Además, conocerás cómo los gobiernos y los bancos influyen en la economía y cómo estos factores afectan tus finanzas personales. Este conocimiento te proporcionará una base sólida para gestionar tu dinero de manera más efectiva y anticiparte a los cambios en el entorno económico.",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Entendiendo un Sistema Económico",
+          "activities": [
+            {
+              "type": "articulo",
+              "id": "c1",
+              "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
+              "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
+              "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "contenido": {
+                "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "Introducción",
+                    "sub": "Un sistema económico es una estructura diseñada para gestionar los recursos de una sociedad, con el fin de producir bienes y servicios que satisfagan las necesidades y deseos de sus habitantes. Estos recursos, como la tierra, el trabajo y el capital, son limitados, lo que obliga a tomar decisiones sobre cómo usarlos eficientemente. En términos sencillos, se trata de la manera en que una sociedad organiza la producción y distribución de estos recursos para lograr el bienestar general."
+                  },
+                  {
+                    "subtitulo": "Tipos de sistemas económicos",
+                    "sub": "Existen diferentes formas de organizar una economía, pero los dos enfoques más conocidos son el **capitalismo** y el **socialismo**. El **capitalismo** defiende la libertad de mercado y la propiedad privada, donde las decisiones económicas son tomadas por los individuos y empresas. En contraste, el **socialismo** aboga por la propiedad colectiva, donde el Estado regula la economía y distribuye los recursos. Además, existe un modelo intermedio llamado **economía mixta**, que combina elementos de ambos sistemas, ajustando la intervención estatal según las necesidades y particularidades de cada país."
+                  },
+                  {
+                    "subtitulo": "Objetivo de un sistema económico",
+                    "sub": "El principal objetivo de un sistema económico es resolver los problemas fundamentales de la economía: qué producir, cómo producirlo, para quién producirlo y cómo generar crecimiento económico. La administración de estos recursos tiene como propósito satisfacer las **necesidades humanas**, que van desde las más básicas (como la **alimentación**) hasta las más complejas (como el acceso a **educación superior** o servicios de **salud avanzados**). En este sentido, la economía también se ocupa de la **escasez**, ya que no se pueden producir todos los bienes y servicios deseados debido a las limitaciones de los recursos disponibles."
+                  },
+                  {
+                    "subtitulo": "Componentes del sistema económico",
+                    "sub": "Los sistemas económicos están formados por diversos componentes que interactúan entre sí:\n\n1. **Bienes y servicios**: Son los productos que satisfacen nuestras necesidades y deseos.\n\n2. **Agentes económicos**: Son las entidades que participan en la economía. Se destacan las **familias**, que toman decisiones sobre consumo y ahorro; las **empresas**, que producen bienes y servicios; y el **Estado**, que regula y distribuye recursos, además de imponer impuestos.\n\n3. **Factores productivos**: Son los recursos necesarios para producir bienes y servicios, como la **tierra**, el **trabajo** y el **capital**. Estos se organizan y se utilizan de manera diferente en cada sistema económico."
+                  },
+                  {
+                    "subtitulo": "La economía en la vida diaria",
+                    "sub": "La economía no solo es un concepto abstracto; afecta directamente a nuestra vida cotidiana. En primer lugar, la gestión de las **finanzas personales** es un reflejo de los principios económicos en acción. Al administrar correctamente nuestros ingresos y gastos, podemos satisfacer nuestras necesidades y ahorrar para el futuro. Esta es la esencia de la economía en la vida personal: maximizar el uso de recursos limitados.\n\nAdemás, la economía está profundamente vinculada al desarrollo de la sociedad. Las decisiones económicas de los **gobiernos** influyen en el bienestar colectivo, ya sea a través de la creación de **empleo**, el control de la **inflación** o la provisión de **servicios públicos**. Un sistema económico bien gestionado puede llevar a una mayor prosperidad y crecimiento."
+                  },
+                  {
+                    "subtitulo": "Impacto de la economía en las empresas",
+                    "sub": "Las **empresas** son un pilar fundamental en cualquier sistema económico, ya que no solo crean bienes y servicios, sino que también generan **empleo**. La salud de las empresas influye directamente en la estabilidad económica, ya que una caída en la actividad empresarial puede resultar en pérdida de empleos y una disminución en el bienestar social. A su vez, las empresas dependen de las economías domésticas (**familias**), tanto como consumidores de productos como fuentes de trabajo."
+                  },
+                  {
+                    "subtitulo": "El proceso económico y sus etapas",
+                    "sub": "El proceso económico abarca varias etapas clave:\n\n1. **Producción**: Es la creación de bienes y servicios.\n\n2. **Circulación y distribución**: Es el proceso mediante el cual los productos llegan a los mercados.\n\n3. **Comercialización**: Implica la venta de los bienes y servicios.\n\n4. **Consumo**: Es el uso de estos productos para satisfacer las necesidades de los consumidores.\n\n5. **Inversión**: Los ingresos generados en la actividad económica se destinan a la creación de nuevos bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "La importancia de la economía",
+                    "sub": "La economía es fundamental porque permite la organización y el desarrollo de la sociedad. A nivel personal, nos ayuda a gestionar los recursos que tenemos de manera efectiva para alcanzar nuestras metas. A nivel nacional, un sistema económico saludable contribuye a la **prosperidad**, la creación de **empleo** y el bienestar social.\n\nEntender cómo funciona la economía nos ayuda a tomar decisiones informadas, no solo sobre nuestras finanzas personales, sino también sobre el impacto de nuestras decisiones en la sociedad. En este sentido, la economía no es solo una herramienta académica, sino un medio para mejorar nuestra calidad de vida."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "video",
+              "id": "c2",
+              "title": "Oferta y demanda: Conceptos clave en la economía.",
+              "tituloOriginal": "Ley de Oferta y Demanda",
+              "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
+            },
+            {
+              "type": "articulo",
+              "id": "c3",
+              "title": " Rol de los gobiernos y los bancos en el sistema económico.",
+              "tituloOriginal": "El Sistema Economico - Banco de la Republica",
+              "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "contenido": {
+                "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
+                "texto": [
+                  {
+                    "subtitulo": "Rol de los Gobiernos y los Bancos en el Sistema Económico",
+                    "sub": "En una economía moderna, los gobiernos y los bancos desempeñan roles cruciales que influyen directamente en la estabilidad económica y el bienestar social. Estos actores contribuyen a la regulación del sistema económico y a la creación de un entorno propicio para el crecimiento y la prosperidad. El Banco de la República de Colombia y el gobierno, en general, tienen funciones clave relacionadas con la estabilidad monetaria, la regulación financiera, la infraestructura y la promoción de la equidad."
+                  },
+                  {
+                    "subtitulo": "El Banco de la República y su Función en la Economía",
+                    "sub": "El Banco de la República, como órgano autónomo del Estado, tiene la responsabilidad de manejar la política monetaria del país. Su principal objetivo es preservar el poder adquisitivo de la moneda, contribuyendo a estabilizar la producción y el empleo en niveles sostenibles a largo plazo. En este contexto, el Banco ejerce varias funciones esenciales para garantizar la estabilidad económica. Entre estas se incluyen la regulación de la moneda, los cambios internacionales, el crédito y la emisión de la moneda legal colombiana.\n\nUna de las principales competencias del Banco es su capacidad para intervenir en el mercado de divisas, sin fijar una tasa de cambio específica, y regular el crédito en el sistema financiero para mantener la estabilidad. Además, el Banco administra las reservas internacionales y actúa como prestamista y banquero de los establecimientos de crédito. También es responsable de controlar la inflación, lo cual es fundamental para proteger el poder adquisitivo de los ciudadanos y crear un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "El Rol del Gobierno en la Economía",
+                    "sub": "El gobierno, por su parte, desempeña un papel fundamental en la economía de mercado a través de la regulación y provisión de bienes públicos. Según los economistas como Samuelson, el gobierno tiene cuatro funciones principales dentro de una economía de mercado: aumentar la eficiencia, aportar infraestructura, promover la equidad y fomentar la estabilidad y el crecimiento macroeconómicos.\n\n**Eficiencia**: El gobierno debe intervenir para corregir fallas del mercado, como los monopolios y la contaminación, que afectan la eficiencia del sistema económico. Además, debe corregir las externalidades, como los costos sociales derivados de las actividades empresariales.\n\n**Infraestructura**: El gobierno debe proporcionar infraestructura para mejorar la productividad y eficiencia en la economía. Esto incluye sistemas de transporte, energía, comunicación, y servicios educativos y de salud. Dado el alto costo de estas inversiones, es necesario que el gobierno financie estas actividades.\n\n**Equidad**: El gobierno debe asegurar una distribución justa de los ingresos, utilizando los impuestos y el gasto público para redistribuir la riqueza hacia los grupos más vulnerables.\n\n**Estabilidad o Crecimiento Económico**: El gobierno juega un papel crucial en la estabilidad macroeconómica a través de políticas fiscales y monetarias. Las políticas fiscales incluyen el manejo de impuestos y el gasto público, mientras que las políticas monetarias afectan las tasas de interés y las condiciones crediticias. Estas políticas son esenciales para reducir el desempleo, controlar la inflación y fomentar el crecimiento económico."
+                  },
+                  {
+                    "subtitulo": "La Intervención Estatal y su Evolución",
+                    "sub": "El Estado tiene un rol activo en las economías modernas, donde su intervención no se limita solo a la provisión de bienes públicos, sino que también regula mercados y distribuye activos. En países con mayores capacidades, el Estado coordina mercados y regula actividades como el medio ambiente y el sector financiero. Aunque el Estado ya no es el único proveedor de servicios básicos, sigue siendo un actor central en garantizar el acceso a la educación, la salud y otros servicios esenciales.\n\nEn las últimas décadas, las economías han experimentado reformas que han enfatizado la importancia de los fundamentos sociales e institucionales, además de los económicos. A medida que la regulación estatal se ha ampliado, el gobierno sigue siendo responsable de asegurar que todos los ciudadanos tengan acceso a los servicios fundamentales y a un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "El Banco de la República y el gobierno tienen roles complementarios en la gestión económica. El Banco se encarga de la política monetaria, garantizando la estabilidad financiera y el buen funcionamiento del sistema económico. Mientras tanto, el gobierno actúa como regulador y proveedor de infraestructura y bienestar social, con el objetivo de mejorar la eficiencia, promover la equidad y fomentar la estabilidad económica. Juntos, estos actores son fundamentales para crear un entorno económico próspero y estable, beneficiando a los ciudadanos y fortaleciendo la economía nacional."
+                  }
+                ]
+              }
+            }
+            
+          ],
+          "quiz": {
+            "title": "El Sistema Económico",
+            "id": "q1",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de un sistema económico, incluyendo oferta y demanda, así como el rol de los gobiernos y bancos en la economía.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
+                "opciones": [
+                  "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+                  "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+                  "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes.",
+                  "Es un modelo teórico sin implicaciones prácticas en la vida diaria."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+                "opciones": [
+                  "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+                  "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+                  "La cantidad de recursos naturales disponibles en una economía.",
+                  "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+                "opciones": [
+                  "La cantidad de productos que los productores desean vender.",
+                  "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+                  "El precio al cual los bienes se producen.",
+                  "El nivel de producción que los gobiernos imponen."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+                "opciones": [
+                  "Fomentar el consumo a través de la regulación de la oferta de bienes.",
+                  "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+                  "Proporcionar infraestructura y servicios educativos.",
+                  "Monitorear únicamente las grandes empresas y monopolios."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+                "opciones": [
+                  "Corrigiendo fallas del mercado como monopolios y externalidades.",
+                  "Aumentando los precios de todos los productos.",
+                  "Excluyendo a las empresas privadas de la economía.",
+                  "Eliminando toda intervención en el mercado."
+                ],
+                "correcta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c4",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c5",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c6",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q2",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c7",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c8",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c9",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q3",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        }
+      ],
+      "finalExam": {
+        "title": "Introducción al Aprendizaje",
+        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+        "preguntas": [
+          {
+            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "opciones": [
+              "Acumular datos irrelevantes.",
+              "Relacionar conocimientos nuevos con los existentes.",
+              "Realizar actividades mecánicas.",
+              "Resolver únicamente problemas matemáticos."
+            ],
+            "respuestaCorrecta": 1
+          }
+        ]
+      }
+    },
+    {
+      "moduleId": 4,
+      "moduleTitle": "Ampliando horizontes",
+      "desc":"En este módulo, explorarás los fundamentos del sistema económico y su relación con las finanzas personales. Comprender cómo funciona la economía es esencial para tomar mejores decisiones financieras en la vida cotidiana. A lo largo de las secciones, aprenderás sobre conceptos clave como la oferta y la demanda, la inflación, los ciclos económicos y el papel de las instituciones financieras. Además, conocerás cómo los gobiernos y los bancos influyen en la economía y cómo estos factores afectan tus finanzas personales. Este conocimiento te proporcionará una base sólida para gestionar tu dinero de manera más efectiva y anticiparte a los cambios en el entorno económico.",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionTitle": "Entendiendo un Sistema Económico",
+          "activities": [
+            {
+              "type": "articulo",
+              "id": "c1",
+              "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
+              "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
+              "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "contenido": {
+                "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "Introducción",
+                    "sub": "Un sistema económico es una estructura diseñada para gestionar los recursos de una sociedad, con el fin de producir bienes y servicios que satisfagan las necesidades y deseos de sus habitantes. Estos recursos, como la tierra, el trabajo y el capital, son limitados, lo que obliga a tomar decisiones sobre cómo usarlos eficientemente. En términos sencillos, se trata de la manera en que una sociedad organiza la producción y distribución de estos recursos para lograr el bienestar general."
+                  },
+                  {
+                    "subtitulo": "Tipos de sistemas económicos",
+                    "sub": "Existen diferentes formas de organizar una economía, pero los dos enfoques más conocidos son el **capitalismo** y el **socialismo**. El **capitalismo** defiende la libertad de mercado y la propiedad privada, donde las decisiones económicas son tomadas por los individuos y empresas. En contraste, el **socialismo** aboga por la propiedad colectiva, donde el Estado regula la economía y distribuye los recursos. Además, existe un modelo intermedio llamado **economía mixta**, que combina elementos de ambos sistemas, ajustando la intervención estatal según las necesidades y particularidades de cada país."
+                  },
+                  {
+                    "subtitulo": "Objetivo de un sistema económico",
+                    "sub": "El principal objetivo de un sistema económico es resolver los problemas fundamentales de la economía: qué producir, cómo producirlo, para quién producirlo y cómo generar crecimiento económico. La administración de estos recursos tiene como propósito satisfacer las **necesidades humanas**, que van desde las más básicas (como la **alimentación**) hasta las más complejas (como el acceso a **educación superior** o servicios de **salud avanzados**). En este sentido, la economía también se ocupa de la **escasez**, ya que no se pueden producir todos los bienes y servicios deseados debido a las limitaciones de los recursos disponibles."
+                  },
+                  {
+                    "subtitulo": "Componentes del sistema económico",
+                    "sub": "Los sistemas económicos están formados por diversos componentes que interactúan entre sí:\n\n1. **Bienes y servicios**: Son los productos que satisfacen nuestras necesidades y deseos.\n\n2. **Agentes económicos**: Son las entidades que participan en la economía. Se destacan las **familias**, que toman decisiones sobre consumo y ahorro; las **empresas**, que producen bienes y servicios; y el **Estado**, que regula y distribuye recursos, además de imponer impuestos.\n\n3. **Factores productivos**: Son los recursos necesarios para producir bienes y servicios, como la **tierra**, el **trabajo** y el **capital**. Estos se organizan y se utilizan de manera diferente en cada sistema económico."
+                  },
+                  {
+                    "subtitulo": "La economía en la vida diaria",
+                    "sub": "La economía no solo es un concepto abstracto; afecta directamente a nuestra vida cotidiana. En primer lugar, la gestión de las **finanzas personales** es un reflejo de los principios económicos en acción. Al administrar correctamente nuestros ingresos y gastos, podemos satisfacer nuestras necesidades y ahorrar para el futuro. Esta es la esencia de la economía en la vida personal: maximizar el uso de recursos limitados.\n\nAdemás, la economía está profundamente vinculada al desarrollo de la sociedad. Las decisiones económicas de los **gobiernos** influyen en el bienestar colectivo, ya sea a través de la creación de **empleo**, el control de la **inflación** o la provisión de **servicios públicos**. Un sistema económico bien gestionado puede llevar a una mayor prosperidad y crecimiento."
+                  },
+                  {
+                    "subtitulo": "Impacto de la economía en las empresas",
+                    "sub": "Las **empresas** son un pilar fundamental en cualquier sistema económico, ya que no solo crean bienes y servicios, sino que también generan **empleo**. La salud de las empresas influye directamente en la estabilidad económica, ya que una caída en la actividad empresarial puede resultar en pérdida de empleos y una disminución en el bienestar social. A su vez, las empresas dependen de las economías domésticas (**familias**), tanto como consumidores de productos como fuentes de trabajo."
+                  },
+                  {
+                    "subtitulo": "El proceso económico y sus etapas",
+                    "sub": "El proceso económico abarca varias etapas clave:\n\n1. **Producción**: Es la creación de bienes y servicios.\n\n2. **Circulación y distribución**: Es el proceso mediante el cual los productos llegan a los mercados.\n\n3. **Comercialización**: Implica la venta de los bienes y servicios.\n\n4. **Consumo**: Es el uso de estos productos para satisfacer las necesidades de los consumidores.\n\n5. **Inversión**: Los ingresos generados en la actividad económica se destinan a la creación de nuevos bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "La importancia de la economía",
+                    "sub": "La economía es fundamental porque permite la organización y el desarrollo de la sociedad. A nivel personal, nos ayuda a gestionar los recursos que tenemos de manera efectiva para alcanzar nuestras metas. A nivel nacional, un sistema económico saludable contribuye a la **prosperidad**, la creación de **empleo** y el bienestar social.\n\nEntender cómo funciona la economía nos ayuda a tomar decisiones informadas, no solo sobre nuestras finanzas personales, sino también sobre el impacto de nuestras decisiones en la sociedad. En este sentido, la economía no es solo una herramienta académica, sino un medio para mejorar nuestra calidad de vida."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "video",
+              "id": "c2",
+              "title": "Oferta y demanda: Conceptos clave en la economía.",
+              "tituloOriginal": "Ley de Oferta y Demanda",
+              "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
+            },
+            {
+              "type": "articulo",
+              "id": "c3",
+              "title": " Rol de los gobiernos y los bancos en el sistema económico.",
+              "tituloOriginal": "El Sistema Economico - Banco de la Republica",
+              "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "contenido": {
+                "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
+                "texto": [
+                  {
+                    "subtitulo": "Rol de los Gobiernos y los Bancos en el Sistema Económico",
+                    "sub": "En una economía moderna, los gobiernos y los bancos desempeñan roles cruciales que influyen directamente en la estabilidad económica y el bienestar social. Estos actores contribuyen a la regulación del sistema económico y a la creación de un entorno propicio para el crecimiento y la prosperidad. El Banco de la República de Colombia y el gobierno, en general, tienen funciones clave relacionadas con la estabilidad monetaria, la regulación financiera, la infraestructura y la promoción de la equidad."
+                  },
+                  {
+                    "subtitulo": "El Banco de la República y su Función en la Economía",
+                    "sub": "El Banco de la República, como órgano autónomo del Estado, tiene la responsabilidad de manejar la política monetaria del país. Su principal objetivo es preservar el poder adquisitivo de la moneda, contribuyendo a estabilizar la producción y el empleo en niveles sostenibles a largo plazo. En este contexto, el Banco ejerce varias funciones esenciales para garantizar la estabilidad económica. Entre estas se incluyen la regulación de la moneda, los cambios internacionales, el crédito y la emisión de la moneda legal colombiana.\n\nUna de las principales competencias del Banco es su capacidad para intervenir en el mercado de divisas, sin fijar una tasa de cambio específica, y regular el crédito en el sistema financiero para mantener la estabilidad. Además, el Banco administra las reservas internacionales y actúa como prestamista y banquero de los establecimientos de crédito. También es responsable de controlar la inflación, lo cual es fundamental para proteger el poder adquisitivo de los ciudadanos y crear un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "El Rol del Gobierno en la Economía",
+                    "sub": "El gobierno, por su parte, desempeña un papel fundamental en la economía de mercado a través de la regulación y provisión de bienes públicos. Según los economistas como Samuelson, el gobierno tiene cuatro funciones principales dentro de una economía de mercado: aumentar la eficiencia, aportar infraestructura, promover la equidad y fomentar la estabilidad y el crecimiento macroeconómicos.\n\n**Eficiencia**: El gobierno debe intervenir para corregir fallas del mercado, como los monopolios y la contaminación, que afectan la eficiencia del sistema económico. Además, debe corregir las externalidades, como los costos sociales derivados de las actividades empresariales.\n\n**Infraestructura**: El gobierno debe proporcionar infraestructura para mejorar la productividad y eficiencia en la economía. Esto incluye sistemas de transporte, energía, comunicación, y servicios educativos y de salud. Dado el alto costo de estas inversiones, es necesario que el gobierno financie estas actividades.\n\n**Equidad**: El gobierno debe asegurar una distribución justa de los ingresos, utilizando los impuestos y el gasto público para redistribuir la riqueza hacia los grupos más vulnerables.\n\n**Estabilidad o Crecimiento Económico**: El gobierno juega un papel crucial en la estabilidad macroeconómica a través de políticas fiscales y monetarias. Las políticas fiscales incluyen el manejo de impuestos y el gasto público, mientras que las políticas monetarias afectan las tasas de interés y las condiciones crediticias. Estas políticas son esenciales para reducir el desempleo, controlar la inflación y fomentar el crecimiento económico."
+                  },
+                  {
+                    "subtitulo": "La Intervención Estatal y su Evolución",
+                    "sub": "El Estado tiene un rol activo en las economías modernas, donde su intervención no se limita solo a la provisión de bienes públicos, sino que también regula mercados y distribuye activos. En países con mayores capacidades, el Estado coordina mercados y regula actividades como el medio ambiente y el sector financiero. Aunque el Estado ya no es el único proveedor de servicios básicos, sigue siendo un actor central en garantizar el acceso a la educación, la salud y otros servicios esenciales.\n\nEn las últimas décadas, las economías han experimentado reformas que han enfatizado la importancia de los fundamentos sociales e institucionales, además de los económicos. A medida que la regulación estatal se ha ampliado, el gobierno sigue siendo responsable de asegurar que todos los ciudadanos tengan acceso a los servicios fundamentales y a un entorno económico estable."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "El Banco de la República y el gobierno tienen roles complementarios en la gestión económica. El Banco se encarga de la política monetaria, garantizando la estabilidad financiera y el buen funcionamiento del sistema económico. Mientras tanto, el gobierno actúa como regulador y proveedor de infraestructura y bienestar social, con el objetivo de mejorar la eficiencia, promover la equidad y fomentar la estabilidad económica. Juntos, estos actores son fundamentales para crear un entorno económico próspero y estable, beneficiando a los ciudadanos y fortaleciendo la economía nacional."
+                  }
+                ]
+              }
+            }
+            
+          ],
+          "quiz": {
+            "title": "El Sistema Económico",
+            "id": "q1",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de un sistema económico, incluyendo oferta y demanda, así como el rol de los gobiernos y bancos en la economía.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
+                "opciones": [
+                  "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+                  "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+                  "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes.",
+                  "Es un modelo teórico sin implicaciones prácticas en la vida diaria."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+                "opciones": [
+                  "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+                  "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+                  "La cantidad de recursos naturales disponibles en una economía.",
+                  "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+                "opciones": [
+                  "La cantidad de productos que los productores desean vender.",
+                  "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+                  "El precio al cual los bienes se producen.",
+                  "El nivel de producción que los gobiernos imponen."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+                "opciones": [
+                  "Fomentar el consumo a través de la regulación de la oferta de bienes.",
+                  "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+                  "Proporcionar infraestructura y servicios educativos.",
+                  "Monitorear únicamente las grandes empresas y monopolios."
+                ],
+                "correcta": 2
+              },
+              {
+                "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+                "opciones": [
+                  "Corrigiendo fallas del mercado como monopolios y externalidades.",
+                  "Aumentando los precios de todos los productos.",
+                  "Excluyendo a las empresas privadas de la economía.",
+                  "Eliminando toda intervención en el mercado."
+                ],
+                "correcta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 2,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c4",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c5",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c6",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q2",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": 3,
+          "sectionTitle": "Conceptos Básicos",
+          "activities": [
+            {
+              "type": "video",
+              "id": "c7",
+              "title": "¿Qué es el aprendizaje?",
+              "tituloOriginal": "What is Learning?",
+              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
+              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+            },
+            {
+              "type": "video",
+              "id": "c8",
+              "title": "Historia del aprendizaje",
+              "tituloOriginal": "History of Learning",
+              "url": "https://example.com/video2",
+              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+            },
+            {
+              "type": "articulo",
+              "id": "c9",
+              "title": "Lectura: Fundamentos del aprendizaje",
+              "tituloOriginal": "Reading: Learning Fundamentals",
+              "url": "https://example.com/reading1",
+              "contenido": {
+                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "texto": [
+                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
+                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
+                ]
+              }
+            }
+          ],
+          "quiz": {
+            "title": "Conceptos Básicos",
+            "id":"q3",
+            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "preguntas": [
+              {
+                "pregunta": "¿Qué es el aprendizaje?",
+                "opciones": [
+                  "Un proceso de adquisición de conocimientos.",
+                  "Una actividad física intensa.",
+                  "Un evento social exclusivamente.",
+                  "Un fenómeno sin propósito claro."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "opciones": [
+                  "La memoria.",
+                  "El clima.",
+                  "La edad exclusivamente.",
+                  "Los viajes."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "opciones": [
+                  "Es mecánico y repetitivo.",
+                  "Es irrelevante para el contexto.",
+                  "Conecta nuevos conocimientos con los previos.",
+                  "Depende exclusivamente de exámenes."
+                ],
+                "respuestaCorrecta": 2
+              },
+              {
+                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "opciones": [
+                  "Lev Vygotsky.",
+                  "Charles Darwin.",
+                  "Isaac Newton.",
+                  "Galileo Galilei."
+                ],
+                "respuestaCorrecta": 0
+              },
+              {
+                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "opciones": [
+                  "Que un maestro controla todas las actividades.",
+                  "Que el estudiante asume responsabilidad en su proceso.",
+                  "Que no se necesita planificación.",
+                  "Que no hay objetivos claros."
+                ],
+                "respuestaCorrecta": 1
+              }
+            ]
+          }
+        }
+      ],
+      "finalExam": {
+        "title": "Introducción al Aprendizaje",
         "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
         "preguntas": [
           {

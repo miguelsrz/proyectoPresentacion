@@ -5,7 +5,7 @@ import linkedin from "../../public/assets/icons/linkedin.svg";
 import instagram from "../../public/assets/icons/instagram.svg";
 import left from "../../public/assets/icons/arrowLeft.svg";
 
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -47,15 +47,17 @@ const Footer = () => {
                 <img className="h-7" src={left} alt="" />
               </div>
             </button>
-            <button
-              onClick={() => goToGestor()}
-              className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
+            <Link
+              to={"https://focus.42web.io/"}
+              className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold hover:bg-purple-600"
             >
-              <div className="flex h-full items-center justify-center">
-                <p className="line-clamp-1">Gestor Financiero</p>
-                <img className="h-7" src={left} alt="" />
-              </div>
-            </button>
+              <button className="h-full w-full">
+                <div className="flex h-full items-center justify-center">
+                  <p className="line-clamp-1">Gestor Financiero</p>
+                  <img className="h-7" src={left} alt="" />
+                </div>
+              </button>
+            </Link>
           </div>
 
           <div className="">
@@ -188,15 +190,7 @@ const Footer = () => {
                       <img className="h-full w-full" src={github} alt="" />
                     </figure>
                   </a>
-                  <a
-                    target="_blank"
-                    href=""
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={linkedin} alt="" />
-                    </figure>
-                  </a>
+
                   <a
                     target="_blank"
                     href=""
@@ -212,24 +206,6 @@ const Footer = () => {
               <div className="flex flex-col gap-2">
                 <p>Cristian Rodolfo Parada Estupiñan</p>
                 <div className="flex w-full flex-row gap-4">
-                  <a
-                    target="_blank"
-                    href="https://github.com/miguelsrz"
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
-                    </figure>
-                  </a>
-                  <a
-                    target="_blank"
-                    href=""
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={linkedin} alt="" />
-                    </figure>
-                  </a>
                   <a
                     target="_blank"
                     href=""

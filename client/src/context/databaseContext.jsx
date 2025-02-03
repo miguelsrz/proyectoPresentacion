@@ -19,13 +19,23 @@ export const DatabaseProvider = ({ children }) => {
   };
 
   // Función para obtener progreso del usuario
-  const fetchProgreso = async (usuarioId) => {
+  const fetchProgreso = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`${apiURL}/progreso?usuario_id=${usuarioId}`);
-      if (!res.ok) throw new Error("Error al obtener el progreso");
+      const token = localStorage.getItem("token");
+      console.log("Respuesta de Local:", token);
+      if (!token) throw new Error("No autenticado");
+
+      const res = await fetch(`${apiURL}/progreso`, {
+        headers: { Authorization: `${token}` },
+      });
+      console.log("Respuesta de la API:", res);
+
+      if (!res.ok) throw new Error("Error al obtener progreso");
+
       const data = await res.json();
       const progresoIDS = data.map((p) => p.contenido_id);
+
       localStorage.setItem("progreso", JSON.stringify(progresoIDS));
       setProgreso(progresoIDS);
       console.log(progresoIDS);
@@ -39,20 +49,25 @@ export const DatabaseProvider = ({ children }) => {
   };
 
   // Función para actualizar progreso
-  const updateProgreso = async (usuarioId, contenidoId, visto) => {
+  const updateProgreso = async (contenidoId, visto) => {
     try {
       setLoading(true);
+
+      const token = localStorage.getItem("token");
+      if (!token) throw new Error("No autenticado");
+
       const res = await fetch(`${apiURL}/progreso`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          usuario_id: usuarioId,
-          contenido_id: contenidoId,
-          visto,
-        }),
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `${token}`,
+        },
+        body: JSON.stringify({ contenido_id: contenidoId, visto }),
       });
+      console.log("Respuesta de la API:", res);
+
       if (!res.ok) throw new Error("Error al actualizar el progreso");
-      const updatedProgreso = await fetchProgreso(usuarioId);
+      const updatedProgreso = await fetchProgreso();
       return updatedProgreso; // Retorna el array actualizado
     } catch (err) {
       handleFetchError(err);
@@ -63,16 +78,27 @@ export const DatabaseProvider = ({ children }) => {
   };
 
   // Función para obtener puntajes del usuario
-  const fetchPuntajes = async (usuarioId) => {
+  const fetchPuntajes = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`${apiURL}/puntajes?usuario_id=${usuarioId}`);
-      if (!res.ok) throw new Error("Error al obtener los puntajes");
+
+      const token = localStorage.getItem("token");
+      if (!token) throw new Error("No autenticado");
+
+      const res = await fetch(`${apiURL}/puntajes`, {
+        headers: { Authorization: `${token}` },
+      });
+
+      if (!res.ok) {
+        const errorData = await res.json(); // Para capturar detalles del error en el servidor
+        throw new Error(errorData.message || "Error al actualizar el progreso");
+      }
       const data = await res.json();
       const puntajes = data.map((p) => ({
         quiz: p.quiz_id,
         puntaje: p.puntaje,
       }));
+
       localStorage.setItem("puntajes", JSON.stringify(puntajes));
       console.log(puntajes);
       setPuntajes(puntajes);
@@ -86,20 +112,36 @@ export const DatabaseProvider = ({ children }) => {
   };
 
   // Función para registrar puntaje
-  const registerPuntaje = async (usuarioId, quizId, puntaje) => {
+  const registerPuntaje = async (quizId, puntaje) => {
     try {
       setLoading(true);
+
+      const token = localStorage.getItem("token");
+      if (!token) throw new Error("No autenticado");
+
+      const completado = puntajes.some((obj) => obj.quiz === quizId);
+      console.log(completado);
+
       const res = await fetch(`${apiURL}/puntajes`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `${token}`,
+        },
+
         body: JSON.stringify({
-          usuario_id: usuarioId,
           quiz_id: quizId,
           puntaje,
+          completado,
         }),
       });
-      if (!res.ok) throw new Error("Error al registrar el puntaje");
-      const updatedPuntajes = await fetchPuntajes(usuarioId);
+
+      if (!res.ok) {
+        const errorData = await res.json(); // Para capturar detalles del error en el servidor
+        throw new Error(errorData.message || "Error al actualizar el progreso");
+      }
+
+      const updatedPuntajes = await fetchPuntajes();
       return updatedPuntajes; // Retorna el array actualizado
     } catch (err) {
       handleFetchError(err);
