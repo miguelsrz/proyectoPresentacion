@@ -222,7 +222,7 @@ const Footer = () => {
                 <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
-                    href=""
+                    href="https://www.instagram.com/gaffsddafsg876/?hl=es"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
                     <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
@@ -231,7 +231,7 @@ const Footer = () => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://github.com/miguelsrz"
+                    href="https://www.facebook.com/share/14kGEmGRoM/"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
                     <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
