@@ -5,6 +5,7 @@ import bgDecoration1 from "/public/assets/deco/bgDecoration1.svg";
 import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
 import bgDecoration3 from "/public/assets/deco/bgDecoration3.svg";
 import CrInicial from "./crInicial";
+import CrFinal from "./crFinal";
 
 const ResultadosProyecto = () => {
   const { activeComponent } = useContext(AppContext);
@@ -28,18 +29,15 @@ const ResultadosProyecto = () => {
               ENCUESTA <span className="text-purple-900">INICIAL</span>
             </h2>
             <p className="text-pretty">
-              Sed bibendum aliquam magna, non finibus mauris gravida sed.
-              Curabitur mollis suscipit orci, id commodo nisl efficitur in. Orci
-              varius natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Quisque vel aliquam neque. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos. Suspendisse tincidunt condimentum cursus. Aliquam
-              efficitur leo non est viverra fermentum. Aliquam placerat sapien
-              non ante condimentum mollis. Nam lectus erat, blandit ornare
-              libero et, pharetra ornare enim. Vestibulum elementum dolor est,
-              in pellentesque est laoreet id. Aliquam ac sodales tellus, at
-              laoreet diam. Maecenas aliquet quam non tortor congue porta. In
-              dui velit, aliquam sed dignissim eu.
+              Como parte del desarrollo de FOCUS, se realizó una encuesta
+              inicial para comprender las necesidades y desafíos que enfrentan
+              los estudiantes en la gestión de sus finanzas personales. A través
+              de esta recolección de datos, se exploraron hábitos financieros,
+              conocimientos previos y expectativas sobre herramientas de
+              aprendizaje en este ámbito. Los resultados obtenidos sirvieron
+              como punto de partida para el diseño del proyecto, permitiendo
+              orientar las funcionalidades y contenidos hacia las necesidades
+              reales de los estudiantes.
             </p>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
               <CrInicial></CrInicial>
@@ -61,21 +59,18 @@ const ResultadosProyecto = () => {
               REVISION <span className="text-purple-900">FINAL</span>
             </h2>
             <p className="text-pretty">
-              Sed bibendum aliquam magna, non finibus mauris gravida sed.
-              Curabitur mollis suscipit orci, id commodo nisl efficitur in. Orci
-              varius natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Quisque vel aliquam neque. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos. Suspendisse tincidunt condimentum cursus. Aliquam
-              efficitur leo non est viverra fermentum. Aliquam placerat sapien
-              non ante condimentum mollis. Nam lectus erat, blandit ornare
-              libero et, pharetra ornare enim. Vestibulum elementum dolor est,
-              in pellentesque est laoreet id. Aliquam ac sodales tellus, at
-              laoreet diam. Maecenas aliquet quam non tortor congue porta. In
-              dui velit, aliquam sed dignissim eu.
+              Al finalizar el desarrollo de FOCUS, se llevó a cabo una encuesta
+              para evaluar la experiencia de los usuarios y medir el impacto del
+              proyecto en su aprendizaje y gestión financiera. A través de esta
+              recolección de datos, se exploraron aspectos como la utilidad de
+              los contenidos, la facilidad de uso de la plataforma y la
+              percepción de mejoras en sus conocimientos financieros. Los
+              resultados obtenidos permitirán identificar fortalezas y
+              oportunidades de mejora, proporcionando información valiosa para
+              futuras optimizaciones del proyecto.
             </p>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
-              <CrInicial></CrInicial>
+              <CrFinal></CrFinal>
             </div>
           </div>
         </section>

@@ -27,21 +27,33 @@ const DesarrolloProyecto = () => {
               <h2 className="mb-9 font-schabo text-5xl tracking-widest text-black sm:text-7xl lg:text-8xl">
                 DESARROLLO DE <span className="text-purple-900">PROYECTO</span>
               </h2>
-              <p className="mb-9 text-balance">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum efficitur nec nisl at consectetur. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Cras condimentum ligula mattis turpis malesuada
-                consequat. Quisque metus quam, mattis mattis mauris laoreet,
-                semper pretium ex. Nulla facilisi. Sed bibendum aliquam magna,
-                non finibus mauris gravida sed. Curabitur mollis suscipit orci,
-                id commodo nisl efficitur in. Orci varius natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus. Quisque
-                vel aliquam neque. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos. Suspendisse
-                tincidunt condimentum cursus. Aliquam efficitur leo non est
-                viverra fermentum. Aliquam placerat sapien non ante condimentum
-                mollis.
+
+              <li className="mb-9 text-balance">
+                Presentación: Proporciona información detallada sobre el
+                propósito, objetivos y funcionalidades de FOCUS, permitiendo a
+                los usuarios comprender su importancia y alcance.
+              </li>
+              <li className="mb-9 text-balance">
+                Aprendizaje: Ofrece módulos educativos organizados en secciones
+                interactivas, donde los estudiantes pueden acceder a contenidos
+                teóricos y actividades diseñadas para fortalecer su conocimiento
+                financiero.
+              </li>
+              <li className="mb-9 text-balance">
+                Gestor Financiero: Permite a los estudiantes llevar un control
+                práctico de sus finanzas, aplicando los conceptos aprendidos
+                para una mejor toma de decisiones económicas.
+              </li>
+              <p className="mb-9 text-pretty">
+                El desarrollo de FOCUS ha sido implementado utilizando React y
+                JS Base para el frontend y Node.js con Express y PHP para el
+                backend, con una base de datos en MySQL para gestionar el
+                progreso de los usuarios y sus puntajes en actividades
+                evaluativas. Además, la plataforma incorpora autenticación
+                segura y almacenamiento de sesiones, asegurando una experiencia
+                personalizada para cada usuario. Con un diseño responsivo y una
+                arquitectura escalable, FOCUS está optimizado para ofrecer un
+                aprendizaje accesible y eficiente.
               </p>
             </div>
             <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
@@ -71,18 +83,15 @@ const DesarrolloProyecto = () => {
               GALERIA DE <span className="text-purple-900">IMAGENES</span>
             </h2>
             <p className="text-pretty">
-              Sed bibendum aliquam magna, non finibus mauris gravida sed.
-              Curabitur mollis suscipit orci, id commodo nisl efficitur in. Orci
-              varius natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Quisque vel aliquam neque. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos. Suspendisse tincidunt condimentum cursus. Aliquam
-              efficitur leo non est viverra fermentum. Aliquam placerat sapien
-              non ante condimentum mollis. Nam lectus erat, blandit ornare
-              libero et, pharetra ornare enim. Vestibulum elementum dolor est,
-              in pellentesque est laoreet id. Aliquam ac sodales tellus, at
-              laoreet diam. Maecenas aliquet quam non tortor congue porta. In
-              dui velit, aliquam sed dignissim eu.
+              La galería de imágenes de FOCUS muestra el proceso de desarrollo y
+              evolución del proyecto, desde los primeros bocetos hasta su
+              implementación final. Aquí se incluyen capturas de la plataforma,
+              esquemas de diseño, momentos clave del desarrollo y registros del
+              equipo de trabajo. A través de estas imágenes, los visitantes
+              podrán conocer la esencia del proyecto, su crecimiento y la
+              dedicación detrás de cada etapa. Esta sección refleja no solo el
+              avance técnico, sino también la visión y el esfuerzo que han dado
+              vida a FOCUS.
             </p>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
               <CarouselDesarrollo></CarouselDesarrollo>

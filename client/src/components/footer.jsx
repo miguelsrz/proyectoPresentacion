@@ -1,7 +1,7 @@
 // import React from "react";
 import focus from "../../public/assets/icons/focus.svg";
 import github from "../../public/assets/icons/github.svg";
-import linkedin from "../../public/assets/icons/linkedin.svg";
+import facebook from "../../public/assets/icons/facebook.svg";
 import instagram from "../../public/assets/icons/instagram.svg";
 import left from "../../public/assets/icons/arrowLeft.svg";
 
@@ -183,21 +183,20 @@ const Footer = () => {
                 <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
+                    href="https://www.instagram.com/_miguelsrz  "
+                    className="underline-offset-8 hover:text-purple-500 hover:underline"
+                  >
+                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={instagram} alt="" />
+                    </figure>
+                  </a>
+                  <a
+                    target="_blank"
                     href="https://github.com/miguelsrz"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
                     <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={github} alt="" />
-                    </figure>
-                  </a>
-
-                  <a
-                    target="_blank"
-                    href=""
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -208,7 +207,7 @@ const Footer = () => {
                 <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
-                    href=""
+                    href="https://www.instagram.com/r.cris_?igsh=eGQ2NGJpNXY3YmRi"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
                     <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
@@ -223,29 +222,20 @@ const Footer = () => {
                 <div className="flex w-full flex-row gap-4">
                   <a
                     target="_blank"
-                    href="https://github.com/miguelsrz"
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={github} alt="" />
-                    </figure>
-                  </a>
-                  <a
-                    target="_blank"
-                    href=""
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={linkedin} alt="" />
-                    </figure>
-                  </a>
-                  <a
-                    target="_blank"
                     href=""
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
                     <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={instagram} alt="" />
+                    </figure>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/miguelsrz"
+                    className="underline-offset-8 hover:text-purple-500 hover:underline"
+                  >
+                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={facebook} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -269,7 +259,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-center xl:text-left">
-              Ultima actualizacion: Enero 18 de 2025
+              Ultima actualizacion: Febrero 03 de 2025
             </p>
           </div>
         </div>
