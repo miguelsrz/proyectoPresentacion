@@ -5,7 +5,14 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 8080;;
+const path = require("path");
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, "../client/dist")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist"));
+})
 
 // Habilitar CORS para permitir peticiones desde el frontend
 app.use(cors());
@@ -13,12 +20,26 @@ app.use(cors());
 
 // MANEJO BASE DE DATOS, PROGRESO Y PUNTAJES
 // Configuración de la conexión a la base de datos
+console.log(process.env.DB_HOST); // Debería mostrar 'sql206.infinityfree.com'
+console.log(process.env.DB_USER); // Debería mostrar 'if0_38215968'
+
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'zxczxc',
-  database: 'focus'
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
 });
+
+async function testDbConnection() {
+  try {
+    const [rows, fields] = await db.query('SELECT 1');
+    console.log('Conexión exitosa a la base de datos');
+  } catch (err) {
+    console.error('Error al conectar a la base de datos:', err.message);
+  }
+}
+
+testDbConnection();
 
 const validarUsuarioActivo = async (req, res, next) => {
   const token = req.headers.authorization;
