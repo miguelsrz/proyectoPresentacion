@@ -161,205 +161,452 @@
         },
         {
           "sectionId": 2,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Conceptos Clave del Sistema Económico",
           "activities": [
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c4",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "¿Qué es la inflación y cómo impacta tu dinero?",
+              "tituloOriginal": "Tipos de inflación: ¿Cuáles son y cómo afectan las finanzas personales?",
+              "url": "https://www.fna.gov.co/Blog/Paginas/tipos-de-inflacion-cuales-como-afectan-finanzas-personales.aspx#:~:text=La%20inflaci%C3%B3n%20consiste%20en%20el,adquisitivo%20como%20medio%20de%20cambio.",
+              "autor": "Fondo Nacional del Ahorro",
+              
+              "contenido": {
+                "imagenes": ["https://www.fna.gov.co/Blog/PublishingImages/imagenes%20blog/tipos%20de%20inflacion.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "¿Qué es la inflación?",
+                    "sub": "La inflación consiste en el alza generalizada del precio de los bienes y servicios por un largo periodo de tiempo, normalmente, un año o más.\n\nSurge cuando la moneda de un país **pierde valor o poder adquisitivo** como medio de cambio. Si bien existen diferentes tipos de inflación, en líneas generales, significa que una unidad de moneda permite adquirir una menor cantidad de bienes y servicios que antes."
+                  },
+                  {
+                    "subtitulo": "Impacto de la inflación en la economía",
+                    "sub": "De acuerdo con Expansión (2023), la inflación acumulada para el año 2023 en Colombia ya alcanzó el 1,8%.\n\nEsto afecta no solo los precios al consumidor, sino también los distintos instrumentos financieros de la economía: las tasas de los créditos y préstamos, la cotización de las UVR y hasta el precio del dólar. Así, por ejemplo, si solicitas un crédito del FNA para adquirir vivienda, el valor de las cuotas mensuales irá subiendo porque se ajustan siguiendo el índice de inflación."
+                  },
+                  {
+                    "subtitulo": "Tipos de inflación y sus principales características",
+                    "sub": "En general, sabemos que la inflación es el aumento de los precios.\n\nSin embargo, existen diversos tipos de inflación, con un comportamiento diferente en relación con la economía. A continuación, los tipos más comunes:\n\n1. **Inflación por costo**: Se da cuando aumentan los precios de las materias primas necesarias para la industria; por ejemplo, de los metales, energía o alimentos. Esto provoca que los productores, a su vez, suban sus precios para sostener sus márgenes de ganancia.\n\n2. **Inflación por consumo**: Este tipo de inflación responde a las leyes de oferta y demanda. Si hay una demanda de un bien o servicio mayor a la capacidad de importación o producción, su precio tiende a subir. Por ejemplo, imagina que se lanza al mercado el último modelo de un smartphone y se agota en pocas horas. Es posible que, cuando las tiendas repongan el stock, incrementen el precio del teléfono celular porque hay pocas unidades disponibles.\n\n3. **Inflación moderada**: Consiste en un ajuste gradual y muy lento de precios, que es habitual en economías estables. Cuando los precios se mantienen, los consumidores confían en la economía nacional y realizan depósitos e inversiones. Esto, a su vez, inyecta dinero a los bancos sin necesidad de emitir papel moneda.\n\n4. **Hiperinflación**: Es uno de los tipos de inflación más alarmantes debido a su potencial de amenazar la estabilidad económica. Se considera que ocurre hiperinflación cuando el índice de precios aumenta más de un 50% mensualmente. Este fenómeno está presente, sobre todo, en algunos países de África y Latinoamérica.\n\n5. **Deflación**: Además de subir, los precios también pueden bajar, fenómeno que se conoce como deflación. Si bien es poco frecuente, puede aparecer en un contexto de recesión económica, donde hay mucha oferta y poca demanda. En otras palabras, baja el consumo y esto paraliza la economía.\n\n6. **Estanflación**: Cuando la inflación de un país supera a su crecimiento, puede producirse una estanflación. En este contexto, la economía está en recesión y los consumidores tienen menos capacidad para comprar bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "¿Cómo influyen los tipos de inflación en tu vida cotidiana?",
+                    "sub": "Los diferentes tipos de inflación no solo afectan la economía nacional e internacional. También tienen un impacto directo en tus finanzas diarias.\n\n1. **Pérdida de poder adquisitivo**: Como consecuencia de la inflación, los consumidores ven reducido su poder adquisitivo. En otras palabras, el dinero les alcanza para comprar cada vez menos productos y servicios. Muchas veces esto les obliga a ajustar sus gastos, reduciendo su estilo de vida, o a buscar nuevas formas de generar ingresos extra para compensar los aumentos de precios.\n\n2. **Encarecimiento de las deudas**: Tal vez no lo sabías, pero la inflación afecta negativamente tu vida crediticia. En una economía inflacionaria, suben las tasas de interés de los préstamos y créditos, y así, terminas pagando más por tus deudas. Incluso, si tienes una deuda en moneda extranjera, puede que el valor de tu cuota aumente, al depreciarse el peso colombiano con respecto al dólar.\n\n3. **Reducción del ahorro**: Ahorrar e invertir son dos reglas básicas de educación financiera que todos deberían seguir. Sin embargo, ahorrar se hace más difícil cuando hay inflación. Al aumentar los precios, debes destinar más dinero a tus necesidades básicas, lo que reduce tu excedente para ahorrar."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "En resumen, la inflación puede tener un impacto significativo en nuestras vidas cotidianas y en la economía en general. Desde la pérdida de poder adquisitivo hasta el encarecimiento de las deudas y la reducción del ahorro. Es importante comprender cómo diferentes tipos de inflación pueden afectar nuestras finanzas personales y el mercado en general. Mantenerse informado y tomar decisiones financieras inteligentes puede ayudarnos a mitigar los efectos de la inflación y mantener nuestra estabilidad financiera."
+                  }
+                ]
+              }
             },
             {
               "type": "video",
               "id": "c5",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "Moneda y tipos de cambio: su importancia en las finanzas.",
+              "tituloOriginal": "Introducción a la tasa de cambio",
+              "urlOriginal": "https://youtu.be/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "url": "https://www.youtube.com/embed/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "autor": "Khan Academy",
+      
+              "descripcion": "Este video explora el concepto de moneda y los tipos de cambio, destacando su relevancia en la economía global y las finanzas personales. Se analiza cómo las fluctuaciones en los tipos de cambio pueden afectar tanto a los consumidores como a los inversionistas, y cómo la moneda de un país refleja su estabilidad económica. Ideal para entender los factores que influyen en el poder adquisitivo y las decisiones financieras a nivel mundial."
             },
             {
-              "type": "articulo",
+              "type": "video",
               "id": "c6",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
-              "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
-                "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
-              }
+              "title": "Globalización y sus efectos en la economía.",
+              "tituloOriginal": "¿Qué es la GLOBALIZACIÓN?",
+              "urlOriginal": "https://youtu.be/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "url": "https://www.youtube.com/embed/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "autor": "Economipedia",
+      
+              "descripcion": "Este video explica el concepto de globalización y cómo ha transformado las economías a nivel mundial. Analiza los aspectos clave que definen este fenómeno, desde la integración de mercados hasta los efectos sobre el comercio, la cultura y la tecnología. Además, destaca cómo la globalización ha generado tanto oportunidades como desafíos para los países y sus economías."
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q2",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "title": "Inflación, moneda y globalización",
+            "id": "q2",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de la inflación, los tipos de cambio y los efectos de la globalización en la economía.",
             "preguntas": [
               {
-                "pregunta": "¿Qué es el aprendizaje?",
+                "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
                 "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
+                  "Es la subida generalizada de los precios de los bienes y servicios que reduce el poder adquisitivo.",
+                  "Es el aumento de la producción de bienes y servicios en un país.",
+                  "Es el proceso de aumentar el valor de una moneda respecto a otras.",
+                  "Es la reducción de los precios debido a una crisis económica."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "pregunta": "¿Cómo influye el tipo de cambio en las finanzas de un país?",
                 "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
+                  "Afecta solo a los precios de los productos nacionales.",
+                  "No tiene impacto en la economía, solo en el comercio internacional.",
+                  "Regula la cantidad de dinero que los bancos pueden prestar a los consumidores.",
+                  "Determina el valor relativo de la moneda de un país frente a otras, afectando las importaciones y exportaciones."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 4
               },
               {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "pregunta": "¿Cuál de los siguientes es un efecto de la globalización en las economías locales?",
                 "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
+                  "Aumento de la barrera comercial entre países.",
+                  "Mayor acceso a productos importados a precios más bajos y mayor competencia.",
+                  "Reducción de la influencia de las tecnologías extranjeras.",
+                  "Desaparición de mercados laborales en economías desarrolladas."
                 ],
-                "respuestaCorrecta": 2
+                "correcta": 2
               },
               {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "pregunta": "¿Qué provoca un aumento en el tipo de cambio de una moneda?",
                 "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
+                  "Una mejora en la economía interna de un país.",
+                  "Un aumento en las tasas de interés y en la inversión extranjera.",
+                  "La falta de confianza en la moneda de otros países.",
+                  "Una caída en la producción de bienes y servicios."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "pregunta": "¿Cómo afecta la inflación a la vida diaria de las personas?",
                 "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
+                  "Aumenta el poder adquisitivo de los consumidores.",
+                  "Hace que el dinero pierda valor y los precios suban, afectando el poder adquisitivo.",
+                  "Reduce el precio de los productos importados.",
+                  "Hace que los salarios aumenten en la misma proporción que los precios."
                 ],
-                "respuestaCorrecta": 1
+                "correcta": 2
               }
             ]
           }
         },
         {
           "sectionId": 3,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Elementos Esenciales del Sistema Económico",
           "activities": [
             {
               "type": "video",
               "id": "c7",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "Ciclos económicos: recesión y crecimiento.",
+              "tituloOriginal": "Qué son los ciclos económicos y cuáles son sus fases",
+              "urlOriginal": "https://www.youtube.com/watch?v=yC6MpheLtdo",
+              "url": "https://www.youtube.com/embed/yC6MpheLtdo?si=nwAaywf-TE3J86N4",
+              "autor": "ECONOSUBLIME",
+              "descripcion": "En este video aprenderás sobre los ciclos económicos y sus distintas fases. Se explican las etapas de expansión, auge, recesión y recuperación, así como cómo afectan a las economías locales y globales. Además, se analiza el impacto de estos ciclos en la vida cotidiana y en las decisiones financieras de las personas y las empresas."
             },
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c8",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "El papel de las instituciones financieras.",
+              "tituloOriginal": "El papel fundamental de las instituciones financieras en el desarrollo económico",
+              "url": "https://www.credlix.com/es/blogs/el-papel-fundamental-de-las-instituciones-financieras-en-el-desarrollo-economico",
+              "autor": "Credlix",
+              
+              "contenido": {
+                "imagenes": ["https://www.credlix.com/_next/image?url=https%3A%2F%2Fblog.credlix.com%2Fwp-content%2Fuploads%2F2024%2F12%2Ffinancing.webp&w=1200&q=75"],
+                "texto": [
+                {
+                  "subtitulo": "¿Qué son las instituciones financieras?",
+                  "sub": "Las instituciones financieras son entidades que se dedican a la intermediación de dinero, facilitando el acceso a servicios financieros como créditos, depósitos, pagos y demás. Estas instituciones permiten que los individuos y empresas puedan realizar transacciones económicas de manera segura y eficiente. Existen diferentes tipos de instituciones financieras, cada una con un rol específico dentro de la economía."
+                },
+                {
+                  "subtitulo": "Tipos de instituciones financieras",
+                  "sub": "En el sistema financiero, existen diversas entidades que cumplen funciones diferentes, tales como bancos comerciales, cooperativas de ahorro y crédito, fondos de pensiones, compañías de seguros, entre otras. A continuación se detallan algunos de los tipos más comunes:\n\n1. **Bancos comerciales**: Son las instituciones financieras más conocidas. Se encargan de ofrecer servicios de ahorro, préstamos y pagos a individuos y empresas. También pueden realizar inversiones y ofrecer servicios de cambio de divisas.\n\n2. **Cooperativas de ahorro y crédito**: Son entidades sin fines de lucro que permiten que sus miembros se agruparan para ahorrar y acceder a créditos con condiciones preferenciales. Se enfocan en el bienestar de sus miembros, brindando tasas de interés más bajas que los bancos comerciales.\n\n3. **Compañías de seguros**: Estas instituciones se encargan de ofrecer productos que protejan a individuos y empresas contra riesgos específicos. A cambio de una prima, proporcionan una indemnización en caso de que ocurra un evento cubierto por la póliza.\n\n4. **Fondos de pensiones**: Son instituciones que gestionan los ahorros destinados a la jubilación. Reciben aportes de los trabajadores y, a través de la inversión de estos fondos, buscan generar rendimientos que aseguren el bienestar financiero de los pensionados a largo plazo.\n\n5. **Bancos centrales**: Son entidades gubernamentales responsables de la política monetaria de un país. Se encargan de regular la oferta monetaria, controlar la inflación y mantener la estabilidad financiera del sistema económico."
+                },
+                {
+                  "subtitulo": "Función de las instituciones financieras en la economía",
+                  "sub": "Las instituciones financieras desempeñan un papel fundamental en la economía al facilitar el flujo de dinero y la asignación eficiente de recursos. A través de la intermediación, estas entidades permiten que los ahorros de los individuos sean canalizados a empresas e inversionistas que necesitan capital para desarrollar proyectos, crear empleos y generar crecimiento económico.\n\nAdemás, proporcionan servicios como la creación de crédito, que es vital para el crecimiento económico, permitiendo que empresas y consumidores puedan financiar proyectos y compras. De esta manera, las instituciones financieras son esenciales para el desarrollo económico y la estabilidad de los países."
+                },
+                {
+                  "subtitulo": "Impacto de las instituciones financieras en las personas",
+                  "sub": "Las instituciones financieras tienen un impacto directo sobre la vida de las personas. No solo facilitan el acceso a crédito para la adquisición de bienes como viviendas o vehículos, sino que también ofrecen productos de ahorro y seguros que brindan seguridad financiera a los individuos. Además, a través de la educación financiera que muchas de estas entidades proporcionan, las personas pueden aprender a gestionar sus recursos de manera más eficiente.\n\n1. **Acceso al crédito**: Las personas pueden acceder a préstamos para financiar proyectos, estudiar o adquirir bienes que, de otro modo, no podrían comprar al contado. Este acceso al crédito tiene un gran impacto en el bienestar personal y familiar.\n\n2. **Ahorro e inversión**: Las instituciones financieras también ofrecen productos que permiten a los individuos ahorrar de forma segura y, en algunos casos, obtener rendimientos a través de inversiones.\n\n3. **Seguridad financiera**: A través de los seguros, las personas pueden proteger su patrimonio y a sus familias contra riesgos imprevistos, como accidentes, enfermedades o pérdidas materiales."
+                },
+                {
+                  "subtitulo": "Conclusión",
+                  "sub": "Las instituciones financieras son piezas clave en la economía moderna. No solo facilitan la circulación del dinero y el crédito, sino que también juegan un rol crucial en la seguridad financiera de las personas. Al permitir que los individuos y empresas ahorren, inviertan y obtengan crédito, contribuyen al desarrollo económico y al bienestar social. Por lo tanto, es fundamental comprender cómo funcionan estas entidades y cómo pueden ser utilizadas de manera eficaz para mejorar nuestra salud financiera."
+                }
+              ]
+            
+              }
             },
             {
               "type": "articulo",
               "id": "c9",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
+              "title": "Cómo entender los indicadores económicos básicos.",
+              "tituloOriginal": "¿Qué son los indicadores económicos y por qué son importantes?",
+              "url": "https://www.forex.com/es-latam/news-and-analysis/what-are-economic-indicators/",
+              "autor": "Rebecca Cattlin, Forex",
+              
               "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "imagenes": ["https://www.forex.com/es-latam/-/media/research/global/news-analysis/featured-image/2021/03/uptrend-4v2.jpg?extension=webp"],
                 "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
+                {
+                  "subtitulo": "Introducción",
+                  "sub": "Los indicadores económicos son datos clave que reflejan el desempeño de la economía de un país. Estos indicadores, ampliamente utilizados por analistas e inversores, permiten medir la salud de una economía y prever futuros movimientos. Se dividen en tres tipos: adelantados, coincidentes y rezagados, y son fundamentales para la toma de decisiones en mercados financieros como FOREX."
+                },
+                {
+                  "subtitulo": "Propósito de los indicadores económicos",
+                  "sub": "Los indicadores económicos sirven para proporcionar una comprensión profunda sobre el estado de la economía. Para los inversores y analistas, estos datos ayudan a identificar oportunidades y ajustar estrategias. Los indicadores económicos también influyen en las políticas económicas y en las decisiones de los responsables de la formulación de políticas."
+                },
+                {
+                  "subtitulo": "Tipos de indicadores económicos",
+                  "sub": "Los indicadores económicos se dividen en tres grandes grupos:\n\n1. **Indicadores adelantados**: anticipan cambios económicos futuros, pero con cierta incertidumbre.\n\n2. **Indicadores coincidentes**: reflejan la situación económica actual.\n\n3. **Indicadores rezagados**: se publican después de los cambios en la economía y, aunque no son útiles para predecir, dan información esencial sobre la salud económica."
+                },
+                {
+                  "subtitulo": "Indicadores clave",
+                  "sub": "Algunos indicadores clave incluyen el **Producto Interno Bruto (PIB)**, las **tasas de interés**, el **mercado de divisas**, el **mercado de valores**, el **desempleo y salarios**, el **Índice de Precios al Consumidor (IPC)**, el **Índice de Precios al Productor (IPP)**, y la **balanza comercial**."
+                },
+                {
+                  "subtitulo": "Producto Interno Bruto (PIB)",
+                  "sub": "El PIB es el valor de todos los bienes y servicios producidos en un país durante un período determinado. Es un indicador rezagado, ya que refleja la salud económica pasada, pero es clave para evaluar el crecimiento de una economía. El PIB se presenta en cifras nominales y reales, y su desempeño influye en las decisiones de los mercados financieros."
+                },
+                {
+                  "subtitulo": "Tasas de interés",
+                  "sub": "Las tasas de interés son cruciales para la economía, ya que afectan el valor de la moneda y las decisiones de inversión. Las tasas altas indican una economía fuerte, mientras que las tasas bajas favorecen el crecimiento. Este indicador es tanto adelantado como rezagado, dependiendo de las circunstancias y las expectativas del mercado."
+                },
+                {
+                  "subtitulo": "Mercados de divisas",
+                  "sub": "Las monedas nacionales reflejan la fortaleza económica de un país. Un país con una moneda fuerte experimenta un aumento en el poder adquisitivo y las exportaciones, mientras que una moneda débil tiene efectos contrarios. Aunque es un indicador rezagado, el valor de la moneda es ampliamente observado en los mercados financieros."
+                },
+                {
+                  "subtitulo": "Mercados de valores",
+                  "sub": "El mercado de valores es un indicador económico que refleja las expectativas sobre las empresas y la economía en general. Sin embargo, los precios de las acciones pueden verse influenciados por la especulación y las intervenciones gubernamentales, lo que puede hacer que el mercado no sea siempre un reflejo fiel de la economía."
+                },
+                {
+                  "subtitulo": "Desempleo y salarios",
+                  "sub": "Las tasas de desempleo y los salarios son indicadores importantes que reflejan el bienestar de la fuerza laboral. Un bajo desempleo y altos salarios indican una economía saludable, mientras que altas tasas de desempleo y bajos salarios señalan una posible recesión. Este indicador es rezagado, por lo que debe ser considerado en conjunto con otros datos."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Consumidor (IPC)",
+                  "sub": "El IPC mide los cambios en el costo de vida y es una herramienta clave para medir la inflación. Un aumento en el IPC puede llevar a un aumento de las tasas de interés, mientras que una disminución puede estimular el consumo. Aunque es un buen indicador de inflación, el IPC también es un dato rezagado."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Productor (IPP)",
+                  "sub": "El IPP mide los cambios en los precios de bienes antes de que lleguen al consumidor. Se considera un indicador adelantado de la inflación, ya que los cambios en los precios a nivel de los productores se reflejan más rápido que los precios al consumidor."
+                },
+                {
+                  "subtitulo": "Balanza comercial",
+                  "sub": "La balanza comercial es la diferencia entre las exportaciones e importaciones de un país. Un superávit comercial indica que un país exporta más de lo que importa, lo cual es favorable para la economía, mientras que un déficit puede señalar debilidad económica."
+                }
+              ]
               }
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q3",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
-            "preguntas": [
-              {
-                "pregunta": "¿Qué es el aprendizaje?",
-                "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
-                "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
-                "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
-                ],
-                "respuestaCorrecta": 2
-              },
-              {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
-                "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
-                "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
-                ],
-                "respuestaCorrecta": 1
-              }
-            ]
-          }
+              "title": "Ciclos Económicos e Indicadores Financieros",
+              "id": "q3",
+              "descripcion": "Este quiz evalúa tus conocimientos sobre los ciclos económicos, el papel de las instituciones financieras y cómo entender los indicadores económicos básicos.",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué caracteriza a un ciclo económico de recesión?",
+                  "opciones": [
+                    "Un periodo de crecimiento económico continuo sin caídas significativas.",
+                    "Un periodo en el que la economía experimenta un crecimiento en la producción y la inversión.",
+                    "Un periodo en el que se reduce la actividad económica, el empleo disminuye y la producción baja.",
+                    "Un periodo en el que los mercados financieros están completamente estables."
+                  ],
+                  "correcta": 3
+                },
+                {
+                  "pregunta": "¿Cuál es el principal papel de las instituciones financieras en la economía?",
+                  "opciones": [
+                    "Producir bienes y servicios que satisfacen las necesidades básicas de la población.",
+                    "Controlar el flujo de dinero entre gobiernos y empresas, facilitando el crédito y las inversiones.",
+                    "Establecer políticas económicas para la producción y distribución de productos.",
+                    "Fomentar el ahorro de los ciudadanos sin tomar en cuenta el mercado global."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Qué es un indicador económico adelantado?",
+                  "opciones": [
+                    "Un indicador que refleja la situación económica actual.",
+                    "Un indicador que prevé cambios en la economía antes de que ocurran.",
+                    "Un indicador que se publica después de que los cambios económicos ya se han producido.",
+                    "Un indicador que refleja los precios de los bienes en el mercado internacional."
+                  ],
+                  "correcta": 1
+                },
+                {
+                  "pregunta": "¿Qué papel tiene el Producto Interno Bruto (PIB) en la economía?",
+                  "opciones": [
+                    "Es un indicador adelantado que predice el crecimiento económico futuro.",
+                    "Es un indicador rezagado que mide la producción económica pasada.",
+                    "Es un indicador coincidente que refleja las expectativas del consumidor.",
+                    "Es un indicador que mide exclusivamente el nivel de inflación."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Cómo influyen las tasas de interés en la economía?",
+                  "opciones": [
+                    "Afectan únicamente a los mercados de valores.",
+                    "Determinan la tasa de crecimiento de la población.",
+                    "Regulan el valor de la moneda y las decisiones de inversión, favoreciendo el ahorro o el gasto.",
+                    "No tienen un impacto significativo en la actividad económica."
+                  ],
+                  "correcta": 3
+                }
+              ]
+            }
         }
       ],
-      "finalExam": {
-        "title": "Introducción al Aprendizaje",
-        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+      "final": {
+        "title": "Examen Final - Introducción a la Educación Financiera",
+        "id": "final_q1",
+        "descripcion": "Este examen evalúa tus conocimientos sobre los conceptos fundamentales del sistema económico, incluyendo oferta y demanda, inflación, ciclos económicos, el papel de los gobiernos y los bancos, y los indicadores económicos básicos.",
         "preguntas": [
           {
-            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
             "opciones": [
-              "Acumular datos irrelevantes.",
-              "Relacionar conocimientos nuevos con los existentes.",
-              "Realizar actividades mecánicas.",
-              "Resolver únicamente problemas matemáticos."
+              "Es un modelo teórico sin implicaciones prácticas en la vida diaria.",
+              "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+              "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+              "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes."
             ],
-            "respuestaCorrecta": 1
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+            "opciones": [
+              "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+              "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+              "La cantidad de recursos naturales disponibles en una economía.",
+              "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+            "opciones": [
+              "La cantidad de productos que los productores desean vender.",
+              "El nivel de producción que los gobiernos imponen.",
+              "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+              "El precio al cual los bienes se producen."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+            "opciones": [
+              "Proporcionar infraestructura y servicios educativos.",
+              "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+              "Monitorear únicamente las grandes empresas y monopolios.",
+              "Fomentar el consumo a través de la regulación de la oferta de bienes."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+            "opciones": [
+              "Corrigiendo fallas del mercado como monopolios y externalidades.",
+              "Eliminando toda intervención en el mercado.",
+              "Excluyendo a las empresas privadas de la economía.",
+              "Aumentando los precios de todos los productos."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
+            "opciones": [
+              "Es el aumento de los precios de los bienes y servicios, lo que reduce el poder adquisitivo del dinero.",
+              "Es una política económica que busca bajar los precios de manera controlada.",
+              "Es una reducción en el costo de la vida, aumentando el valor del dinero.",
+              "Es el crecimiento de la economía, sin afectar los precios."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué determina el valor de una moneda en el mercado de divisas?",
+            "opciones": [
+              "La cantidad de oro que posee un país.",
+              "El valor que los gobiernos deciden asignar a la moneda.",
+              "La oferta y demanda de esa moneda en el mercado internacional.",
+              "El nivel de inflación en el país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es el tipo de cambio?",
+            "opciones": [
+              "El precio de un bien en términos de una moneda nacional.",
+              "La relación entre los tipos de interés de dos países.",
+              "El valor de una moneda en términos de otra moneda.",
+              "El costo de la mano de obra en un país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo afecta la globalización a la economía?",
+            "opciones": [
+              "Limita la capacidad de los países para comerciar entre sí.",
+              "Aumenta las barreras comerciales entre países.",
+              "Facilita la expansión de los mercados, la inversión y el comercio internacional.",
+              "Reduce la competitividad entre las empresas."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué son los ciclos económicos?",
+            "opciones": [
+              "El cambio constante de las tasas de interés en la economía.",
+              "Las fluctuaciones en la actividad económica, que incluyen períodos de expansión y recesión.",
+              "La constante subida de los precios de todos los productos en el mercado.",
+              "El aumento en el número de empresas dentro de una economía."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es la diferencia entre una recesión y un período de crecimiento económico?",
+            "opciones": [
+              "Una recesión es cuando la economía crece rápidamente y la inversión aumenta.",
+              "Un período de crecimiento económico es cuando la economía experimenta una desaceleración.",
+              "Una recesión es cuando la economía disminuye y la producción y el empleo caen.",
+              "Un período de crecimiento económico se caracteriza por la disminución de los precios."
+            ],
+            "correcta": 3
+          },
+          {
+            "pregunta": "¿Qué rol cumplen las instituciones financieras en la economía?",
+            "opciones": [
+              "Controlan el comercio internacional y las tarifas aduaneras.",
+              "Establecen políticas fiscales y monetarias para controlar el gasto público.",
+              "Regulan el flujo de dinero, facilitan el crédito y promueven la inversión.",
+              "Producen bienes y servicios que cubren las necesidades básicas de la población."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico rezagado?",
+            "opciones": [
+              "Un indicador que refleja la situación económica futura.",
+              "Un indicador que muestra el nivel de inflación a nivel global.",
+              "Un indicador que predice el comportamiento del mercado de valores.",
+              "Un indicador que se publica después de que los cambios económicos ya se han producido."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel de los bancos centrales en la economía?",
+            "opciones": [
+              "Fomentan la competencia en los mercados de bienes y servicios.",
+              "Gestionan el nivel de deuda externa de un país.",
+              "Establecen el tipo de cambio y regulan el comercio exterior.",
+              "Controlan la inflación, emiten moneda y regulan la oferta de dinero."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico líder?",
+            "opciones": [
+              "Un indicador que muestra los resultados económicos después de que ocurren los cambios.",
+              "Un indicador que refleja las expectativas futuras de la economía y predice su tendencia.",
+              "Un indicador que mide la tasa de interés del gobierno para el año próximo.",
+              "Un indicador utilizado exclusivamente para medir la producción industrial."
+            ],
+            "correcta": 2
           }
+
         ]
       }
     },
@@ -378,6 +625,8 @@
               "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
               "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
               "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "autor": "José Francisco López, Economipedia",
+              
               "contenido": {
                 "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
                 "texto": [
@@ -423,6 +672,8 @@
               "tituloOriginal": "Ley de Oferta y Demanda",
               "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
               "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "autor": "Alumno Financiero",
+      
               "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
             },
             {
@@ -431,6 +682,7 @@
               "title": " Rol de los gobiernos y los bancos en el sistema económico.",
               "tituloOriginal": "El Sistema Economico - Banco de la Republica",
               "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "autor": "Banco de la República",
               "contenido": {
                 "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
                 "texto": [
@@ -519,205 +771,452 @@
         },
         {
           "sectionId": 2,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Conceptos Clave del Sistema Económico",
           "activities": [
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c4",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "¿Qué es la inflación y cómo impacta tu dinero?",
+              "tituloOriginal": "Tipos de inflación: ¿Cuáles son y cómo afectan las finanzas personales?",
+              "url": "https://www.fna.gov.co/Blog/Paginas/tipos-de-inflacion-cuales-como-afectan-finanzas-personales.aspx#:~:text=La%20inflaci%C3%B3n%20consiste%20en%20el,adquisitivo%20como%20medio%20de%20cambio.",
+              "autor": "Fondo Nacional del Ahorro",
+              
+              "contenido": {
+                "imagenes": ["https://www.fna.gov.co/Blog/PublishingImages/imagenes%20blog/tipos%20de%20inflacion.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "¿Qué es la inflación?",
+                    "sub": "La inflación consiste en el alza generalizada del precio de los bienes y servicios por un largo periodo de tiempo, normalmente, un año o más.\n\nSurge cuando la moneda de un país **pierde valor o poder adquisitivo** como medio de cambio. Si bien existen diferentes tipos de inflación, en líneas generales, significa que una unidad de moneda permite adquirir una menor cantidad de bienes y servicios que antes."
+                  },
+                  {
+                    "subtitulo": "Impacto de la inflación en la economía",
+                    "sub": "De acuerdo con Expansión (2023), la inflación acumulada para el año 2023 en Colombia ya alcanzó el 1,8%.\n\nEsto afecta no solo los precios al consumidor, sino también los distintos instrumentos financieros de la economía: las tasas de los créditos y préstamos, la cotización de las UVR y hasta el precio del dólar. Así, por ejemplo, si solicitas un crédito del FNA para adquirir vivienda, el valor de las cuotas mensuales irá subiendo porque se ajustan siguiendo el índice de inflación."
+                  },
+                  {
+                    "subtitulo": "Tipos de inflación y sus principales características",
+                    "sub": "En general, sabemos que la inflación es el aumento de los precios.\n\nSin embargo, existen diversos tipos de inflación, con un comportamiento diferente en relación con la economía. A continuación, los tipos más comunes:\n\n1. **Inflación por costo**: Se da cuando aumentan los precios de las materias primas necesarias para la industria; por ejemplo, de los metales, energía o alimentos. Esto provoca que los productores, a su vez, suban sus precios para sostener sus márgenes de ganancia.\n\n2. **Inflación por consumo**: Este tipo de inflación responde a las leyes de oferta y demanda. Si hay una demanda de un bien o servicio mayor a la capacidad de importación o producción, su precio tiende a subir. Por ejemplo, imagina que se lanza al mercado el último modelo de un smartphone y se agota en pocas horas. Es posible que, cuando las tiendas repongan el stock, incrementen el precio del teléfono celular porque hay pocas unidades disponibles.\n\n3. **Inflación moderada**: Consiste en un ajuste gradual y muy lento de precios, que es habitual en economías estables. Cuando los precios se mantienen, los consumidores confían en la economía nacional y realizan depósitos e inversiones. Esto, a su vez, inyecta dinero a los bancos sin necesidad de emitir papel moneda.\n\n4. **Hiperinflación**: Es uno de los tipos de inflación más alarmantes debido a su potencial de amenazar la estabilidad económica. Se considera que ocurre hiperinflación cuando el índice de precios aumenta más de un 50% mensualmente. Este fenómeno está presente, sobre todo, en algunos países de África y Latinoamérica.\n\n5. **Deflación**: Además de subir, los precios también pueden bajar, fenómeno que se conoce como deflación. Si bien es poco frecuente, puede aparecer en un contexto de recesión económica, donde hay mucha oferta y poca demanda. En otras palabras, baja el consumo y esto paraliza la economía.\n\n6. **Estanflación**: Cuando la inflación de un país supera a su crecimiento, puede producirse una estanflación. En este contexto, la economía está en recesión y los consumidores tienen menos capacidad para comprar bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "¿Cómo influyen los tipos de inflación en tu vida cotidiana?",
+                    "sub": "Los diferentes tipos de inflación no solo afectan la economía nacional e internacional. También tienen un impacto directo en tus finanzas diarias.\n\n1. **Pérdida de poder adquisitivo**: Como consecuencia de la inflación, los consumidores ven reducido su poder adquisitivo. En otras palabras, el dinero les alcanza para comprar cada vez menos productos y servicios. Muchas veces esto les obliga a ajustar sus gastos, reduciendo su estilo de vida, o a buscar nuevas formas de generar ingresos extra para compensar los aumentos de precios.\n\n2. **Encarecimiento de las deudas**: Tal vez no lo sabías, pero la inflación afecta negativamente tu vida crediticia. En una economía inflacionaria, suben las tasas de interés de los préstamos y créditos, y así, terminas pagando más por tus deudas. Incluso, si tienes una deuda en moneda extranjera, puede que el valor de tu cuota aumente, al depreciarse el peso colombiano con respecto al dólar.\n\n3. **Reducción del ahorro**: Ahorrar e invertir son dos reglas básicas de educación financiera que todos deberían seguir. Sin embargo, ahorrar se hace más difícil cuando hay inflación. Al aumentar los precios, debes destinar más dinero a tus necesidades básicas, lo que reduce tu excedente para ahorrar."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "En resumen, la inflación puede tener un impacto significativo en nuestras vidas cotidianas y en la economía en general. Desde la pérdida de poder adquisitivo hasta el encarecimiento de las deudas y la reducción del ahorro. Es importante comprender cómo diferentes tipos de inflación pueden afectar nuestras finanzas personales y el mercado en general. Mantenerse informado y tomar decisiones financieras inteligentes puede ayudarnos a mitigar los efectos de la inflación y mantener nuestra estabilidad financiera."
+                  }
+                ]
+              }
             },
             {
               "type": "video",
               "id": "c5",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "Moneda y tipos de cambio: su importancia en las finanzas.",
+              "tituloOriginal": "Introducción a la tasa de cambio",
+              "urlOriginal": "https://youtu.be/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "url": "https://www.youtube.com/embed/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "autor": "Khan Academy",
+      
+              "descripcion": "Este video explora el concepto de moneda y los tipos de cambio, destacando su relevancia en la economía global y las finanzas personales. Se analiza cómo las fluctuaciones en los tipos de cambio pueden afectar tanto a los consumidores como a los inversionistas, y cómo la moneda de un país refleja su estabilidad económica. Ideal para entender los factores que influyen en el poder adquisitivo y las decisiones financieras a nivel mundial."
             },
             {
-              "type": "articulo",
+              "type": "video",
               "id": "c6",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
-              "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
-                "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
-              }
+              "title": "Globalización y sus efectos en la economía.",
+              "tituloOriginal": "¿Qué es la GLOBALIZACIÓN?",
+              "urlOriginal": "https://youtu.be/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "url": "https://www.youtube.com/embed/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "autor": "Economipedia",
+      
+              "descripcion": "Este video explica el concepto de globalización y cómo ha transformado las economías a nivel mundial. Analiza los aspectos clave que definen este fenómeno, desde la integración de mercados hasta los efectos sobre el comercio, la cultura y la tecnología. Además, destaca cómo la globalización ha generado tanto oportunidades como desafíos para los países y sus economías."
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q2",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "title": "Inflación, moneda y globalización",
+            "id": "q2",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de la inflación, los tipos de cambio y los efectos de la globalización en la economía.",
             "preguntas": [
               {
-                "pregunta": "¿Qué es el aprendizaje?",
+                "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
                 "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
+                  "Es la subida generalizada de los precios de los bienes y servicios que reduce el poder adquisitivo.",
+                  "Es el aumento de la producción de bienes y servicios en un país.",
+                  "Es el proceso de aumentar el valor de una moneda respecto a otras.",
+                  "Es la reducción de los precios debido a una crisis económica."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "pregunta": "¿Cómo influye el tipo de cambio en las finanzas de un país?",
                 "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
+                  "Afecta solo a los precios de los productos nacionales.",
+                  "No tiene impacto en la economía, solo en el comercio internacional.",
+                  "Regula la cantidad de dinero que los bancos pueden prestar a los consumidores.",
+                  "Determina el valor relativo de la moneda de un país frente a otras, afectando las importaciones y exportaciones."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 4
               },
               {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "pregunta": "¿Cuál de los siguientes es un efecto de la globalización en las economías locales?",
                 "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
+                  "Aumento de la barrera comercial entre países.",
+                  "Mayor acceso a productos importados a precios más bajos y mayor competencia.",
+                  "Reducción de la influencia de las tecnologías extranjeras.",
+                  "Desaparición de mercados laborales en economías desarrolladas."
                 ],
-                "respuestaCorrecta": 2
+                "correcta": 2
               },
               {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "pregunta": "¿Qué provoca un aumento en el tipo de cambio de una moneda?",
                 "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
+                  "Una mejora en la economía interna de un país.",
+                  "Un aumento en las tasas de interés y en la inversión extranjera.",
+                  "La falta de confianza en la moneda de otros países.",
+                  "Una caída en la producción de bienes y servicios."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "pregunta": "¿Cómo afecta la inflación a la vida diaria de las personas?",
                 "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
+                  "Aumenta el poder adquisitivo de los consumidores.",
+                  "Hace que el dinero pierda valor y los precios suban, afectando el poder adquisitivo.",
+                  "Reduce el precio de los productos importados.",
+                  "Hace que los salarios aumenten en la misma proporción que los precios."
                 ],
-                "respuestaCorrecta": 1
+                "correcta": 2
               }
             ]
           }
         },
         {
           "sectionId": 3,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Elementos Esenciales del Sistema Económico",
           "activities": [
             {
               "type": "video",
               "id": "c7",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "Ciclos económicos: recesión y crecimiento.",
+              "tituloOriginal": "Qué son los ciclos económicos y cuáles son sus fases",
+              "urlOriginal": "https://www.youtube.com/watch?v=yC6MpheLtdo",
+              "url": "https://www.youtube.com/embed/yC6MpheLtdo?si=nwAaywf-TE3J86N4",
+              "autor": "ECONOSUBLIME",
+              "descripcion": "En este video aprenderás sobre los ciclos económicos y sus distintas fases. Se explican las etapas de expansión, auge, recesión y recuperación, así como cómo afectan a las economías locales y globales. Además, se analiza el impacto de estos ciclos en la vida cotidiana y en las decisiones financieras de las personas y las empresas."
             },
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c8",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "El papel de las instituciones financieras.",
+              "tituloOriginal": "El papel fundamental de las instituciones financieras en el desarrollo económico",
+              "url": "https://www.credlix.com/es/blogs/el-papel-fundamental-de-las-instituciones-financieras-en-el-desarrollo-economico",
+              "autor": "Credlix",
+              
+              "contenido": {
+                "imagenes": ["https://www.credlix.com/_next/image?url=https%3A%2F%2Fblog.credlix.com%2Fwp-content%2Fuploads%2F2024%2F12%2Ffinancing.webp&w=1200&q=75"],
+                "texto": [
+                {
+                  "subtitulo": "¿Qué son las instituciones financieras?",
+                  "sub": "Las instituciones financieras son entidades que se dedican a la intermediación de dinero, facilitando el acceso a servicios financieros como créditos, depósitos, pagos y demás. Estas instituciones permiten que los individuos y empresas puedan realizar transacciones económicas de manera segura y eficiente. Existen diferentes tipos de instituciones financieras, cada una con un rol específico dentro de la economía."
+                },
+                {
+                  "subtitulo": "Tipos de instituciones financieras",
+                  "sub": "En el sistema financiero, existen diversas entidades que cumplen funciones diferentes, tales como bancos comerciales, cooperativas de ahorro y crédito, fondos de pensiones, compañías de seguros, entre otras. A continuación se detallan algunos de los tipos más comunes:\n\n1. **Bancos comerciales**: Son las instituciones financieras más conocidas. Se encargan de ofrecer servicios de ahorro, préstamos y pagos a individuos y empresas. También pueden realizar inversiones y ofrecer servicios de cambio de divisas.\n\n2. **Cooperativas de ahorro y crédito**: Son entidades sin fines de lucro que permiten que sus miembros se agruparan para ahorrar y acceder a créditos con condiciones preferenciales. Se enfocan en el bienestar de sus miembros, brindando tasas de interés más bajas que los bancos comerciales.\n\n3. **Compañías de seguros**: Estas instituciones se encargan de ofrecer productos que protejan a individuos y empresas contra riesgos específicos. A cambio de una prima, proporcionan una indemnización en caso de que ocurra un evento cubierto por la póliza.\n\n4. **Fondos de pensiones**: Son instituciones que gestionan los ahorros destinados a la jubilación. Reciben aportes de los trabajadores y, a través de la inversión de estos fondos, buscan generar rendimientos que aseguren el bienestar financiero de los pensionados a largo plazo.\n\n5. **Bancos centrales**: Son entidades gubernamentales responsables de la política monetaria de un país. Se encargan de regular la oferta monetaria, controlar la inflación y mantener la estabilidad financiera del sistema económico."
+                },
+                {
+                  "subtitulo": "Función de las instituciones financieras en la economía",
+                  "sub": "Las instituciones financieras desempeñan un papel fundamental en la economía al facilitar el flujo de dinero y la asignación eficiente de recursos. A través de la intermediación, estas entidades permiten que los ahorros de los individuos sean canalizados a empresas e inversionistas que necesitan capital para desarrollar proyectos, crear empleos y generar crecimiento económico.\n\nAdemás, proporcionan servicios como la creación de crédito, que es vital para el crecimiento económico, permitiendo que empresas y consumidores puedan financiar proyectos y compras. De esta manera, las instituciones financieras son esenciales para el desarrollo económico y la estabilidad de los países."
+                },
+                {
+                  "subtitulo": "Impacto de las instituciones financieras en las personas",
+                  "sub": "Las instituciones financieras tienen un impacto directo sobre la vida de las personas. No solo facilitan el acceso a crédito para la adquisición de bienes como viviendas o vehículos, sino que también ofrecen productos de ahorro y seguros que brindan seguridad financiera a los individuos. Además, a través de la educación financiera que muchas de estas entidades proporcionan, las personas pueden aprender a gestionar sus recursos de manera más eficiente.\n\n1. **Acceso al crédito**: Las personas pueden acceder a préstamos para financiar proyectos, estudiar o adquirir bienes que, de otro modo, no podrían comprar al contado. Este acceso al crédito tiene un gran impacto en el bienestar personal y familiar.\n\n2. **Ahorro e inversión**: Las instituciones financieras también ofrecen productos que permiten a los individuos ahorrar de forma segura y, en algunos casos, obtener rendimientos a través de inversiones.\n\n3. **Seguridad financiera**: A través de los seguros, las personas pueden proteger su patrimonio y a sus familias contra riesgos imprevistos, como accidentes, enfermedades o pérdidas materiales."
+                },
+                {
+                  "subtitulo": "Conclusión",
+                  "sub": "Las instituciones financieras son piezas clave en la economía moderna. No solo facilitan la circulación del dinero y el crédito, sino que también juegan un rol crucial en la seguridad financiera de las personas. Al permitir que los individuos y empresas ahorren, inviertan y obtengan crédito, contribuyen al desarrollo económico y al bienestar social. Por lo tanto, es fundamental comprender cómo funcionan estas entidades y cómo pueden ser utilizadas de manera eficaz para mejorar nuestra salud financiera."
+                }
+              ]
+            
+              }
             },
             {
               "type": "articulo",
               "id": "c9",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
+              "title": "Cómo entender los indicadores económicos básicos.",
+              "tituloOriginal": "¿Qué son los indicadores económicos y por qué son importantes?",
+              "url": "https://www.forex.com/es-latam/news-and-analysis/what-are-economic-indicators/",
+              "autor": "Rebecca Cattlin, Forex",
+              
               "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "imagenes": ["https://www.forex.com/es-latam/-/media/research/global/news-analysis/featured-image/2021/03/uptrend-4v2.jpg?extension=webp"],
                 "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
+                {
+                  "subtitulo": "Introducción",
+                  "sub": "Los indicadores económicos son datos clave que reflejan el desempeño de la economía de un país. Estos indicadores, ampliamente utilizados por analistas e inversores, permiten medir la salud de una economía y prever futuros movimientos. Se dividen en tres tipos: adelantados, coincidentes y rezagados, y son fundamentales para la toma de decisiones en mercados financieros como FOREX."
+                },
+                {
+                  "subtitulo": "Propósito de los indicadores económicos",
+                  "sub": "Los indicadores económicos sirven para proporcionar una comprensión profunda sobre el estado de la economía. Para los inversores y analistas, estos datos ayudan a identificar oportunidades y ajustar estrategias. Los indicadores económicos también influyen en las políticas económicas y en las decisiones de los responsables de la formulación de políticas."
+                },
+                {
+                  "subtitulo": "Tipos de indicadores económicos",
+                  "sub": "Los indicadores económicos se dividen en tres grandes grupos:\n\n1. **Indicadores adelantados**: anticipan cambios económicos futuros, pero con cierta incertidumbre.\n\n2. **Indicadores coincidentes**: reflejan la situación económica actual.\n\n3. **Indicadores rezagados**: se publican después de los cambios en la economía y, aunque no son útiles para predecir, dan información esencial sobre la salud económica."
+                },
+                {
+                  "subtitulo": "Indicadores clave",
+                  "sub": "Algunos indicadores clave incluyen el **Producto Interno Bruto (PIB)**, las **tasas de interés**, el **mercado de divisas**, el **mercado de valores**, el **desempleo y salarios**, el **Índice de Precios al Consumidor (IPC)**, el **Índice de Precios al Productor (IPP)**, y la **balanza comercial**."
+                },
+                {
+                  "subtitulo": "Producto Interno Bruto (PIB)",
+                  "sub": "El PIB es el valor de todos los bienes y servicios producidos en un país durante un período determinado. Es un indicador rezagado, ya que refleja la salud económica pasada, pero es clave para evaluar el crecimiento de una economía. El PIB se presenta en cifras nominales y reales, y su desempeño influye en las decisiones de los mercados financieros."
+                },
+                {
+                  "subtitulo": "Tasas de interés",
+                  "sub": "Las tasas de interés son cruciales para la economía, ya que afectan el valor de la moneda y las decisiones de inversión. Las tasas altas indican una economía fuerte, mientras que las tasas bajas favorecen el crecimiento. Este indicador es tanto adelantado como rezagado, dependiendo de las circunstancias y las expectativas del mercado."
+                },
+                {
+                  "subtitulo": "Mercados de divisas",
+                  "sub": "Las monedas nacionales reflejan la fortaleza económica de un país. Un país con una moneda fuerte experimenta un aumento en el poder adquisitivo y las exportaciones, mientras que una moneda débil tiene efectos contrarios. Aunque es un indicador rezagado, el valor de la moneda es ampliamente observado en los mercados financieros."
+                },
+                {
+                  "subtitulo": "Mercados de valores",
+                  "sub": "El mercado de valores es un indicador económico que refleja las expectativas sobre las empresas y la economía en general. Sin embargo, los precios de las acciones pueden verse influenciados por la especulación y las intervenciones gubernamentales, lo que puede hacer que el mercado no sea siempre un reflejo fiel de la economía."
+                },
+                {
+                  "subtitulo": "Desempleo y salarios",
+                  "sub": "Las tasas de desempleo y los salarios son indicadores importantes que reflejan el bienestar de la fuerza laboral. Un bajo desempleo y altos salarios indican una economía saludable, mientras que altas tasas de desempleo y bajos salarios señalan una posible recesión. Este indicador es rezagado, por lo que debe ser considerado en conjunto con otros datos."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Consumidor (IPC)",
+                  "sub": "El IPC mide los cambios en el costo de vida y es una herramienta clave para medir la inflación. Un aumento en el IPC puede llevar a un aumento de las tasas de interés, mientras que una disminución puede estimular el consumo. Aunque es un buen indicador de inflación, el IPC también es un dato rezagado."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Productor (IPP)",
+                  "sub": "El IPP mide los cambios en los precios de bienes antes de que lleguen al consumidor. Se considera un indicador adelantado de la inflación, ya que los cambios en los precios a nivel de los productores se reflejan más rápido que los precios al consumidor."
+                },
+                {
+                  "subtitulo": "Balanza comercial",
+                  "sub": "La balanza comercial es la diferencia entre las exportaciones e importaciones de un país. Un superávit comercial indica que un país exporta más de lo que importa, lo cual es favorable para la economía, mientras que un déficit puede señalar debilidad económica."
+                }
+              ]
               }
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q3",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
-            "preguntas": [
-              {
-                "pregunta": "¿Qué es el aprendizaje?",
-                "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
-                "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
-                "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
-                ],
-                "respuestaCorrecta": 2
-              },
-              {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
-                "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
-                "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
-                ],
-                "respuestaCorrecta": 1
-              }
-            ]
-          }
+              "title": "Ciclos Económicos e Indicadores Financieros",
+              "id": "q3",
+              "descripcion": "Este quiz evalúa tus conocimientos sobre los ciclos económicos, el papel de las instituciones financieras y cómo entender los indicadores económicos básicos.",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué caracteriza a un ciclo económico de recesión?",
+                  "opciones": [
+                    "Un periodo de crecimiento económico continuo sin caídas significativas.",
+                    "Un periodo en el que la economía experimenta un crecimiento en la producción y la inversión.",
+                    "Un periodo en el que se reduce la actividad económica, el empleo disminuye y la producción baja.",
+                    "Un periodo en el que los mercados financieros están completamente estables."
+                  ],
+                  "correcta": 3
+                },
+                {
+                  "pregunta": "¿Cuál es el principal papel de las instituciones financieras en la economía?",
+                  "opciones": [
+                    "Producir bienes y servicios que satisfacen las necesidades básicas de la población.",
+                    "Controlar el flujo de dinero entre gobiernos y empresas, facilitando el crédito y las inversiones.",
+                    "Establecer políticas económicas para la producción y distribución de productos.",
+                    "Fomentar el ahorro de los ciudadanos sin tomar en cuenta el mercado global."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Qué es un indicador económico adelantado?",
+                  "opciones": [
+                    "Un indicador que refleja la situación económica actual.",
+                    "Un indicador que prevé cambios en la economía antes de que ocurran.",
+                    "Un indicador que se publica después de que los cambios económicos ya se han producido.",
+                    "Un indicador que refleja los precios de los bienes en el mercado internacional."
+                  ],
+                  "correcta": 1
+                },
+                {
+                  "pregunta": "¿Qué papel tiene el Producto Interno Bruto (PIB) en la economía?",
+                  "opciones": [
+                    "Es un indicador adelantado que predice el crecimiento económico futuro.",
+                    "Es un indicador rezagado que mide la producción económica pasada.",
+                    "Es un indicador coincidente que refleja las expectativas del consumidor.",
+                    "Es un indicador que mide exclusivamente el nivel de inflación."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Cómo influyen las tasas de interés en la economía?",
+                  "opciones": [
+                    "Afectan únicamente a los mercados de valores.",
+                    "Determinan la tasa de crecimiento de la población.",
+                    "Regulan el valor de la moneda y las decisiones de inversión, favoreciendo el ahorro o el gasto.",
+                    "No tienen un impacto significativo en la actividad económica."
+                  ],
+                  "correcta": 3
+                }
+              ]
+            }
         }
       ],
-      "finalExam": {
-        "title": "Introducción al Aprendizaje",
-        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+      "final": {
+        "title": "Examen Final - Introducción a la Educación Financiera",
+        "id": "final_q1",
+        "descripcion": "Este examen evalúa tus conocimientos sobre los conceptos fundamentales del sistema económico, incluyendo oferta y demanda, inflación, ciclos económicos, el papel de los gobiernos y los bancos, y los indicadores económicos básicos.",
         "preguntas": [
           {
-            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
             "opciones": [
-              "Acumular datos irrelevantes.",
-              "Relacionar conocimientos nuevos con los existentes.",
-              "Realizar actividades mecánicas.",
-              "Resolver únicamente problemas matemáticos."
+              "Es un modelo teórico sin implicaciones prácticas en la vida diaria.",
+              "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+              "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+              "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes."
             ],
-            "respuestaCorrecta": 1
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+            "opciones": [
+              "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+              "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+              "La cantidad de recursos naturales disponibles en una economía.",
+              "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+            "opciones": [
+              "La cantidad de productos que los productores desean vender.",
+              "El nivel de producción que los gobiernos imponen.",
+              "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+              "El precio al cual los bienes se producen."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+            "opciones": [
+              "Proporcionar infraestructura y servicios educativos.",
+              "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+              "Monitorear únicamente las grandes empresas y monopolios.",
+              "Fomentar el consumo a través de la regulación de la oferta de bienes."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+            "opciones": [
+              "Corrigiendo fallas del mercado como monopolios y externalidades.",
+              "Eliminando toda intervención en el mercado.",
+              "Excluyendo a las empresas privadas de la economía.",
+              "Aumentando los precios de todos los productos."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
+            "opciones": [
+              "Es el aumento de los precios de los bienes y servicios, lo que reduce el poder adquisitivo del dinero.",
+              "Es una política económica que busca bajar los precios de manera controlada.",
+              "Es una reducción en el costo de la vida, aumentando el valor del dinero.",
+              "Es el crecimiento de la economía, sin afectar los precios."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué determina el valor de una moneda en el mercado de divisas?",
+            "opciones": [
+              "La cantidad de oro que posee un país.",
+              "El valor que los gobiernos deciden asignar a la moneda.",
+              "La oferta y demanda de esa moneda en el mercado internacional.",
+              "El nivel de inflación en el país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es el tipo de cambio?",
+            "opciones": [
+              "El precio de un bien en términos de una moneda nacional.",
+              "La relación entre los tipos de interés de dos países.",
+              "El valor de una moneda en términos de otra moneda.",
+              "El costo de la mano de obra en un país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo afecta la globalización a la economía?",
+            "opciones": [
+              "Limita la capacidad de los países para comerciar entre sí.",
+              "Aumenta las barreras comerciales entre países.",
+              "Facilita la expansión de los mercados, la inversión y el comercio internacional.",
+              "Reduce la competitividad entre las empresas."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué son los ciclos económicos?",
+            "opciones": [
+              "El cambio constante de las tasas de interés en la economía.",
+              "Las fluctuaciones en la actividad económica, que incluyen períodos de expansión y recesión.",
+              "La constante subida de los precios de todos los productos en el mercado.",
+              "El aumento en el número de empresas dentro de una economía."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es la diferencia entre una recesión y un período de crecimiento económico?",
+            "opciones": [
+              "Una recesión es cuando la economía crece rápidamente y la inversión aumenta.",
+              "Un período de crecimiento económico es cuando la economía experimenta una desaceleración.",
+              "Una recesión es cuando la economía disminuye y la producción y el empleo caen.",
+              "Un período de crecimiento económico se caracteriza por la disminución de los precios."
+            ],
+            "correcta": 3
+          },
+          {
+            "pregunta": "¿Qué rol cumplen las instituciones financieras en la economía?",
+            "opciones": [
+              "Controlan el comercio internacional y las tarifas aduaneras.",
+              "Establecen políticas fiscales y monetarias para controlar el gasto público.",
+              "Regulan el flujo de dinero, facilitan el crédito y promueven la inversión.",
+              "Producen bienes y servicios que cubren las necesidades básicas de la población."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico rezagado?",
+            "opciones": [
+              "Un indicador que refleja la situación económica futura.",
+              "Un indicador que muestra el nivel de inflación a nivel global.",
+              "Un indicador que predice el comportamiento del mercado de valores.",
+              "Un indicador que se publica después de que los cambios económicos ya se han producido."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel de los bancos centrales en la economía?",
+            "opciones": [
+              "Fomentan la competencia en los mercados de bienes y servicios.",
+              "Gestionan el nivel de deuda externa de un país.",
+              "Establecen el tipo de cambio y regulan el comercio exterior.",
+              "Controlan la inflación, emiten moneda y regulan la oferta de dinero."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico líder?",
+            "opciones": [
+              "Un indicador que muestra los resultados económicos después de que ocurren los cambios.",
+              "Un indicador que refleja las expectativas futuras de la economía y predice su tendencia.",
+              "Un indicador que mide la tasa de interés del gobierno para el año próximo.",
+              "Un indicador utilizado exclusivamente para medir la producción industrial."
+            ],
+            "correcta": 2
           }
+
         ]
       }
     },
@@ -736,6 +1235,8 @@
               "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
               "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
               "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "autor": "José Francisco López, Economipedia",
+              
               "contenido": {
                 "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
                 "texto": [
@@ -781,6 +1282,8 @@
               "tituloOriginal": "Ley de Oferta y Demanda",
               "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
               "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "autor": "Alumno Financiero",
+      
               "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
             },
             {
@@ -789,6 +1292,7 @@
               "title": " Rol de los gobiernos y los bancos en el sistema económico.",
               "tituloOriginal": "El Sistema Economico - Banco de la Republica",
               "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "autor": "Banco de la República",
               "contenido": {
                 "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
                 "texto": [
@@ -877,205 +1381,452 @@
         },
         {
           "sectionId": 2,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Conceptos Clave del Sistema Económico",
           "activities": [
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c4",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "¿Qué es la inflación y cómo impacta tu dinero?",
+              "tituloOriginal": "Tipos de inflación: ¿Cuáles son y cómo afectan las finanzas personales?",
+              "url": "https://www.fna.gov.co/Blog/Paginas/tipos-de-inflacion-cuales-como-afectan-finanzas-personales.aspx#:~:text=La%20inflaci%C3%B3n%20consiste%20en%20el,adquisitivo%20como%20medio%20de%20cambio.",
+              "autor": "Fondo Nacional del Ahorro",
+              
+              "contenido": {
+                "imagenes": ["https://www.fna.gov.co/Blog/PublishingImages/imagenes%20blog/tipos%20de%20inflacion.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "¿Qué es la inflación?",
+                    "sub": "La inflación consiste en el alza generalizada del precio de los bienes y servicios por un largo periodo de tiempo, normalmente, un año o más.\n\nSurge cuando la moneda de un país **pierde valor o poder adquisitivo** como medio de cambio. Si bien existen diferentes tipos de inflación, en líneas generales, significa que una unidad de moneda permite adquirir una menor cantidad de bienes y servicios que antes."
+                  },
+                  {
+                    "subtitulo": "Impacto de la inflación en la economía",
+                    "sub": "De acuerdo con Expansión (2023), la inflación acumulada para el año 2023 en Colombia ya alcanzó el 1,8%.\n\nEsto afecta no solo los precios al consumidor, sino también los distintos instrumentos financieros de la economía: las tasas de los créditos y préstamos, la cotización de las UVR y hasta el precio del dólar. Así, por ejemplo, si solicitas un crédito del FNA para adquirir vivienda, el valor de las cuotas mensuales irá subiendo porque se ajustan siguiendo el índice de inflación."
+                  },
+                  {
+                    "subtitulo": "Tipos de inflación y sus principales características",
+                    "sub": "En general, sabemos que la inflación es el aumento de los precios.\n\nSin embargo, existen diversos tipos de inflación, con un comportamiento diferente en relación con la economía. A continuación, los tipos más comunes:\n\n1. **Inflación por costo**: Se da cuando aumentan los precios de las materias primas necesarias para la industria; por ejemplo, de los metales, energía o alimentos. Esto provoca que los productores, a su vez, suban sus precios para sostener sus márgenes de ganancia.\n\n2. **Inflación por consumo**: Este tipo de inflación responde a las leyes de oferta y demanda. Si hay una demanda de un bien o servicio mayor a la capacidad de importación o producción, su precio tiende a subir. Por ejemplo, imagina que se lanza al mercado el último modelo de un smartphone y se agota en pocas horas. Es posible que, cuando las tiendas repongan el stock, incrementen el precio del teléfono celular porque hay pocas unidades disponibles.\n\n3. **Inflación moderada**: Consiste en un ajuste gradual y muy lento de precios, que es habitual en economías estables. Cuando los precios se mantienen, los consumidores confían en la economía nacional y realizan depósitos e inversiones. Esto, a su vez, inyecta dinero a los bancos sin necesidad de emitir papel moneda.\n\n4. **Hiperinflación**: Es uno de los tipos de inflación más alarmantes debido a su potencial de amenazar la estabilidad económica. Se considera que ocurre hiperinflación cuando el índice de precios aumenta más de un 50% mensualmente. Este fenómeno está presente, sobre todo, en algunos países de África y Latinoamérica.\n\n5. **Deflación**: Además de subir, los precios también pueden bajar, fenómeno que se conoce como deflación. Si bien es poco frecuente, puede aparecer en un contexto de recesión económica, donde hay mucha oferta y poca demanda. En otras palabras, baja el consumo y esto paraliza la economía.\n\n6. **Estanflación**: Cuando la inflación de un país supera a su crecimiento, puede producirse una estanflación. En este contexto, la economía está en recesión y los consumidores tienen menos capacidad para comprar bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "¿Cómo influyen los tipos de inflación en tu vida cotidiana?",
+                    "sub": "Los diferentes tipos de inflación no solo afectan la economía nacional e internacional. También tienen un impacto directo en tus finanzas diarias.\n\n1. **Pérdida de poder adquisitivo**: Como consecuencia de la inflación, los consumidores ven reducido su poder adquisitivo. En otras palabras, el dinero les alcanza para comprar cada vez menos productos y servicios. Muchas veces esto les obliga a ajustar sus gastos, reduciendo su estilo de vida, o a buscar nuevas formas de generar ingresos extra para compensar los aumentos de precios.\n\n2. **Encarecimiento de las deudas**: Tal vez no lo sabías, pero la inflación afecta negativamente tu vida crediticia. En una economía inflacionaria, suben las tasas de interés de los préstamos y créditos, y así, terminas pagando más por tus deudas. Incluso, si tienes una deuda en moneda extranjera, puede que el valor de tu cuota aumente, al depreciarse el peso colombiano con respecto al dólar.\n\n3. **Reducción del ahorro**: Ahorrar e invertir son dos reglas básicas de educación financiera que todos deberían seguir. Sin embargo, ahorrar se hace más difícil cuando hay inflación. Al aumentar los precios, debes destinar más dinero a tus necesidades básicas, lo que reduce tu excedente para ahorrar."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "En resumen, la inflación puede tener un impacto significativo en nuestras vidas cotidianas y en la economía en general. Desde la pérdida de poder adquisitivo hasta el encarecimiento de las deudas y la reducción del ahorro. Es importante comprender cómo diferentes tipos de inflación pueden afectar nuestras finanzas personales y el mercado en general. Mantenerse informado y tomar decisiones financieras inteligentes puede ayudarnos a mitigar los efectos de la inflación y mantener nuestra estabilidad financiera."
+                  }
+                ]
+              }
             },
             {
               "type": "video",
               "id": "c5",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "Moneda y tipos de cambio: su importancia en las finanzas.",
+              "tituloOriginal": "Introducción a la tasa de cambio",
+              "urlOriginal": "https://youtu.be/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "url": "https://www.youtube.com/embed/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "autor": "Khan Academy",
+      
+              "descripcion": "Este video explora el concepto de moneda y los tipos de cambio, destacando su relevancia en la economía global y las finanzas personales. Se analiza cómo las fluctuaciones en los tipos de cambio pueden afectar tanto a los consumidores como a los inversionistas, y cómo la moneda de un país refleja su estabilidad económica. Ideal para entender los factores que influyen en el poder adquisitivo y las decisiones financieras a nivel mundial."
             },
             {
-              "type": "articulo",
+              "type": "video",
               "id": "c6",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
-              "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
-                "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
-              }
+              "title": "Globalización y sus efectos en la economía.",
+              "tituloOriginal": "¿Qué es la GLOBALIZACIÓN?",
+              "urlOriginal": "https://youtu.be/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "url": "https://www.youtube.com/embed/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "autor": "Economipedia",
+      
+              "descripcion": "Este video explica el concepto de globalización y cómo ha transformado las economías a nivel mundial. Analiza los aspectos clave que definen este fenómeno, desde la integración de mercados hasta los efectos sobre el comercio, la cultura y la tecnología. Además, destaca cómo la globalización ha generado tanto oportunidades como desafíos para los países y sus economías."
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q2",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "title": "Inflación, moneda y globalización",
+            "id": "q2",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de la inflación, los tipos de cambio y los efectos de la globalización en la economía.",
             "preguntas": [
               {
-                "pregunta": "¿Qué es el aprendizaje?",
+                "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
                 "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
+                  "Es la subida generalizada de los precios de los bienes y servicios que reduce el poder adquisitivo.",
+                  "Es el aumento de la producción de bienes y servicios en un país.",
+                  "Es el proceso de aumentar el valor de una moneda respecto a otras.",
+                  "Es la reducción de los precios debido a una crisis económica."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "pregunta": "¿Cómo influye el tipo de cambio en las finanzas de un país?",
                 "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
+                  "Afecta solo a los precios de los productos nacionales.",
+                  "No tiene impacto en la economía, solo en el comercio internacional.",
+                  "Regula la cantidad de dinero que los bancos pueden prestar a los consumidores.",
+                  "Determina el valor relativo de la moneda de un país frente a otras, afectando las importaciones y exportaciones."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 4
               },
               {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "pregunta": "¿Cuál de los siguientes es un efecto de la globalización en las economías locales?",
                 "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
+                  "Aumento de la barrera comercial entre países.",
+                  "Mayor acceso a productos importados a precios más bajos y mayor competencia.",
+                  "Reducción de la influencia de las tecnologías extranjeras.",
+                  "Desaparición de mercados laborales en economías desarrolladas."
                 ],
-                "respuestaCorrecta": 2
+                "correcta": 2
               },
               {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "pregunta": "¿Qué provoca un aumento en el tipo de cambio de una moneda?",
                 "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
+                  "Una mejora en la economía interna de un país.",
+                  "Un aumento en las tasas de interés y en la inversión extranjera.",
+                  "La falta de confianza en la moneda de otros países.",
+                  "Una caída en la producción de bienes y servicios."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "pregunta": "¿Cómo afecta la inflación a la vida diaria de las personas?",
                 "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
+                  "Aumenta el poder adquisitivo de los consumidores.",
+                  "Hace que el dinero pierda valor y los precios suban, afectando el poder adquisitivo.",
+                  "Reduce el precio de los productos importados.",
+                  "Hace que los salarios aumenten en la misma proporción que los precios."
                 ],
-                "respuestaCorrecta": 1
+                "correcta": 2
               }
             ]
           }
         },
         {
           "sectionId": 3,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Elementos Esenciales del Sistema Económico",
           "activities": [
             {
               "type": "video",
               "id": "c7",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "Ciclos económicos: recesión y crecimiento.",
+              "tituloOriginal": "Qué son los ciclos económicos y cuáles son sus fases",
+              "urlOriginal": "https://www.youtube.com/watch?v=yC6MpheLtdo",
+              "url": "https://www.youtube.com/embed/yC6MpheLtdo?si=nwAaywf-TE3J86N4",
+              "autor": "ECONOSUBLIME",
+              "descripcion": "En este video aprenderás sobre los ciclos económicos y sus distintas fases. Se explican las etapas de expansión, auge, recesión y recuperación, así como cómo afectan a las economías locales y globales. Además, se analiza el impacto de estos ciclos en la vida cotidiana y en las decisiones financieras de las personas y las empresas."
             },
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c8",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "El papel de las instituciones financieras.",
+              "tituloOriginal": "El papel fundamental de las instituciones financieras en el desarrollo económico",
+              "url": "https://www.credlix.com/es/blogs/el-papel-fundamental-de-las-instituciones-financieras-en-el-desarrollo-economico",
+              "autor": "Credlix",
+              
+              "contenido": {
+                "imagenes": ["https://www.credlix.com/_next/image?url=https%3A%2F%2Fblog.credlix.com%2Fwp-content%2Fuploads%2F2024%2F12%2Ffinancing.webp&w=1200&q=75"],
+                "texto": [
+                {
+                  "subtitulo": "¿Qué son las instituciones financieras?",
+                  "sub": "Las instituciones financieras son entidades que se dedican a la intermediación de dinero, facilitando el acceso a servicios financieros como créditos, depósitos, pagos y demás. Estas instituciones permiten que los individuos y empresas puedan realizar transacciones económicas de manera segura y eficiente. Existen diferentes tipos de instituciones financieras, cada una con un rol específico dentro de la economía."
+                },
+                {
+                  "subtitulo": "Tipos de instituciones financieras",
+                  "sub": "En el sistema financiero, existen diversas entidades que cumplen funciones diferentes, tales como bancos comerciales, cooperativas de ahorro y crédito, fondos de pensiones, compañías de seguros, entre otras. A continuación se detallan algunos de los tipos más comunes:\n\n1. **Bancos comerciales**: Son las instituciones financieras más conocidas. Se encargan de ofrecer servicios de ahorro, préstamos y pagos a individuos y empresas. También pueden realizar inversiones y ofrecer servicios de cambio de divisas.\n\n2. **Cooperativas de ahorro y crédito**: Son entidades sin fines de lucro que permiten que sus miembros se agruparan para ahorrar y acceder a créditos con condiciones preferenciales. Se enfocan en el bienestar de sus miembros, brindando tasas de interés más bajas que los bancos comerciales.\n\n3. **Compañías de seguros**: Estas instituciones se encargan de ofrecer productos que protejan a individuos y empresas contra riesgos específicos. A cambio de una prima, proporcionan una indemnización en caso de que ocurra un evento cubierto por la póliza.\n\n4. **Fondos de pensiones**: Son instituciones que gestionan los ahorros destinados a la jubilación. Reciben aportes de los trabajadores y, a través de la inversión de estos fondos, buscan generar rendimientos que aseguren el bienestar financiero de los pensionados a largo plazo.\n\n5. **Bancos centrales**: Son entidades gubernamentales responsables de la política monetaria de un país. Se encargan de regular la oferta monetaria, controlar la inflación y mantener la estabilidad financiera del sistema económico."
+                },
+                {
+                  "subtitulo": "Función de las instituciones financieras en la economía",
+                  "sub": "Las instituciones financieras desempeñan un papel fundamental en la economía al facilitar el flujo de dinero y la asignación eficiente de recursos. A través de la intermediación, estas entidades permiten que los ahorros de los individuos sean canalizados a empresas e inversionistas que necesitan capital para desarrollar proyectos, crear empleos y generar crecimiento económico.\n\nAdemás, proporcionan servicios como la creación de crédito, que es vital para el crecimiento económico, permitiendo que empresas y consumidores puedan financiar proyectos y compras. De esta manera, las instituciones financieras son esenciales para el desarrollo económico y la estabilidad de los países."
+                },
+                {
+                  "subtitulo": "Impacto de las instituciones financieras en las personas",
+                  "sub": "Las instituciones financieras tienen un impacto directo sobre la vida de las personas. No solo facilitan el acceso a crédito para la adquisición de bienes como viviendas o vehículos, sino que también ofrecen productos de ahorro y seguros que brindan seguridad financiera a los individuos. Además, a través de la educación financiera que muchas de estas entidades proporcionan, las personas pueden aprender a gestionar sus recursos de manera más eficiente.\n\n1. **Acceso al crédito**: Las personas pueden acceder a préstamos para financiar proyectos, estudiar o adquirir bienes que, de otro modo, no podrían comprar al contado. Este acceso al crédito tiene un gran impacto en el bienestar personal y familiar.\n\n2. **Ahorro e inversión**: Las instituciones financieras también ofrecen productos que permiten a los individuos ahorrar de forma segura y, en algunos casos, obtener rendimientos a través de inversiones.\n\n3. **Seguridad financiera**: A través de los seguros, las personas pueden proteger su patrimonio y a sus familias contra riesgos imprevistos, como accidentes, enfermedades o pérdidas materiales."
+                },
+                {
+                  "subtitulo": "Conclusión",
+                  "sub": "Las instituciones financieras son piezas clave en la economía moderna. No solo facilitan la circulación del dinero y el crédito, sino que también juegan un rol crucial en la seguridad financiera de las personas. Al permitir que los individuos y empresas ahorren, inviertan y obtengan crédito, contribuyen al desarrollo económico y al bienestar social. Por lo tanto, es fundamental comprender cómo funcionan estas entidades y cómo pueden ser utilizadas de manera eficaz para mejorar nuestra salud financiera."
+                }
+              ]
+            
+              }
             },
             {
               "type": "articulo",
               "id": "c9",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
+              "title": "Cómo entender los indicadores económicos básicos.",
+              "tituloOriginal": "¿Qué son los indicadores económicos y por qué son importantes?",
+              "url": "https://www.forex.com/es-latam/news-and-analysis/what-are-economic-indicators/",
+              "autor": "Rebecca Cattlin, Forex",
+              
               "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "imagenes": ["https://www.forex.com/es-latam/-/media/research/global/news-analysis/featured-image/2021/03/uptrend-4v2.jpg?extension=webp"],
                 "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
+                {
+                  "subtitulo": "Introducción",
+                  "sub": "Los indicadores económicos son datos clave que reflejan el desempeño de la economía de un país. Estos indicadores, ampliamente utilizados por analistas e inversores, permiten medir la salud de una economía y prever futuros movimientos. Se dividen en tres tipos: adelantados, coincidentes y rezagados, y son fundamentales para la toma de decisiones en mercados financieros como FOREX."
+                },
+                {
+                  "subtitulo": "Propósito de los indicadores económicos",
+                  "sub": "Los indicadores económicos sirven para proporcionar una comprensión profunda sobre el estado de la economía. Para los inversores y analistas, estos datos ayudan a identificar oportunidades y ajustar estrategias. Los indicadores económicos también influyen en las políticas económicas y en las decisiones de los responsables de la formulación de políticas."
+                },
+                {
+                  "subtitulo": "Tipos de indicadores económicos",
+                  "sub": "Los indicadores económicos se dividen en tres grandes grupos:\n\n1. **Indicadores adelantados**: anticipan cambios económicos futuros, pero con cierta incertidumbre.\n\n2. **Indicadores coincidentes**: reflejan la situación económica actual.\n\n3. **Indicadores rezagados**: se publican después de los cambios en la economía y, aunque no son útiles para predecir, dan información esencial sobre la salud económica."
+                },
+                {
+                  "subtitulo": "Indicadores clave",
+                  "sub": "Algunos indicadores clave incluyen el **Producto Interno Bruto (PIB)**, las **tasas de interés**, el **mercado de divisas**, el **mercado de valores**, el **desempleo y salarios**, el **Índice de Precios al Consumidor (IPC)**, el **Índice de Precios al Productor (IPP)**, y la **balanza comercial**."
+                },
+                {
+                  "subtitulo": "Producto Interno Bruto (PIB)",
+                  "sub": "El PIB es el valor de todos los bienes y servicios producidos en un país durante un período determinado. Es un indicador rezagado, ya que refleja la salud económica pasada, pero es clave para evaluar el crecimiento de una economía. El PIB se presenta en cifras nominales y reales, y su desempeño influye en las decisiones de los mercados financieros."
+                },
+                {
+                  "subtitulo": "Tasas de interés",
+                  "sub": "Las tasas de interés son cruciales para la economía, ya que afectan el valor de la moneda y las decisiones de inversión. Las tasas altas indican una economía fuerte, mientras que las tasas bajas favorecen el crecimiento. Este indicador es tanto adelantado como rezagado, dependiendo de las circunstancias y las expectativas del mercado."
+                },
+                {
+                  "subtitulo": "Mercados de divisas",
+                  "sub": "Las monedas nacionales reflejan la fortaleza económica de un país. Un país con una moneda fuerte experimenta un aumento en el poder adquisitivo y las exportaciones, mientras que una moneda débil tiene efectos contrarios. Aunque es un indicador rezagado, el valor de la moneda es ampliamente observado en los mercados financieros."
+                },
+                {
+                  "subtitulo": "Mercados de valores",
+                  "sub": "El mercado de valores es un indicador económico que refleja las expectativas sobre las empresas y la economía en general. Sin embargo, los precios de las acciones pueden verse influenciados por la especulación y las intervenciones gubernamentales, lo que puede hacer que el mercado no sea siempre un reflejo fiel de la economía."
+                },
+                {
+                  "subtitulo": "Desempleo y salarios",
+                  "sub": "Las tasas de desempleo y los salarios son indicadores importantes que reflejan el bienestar de la fuerza laboral. Un bajo desempleo y altos salarios indican una economía saludable, mientras que altas tasas de desempleo y bajos salarios señalan una posible recesión. Este indicador es rezagado, por lo que debe ser considerado en conjunto con otros datos."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Consumidor (IPC)",
+                  "sub": "El IPC mide los cambios en el costo de vida y es una herramienta clave para medir la inflación. Un aumento en el IPC puede llevar a un aumento de las tasas de interés, mientras que una disminución puede estimular el consumo. Aunque es un buen indicador de inflación, el IPC también es un dato rezagado."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Productor (IPP)",
+                  "sub": "El IPP mide los cambios en los precios de bienes antes de que lleguen al consumidor. Se considera un indicador adelantado de la inflación, ya que los cambios en los precios a nivel de los productores se reflejan más rápido que los precios al consumidor."
+                },
+                {
+                  "subtitulo": "Balanza comercial",
+                  "sub": "La balanza comercial es la diferencia entre las exportaciones e importaciones de un país. Un superávit comercial indica que un país exporta más de lo que importa, lo cual es favorable para la economía, mientras que un déficit puede señalar debilidad económica."
+                }
+              ]
               }
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q3",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
-            "preguntas": [
-              {
-                "pregunta": "¿Qué es el aprendizaje?",
-                "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
-                "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
-                "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
-                ],
-                "respuestaCorrecta": 2
-              },
-              {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
-                "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
-                "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
-                ],
-                "respuestaCorrecta": 1
-              }
-            ]
-          }
+              "title": "Ciclos Económicos e Indicadores Financieros",
+              "id": "q3",
+              "descripcion": "Este quiz evalúa tus conocimientos sobre los ciclos económicos, el papel de las instituciones financieras y cómo entender los indicadores económicos básicos.",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué caracteriza a un ciclo económico de recesión?",
+                  "opciones": [
+                    "Un periodo de crecimiento económico continuo sin caídas significativas.",
+                    "Un periodo en el que la economía experimenta un crecimiento en la producción y la inversión.",
+                    "Un periodo en el que se reduce la actividad económica, el empleo disminuye y la producción baja.",
+                    "Un periodo en el que los mercados financieros están completamente estables."
+                  ],
+                  "correcta": 3
+                },
+                {
+                  "pregunta": "¿Cuál es el principal papel de las instituciones financieras en la economía?",
+                  "opciones": [
+                    "Producir bienes y servicios que satisfacen las necesidades básicas de la población.",
+                    "Controlar el flujo de dinero entre gobiernos y empresas, facilitando el crédito y las inversiones.",
+                    "Establecer políticas económicas para la producción y distribución de productos.",
+                    "Fomentar el ahorro de los ciudadanos sin tomar en cuenta el mercado global."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Qué es un indicador económico adelantado?",
+                  "opciones": [
+                    "Un indicador que refleja la situación económica actual.",
+                    "Un indicador que prevé cambios en la economía antes de que ocurran.",
+                    "Un indicador que se publica después de que los cambios económicos ya se han producido.",
+                    "Un indicador que refleja los precios de los bienes en el mercado internacional."
+                  ],
+                  "correcta": 1
+                },
+                {
+                  "pregunta": "¿Qué papel tiene el Producto Interno Bruto (PIB) en la economía?",
+                  "opciones": [
+                    "Es un indicador adelantado que predice el crecimiento económico futuro.",
+                    "Es un indicador rezagado que mide la producción económica pasada.",
+                    "Es un indicador coincidente que refleja las expectativas del consumidor.",
+                    "Es un indicador que mide exclusivamente el nivel de inflación."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Cómo influyen las tasas de interés en la economía?",
+                  "opciones": [
+                    "Afectan únicamente a los mercados de valores.",
+                    "Determinan la tasa de crecimiento de la población.",
+                    "Regulan el valor de la moneda y las decisiones de inversión, favoreciendo el ahorro o el gasto.",
+                    "No tienen un impacto significativo en la actividad económica."
+                  ],
+                  "correcta": 3
+                }
+              ]
+            }
         }
       ],
-      "finalExam": {
-        "title": "Introducción al Aprendizaje",
-        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+      "final": {
+        "title": "Examen Final - Introducción a la Educación Financiera",
+        "id": "final_q1",
+        "descripcion": "Este examen evalúa tus conocimientos sobre los conceptos fundamentales del sistema económico, incluyendo oferta y demanda, inflación, ciclos económicos, el papel de los gobiernos y los bancos, y los indicadores económicos básicos.",
         "preguntas": [
           {
-            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
             "opciones": [
-              "Acumular datos irrelevantes.",
-              "Relacionar conocimientos nuevos con los existentes.",
-              "Realizar actividades mecánicas.",
-              "Resolver únicamente problemas matemáticos."
+              "Es un modelo teórico sin implicaciones prácticas en la vida diaria.",
+              "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+              "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+              "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes."
             ],
-            "respuestaCorrecta": 1
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+            "opciones": [
+              "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+              "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+              "La cantidad de recursos naturales disponibles en una economía.",
+              "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+            "opciones": [
+              "La cantidad de productos que los productores desean vender.",
+              "El nivel de producción que los gobiernos imponen.",
+              "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+              "El precio al cual los bienes se producen."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+            "opciones": [
+              "Proporcionar infraestructura y servicios educativos.",
+              "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+              "Monitorear únicamente las grandes empresas y monopolios.",
+              "Fomentar el consumo a través de la regulación de la oferta de bienes."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+            "opciones": [
+              "Corrigiendo fallas del mercado como monopolios y externalidades.",
+              "Eliminando toda intervención en el mercado.",
+              "Excluyendo a las empresas privadas de la economía.",
+              "Aumentando los precios de todos los productos."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
+            "opciones": [
+              "Es el aumento de los precios de los bienes y servicios, lo que reduce el poder adquisitivo del dinero.",
+              "Es una política económica que busca bajar los precios de manera controlada.",
+              "Es una reducción en el costo de la vida, aumentando el valor del dinero.",
+              "Es el crecimiento de la economía, sin afectar los precios."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué determina el valor de una moneda en el mercado de divisas?",
+            "opciones": [
+              "La cantidad de oro que posee un país.",
+              "El valor que los gobiernos deciden asignar a la moneda.",
+              "La oferta y demanda de esa moneda en el mercado internacional.",
+              "El nivel de inflación en el país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es el tipo de cambio?",
+            "opciones": [
+              "El precio de un bien en términos de una moneda nacional.",
+              "La relación entre los tipos de interés de dos países.",
+              "El valor de una moneda en términos de otra moneda.",
+              "El costo de la mano de obra en un país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo afecta la globalización a la economía?",
+            "opciones": [
+              "Limita la capacidad de los países para comerciar entre sí.",
+              "Aumenta las barreras comerciales entre países.",
+              "Facilita la expansión de los mercados, la inversión y el comercio internacional.",
+              "Reduce la competitividad entre las empresas."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué son los ciclos económicos?",
+            "opciones": [
+              "El cambio constante de las tasas de interés en la economía.",
+              "Las fluctuaciones en la actividad económica, que incluyen períodos de expansión y recesión.",
+              "La constante subida de los precios de todos los productos en el mercado.",
+              "El aumento en el número de empresas dentro de una economía."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es la diferencia entre una recesión y un período de crecimiento económico?",
+            "opciones": [
+              "Una recesión es cuando la economía crece rápidamente y la inversión aumenta.",
+              "Un período de crecimiento económico es cuando la economía experimenta una desaceleración.",
+              "Una recesión es cuando la economía disminuye y la producción y el empleo caen.",
+              "Un período de crecimiento económico se caracteriza por la disminución de los precios."
+            ],
+            "correcta": 3
+          },
+          {
+            "pregunta": "¿Qué rol cumplen las instituciones financieras en la economía?",
+            "opciones": [
+              "Controlan el comercio internacional y las tarifas aduaneras.",
+              "Establecen políticas fiscales y monetarias para controlar el gasto público.",
+              "Regulan el flujo de dinero, facilitan el crédito y promueven la inversión.",
+              "Producen bienes y servicios que cubren las necesidades básicas de la población."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico rezagado?",
+            "opciones": [
+              "Un indicador que refleja la situación económica futura.",
+              "Un indicador que muestra el nivel de inflación a nivel global.",
+              "Un indicador que predice el comportamiento del mercado de valores.",
+              "Un indicador que se publica después de que los cambios económicos ya se han producido."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel de los bancos centrales en la economía?",
+            "opciones": [
+              "Fomentan la competencia en los mercados de bienes y servicios.",
+              "Gestionan el nivel de deuda externa de un país.",
+              "Establecen el tipo de cambio y regulan el comercio exterior.",
+              "Controlan la inflación, emiten moneda y regulan la oferta de dinero."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico líder?",
+            "opciones": [
+              "Un indicador que muestra los resultados económicos después de que ocurren los cambios.",
+              "Un indicador que refleja las expectativas futuras de la economía y predice su tendencia.",
+              "Un indicador que mide la tasa de interés del gobierno para el año próximo.",
+              "Un indicador utilizado exclusivamente para medir la producción industrial."
+            ],
+            "correcta": 2
           }
+
         ]
       }
     },
@@ -1094,6 +1845,8 @@
               "title": "¿Qué es el sistema económico y cómo afecta nuestras vidas?",
               "tituloOriginal": "Sistema económico: Qué es, qué tipos hay y sus objetivos",
               "url": "https://economipedia.com/definiciones/sistema-economico.html#sistema-economico-explicacion-sencilla",
+              "autor": "José Francisco López, Economipedia",
+              
               "contenido": {
                 "imagenes": ["https://economipedia.com/wp-content/uploads/Sistema-economico-que-es.jpg"],
                 "texto": [
@@ -1139,6 +1892,8 @@
               "tituloOriginal": "Ley de Oferta y Demanda",
               "urlOriginal": "https://www.youtube.com/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
               "url": "https://www.youtube.com/embed/CdSbuLUr9CA?si=SF8XPFpvj78JEj2I",
+              "autor": "Alumno Financiero",
+      
               "descripcion": "Este video explica los conceptos clave de oferta y demanda, dos elementos esenciales en la economía. A través de ejemplos ilustrativos, se aborda cómo la interacción entre estos factores influye en la fijación de precios y en la producción de bienes y servicios. Además, se analiza su impacto en el equilibrio del mercado y en la toma de decisiones económicas."
             },
             {
@@ -1147,6 +1902,7 @@
               "title": " Rol de los gobiernos y los bancos en el sistema económico.",
               "tituloOriginal": "El Sistema Economico - Banco de la Republica",
               "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia_1_el_sistema_economico.pdf",
+              "autor": "Banco de la República",
               "contenido": {
                 "imagenes": ["https://blog.up.edu.mx/hubfs/Blog-El-papel-del-gobierno-en-una-econom%C3%ADa-de-mercado.png"],
                 "texto": [
@@ -1235,207 +1991,455 @@
         },
         {
           "sectionId": 2,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Conceptos Clave del Sistema Económico",
           "activities": [
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c4",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "¿Qué es la inflación y cómo impacta tu dinero?",
+              "tituloOriginal": "Tipos de inflación: ¿Cuáles son y cómo afectan las finanzas personales?",
+              "url": "https://www.fna.gov.co/Blog/Paginas/tipos-de-inflacion-cuales-como-afectan-finanzas-personales.aspx#:~:text=La%20inflaci%C3%B3n%20consiste%20en%20el,adquisitivo%20como%20medio%20de%20cambio.",
+              "autor": "Fondo Nacional del Ahorro",
+              
+              "contenido": {
+                "imagenes": ["https://www.fna.gov.co/Blog/PublishingImages/imagenes%20blog/tipos%20de%20inflacion.jpg"],
+                "texto": [
+                  {
+                    "subtitulo": "¿Qué es la inflación?",
+                    "sub": "La inflación consiste en el alza generalizada del precio de los bienes y servicios por un largo periodo de tiempo, normalmente, un año o más.\n\nSurge cuando la moneda de un país **pierde valor o poder adquisitivo** como medio de cambio. Si bien existen diferentes tipos de inflación, en líneas generales, significa que una unidad de moneda permite adquirir una menor cantidad de bienes y servicios que antes."
+                  },
+                  {
+                    "subtitulo": "Impacto de la inflación en la economía",
+                    "sub": "De acuerdo con Expansión (2023), la inflación acumulada para el año 2023 en Colombia ya alcanzó el 1,8%.\n\nEsto afecta no solo los precios al consumidor, sino también los distintos instrumentos financieros de la economía: las tasas de los créditos y préstamos, la cotización de las UVR y hasta el precio del dólar. Así, por ejemplo, si solicitas un crédito del FNA para adquirir vivienda, el valor de las cuotas mensuales irá subiendo porque se ajustan siguiendo el índice de inflación."
+                  },
+                  {
+                    "subtitulo": "Tipos de inflación y sus principales características",
+                    "sub": "En general, sabemos que la inflación es el aumento de los precios.\n\nSin embargo, existen diversos tipos de inflación, con un comportamiento diferente en relación con la economía. A continuación, los tipos más comunes:\n\n1. **Inflación por costo**: Se da cuando aumentan los precios de las materias primas necesarias para la industria; por ejemplo, de los metales, energía o alimentos. Esto provoca que los productores, a su vez, suban sus precios para sostener sus márgenes de ganancia.\n\n2. **Inflación por consumo**: Este tipo de inflación responde a las leyes de oferta y demanda. Si hay una demanda de un bien o servicio mayor a la capacidad de importación o producción, su precio tiende a subir. Por ejemplo, imagina que se lanza al mercado el último modelo de un smartphone y se agota en pocas horas. Es posible que, cuando las tiendas repongan el stock, incrementen el precio del teléfono celular porque hay pocas unidades disponibles.\n\n3. **Inflación moderada**: Consiste en un ajuste gradual y muy lento de precios, que es habitual en economías estables. Cuando los precios se mantienen, los consumidores confían en la economía nacional y realizan depósitos e inversiones. Esto, a su vez, inyecta dinero a los bancos sin necesidad de emitir papel moneda.\n\n4. **Hiperinflación**: Es uno de los tipos de inflación más alarmantes debido a su potencial de amenazar la estabilidad económica. Se considera que ocurre hiperinflación cuando el índice de precios aumenta más de un 50% mensualmente. Este fenómeno está presente, sobre todo, en algunos países de África y Latinoamérica.\n\n5. **Deflación**: Además de subir, los precios también pueden bajar, fenómeno que se conoce como deflación. Si bien es poco frecuente, puede aparecer en un contexto de recesión económica, donde hay mucha oferta y poca demanda. En otras palabras, baja el consumo y esto paraliza la economía.\n\n6. **Estanflación**: Cuando la inflación de un país supera a su crecimiento, puede producirse una estanflación. En este contexto, la economía está en recesión y los consumidores tienen menos capacidad para comprar bienes y servicios."
+                  },
+                  {
+                    "subtitulo": "¿Cómo influyen los tipos de inflación en tu vida cotidiana?",
+                    "sub": "Los diferentes tipos de inflación no solo afectan la economía nacional e internacional. También tienen un impacto directo en tus finanzas diarias.\n\n1. **Pérdida de poder adquisitivo**: Como consecuencia de la inflación, los consumidores ven reducido su poder adquisitivo. En otras palabras, el dinero les alcanza para comprar cada vez menos productos y servicios. Muchas veces esto les obliga a ajustar sus gastos, reduciendo su estilo de vida, o a buscar nuevas formas de generar ingresos extra para compensar los aumentos de precios.\n\n2. **Encarecimiento de las deudas**: Tal vez no lo sabías, pero la inflación afecta negativamente tu vida crediticia. En una economía inflacionaria, suben las tasas de interés de los préstamos y créditos, y así, terminas pagando más por tus deudas. Incluso, si tienes una deuda en moneda extranjera, puede que el valor de tu cuota aumente, al depreciarse el peso colombiano con respecto al dólar.\n\n3. **Reducción del ahorro**: Ahorrar e invertir son dos reglas básicas de educación financiera que todos deberían seguir. Sin embargo, ahorrar se hace más difícil cuando hay inflación. Al aumentar los precios, debes destinar más dinero a tus necesidades básicas, lo que reduce tu excedente para ahorrar."
+                  },
+                  {
+                    "subtitulo": "Conclusión",
+                    "sub": "En resumen, la inflación puede tener un impacto significativo en nuestras vidas cotidianas y en la economía en general. Desde la pérdida de poder adquisitivo hasta el encarecimiento de las deudas y la reducción del ahorro. Es importante comprender cómo diferentes tipos de inflación pueden afectar nuestras finanzas personales y el mercado en general. Mantenerse informado y tomar decisiones financieras inteligentes puede ayudarnos a mitigar los efectos de la inflación y mantener nuestra estabilidad financiera."
+                  }
+                ]
+              }
             },
             {
               "type": "video",
               "id": "c5",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "Moneda y tipos de cambio: su importancia en las finanzas.",
+              "tituloOriginal": "Introducción a la tasa de cambio",
+              "urlOriginal": "https://youtu.be/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "url": "https://www.youtube.com/embed/X0TDOV9f2D4?si=DF2PME9fgfv8SyAw",
+              "autor": "Khan Academy",
+      
+              "descripcion": "Este video explora el concepto de moneda y los tipos de cambio, destacando su relevancia en la economía global y las finanzas personales. Se analiza cómo las fluctuaciones en los tipos de cambio pueden afectar tanto a los consumidores como a los inversionistas, y cómo la moneda de un país refleja su estabilidad económica. Ideal para entender los factores que influyen en el poder adquisitivo y las decisiones financieras a nivel mundial."
             },
             {
-              "type": "articulo",
+              "type": "video",
               "id": "c6",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
-              "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
-                "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
-              }
+              "title": "Globalización y sus efectos en la economía.",
+              "tituloOriginal": "¿Qué es la GLOBALIZACIÓN?",
+              "urlOriginal": "https://youtu.be/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "url": "https://www.youtube.com/embed/vNpv-5oNEXs?si=mdI6fqf9OoVkOcOZ",
+              "autor": "Economipedia",
+      
+              "descripcion": "Este video explica el concepto de globalización y cómo ha transformado las economías a nivel mundial. Analiza los aspectos clave que definen este fenómeno, desde la integración de mercados hasta los efectos sobre el comercio, la cultura y la tecnología. Además, destaca cómo la globalización ha generado tanto oportunidades como desafíos para los países y sus economías."
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q2",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
+            "title": "Inflación, moneda y globalización",
+            "id": "q2",
+            "descripcion": "Este quiz evalúa tus conocimientos sobre los conceptos fundamentales de la inflación, los tipos de cambio y los efectos de la globalización en la economía.",
             "preguntas": [
               {
-                "pregunta": "¿Qué es el aprendizaje?",
+                "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
                 "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
+                  "Es la subida generalizada de los precios de los bienes y servicios que reduce el poder adquisitivo.",
+                  "Es el aumento de la producción de bienes y servicios en un país.",
+                  "Es el proceso de aumentar el valor de una moneda respecto a otras.",
+                  "Es la reducción de los precios debido a una crisis económica."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
+                "pregunta": "¿Cómo influye el tipo de cambio en las finanzas de un país?",
                 "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
+                  "Afecta solo a los precios de los productos nacionales.",
+                  "No tiene impacto en la economía, solo en el comercio internacional.",
+                  "Regula la cantidad de dinero que los bancos pueden prestar a los consumidores.",
+                  "Determina el valor relativo de la moneda de un país frente a otras, afectando las importaciones y exportaciones."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 4
               },
               {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
+                "pregunta": "¿Cuál de los siguientes es un efecto de la globalización en las economías locales?",
                 "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
+                  "Aumento de la barrera comercial entre países.",
+                  "Mayor acceso a productos importados a precios más bajos y mayor competencia.",
+                  "Reducción de la influencia de las tecnologías extranjeras.",
+                  "Desaparición de mercados laborales en economías desarrolladas."
                 ],
-                "respuestaCorrecta": 2
+                "correcta": 2
               },
               {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
+                "pregunta": "¿Qué provoca un aumento en el tipo de cambio de una moneda?",
                 "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
+                  "Una mejora en la economía interna de un país.",
+                  "Un aumento en las tasas de interés y en la inversión extranjera.",
+                  "La falta de confianza en la moneda de otros países.",
+                  "Una caída en la producción de bienes y servicios."
                 ],
-                "respuestaCorrecta": 0
+                "correcta": 1
               },
               {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
+                "pregunta": "¿Cómo afecta la inflación a la vida diaria de las personas?",
                 "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
+                  "Aumenta el poder adquisitivo de los consumidores.",
+                  "Hace que el dinero pierda valor y los precios suban, afectando el poder adquisitivo.",
+                  "Reduce el precio de los productos importados.",
+                  "Hace que los salarios aumenten en la misma proporción que los precios."
                 ],
-                "respuestaCorrecta": 1
+                "correcta": 2
               }
             ]
           }
         },
         {
           "sectionId": 3,
-          "sectionTitle": "Conceptos Básicos",
+          "sectionTitle": "Elementos Esenciales del Sistema Económico",
           "activities": [
             {
               "type": "video",
               "id": "c7",
-              "title": "¿Qué es el aprendizaje?",
-              "tituloOriginal": "What is Learning?",
-              "url": "https://www.youtube.com/embed/z0pdqj3zH3s",
-              "descripcion": "Video introductorio sobre qué es el aprendizaje."
+              "title": "Ciclos económicos: recesión y crecimiento.",
+              "tituloOriginal": "Qué son los ciclos económicos y cuáles son sus fases",
+              "urlOriginal": "https://www.youtube.com/watch?v=yC6MpheLtdo",
+              "url": "https://www.youtube.com/embed/yC6MpheLtdo?si=nwAaywf-TE3J86N4",
+              "autor": "ECONOSUBLIME",
+              "descripcion": "En este video aprenderás sobre los ciclos económicos y sus distintas fases. Se explican las etapas de expansión, auge, recesión y recuperación, así como cómo afectan a las economías locales y globales. Además, se analiza el impacto de estos ciclos en la vida cotidiana y en las decisiones financieras de las personas y las empresas."
             },
             {
-              "type": "video",
+              "type": "articulo",
               "id": "c8",
-              "title": "Historia del aprendizaje",
-              "tituloOriginal": "History of Learning",
-              "url": "https://example.com/video2",
-              "descripcion": "Una revisión histórica de cómo ha evolucionado el aprendizaje."
+              "title": "El papel de las instituciones financieras.",
+              "tituloOriginal": "El papel fundamental de las instituciones financieras en el desarrollo económico",
+              "url": "https://www.credlix.com/es/blogs/el-papel-fundamental-de-las-instituciones-financieras-en-el-desarrollo-economico",
+              "autor": "Credlix",
+              
+              "contenido": {
+                "imagenes": ["https://www.credlix.com/_next/image?url=https%3A%2F%2Fblog.credlix.com%2Fwp-content%2Fuploads%2F2024%2F12%2Ffinancing.webp&w=1200&q=75"],
+                "texto": [
+                {
+                  "subtitulo": "¿Qué son las instituciones financieras?",
+                  "sub": "Las instituciones financieras son entidades que se dedican a la intermediación de dinero, facilitando el acceso a servicios financieros como créditos, depósitos, pagos y demás. Estas instituciones permiten que los individuos y empresas puedan realizar transacciones económicas de manera segura y eficiente. Existen diferentes tipos de instituciones financieras, cada una con un rol específico dentro de la economía."
+                },
+                {
+                  "subtitulo": "Tipos de instituciones financieras",
+                  "sub": "En el sistema financiero, existen diversas entidades que cumplen funciones diferentes, tales como bancos comerciales, cooperativas de ahorro y crédito, fondos de pensiones, compañías de seguros, entre otras. A continuación se detallan algunos de los tipos más comunes:\n\n1. **Bancos comerciales**: Son las instituciones financieras más conocidas. Se encargan de ofrecer servicios de ahorro, préstamos y pagos a individuos y empresas. También pueden realizar inversiones y ofrecer servicios de cambio de divisas.\n\n2. **Cooperativas de ahorro y crédito**: Son entidades sin fines de lucro que permiten que sus miembros se agruparan para ahorrar y acceder a créditos con condiciones preferenciales. Se enfocan en el bienestar de sus miembros, brindando tasas de interés más bajas que los bancos comerciales.\n\n3. **Compañías de seguros**: Estas instituciones se encargan de ofrecer productos que protejan a individuos y empresas contra riesgos específicos. A cambio de una prima, proporcionan una indemnización en caso de que ocurra un evento cubierto por la póliza.\n\n4. **Fondos de pensiones**: Son instituciones que gestionan los ahorros destinados a la jubilación. Reciben aportes de los trabajadores y, a través de la inversión de estos fondos, buscan generar rendimientos que aseguren el bienestar financiero de los pensionados a largo plazo.\n\n5. **Bancos centrales**: Son entidades gubernamentales responsables de la política monetaria de un país. Se encargan de regular la oferta monetaria, controlar la inflación y mantener la estabilidad financiera del sistema económico."
+                },
+                {
+                  "subtitulo": "Función de las instituciones financieras en la economía",
+                  "sub": "Las instituciones financieras desempeñan un papel fundamental en la economía al facilitar el flujo de dinero y la asignación eficiente de recursos. A través de la intermediación, estas entidades permiten que los ahorros de los individuos sean canalizados a empresas e inversionistas que necesitan capital para desarrollar proyectos, crear empleos y generar crecimiento económico.\n\nAdemás, proporcionan servicios como la creación de crédito, que es vital para el crecimiento económico, permitiendo que empresas y consumidores puedan financiar proyectos y compras. De esta manera, las instituciones financieras son esenciales para el desarrollo económico y la estabilidad de los países."
+                },
+                {
+                  "subtitulo": "Impacto de las instituciones financieras en las personas",
+                  "sub": "Las instituciones financieras tienen un impacto directo sobre la vida de las personas. No solo facilitan el acceso a crédito para la adquisición de bienes como viviendas o vehículos, sino que también ofrecen productos de ahorro y seguros que brindan seguridad financiera a los individuos. Además, a través de la educación financiera que muchas de estas entidades proporcionan, las personas pueden aprender a gestionar sus recursos de manera más eficiente.\n\n1. **Acceso al crédito**: Las personas pueden acceder a préstamos para financiar proyectos, estudiar o adquirir bienes que, de otro modo, no podrían comprar al contado. Este acceso al crédito tiene un gran impacto en el bienestar personal y familiar.\n\n2. **Ahorro e inversión**: Las instituciones financieras también ofrecen productos que permiten a los individuos ahorrar de forma segura y, en algunos casos, obtener rendimientos a través de inversiones.\n\n3. **Seguridad financiera**: A través de los seguros, las personas pueden proteger su patrimonio y a sus familias contra riesgos imprevistos, como accidentes, enfermedades o pérdidas materiales."
+                },
+                {
+                  "subtitulo": "Conclusión",
+                  "sub": "Las instituciones financieras son piezas clave en la economía moderna. No solo facilitan la circulación del dinero y el crédito, sino que también juegan un rol crucial en la seguridad financiera de las personas. Al permitir que los individuos y empresas ahorren, inviertan y obtengan crédito, contribuyen al desarrollo económico y al bienestar social. Por lo tanto, es fundamental comprender cómo funcionan estas entidades y cómo pueden ser utilizadas de manera eficaz para mejorar nuestra salud financiera."
+                }
+              ]
+            
+              }
             },
             {
               "type": "articulo",
               "id": "c9",
-              "title": "Lectura: Fundamentos del aprendizaje",
-              "tituloOriginal": "Reading: Learning Fundamentals",
-              "url": "https://example.com/reading1",
+              "title": "Cómo entender los indicadores económicos básicos.",
+              "tituloOriginal": "¿Qué son los indicadores económicos y por qué son importantes?",
+              "url": "https://www.forex.com/es-latam/news-and-analysis/what-are-economic-indicators/",
+              "autor": "Rebecca Cattlin, Forex",
+              
               "contenido": {
-                "imagenes": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+                "imagenes": ["https://www.forex.com/es-latam/-/media/research/global/news-analysis/featured-image/2021/03/uptrend-4v2.jpg?extension=webp"],
                 "texto": [
-                  "El aprendizaje es el proceso de adquirir conocimientos, habilidades, valores y actitudes.",
-                  "Este artículo aborda los principios básicos que guían el aprendizaje en diferentes contextos."
-                ]
+                {
+                  "subtitulo": "Introducción",
+                  "sub": "Los indicadores económicos son datos clave que reflejan el desempeño de la economía de un país. Estos indicadores, ampliamente utilizados por analistas e inversores, permiten medir la salud de una economía y prever futuros movimientos. Se dividen en tres tipos: adelantados, coincidentes y rezagados, y son fundamentales para la toma de decisiones en mercados financieros como FOREX."
+                },
+                {
+                  "subtitulo": "Propósito de los indicadores económicos",
+                  "sub": "Los indicadores económicos sirven para proporcionar una comprensión profunda sobre el estado de la economía. Para los inversores y analistas, estos datos ayudan a identificar oportunidades y ajustar estrategias. Los indicadores económicos también influyen en las políticas económicas y en las decisiones de los responsables de la formulación de políticas."
+                },
+                {
+                  "subtitulo": "Tipos de indicadores económicos",
+                  "sub": "Los indicadores económicos se dividen en tres grandes grupos:\n\n1. **Indicadores adelantados**: anticipan cambios económicos futuros, pero con cierta incertidumbre.\n\n2. **Indicadores coincidentes**: reflejan la situación económica actual.\n\n3. **Indicadores rezagados**: se publican después de los cambios en la economía y, aunque no son útiles para predecir, dan información esencial sobre la salud económica."
+                },
+                {
+                  "subtitulo": "Indicadores clave",
+                  "sub": "Algunos indicadores clave incluyen el **Producto Interno Bruto (PIB)**, las **tasas de interés**, el **mercado de divisas**, el **mercado de valores**, el **desempleo y salarios**, el **Índice de Precios al Consumidor (IPC)**, el **Índice de Precios al Productor (IPP)**, y la **balanza comercial**."
+                },
+                {
+                  "subtitulo": "Producto Interno Bruto (PIB)",
+                  "sub": "El PIB es el valor de todos los bienes y servicios producidos en un país durante un período determinado. Es un indicador rezagado, ya que refleja la salud económica pasada, pero es clave para evaluar el crecimiento de una economía. El PIB se presenta en cifras nominales y reales, y su desempeño influye en las decisiones de los mercados financieros."
+                },
+                {
+                  "subtitulo": "Tasas de interés",
+                  "sub": "Las tasas de interés son cruciales para la economía, ya que afectan el valor de la moneda y las decisiones de inversión. Las tasas altas indican una economía fuerte, mientras que las tasas bajas favorecen el crecimiento. Este indicador es tanto adelantado como rezagado, dependiendo de las circunstancias y las expectativas del mercado."
+                },
+                {
+                  "subtitulo": "Mercados de divisas",
+                  "sub": "Las monedas nacionales reflejan la fortaleza económica de un país. Un país con una moneda fuerte experimenta un aumento en el poder adquisitivo y las exportaciones, mientras que una moneda débil tiene efectos contrarios. Aunque es un indicador rezagado, el valor de la moneda es ampliamente observado en los mercados financieros."
+                },
+                {
+                  "subtitulo": "Mercados de valores",
+                  "sub": "El mercado de valores es un indicador económico que refleja las expectativas sobre las empresas y la economía en general. Sin embargo, los precios de las acciones pueden verse influenciados por la especulación y las intervenciones gubernamentales, lo que puede hacer que el mercado no sea siempre un reflejo fiel de la economía."
+                },
+                {
+                  "subtitulo": "Desempleo y salarios",
+                  "sub": "Las tasas de desempleo y los salarios son indicadores importantes que reflejan el bienestar de la fuerza laboral. Un bajo desempleo y altos salarios indican una economía saludable, mientras que altas tasas de desempleo y bajos salarios señalan una posible recesión. Este indicador es rezagado, por lo que debe ser considerado en conjunto con otros datos."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Consumidor (IPC)",
+                  "sub": "El IPC mide los cambios en el costo de vida y es una herramienta clave para medir la inflación. Un aumento en el IPC puede llevar a un aumento de las tasas de interés, mientras que una disminución puede estimular el consumo. Aunque es un buen indicador de inflación, el IPC también es un dato rezagado."
+                },
+                {
+                  "subtitulo": "Índice de Precios al Productor (IPP)",
+                  "sub": "El IPP mide los cambios en los precios de bienes antes de que lleguen al consumidor. Se considera un indicador adelantado de la inflación, ya que los cambios en los precios a nivel de los productores se reflejan más rápido que los precios al consumidor."
+                },
+                {
+                  "subtitulo": "Balanza comercial",
+                  "sub": "La balanza comercial es la diferencia entre las exportaciones e importaciones de un país. Un superávit comercial indica que un país exporta más de lo que importa, lo cual es favorable para la economía, mientras que un déficit puede señalar debilidad económica."
+                }
+              ]
               }
             }
+            
           ],
           "quiz": {
-            "title": "Conceptos Básicos",
-            "id":"q3",
-            "descripcion": "Evalúa tu comprensión de los conceptos básicos del aprendizaje.",
-            "preguntas": [
-              {
-                "pregunta": "¿Qué es el aprendizaje?",
-                "opciones": [
-                  "Un proceso de adquisición de conocimientos.",
-                  "Una actividad física intensa.",
-                  "Un evento social exclusivamente.",
-                  "Un fenómeno sin propósito claro."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Cuál es un factor clave en el aprendizaje?",
-                "opciones": [
-                  "La memoria.",
-                  "El clima.",
-                  "La edad exclusivamente.",
-                  "Los viajes."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué caracteriza al aprendizaje significativo?",
-                "opciones": [
-                  "Es mecánico y repetitivo.",
-                  "Es irrelevante para el contexto.",
-                  "Conecta nuevos conocimientos con los previos.",
-                  "Depende exclusivamente de exámenes."
-                ],
-                "respuestaCorrecta": 2
-              },
-              {
-                "pregunta": "¿Quién propuso teorías significativas sobre el aprendizaje?",
-                "opciones": [
-                  "Lev Vygotsky.",
-                  "Charles Darwin.",
-                  "Isaac Newton.",
-                  "Galileo Galilei."
-                ],
-                "respuestaCorrecta": 0
-              },
-              {
-                "pregunta": "¿Qué implica el aprendizaje autodirigido?",
-                "opciones": [
-                  "Que un maestro controla todas las actividades.",
-                  "Que el estudiante asume responsabilidad en su proceso.",
-                  "Que no se necesita planificación.",
-                  "Que no hay objetivos claros."
-                ],
-                "respuestaCorrecta": 1
-              }
-            ]
-          }
+              "title": "Ciclos Económicos e Indicadores Financieros",
+              "id": "q3",
+              "descripcion": "Este quiz evalúa tus conocimientos sobre los ciclos económicos, el papel de las instituciones financieras y cómo entender los indicadores económicos básicos.",
+              "preguntas": [
+                {
+                  "pregunta": "¿Qué caracteriza a un ciclo económico de recesión?",
+                  "opciones": [
+                    "Un periodo de crecimiento económico continuo sin caídas significativas.",
+                    "Un periodo en el que la economía experimenta un crecimiento en la producción y la inversión.",
+                    "Un periodo en el que se reduce la actividad económica, el empleo disminuye y la producción baja.",
+                    "Un periodo en el que los mercados financieros están completamente estables."
+                  ],
+                  "correcta": 3
+                },
+                {
+                  "pregunta": "¿Cuál es el principal papel de las instituciones financieras en la economía?",
+                  "opciones": [
+                    "Producir bienes y servicios que satisfacen las necesidades básicas de la población.",
+                    "Controlar el flujo de dinero entre gobiernos y empresas, facilitando el crédito y las inversiones.",
+                    "Establecer políticas económicas para la producción y distribución de productos.",
+                    "Fomentar el ahorro de los ciudadanos sin tomar en cuenta el mercado global."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Qué es un indicador económico adelantado?",
+                  "opciones": [
+                    "Un indicador que refleja la situación económica actual.",
+                    "Un indicador que prevé cambios en la economía antes de que ocurran.",
+                    "Un indicador que se publica después de que los cambios económicos ya se han producido.",
+                    "Un indicador que refleja los precios de los bienes en el mercado internacional."
+                  ],
+                  "correcta": 1
+                },
+                {
+                  "pregunta": "¿Qué papel tiene el Producto Interno Bruto (PIB) en la economía?",
+                  "opciones": [
+                    "Es un indicador adelantado que predice el crecimiento económico futuro.",
+                    "Es un indicador rezagado que mide la producción económica pasada.",
+                    "Es un indicador coincidente que refleja las expectativas del consumidor.",
+                    "Es un indicador que mide exclusivamente el nivel de inflación."
+                  ],
+                  "correcta": 2
+                },
+                {
+                  "pregunta": "¿Cómo influyen las tasas de interés en la economía?",
+                  "opciones": [
+                    "Afectan únicamente a los mercados de valores.",
+                    "Determinan la tasa de crecimiento de la población.",
+                    "Regulan el valor de la moneda y las decisiones de inversión, favoreciendo el ahorro o el gasto.",
+                    "No tienen un impacto significativo en la actividad económica."
+                  ],
+                  "correcta": 3
+                }
+              ]
+            }
         }
       ],
-      "finalExam": {
-        "title": "Introducción al Aprendizaje",
-        "descripcion": "Un examen integral sobre los temas cubiertos en este módulo.",
+      "final": {
+        "title": "Examen Final - Introducción a la Educación Financiera",
+        "id": "final_q1",
+        "descripcion": "Este examen evalúa tus conocimientos sobre los conceptos fundamentales del sistema económico, incluyendo oferta y demanda, inflación, ciclos económicos, el papel de los gobiernos y los bancos, y los indicadores económicos básicos.",
         "preguntas": [
           {
-            "pregunta": "¿Cuál es el propósito principal del aprendizaje significativo?",
+            "pregunta": "¿Qué es un sistema económico y por qué es importante en la vida cotidiana?",
             "opciones": [
-              "Acumular datos irrelevantes.",
-              "Relacionar conocimientos nuevos con los existentes.",
-              "Realizar actividades mecánicas.",
-              "Resolver únicamente problemas matemáticos."
+              "Es un modelo teórico sin implicaciones prácticas en la vida diaria.",
+              "Es una estructura diseñada para gestionar los recursos limitados de una sociedad y satisfacer las necesidades y deseos de sus habitantes.",
+              "Es un sistema que organiza el flujo de bienes y servicios en un país para garantizar la riqueza de unos pocos.",
+              "Es un conjunto de reglas que solo se aplica a los bancos y empresas grandes."
             ],
-            "respuestaCorrecta": 1
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué representa el concepto de 'oferta' en la economía?",
+            "opciones": [
+              "La cantidad de bienes y servicios que los productores están dispuestos a ofrecer a diferentes precios.",
+              "La cantidad de dinero que los consumidores están dispuestos a gastar.",
+              "La cantidad de recursos naturales disponibles en una economía.",
+              "El precio máximo que un consumidor está dispuesto a pagar por un bien."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es la 'demanda' en un sistema económico?",
+            "opciones": [
+              "La cantidad de productos que los productores desean vender.",
+              "El nivel de producción que los gobiernos imponen.",
+              "La cantidad de bienes y servicios que los consumidores están dispuestos a comprar a diferentes precios.",
+              "El precio al cual los bienes se producen."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel principal del Banco de la República en la economía de un país?",
+            "opciones": [
+              "Proporcionar infraestructura y servicios educativos.",
+              "Garantizar el poder adquisitivo de la moneda, controlar la inflación y regular el crédito.",
+              "Monitorear únicamente las grandes empresas y monopolios.",
+              "Fomentar el consumo a través de la regulación de la oferta de bienes."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo contribuye el gobierno a la eficiencia en la economía?",
+            "opciones": [
+              "Corrigiendo fallas del mercado como monopolios y externalidades.",
+              "Eliminando toda intervención en el mercado.",
+              "Excluyendo a las empresas privadas de la economía.",
+              "Aumentando los precios de todos los productos."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué es la inflación y cómo impacta tu dinero?",
+            "opciones": [
+              "Es el aumento de los precios de los bienes y servicios, lo que reduce el poder adquisitivo del dinero.",
+              "Es una política económica que busca bajar los precios de manera controlada.",
+              "Es una reducción en el costo de la vida, aumentando el valor del dinero.",
+              "Es el crecimiento de la economía, sin afectar los precios."
+            ],
+            "correcta": 1
+          },
+          {
+            "pregunta": "¿Qué determina el valor de una moneda en el mercado de divisas?",
+            "opciones": [
+              "La cantidad de oro que posee un país.",
+              "El valor que los gobiernos deciden asignar a la moneda.",
+              "La oferta y demanda de esa moneda en el mercado internacional.",
+              "El nivel de inflación en el país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es el tipo de cambio?",
+            "opciones": [
+              "El precio de un bien en términos de una moneda nacional.",
+              "La relación entre los tipos de interés de dos países.",
+              "El valor de una moneda en términos de otra moneda.",
+              "El costo de la mano de obra en un país."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cómo afecta la globalización a la economía?",
+            "opciones": [
+              "Limita la capacidad de los países para comerciar entre sí.",
+              "Aumenta las barreras comerciales entre países.",
+              "Facilita la expansión de los mercados, la inversión y el comercio internacional.",
+              "Reduce la competitividad entre las empresas."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué son los ciclos económicos?",
+            "opciones": [
+              "El cambio constante de las tasas de interés en la economía.",
+              "Las fluctuaciones en la actividad económica, que incluyen períodos de expansión y recesión.",
+              "La constante subida de los precios de todos los productos en el mercado.",
+              "El aumento en el número de empresas dentro de una economía."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es la diferencia entre una recesión y un período de crecimiento económico?",
+            "opciones": [
+              "Una recesión es cuando la economía crece rápidamente y la inversión aumenta.",
+              "Un período de crecimiento económico es cuando la economía experimenta una desaceleración.",
+              "Una recesión es cuando la economía disminuye y la producción y el empleo caen.",
+              "Un período de crecimiento económico se caracteriza por la disminución de los precios."
+            ],
+            "correcta": 3
+          },
+          {
+            "pregunta": "¿Qué rol cumplen las instituciones financieras en la economía?",
+            "opciones": [
+              "Controlan el comercio internacional y las tarifas aduaneras.",
+              "Establecen políticas fiscales y monetarias para controlar el gasto público.",
+              "Regulan el flujo de dinero, facilitan el crédito y promueven la inversión.",
+              "Producen bienes y servicios que cubren las necesidades básicas de la población."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico rezagado?",
+            "opciones": [
+              "Un indicador que refleja la situación económica futura.",
+              "Un indicador que muestra el nivel de inflación a nivel global.",
+              "Un indicador que predice el comportamiento del mercado de valores.",
+              "Un indicador que se publica después de que los cambios económicos ya se han producido."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Cuál es el papel de los bancos centrales en la economía?",
+            "opciones": [
+              "Fomentan la competencia en los mercados de bienes y servicios.",
+              "Gestionan el nivel de deuda externa de un país.",
+              "Establecen el tipo de cambio y regulan el comercio exterior.",
+              "Controlan la inflación, emiten moneda y regulan la oferta de dinero."
+            ],
+            "correcta": 2
+          },
+          {
+            "pregunta": "¿Qué es un indicador económico líder?",
+            "opciones": [
+              "Un indicador que muestra los resultados económicos después de que ocurren los cambios.",
+              "Un indicador que refleja las expectativas futuras de la economía y predice su tendencia.",
+              "Un indicador que mide la tasa de interés del gobierno para el año próximo.",
+              "Un indicador utilizado exclusivamente para medir la producción industrial."
+            ],
+            "correcta": 2
           }
+
         ]
       }
     }
+    
   ]
 }

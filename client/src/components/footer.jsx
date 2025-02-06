@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="">
             <h2 className="mb text-xl font-bold">NORMATIVAS</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
-            <ul className="flex list-disc flex-col gap-2">
+            <ul className="flex list-disc flex-col gap-4">
               <a
                 target="_blank"
                 href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981"
@@ -121,7 +121,7 @@ const Footer = () => {
           <div className="">
             <h2 className="mb text-xl font-bold">RECURSOS</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
-            <ul className="flex list-disc flex-col gap-2">
+            <ul className="flex list-disc flex-col gap-4">
               <a
                 target="_blank"
                 href="https://es.khanacademy.org/"
@@ -174,10 +174,21 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="">
+          <div className="w-full px-2 sm:w-max sm:px-0">
             <h2 className="mb text-xl font-bold">CONTACTO</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-4">
+              <Link
+                to={"https://forms.gle/kRuhzdYBedy9gm1Q7"}
+                className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold hover:bg-purple-600"
+              >
+                <button className="h-full w-full">
+                  <div className="flex h-full items-center justify-center">
+                    <p className="line-clamp-1">Formulario PQRS</p>
+                    <img className="h-7" src={left} alt="" />
+                  </div>
+                </button>
+              </Link>
               <div className="flex flex-col gap-2">
                 <p>Miguel Angel Suarez Montiel</p>
                 <div className="flex w-full flex-row gap-4">
@@ -186,7 +197,7 @@ const Footer = () => {
                     href="https://www.instagram.com/_miguelsrz  "
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                    <figure className="h-8 w-8 rounded-full bg-white p-1 transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
@@ -195,23 +206,8 @@ const Footer = () => {
                     href="https://github.com/miguelsrz"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                    <figure className="h-8 w-8 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={github} alt="" />
-                    </figure>
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <p>Cristian Rodolfo Parada Estupiñan</p>
-                <div className="flex w-full flex-row gap-4">
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/r.cris_?igsh=eGQ2NGJpNXY3YmRi"
-                    className="underline-offset-8 hover:text-purple-500 hover:underline"
-                  >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
-                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -225,7 +221,7 @@ const Footer = () => {
                     href="https://www.instagram.com/gaffsddafsg876/?hl=es"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white p-2 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                    <figure className="h-8 w-8 rounded-full bg-white p-1 transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
@@ -234,8 +230,23 @@ const Footer = () => {
                     href="https://www.facebook.com/share/14kGEmGRoM/"
                     className="underline-offset-8 hover:text-purple-500 hover:underline"
                   >
-                    <figure className="h-10 w-10 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
+                    <figure className="h-8 w-8 rounded-full bg-white transition-all duration-200 ease-in-out hover:bg-purple-400">
                       <img className="h-full w-full" src={facebook} alt="" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <p>Cristian Rodolfo Parada Estupiñan</p>
+                <div className="flex w-full flex-row gap-4">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/r.cris_?igsh=eGQ2NGJpNXY3YmRi"
+                    className="underline-offset-8 hover:text-purple-500 hover:underline"
+                  >
+                    <figure className="h-8 w-8 rounded-full bg-white p-1 transition-all duration-200 ease-in-out hover:bg-purple-400">
+                      <img className="h-full w-full" src={instagram} alt="" />
                     </figure>
                   </a>
                 </div>
@@ -246,7 +257,7 @@ const Footer = () => {
         <div className="border-t-2 border-gray-400 text-gray-400">
           <div className="flex flex-col gap-8 pt-8 xl:flex-row xl:justify-between">
             <p className="text-center xl:text-left">
-              Universidad Nacional de Colombia - Sede Bogota
+              Universidad Nacional de Colombia - Sede Bogotá
             </p>
             <div className="flex flex-col justify-center gap-1 sm:flex-row xl:justify-start">
               <p className="text-center xl:text-left">Creador pagina: </p>
