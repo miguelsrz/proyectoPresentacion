@@ -109,8 +109,7 @@ const AprendizajePage = () => {
   const generateEncryptedToken = async (inputId) => {
     const encoder = new TextEncoder();
     const data = encoder.encode(`secret-${inputId}-${Date.now()}`);
-    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashArray = Array.from(new Uint8Array(data));
     const hashHex = hashArray
       .map((b) => b.toString(16).padStart(2, "0"))
       .join("");

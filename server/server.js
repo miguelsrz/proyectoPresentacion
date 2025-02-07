@@ -10,9 +10,8 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/dist"));
-})
+
+
 
 // Habilitar CORS para permitir peticiones desde el frontend
 app.use(cors());
@@ -20,8 +19,10 @@ app.use(cors());
 
 // MANEJO BASE DE DATOS, PROGRESO Y PUNTAJES
 // Configuración de la conexión a la base de datos
-console.log(process.env.DB_HOST); // Debería mostrar 'sql206.infinityfree.com'
-console.log(process.env.DB_USER); // Debería mostrar 'if0_38215968'
+console.log("DB_HOST:", process.env.DB_HOST);
+console.log("DB_USER:", process.env.DB_USER);
+console.log("DB_PASSWORD:", process.env.DB_PASSWORD);
+console.log("DB_DATABASE:", process.env.DB_DATABASE);
 
 const db = mysql.createPool({
   host: process.env.DB_HOST,
@@ -183,7 +184,6 @@ app.get('/api/puntajes', validarUsuarioActivo, async (req, res) => {
 // Endpoint: Registrar puntaje
 app.post('/api/puntajes', validarUsuarioActivo, async (req, res) => {
   const { quiz_id, puntaje, completado } = req.body;
-  const fecha = new Date();
 
   console.log(completado)
   if(completado) {
@@ -194,9 +194,9 @@ app.post('/api/puntajes', validarUsuarioActivo, async (req, res) => {
       );
 
       const [result] = await db.query(
-        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje, fecha) 
-         VALUES (?, ?, ?, ?)`,
-        [req.usuarioID, quiz_id, puntaje, fecha]
+        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje) 
+         VALUES (?, ?, ?)`,
+        [req.usuarioID, quiz_id, puntaje]
       );
           res.json({ message: 'Puntaje registrado', id: result.insertId });
         } catch (err) {
@@ -206,9 +206,9 @@ app.post('/api/puntajes', validarUsuarioActivo, async (req, res) => {
   {
     try {
       const [result] = await db.query(
-        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje, fecha) 
-         VALUES (?, ?, ?, ?)`,
-        [req.usuarioID, quiz_id, puntaje, fecha]
+        `INSERT INTO puntajes (usuario_id, quiz_id, puntaje) 
+         VALUES (?, ?, ?)`,
+        [req.usuarioID, quiz_id, puntaje]
       );
       res.json({ message: 'Puntaje registrado', id: result.insertId });
     } catch (err) {
@@ -263,6 +263,12 @@ app.get("/api/modules/:moduleId/sections/:sectionId", (req, res) => {
     res.status(404).json({ error: "Módulo no encontrado" });
   }
 });
+
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"));
+})
+
 
 // Iniciar el servidor
 app.listen(PORT, () => {
