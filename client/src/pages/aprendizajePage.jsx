@@ -25,7 +25,7 @@ const AprendizajePage = () => {
     setProgreso,
     setPuntajes,
   } = useContext(DatabaseContext);
-  const { login, usuario, getUser } = useContext(UserContext);
+  const { usuario, getUser } = useContext(UserContext);
 
   // Fetch data when the component mounts
 
@@ -58,53 +58,7 @@ const AprendizajePage = () => {
         setError("No se pudieron cargar los módulos.");
         setLoading(false);
       });
-
-    getUser();
   }, []);
-
-  const handleLogin = async () => {
-    const inputID = prompt("INGRESA EL NUMERO ID DE USUARIO");
-
-    if (!inputID || isNaN(inputID)) {
-      alert("ID inválido");
-      return;
-    }
-
-    try {
-      setLoading(true);
-
-      // Generar token aleatorio (simulación simple)
-      const token = await generateEncryptedToken(inputID);
-
-      // Eliminar sesiones previas del usuario
-      await fetch(`${apiURL}/sesiones`, {
-        method: "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ usuario_id: inputID }),
-      });
-
-      // Registrar nueva sesión con el token
-      const res = await fetch(`${apiURL}/sesiones`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ usuario_id: inputID, token }),
-      });
-
-      if (!res.ok) throw new Error("Error al iniciar sesión");
-
-      // Guardar token en LocalStorage
-      login(token);
-
-      alert("Sesión iniciada con éxito. Recargando progreso...");
-      fetchProgreso();
-      fetchPuntajes();
-    } catch (err) {
-      alert("Error al iniciar sesión");
-      console.error(err);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const generateEncryptedToken = async (inputId) => {
     const encoder = new TextEncoder();
@@ -244,13 +198,6 @@ const AprendizajePage = () => {
               })}
             </ul>
           </section>
-
-          <button
-            onClick={() => handleLogin()}
-            className="mb-8 w-max self-center rounded bg-purple-700 px-8 py-4 font-bold tracking-wider text-white"
-          >
-            Cambiar Usuario
-          </button>
         </div>
       </div>
 

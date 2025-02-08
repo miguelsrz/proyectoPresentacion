@@ -11,11 +11,11 @@ const Footer = () => {
   const navigate = useNavigate();
 
   const goToLearning = () => {
-    navigate("/aprendizaje");
+    window.location.href = "https://focus.42web.io/sesion_aprendizaje.php";
   };
 
   const goToGestor = () => {
-    navigate("/gestor");
+    window.location.href = "https://focus.42web.io/index.php";
   };
 
   return (

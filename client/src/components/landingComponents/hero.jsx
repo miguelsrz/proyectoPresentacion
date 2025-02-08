@@ -4,11 +4,13 @@ import left from "/public/assets/icons/arrowLeft.svg";
 import { Link, useNavigate } from "react-router-dom";
 
 function Hero() {
-  const navigate = useNavigate();
   const goToLearning = () => {
-    navigate("/aprendizaje");
+    window.location.href = "https://focus.42web.io/sesion_aprendizaje.php";
   };
 
+  const goToGestor = () => {
+    window.location.href = "https://focus.42web.io/index.php";
+  };
   return (
     <div
       id="home"
@@ -55,17 +57,15 @@ function Hero() {
                 </div>
               </button>
 
-              <Link
-                to={"https://focus.42web.io/"}
-                className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold hover:bg-purple-600"
+              <button
+                onClick={() => goToGestor()}
+                className="h-11 w-full rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold hover:bg-purple-600"
               >
-                <button className="h-full w-full">
-                  <div className="flex h-full items-center justify-center">
-                    <p className="line-clamp-1">Gestor Financiero</p>
-                    <img className="h-7" src={left} alt="" />
-                  </div>
-                </button>
-              </Link>
+                <div className="flex h-full items-center justify-center">
+                  <p className="line-clamp-1">Gestor Financiero</p>
+                  <img className="h-7" src={left} alt="" />
+                </div>
+              </button>
             </div>
           </div>
 

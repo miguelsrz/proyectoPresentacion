@@ -1,5 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 
+const apiURL = import.meta.env.VITE_API_URL;
+
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
@@ -19,23 +21,64 @@ export const UserProvider = ({ children }) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
 
-  const getUser = () => {
-    const receivedUser = localStorage.getItem("token");
-    setUsuario(receivedUser);
-  };
-  const login = (token) => {
-    localStorage.setItem("token", token);
-    setUsuario(token);
+  const getUser = async () => {
+    // Intentar obtener el token desde localStorage
+    let newToken = localStorage.getItem("token");
+
+    // Si no hay token en localStorage, buscarlo en la URL
+    const params = new URLSearchParams(window.location.search);
+    if (!newToken && params.has("token")) {
+      newToken = params.get("token");
+      localStorage.setItem("token", newToken); // Guardarlo en localStorage
+      window.history.replaceState({}, document.title, "/"); // Limpiar la URL
+    }
+
+    if (!newToken && !params.has("token")) {
+      window.location.href = "https://focus.42web.io/sesion_aprendizaje.php"; // Redirigir si no hay token
+      localStorage.removeItem("progreso");
+      localStorage.removeItem("puntajes");
+      return;
+    }
+
+    // Verificar el token en InfinityFree
+    try {
+      console.log(newToken);
+      const response = await fetch(`${apiURL}/sesiones`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ newToken }),
+      });
+
+      if (!response.ok) throw new Error("Error en el servidor");
+
+      const data = await response.json();
+      if (!data.success) {
+        localStorage.removeItem("token");
+        localStorage.removeItem("progreso");
+        localStorage.removeItem("puntajes");
+        alert("DATA NO SUCCESS");
+        window.location.href = "https://focus.42web.io/sesion_aprendizaje.php";
+      } else {
+        setUsuario(data.user[0].user);
+      }
+    } catch (error) {
+      console.error("Error al validar token:", error);
+      alert("ERROR");
+      window.location.href = "https://focus.42web.io/sesion_aprendizaje.php";
+    }
   };
 
   const logout = () => {
     localStorage.removeItem("token");
+    localStorage.removeItem("progreso");
+    localStorage.removeItem("puntajes");
+    window.location.href = "https://proyectofocus.xyz/";
     setUsuario(null);
   };
 
   return (
     <UserContext.Provider
-      value={{ usuario, getUser, login, logout, capitalizeFirstLetter }}
+      value={{ usuario, getUser, logout, capitalizeFirstLetter }}
     >
       {children}
     </UserContext.Provider>

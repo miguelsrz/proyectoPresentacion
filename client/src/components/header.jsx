@@ -7,6 +7,7 @@ function Header() {
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeMenu, setActiveMenu] = useState(false);
+  const [activeOptions, setActiveOptions] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,14 +33,18 @@ function Header() {
     setActiveMenu(false);
   };
 
+  const closeOptions = () => {
+    setActiveOptions(false);
+  };
+
   return (
     <>
       <header
         className={`fixed top-0 z-50 flex h-[72px] w-full justify-center ${
           isScrolled
             ? "bg-black shadow-lg transition-all duration-1000 ease-out"
-            : activeMenu
-              ? "bg-black transition-all duration-[75ms] ease-in"
+            : activeMenu || activeOptions
+              ? "bg-black transition-all duration-0 ease-in"
               : "bg-transparent transition-all delay-[600ms] duration-1000 ease-in"
         }`}
       >
@@ -100,16 +105,54 @@ function Header() {
             </nav>
           </div>
 
-          <Link
-            to={"https://focus.42web.io/"}
-            className="hidden h-11 w-max items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold text-white hover:bg-purple-600 xl:flex"
+          <button
+            onClick={() => setActiveOptions(!activeOptions)}
+            className="relative hidden h-11 w-max items-center rounded-sm border-2 border-transparent font-semibold text-white xl:flex"
           >
-            <button className="h-full w-full">
-              <div className="flex h-full items-center justify-center">
-                <p className="line-clamp-1">INGRESAR</p>
+            <div className="flex h-full items-center justify-center rounded bg-purple-700 px-8 hover:bg-purple-600">
+              <p className="line-clamp-1">SECCIONES</p>
+            </div>
+            <div
+              className={`absolute left-0 top-[56px] h-full w-full text-left text-black ${activeOptions ? "block" : "hidden"}`}
+            >
+              <div
+                onClick={() => closeOptions()}
+                className={`z-40 transition-all duration-200`}
+              >
+                {/* <div
+          onClick={() => closeMenu()}
+          className="top[80px] relative h-full w-full bg-black/35"
+        ></div> */}
+
+                <aside
+                  className={`z-10 flex w-full flex-col rounded-b border-b-2 border-black bg-white px-4 py-4 shadow-lg transition-all duration-1000 ease-in-out`}
+                >
+                  {/* <div className="relative flex items-center justify-center border-b border-white pb-4">
+            <XMarkIcon className="absolute left-0 top-0.5 h-8 w-8 cursor-pointer transition-all duration-200 hover:rotate-90" />
+            <h1 className="font-schabo text-6xl tracking-widest">MENU</h1>
+          </div> */}
+
+                  <section className="h-full w-full border-b border-black pb-2">
+                    <nav className="flex h-full flex-col items-baseline justify-start gap-1 font-semibold">
+                      <a
+                        href="https://focus.42web.io/sesion_aprendizaje.php"
+                        className={`rounded-sm border-2 border-transparent underline-offset-8 hover:text-purple-900 hover:underline`}
+                      >
+                        APRENDIZAJE
+                      </a>
+                      <a
+                        href="https://focus.42web.io/"
+                        className={`rounded-sm border-2 border-transparent underline-offset-8 hover:text-purple-900 hover:underline`}
+                      >
+                        GESTOR
+                      </a>
+                    </nav>
+                  </section>
+                </aside>
               </div>
-            </button>
-          </Link>
+            </div>
+          </button>
+
           <button
             onClick={() => setActiveMenu(!activeMenu)}
             className="relative z-20 flex h-10 w-10 flex-col items-center justify-center gap-1.5 xl:hidden"
@@ -145,14 +188,14 @@ function Header() {
         ></div> */}
 
         <aside
-          className={`fixed bottom-0 right-[32px] z-10 flex h-[50%] max-h-[350px] w-[70%] max-w-[200px] flex-col rounded-b border-b-2 border-black bg-white px-8 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[72px]" : "-top-[350px]"}`}
+          className={`fixed bottom-0 right-[32px] z-10 flex h-max w-[70%] max-w-[200px] flex-col rounded-b border-b-2 border-black bg-white px-6 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[72px]" : "-top-[400px]"}`}
         >
           {/* <div className="relative flex items-center justify-center border-b border-white pb-4">
             <XMarkIcon className="absolute left-0 top-0.5 h-8 w-8 cursor-pointer transition-all duration-200 hover:rotate-90" />
             <h1 className="font-schabo text-6xl tracking-widest">MENU</h1>
           </div> */}
 
-          <section className="mb-2 h-full border-b border-black pb-2">
+          <section className="mb-2 h-max border-b border-black pb-2">
             <nav className="flex h-full flex-col items-baseline justify-between font-semibold">
               <a
                 onClick={() => handleContent("introduccion")}
@@ -206,13 +249,28 @@ function Header() {
             >
               <button className="h-full w-full">
                 <div className="flex h-full items-center justify-center">
-                  <p className="">INGRESAR</p>
+                  <p className="">APRENDIZAJE</p>
+                </div>
+              </button>
+            </Link>
+            <Link
+              to={"https://focus.42web.io/"}
+              className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold text-white hover:bg-purple-600"
+            >
+              <button className="h-full w-full">
+                <div className="flex h-full items-center justify-center">
+                  <p className="">GESTOR</p>
                 </div>
               </button>
             </Link>
           </section>
         </aside>
       </div>
+
+      <div
+        onClick={() => setActiveOptions(!activeOptions)}
+        className={`fixed z-40 h-full w-full ${activeOptions ? "block" : "hidden"}`}
+      ></div>
     </>
   );
 }

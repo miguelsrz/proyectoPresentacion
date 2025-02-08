@@ -6,7 +6,9 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 8080;;
 const path = require("path");
-app.use(express.json());
+
+app.use(express.json()); // Necesario para que Express procese JSON en el body de las peticiones
+app.use(express.urlencoded({ extended: true })); // (Opcional) Permite procesar datos de formularios
 
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
@@ -105,6 +107,7 @@ app.get('/api/sesiones',  async (req, res) => {
   }
 });
 
+
 app.delete("/api/sesiones", async (req, res) => {
   const { usuario_id } = req.body;
 
@@ -120,16 +123,24 @@ app.delete("/api/sesiones", async (req, res) => {
 });
 
 app.post("/api/sesiones", async (req, res) => {
-  const { usuario_id, token } = req.body;
+  const { newToken } = req.body;
+  console.log("Body recibido:", req.body); // <-- Verifica qué está llegando al backend
+  console.log(newToken)
 
-  if (!usuario_id || !token) return res.status(400).json({ error: "Datos incompletos" });
+  if (!newToken) return res.status(400).json({ error: "Datos incompletos" });
 
   try {
-    await db.query("INSERT INTO sesiones (usuario_id, token) VALUES (?, ?)", [usuario_id, token]);
-    res.json({ success: true, message: "Sesión creada con éxito" });
+    const [usuarioID] = await db.query("SELECT usuario_id FROM sesiones WHERE token = ?", [newToken]);
+    const [usuario] =  await db.query("SELECT user FROM usuarios WHERE id = ?", [usuarioID[0].usuario_id]);
+    if (usuarioID.length === 0) {
+      throw new Error("Token NO valido");
+    }
+
+    console.log(res)
+    res.json({ userID: usuarioID, user:usuario , success: true, message: "Sesión creada con éxito" });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Error al registrar sesión" });
+    console.log("CATCH: ERROR");
+    res.json({ success:false, error: "Error al registrar sesión" });
   }
 });
 
