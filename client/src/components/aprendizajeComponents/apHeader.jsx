@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import focus from "../../../public/assets/icons/focus.svg";
 import { Link } from "react-router-dom";
 import down from "../../../public/assets/icons/arrowDown.svg";
