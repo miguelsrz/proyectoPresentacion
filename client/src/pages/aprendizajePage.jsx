@@ -25,9 +25,10 @@ const AprendizajePage = () => {
     setProgreso,
     setPuntajes,
   } = useContext(DatabaseContext);
-  const { usuario, getUser } = useContext(UserContext);
+  const { usuario, getUser, deleteToken } = useContext(UserContext);
 
   // Fetch data when the component mounts
+  window.addEventListener("beforeunload", deleteToken);
 
   useEffect(() => {
     getUser();

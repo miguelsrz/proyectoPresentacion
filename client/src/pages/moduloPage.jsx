@@ -40,7 +40,10 @@ const ModuloPage = () => {
     setProgreso,
     setPuntajes,
   } = useContext(DatabaseContext);
-  const { getUser, capitalizeFirstLetter } = useContext(UserContext);
+  const { getUser, capitalizeFirstLetter, deleteToken } =
+    useContext(UserContext);
+
+  window.addEventListener("beforeunload", deleteToken);
 
   // Fetch data when the component mounts
 

@@ -144,6 +144,22 @@ app.post("/api/sesiones", async (req, res) => {
   }
 });
 
+
+app.post("/api/cierre", async (req, res) => {
+  const { token } = req.body;
+  
+  if (!token) return res.status(400).json({ error: "Token no proporcionado" });
+
+  try {
+      await db.query("DELETE FROM sesiones WHERE token = ?", [token]);
+      res.json({ success: true, message: "Sesión eliminada" });
+  } catch (error) {
+      console.error("Error al eliminar sesión:", error);
+      res.status(500).json({ error: "Error al eliminar sesión" });
+  }
+});
+
+
 app.get('/api/progreso', validarUsuarioActivo, async (req, res) => {
   try {
     const [rows] = await db.query('SELECT * FROM progreso WHERE usuario_id = ?', [req.usuarioID]);

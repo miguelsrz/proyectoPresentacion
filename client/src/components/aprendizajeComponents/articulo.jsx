@@ -13,7 +13,8 @@ const Articulo = () => {
 
   const info = content.contenido;
 
-  const { usuario, getUser, capitalizeFirstLetter } = useContext(UserContext);
+  const { usuario, getUser, capitalizeFirstLetter, deleteToken } =
+    useContext(UserContext);
   const {
     progreso,
     updateProgreso,
@@ -22,6 +23,8 @@ const Articulo = () => {
     fetchPuntajes,
     setPuntajes,
   } = useContext(DatabaseContext);
+
+  window.addEventListener("beforeunload", deleteToken);
 
   const maxLength = Math.max(info.imagenes.length, info.texto.length);
 

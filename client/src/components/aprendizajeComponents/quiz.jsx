@@ -9,7 +9,7 @@ import ApHeader from "./apHeader";
 const Quiz = () => {
   const location = useLocation();
 
-  const { getUser } = useContext(UserContext);
+  const { getUser, deleteToken } = useContext(UserContext);
 
   const { content } = location.state;
   const url = location.pathname;
@@ -23,6 +23,8 @@ const Quiz = () => {
     fetchPuntajes,
     setPuntajes,
   } = useContext(DatabaseContext);
+
+  window.addEventListener("beforeunload", deleteToken);
 
   useEffect(() => {
     getUser();

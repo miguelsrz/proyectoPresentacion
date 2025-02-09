@@ -7,10 +7,15 @@ import { UserContext } from "../../context/userContext";
 
 function ApHeader() {
   const [activeMenu, setActiveMenu] = useState(false);
-  const { logout, usuario } = useContext(UserContext);
+  const { deleteToken, usuario } = useContext(UserContext);
 
   const closeMenu = () => {
     setActiveMenu(false);
+  };
+
+  const handleLogout = () => {
+    deleteToken();
+    window.location.href = "https://proyectofocus.xyz/";
   };
 
   return (
@@ -79,7 +84,7 @@ function ApHeader() {
                 </section>
                 <section className="mt-2 flex flex-col gap-4">
                   <button
-                    onClick={() => logout()}
+                    onClick={() => handleLogout()}
                     className="rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
                   >
                     CERRAR SESION
@@ -141,7 +146,7 @@ function ApHeader() {
                 </section>
                 <section className="mt-2 flex flex-col gap-4">
                   <button
-                    onClick={() => logout()}
+                    onClick={() => handleLogout()}
                     className="rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
                   >
                     CERRAR SESION

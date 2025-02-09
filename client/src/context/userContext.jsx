@@ -68,17 +68,33 @@ export const UserProvider = ({ children }) => {
     }
   };
 
-  const logout = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("progreso");
-    localStorage.removeItem("puntajes");
-    window.location.href = "https://proyectofocus.xyz/";
-    setUsuario(null);
+  const deleteToken = () => {
+    const token = localStorage.getItem("token");
+
+    if (token) {
+      fetch(`${apiURL}/cierre`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token }),
+        keepalive: true, // Importante para que funcione al cerrar la pestaña
+      });
+
+      localStorage.removeItem("token");
+      localStorage.removeItem("progreso");
+      localStorage.removeItem("puntajes");
+      setUsuario(null);
+    }
   };
 
   return (
     <UserContext.Provider
-      value={{ usuario, getUser, logout, capitalizeFirstLetter }}
+      value={{
+        usuario,
+        setUsuario,
+        getUser,
+        deleteToken,
+        capitalizeFirstLetter,
+      }}
     >
       {children}
     </UserContext.Provider>

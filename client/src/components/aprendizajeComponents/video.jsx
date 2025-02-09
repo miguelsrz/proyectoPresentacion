@@ -11,7 +11,8 @@ import ApHeader from "./apHeader";
 const Video = () => {
   const location = useLocation();
   const { content } = location.state;
-  const { usuario, getUser, capitalizeFirstLetter } = useContext(UserContext);
+  const { usuario, getUser, capitalizeFirstLetter, deleteToken } =
+    useContext(UserContext);
 
   const {
     progreso,
@@ -21,6 +22,8 @@ const Video = () => {
     fetchPuntajes,
     setPuntajes,
   } = useContext(DatabaseContext);
+
+  window.addEventListener("beforeunload", deleteToken);
 
   useEffect(() => {
     const scrollToElement = () => {

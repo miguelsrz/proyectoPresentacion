@@ -1,6 +1,6 @@
 import "../index.css";
 
-// import { useContext } from "react";
+import { useContext, useEffect } from "react";
 // import { AppContext } from "../context/presentacionContext";
 
 import Footer from "../components/footer";
@@ -12,9 +12,17 @@ import FundamentosProyecto from "../components/landingComponents/fundamentosProy
 import DesarrolloProyecto from "../components/landingComponents/desarrolloProyecto";
 import Header from "../components/header";
 import Hero from "../components/landingComponents/hero";
+import { UserContext } from "../context/userContext";
 
 const LandingPage = () => {
   // const { activeComponent } = useContext(AppContext);
+  const { deleteToken } = useContext(UserContext);
+
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      deleteToken();
+    }
+  }, []);
 
   return (
     <div className="overflow-x-hidden">
