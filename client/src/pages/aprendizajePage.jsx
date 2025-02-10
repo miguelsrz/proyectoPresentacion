@@ -142,12 +142,12 @@ const AprendizajePage = () => {
                         <p className="mb-4 text-lg font-bold text-black">
                           Aprende
                         </p>
-                        <ul className="flex flex-col gap-2">
+                        <ul className="flex flex-col gap-2 text-black">
                           {module.sections?.map((sect, index) => (
                             <Link
                               key={index}
                               to={`/aprendizaje/modulo/${module.moduleId}/#${index + 1}`}
-                              className="rounded bg-gray-200 px-8 py-6 font-bold"
+                              className="rounded bg-gray-200 px-8 py-6 hover:bg-purple-200"
                             >
                               <li className="">
                                 Seccion {sect.sectionId}: {sect.sectionTitle}
@@ -173,7 +173,7 @@ const AprendizajePage = () => {
                                 }}
                                 key={index}
                                 to={`/aprendizaje/modulo/${module.moduleId}/sections/${sect.sectionId}/quiz/${sect.quiz.title}`}
-                                className="rounded bg-purple-100 px-8 py-6 font-bold"
+                                className="rounded bg-purple-100 px-8 py-6 text-black hover:bg-purple-200"
                               >
                                 <li className="">
                                   Quiz {index + 1}: {sect.quiz.title}
@@ -185,7 +185,7 @@ const AprendizajePage = () => {
                       </div>
                     </section>
                     <Link to={`/aprendizaje/modulo/${module.moduleId}/#0`}>
-                      <button className="mt-4 h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 px-0 align-middle font-semibold text-white hover:bg-purple-600 sm:w-max sm:px-16">
+                      <button className="mt-4 h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 px-0 align-middle font-semibold text-white hover:bg-purple-500 sm:w-max sm:px-16">
                         <div className="flex h-full items-center justify-center">
                           <p className="line-clamp-1">
                             Modulo {module.moduleId}

@@ -4,6 +4,7 @@ import { DatabaseContext } from "../../context/databaseContext";
 import { UserContext } from "../../context/userContext";
 import CoAside from "./coAside";
 import ApHeader from "./apHeader";
+import Footer from "../footer";
 // import { fetchSection, submitProgress } from "../../api";
 
 const Quiz = () => {
@@ -93,11 +94,11 @@ const Quiz = () => {
   return (
     <div>
       <ApHeader></ApHeader>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="relative order-2 md:order-1 md:mt-[72px]">
           <CoAside></CoAside>
         </div>
-        <div className="order1 mt-[72px] flex w-full flex-col gap-8 bg-gray-50 px-8 py-8 md:order-2 md:px-24">
+        <div className="order-1 mt-[72px] flex w-full flex-col gap-8 bg-gray-50 px-8 py-8 pb-32 md:order-2 md:px-24">
           <section className="flex flex-col gap-8">
             <div className="flex flex-col gap-2 border-b border-black/25 pb-8">
               <p className="text-xl font-bold">Quiz</p>
@@ -113,7 +114,7 @@ const Quiz = () => {
               </div>
               <button
                 onClick={handleStartQuiz}
-                className="w-max self-end rounded bg-purple-700 px-24 py-4 font-bold text-white"
+                className="w-max self-end rounded bg-purple-700 px-24 py-4 font-bold text-white hover:bg-purple-500"
               >
                 COMENZAR QUIZ
               </button>
@@ -142,8 +143,9 @@ const Quiz = () => {
                 <div className="flex flex-col gap-4 rounded">
                   <div className="flex flex-col gap-4 rounded bg-purple-200 p-8">
                     <div className="mb-4 border-b border-black pb-4">
-                      <p className="text-base">
-                        Pregunta {currentQuestionIndex + 1}
+                      <p className="mb-1 text-base">
+                        Pregunta {currentQuestionIndex + 1} de{" "}
+                        {content.preguntas.length}
                       </p>
                       <h2 className="text-2xl font-bold">
                         {content.preguntas[currentQuestionIndex].pregunta}
@@ -153,16 +155,16 @@ const Quiz = () => {
                       {content.preguntas[currentQuestionIndex].opciones.map(
                         (option, index) => (
                           <div
+                            onClick={() => handleAnswerSelection(index + 1)}
                             key={index}
-                            className="flex items-center justify-start gap-4"
+                            className="group flex items-center justify-start gap-4 hover:cursor-pointer"
                           >
                             <div
                               className={`h-4 w-4 rounded-full border border-black text-left ${selectedAnswer == index + 1 ? `bg-purple-700` : null}`}
                             ></div>
                             <button
                               disabled={answerChecked}
-                              onClick={() => handleAnswerSelection(index + 1)}
-                              className={`text-left ${selectedAnswer == index + 1 ? `underline underline-offset-8` : null}`}
+                              className={`flex-1 text-left underline-offset-8 ${selectedAnswer == index + 1 ? `underline` : "group-hover:underline"}`}
                             >
                               {option}
                             </button>
@@ -173,7 +175,7 @@ const Quiz = () => {
                   </div>
 
                   <div
-                    className={`rounded bg-white p-8 ${answerChecked ? "block" : "hidden"}`}
+                    className={`rounded bg-gray-200 p-8 ${answerChecked ? "block" : "hidden"}`}
                   >
                     {answerChecked && (
                       <p className="flex flex-col gap-2">
@@ -190,8 +192,13 @@ const Quiz = () => {
                             <span className="text-2xl font-bold text-red-700">
                               Incorrecto
                             </span>
+                            <span className="italic line-through">
+                              {
+                                content.preguntas[currentQuestionIndex]
+                                  .opciones[selectedAnswer - 1]
+                              }
+                            </span>
                             <span>
-                              Respuesta incorrecta.{" "}
                               {
                                 content.preguntas[currentQuestionIndex]
                                   .opciones[
@@ -213,7 +220,7 @@ const Quiz = () => {
                         <button
                           disabled={answerChecked}
                           onClick={handleVerifyAnswer}
-                          className={`rounded px-8 py-2 font-bold text-white ${answerChecked ? "bg-purple-400" : "bg-purple-700"}`}
+                          className={`rounded px-8 py-2 font-bold text-white ${answerChecked ? "hidden" : "block bg-purple-700 hover:bg-purple-500"}`}
                         >
                           VERIFICAR
                         </button>
@@ -224,7 +231,7 @@ const Quiz = () => {
                       <div>
                         <button
                           onClick={handleNextQuestion}
-                          className="rounded bg-purple-700 px-8 py-2 font-bold text-white"
+                          className="rounded bg-purple-700 px-8 py-2 font-bold text-white hover:bg-purple-500"
                         >
                           SIGUIENTE
                         </button>{" "}
@@ -237,6 +244,7 @@ const Quiz = () => {
           )}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

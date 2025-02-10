@@ -133,7 +133,7 @@ const ModuloPage = () => {
                                   state={{ content: activity }}
                                   key={index}
                                   to={`/aprendizaje/modulo/${moduleId}/sections/${section.sectionId}/${activity.type}/${activity.title}`}
-                                  className={`rounded px-8 py-6 font-bold font-normal text-black ${completado ? "bg-green-200" : "bg-gray-200"}`}
+                                  className={`rounded border-l-[24px] bg-gray-100 px-8 py-4 font-normal text-black hover:bg-purple-200 ${completado ? "border-green-200" : "border-gray-400"}`}
                                 >
                                   <li className="">
                                     {capitalizeFirstLetter(activity.type)}:{" "}
@@ -156,7 +156,7 @@ const ModuloPage = () => {
                               }}
                               key={index}
                               to={`/aprendizaje/modulo/${module.moduleId}/sections/${section.sectionId}/quiz/${section.quiz.title}`}
-                              className={`rounded border-t-[24px] bg-purple-100 px-8 py-6 font-bold ${quizPuntaje ? "border-green-200" : "border-gray-200"}`}
+                              className={`rounded border-t-[24px] bg-purple-100 px-8 py-6 font-bold hover:bg-purple-200 ${quizPuntaje ? "border-green-200" : "border-gray-400"}`}
                             >
                               <li className="">
                                 Quiz de seccion <br></br>

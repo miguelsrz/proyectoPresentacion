@@ -23,16 +23,22 @@ function ApHeader() {
       <header
         className={`fixed top-0 z-50 flex h-[72px] w-full justify-center bg-purple-950 shadow-lg transition-all duration-1000 ease-out`}
       >
-        <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 py-5 sm:px-16 2xl:px-24">
-          <div className="flex items-center">
+        <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 sm:px-16 2xl:px-24">
+          <div className="flex items-center py-5">
             <Link to={"/"} className="relative">
-              <figure className="h-10 pr-4 transition-all duration-500 ease-in-out hover:scale-110">
+              <figure
+                title="VOLER A PRESENTACION PROYECTO"
+                className="h-10 pr-4 transition-all duration-500 ease-in-out hover:scale-110"
+              >
                 <img className="h-full" src={focus} alt="Focus LOGO" />
               </figure>
             </Link>
             <div className="block h-10 w-0.5 bg-white"></div>
             <Link to={"/aprendizaje"}>
-              <p className="w-auto select-none pl-4 text-xl text-white transition-all duration-200 hover:tracking-wider">
+              <p
+                title="VOLVER A INICIO APRENDIZAJE"
+                className="w-auto select-none pl-4 text-xl text-white transition-all duration-200 hover:tracking-wider"
+              >
                 APRENDIZAJE
               </p>
             </Link>
@@ -40,7 +46,7 @@ function ApHeader() {
 
           <button
             onClick={() => setActiveMenu(!activeMenu)}
-            className="relative hidden rounded-sm border border-transparent px-4 py-2 text-base font-semibold text-white sm:block"
+            className="relative hidden h-full rounded-sm border border-transparent bg-purple-950 px-4 py-2 text-base font-semibold text-white sm:block"
           >
             <div className="group z-0 flex h-full items-center justify-center gap-1">
               <img
@@ -59,10 +65,10 @@ function ApHeader() {
             </div>
             <div
               onClick={() => closeMenu()}
-              className={`absolute left-0 top-[68px] -z-10 h-max w-full text-black transition-all duration-200 ${activeMenu ? "block" : "hidden"}`}
+              className={`absolute left-0 top-[68px] -z-10 h-max w-full text-black transition-all duration-1000 ease-in-out ${activeMenu ? "top-[68px]" : "-top-44"}`}
             >
               <aside
-                className={`flex flex-col rounded-b border-b-2 border-black bg-white px-4 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[72px]" : "-top-[350px]"}`}
+                className={`flex h-auto flex-col overflow-hidden rounded-b border-b-2 border-black bg-white p-4 shadow-lg`}
               >
                 <section className="mb-2 h-full border-b border-black pb-2">
                   <nav className="flex h-full flex-col items-baseline justify-start gap-2 font-semibold">

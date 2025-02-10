@@ -178,8 +178,9 @@ const Footer = () => {
             <h2 className="mb text-xl font-bold">CONTACTO</h2>
             <div className="my-4 h-2 w-20 bg-purple-900"></div>
             <ul className="flex list-disc flex-col gap-4">
-              <Link
-                to={"https://forms.gle/kRuhzdYBedy9gm1Q7"}
+              <a
+                target="_blank"
+                href={"https://forms.gle/kRuhzdYBedy9gm1Q7"}
                 className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold hover:bg-purple-600"
               >
                 <button className="h-full w-full">
@@ -188,7 +189,7 @@ const Footer = () => {
                     <img className="h-7" src={left} alt="" />
                   </div>
                 </button>
-              </Link>
+              </a>
               <div className="flex flex-col gap-2">
                 <p>Miguel Angel Suarez Montiel</p>
                 <div className="flex w-full flex-row gap-4">

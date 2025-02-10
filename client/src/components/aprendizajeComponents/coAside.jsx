@@ -100,7 +100,7 @@ function CoAside() {
   return (
     <aside className="static flex h-[540px] w-full flex-col px-6 py-6 md:sticky md:top-[72px] md:h-[calc(100vh-72px)] md:w-[280px] lg:w-[356px] xl:w-[420px]">
       <Link to={"/aprendizaje"}>
-        <div className="mb-4 flex flex-row items-center gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 md:flex-col lg:flex-row lg:items-center">
+        <div className="mb-4 flex flex-row items-center gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 hover:bg-purple-200 md:flex-col lg:flex-row lg:items-center">
           <figure className="block h-16 md:hidden lg:block lg:h-24">
             <img className="h-full" src={pig} alt="Focus LOGO" />
           </figure>
@@ -116,7 +116,7 @@ function CoAside() {
       <div className="flex w-full flex-row gap-4">
         <button
           onClick={() => handleNextModule(0)}
-          className="h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-600"
+          className="h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500"
         >
           <div className="flex h-full items-center justify-center">
             <img className="h-7 rotate-180" src={left} alt="" />
@@ -125,7 +125,7 @@ function CoAside() {
 
         <button
           onClick={() => handleNextModule(1)}
-          className="h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-600"
+          className="h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500"
         >
           <div className="flex h-full items-center justify-center">
             <img className="h-7" src={left} alt="" />
@@ -140,7 +140,7 @@ function CoAside() {
               className={`flex flex-col gap-4 rounded border-black/25 bg-white pb-8 ${index == currenModuleView ? "block" : "hidden"}`}
             >
               <Link to={`/aprendizaje/modulo/${module.moduleId}/#0`}>
-                <h2 className="border-b border-black/25 px-4 py-4 text-base font-semibold text-black">
+                <h2 className="border-b border-black/25 px-4 py-4 text-base font-semibold text-black hover:bg-purple-200">
                   Modulo {module.moduleId} <br></br>{" "}
                   <span className="font-normal"> {module.moduleTitle}</span>
                 </h2>
@@ -155,7 +155,7 @@ function CoAside() {
                           <Link
                             to={`/aprendizaje/modulo/${module.moduleId}/#${index + 1}`}
                           >
-                            <li className="rounded bg-gray-200 p-4">
+                            <li className="rounded bg-gray-200 p-4 hover:bg-gray-300">
                               {sect.sectionTitle}
                             </li>
                           </Link>

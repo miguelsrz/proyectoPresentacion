@@ -72,7 +72,7 @@ function ApAside() {
   return (
     <aside className="sticky top-[72px] hidden h-[calc(100vh-72px)] overflow-y-auto overflow-x-hidden px-6 py-6 shadow-lg sm:w-[280px] md:block lg:w-[356px] xl:w-[420px]">
       <Link to={"/aprendizaje"}>
-        <div className="mb-4 flex flex-col items-start gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 lg:flex-row lg:items-center">
+        <div className="mb-4 flex flex-col items-start gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 hover:bg-purple-200 lg:flex-row lg:items-center">
           <figure className="hidden h-16 lg:block lg:h-24">
             <img className="h-full" src={pig} alt="Focus LOGO" />
           </figure>

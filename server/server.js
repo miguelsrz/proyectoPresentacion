@@ -124,8 +124,6 @@ app.delete("/api/sesiones", async (req, res) => {
 
 app.post("/api/sesiones", async (req, res) => {
   const { newToken } = req.body;
-  console.log("Body recibido:", req.body); // <-- Verifica qué está llegando al backend
-  console.log(newToken)
 
   if (!newToken) return res.status(400).json({ error: "Datos incompletos" });
 
@@ -136,7 +134,6 @@ app.post("/api/sesiones", async (req, res) => {
       throw new Error("Token NO valido");
     }
 
-    console.log(res)
     res.json({ userID: usuarioID, user:usuario , success: true, message: "Sesión creada con éxito" });
   } catch (error) {
     console.log("CATCH: ERROR");

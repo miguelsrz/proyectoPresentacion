@@ -80,7 +80,7 @@ const Video = () => {
         <div className="relative order-2 md:order-1 md:mt-[72px]">
           <CoAside></CoAside>
         </div>
-        <div className="order1 mt-[72px] bg-gray-50 px-8 py-8 md:order-2 md:px-24">
+        <div className="order-1 mt-[72px] bg-gray-50 px-8 py-8 md:order-2 md:px-24">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-2 border-b border-black/25 pb-8">
               <p className="text-xl font-bold">
@@ -90,7 +90,12 @@ const Video = () => {
             </div>
             <div className="flex flex-col gap-2 rounded bg-purple-100 p-8">
               <h2 className="text-2xl font-bold">Video original</h2>
-              <a target="_blank" href={content.urlOriginal}>
+
+              <a
+                className="underline-offset-8 hover:underline"
+                target="_blank"
+                href={content.urlOriginal}
+              >
                 {content.tituloOriginal} | {content.autor}
               </a>
             </div>
@@ -111,7 +116,7 @@ const Video = () => {
             </div>
             <button
               onClick={() => handleVisto()}
-              className="w-max self-end rounded bg-purple-700 px-8 py-4 font-bold text-white"
+              className="w-max self-end rounded bg-purple-700 px-8 py-4 font-bold text-white hover:bg-purple-500"
             >
               {includes ? "MARCAR NO VISTO" : "MARCAR VISTO"}
             </button>
