@@ -24,8 +24,6 @@ const Articulo = () => {
     setPuntajes,
   } = useContext(DatabaseContext);
 
-  window.addEventListener("beforeunload", deleteToken);
-
   const maxLength = Math.max(info.imagenes.length, info.texto.length);
 
   function renderText(text) {

@@ -23,8 +23,6 @@ const Video = () => {
     setPuntajes,
   } = useContext(DatabaseContext);
 
-  window.addEventListener("beforeunload", deleteToken);
-
   useEffect(() => {
     const scrollToElement = () => {
       if (location) {

@@ -15,7 +15,6 @@ function ApHeader() {
 
   const handleLogout = () => {
     deleteToken();
-    window.location.href = "https://proyectofocus.xyz/";
   };
 
   return (
@@ -27,7 +26,7 @@ function ApHeader() {
           <div className="flex items-center py-5">
             <Link to={"/"} className="relative">
               <figure
-                title="VOLER A PRESENTACION PROYECTO"
+                title="VOLER A PRESENTACION"
                 className="h-10 pr-4 transition-all duration-500 ease-in-out hover:scale-110"
               >
                 <img className="h-full" src={focus} alt="Focus LOGO" />
@@ -65,20 +64,13 @@ function ApHeader() {
             </div>
             <div
               onClick={() => closeMenu()}
-              className={`absolute left-0 top-[68px] -z-10 h-max w-full text-black transition-all duration-1000 ease-in-out ${activeMenu ? "top-[68px]" : "-top-44"}`}
+              className={`absolute left-0 -z-10 h-max w-full text-black transition-all duration-1000 ease-in-out ${activeMenu ? "top-[68px]" : "-top-44"}`}
             >
               <aside
                 className={`flex h-auto flex-col overflow-hidden rounded-b border-b-2 border-black bg-white p-4 shadow-lg`}
               >
                 <section className="mb-2 h-full border-b border-black pb-2">
                   <nav className="flex h-full flex-col items-baseline justify-start gap-2 font-semibold">
-                    <Link to={"/"}>
-                      <a
-                        className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
-                      >
-                        PRESENTACION
-                      </a>
-                    </Link>
                     <Link to={"https://focus.42web.io/"}>
                       <a
                         className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
@@ -89,12 +81,14 @@ function ApHeader() {
                   </nav>
                 </section>
                 <section className="mt-2 flex flex-col gap-4">
-                  <button
-                    onClick={() => handleLogout()}
-                    className="rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
-                  >
-                    CERRAR SESION
-                  </button>
+                  <Link to={"/"}>
+                    <div
+                      onClick={() => handleLogout()}
+                      className="cursor-pointer rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
+                    >
+                      CERRAR SESION
+                    </div>
+                  </Link>
                 </section>
               </aside>
             </div>
@@ -134,13 +128,6 @@ function ApHeader() {
               >
                 <section className="mb-2 h-full border-b border-black pb-2">
                   <nav className="flex h-full flex-col items-baseline justify-start gap-2 font-semibold">
-                    <Link to={"/"}>
-                      <a
-                        className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
-                      >
-                        PRESENTACION
-                      </a>
-                    </Link>
                     <Link to={"https://focus.42web.io/"}>
                       <a
                         className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
@@ -151,12 +138,14 @@ function ApHeader() {
                   </nav>
                 </section>
                 <section className="mt-2 flex flex-col gap-4">
-                  <button
-                    onClick={() => handleLogout()}
-                    className="rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
-                  >
-                    CERRAR SESION
-                  </button>
+                  <Link to={"/"}>
+                    <div
+                      onClick={() => handleLogout()}
+                      className="cursor-pointer rounded-sm border-2 border-transparent bg-purple-700 py-2 font-semibold tracking-wider text-white hover:bg-purple-600"
+                    >
+                      CERRAR SESION
+                    </div>
+                  </Link>
                 </section>
               </aside>
             </div>

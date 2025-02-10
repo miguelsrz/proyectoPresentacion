@@ -10,8 +10,6 @@ import Footer from "../components/footer";
 import left from "../../public/assets/icons/arrowLeft.svg";
 import pig from "../../public/assets/icons/courseIcon.svg";
 
-const apiURL = import.meta.env.VITE_API_URL;
-
 const AprendizajePage = () => {
   const [modulos, setModulos] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -25,10 +23,9 @@ const AprendizajePage = () => {
     setProgreso,
     setPuntajes,
   } = useContext(DatabaseContext);
-  const { usuario, getUser, deleteToken } = useContext(UserContext);
+  const { getUser, deleteToken } = useContext(UserContext);
 
   // Fetch data when the component mounts
-  window.addEventListener("beforeunload", deleteToken);
 
   useEffect(() => {
     getUser();

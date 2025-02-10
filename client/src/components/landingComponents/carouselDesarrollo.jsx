@@ -22,13 +22,13 @@ const CarouselDesarrollo = () => {
     <>
       <Flowbite theme={{ theme: customTheme }}>
         <Carousel slide={false}>
-          <img className="bg-cover" src={img44} alt="" />
+          <img src={img40} alt="" />
+
           <img src={img41} alt="" />
           <img src={img42} alt="" />
           <img src={img43} alt="" />
           <img src={img44} alt="" />
           <img src={img45} alt="" />
-          <img src={img40} alt="" />
 
           <img src={img46} alt="" />
         </Carousel>

@@ -27,10 +27,10 @@ export const UserProvider = ({ children }) => {
 
     // Si no hay token en localStorage, buscarlo en la URL
     const params = new URLSearchParams(window.location.search);
-    if (!newToken && params.has("token")) {
+    if (params.has("token")) {
       newToken = params.get("token");
       localStorage.setItem("token", newToken); // Guardarlo en localStorage
-      window.history.replaceState({}, document.title, "/"); // Limpiar la URL
+      window.history.replaceState({}, document.title, "/aprendizaje"); // Limpiar la URL
     }
 
     if (!newToken && !params.has("token")) {
@@ -86,6 +86,34 @@ export const UserProvider = ({ children }) => {
     }
   };
 
+  const useTokenCleanup = () => {
+    useEffect(() => {
+      if (!sessionStorage.getItem("firstVisit")) {
+        sessionStorage.setItem("firstVisit", "true");
+        return; // Evita ejecutar el código en la primera visita
+      }
+
+      const handleBeforeUnload = () => {
+        sessionStorage.setItem("reloading", "true");
+      };
+
+      const handleLoad = () => {
+        if (!sessionStorage.getItem("reloading")) {
+          deleteToken(); // Solo elimina el token si no es una recarga
+        }
+        sessionStorage.removeItem("reloading");
+      };
+
+      window.addEventListener("beforeunload", handleBeforeUnload);
+      window.addEventListener("load", handleLoad);
+
+      return () => {
+        window.removeEventListener("beforeunload", handleBeforeUnload);
+        window.removeEventListener("load", handleLoad);
+      };
+    }, []);
+  };
+
   return (
     <UserContext.Provider
       value={{
@@ -94,6 +122,7 @@ export const UserProvider = ({ children }) => {
         getUser,
         deleteToken,
         capitalizeFirstLetter,
+        useTokenCleanup,
       }}
     >
       {children}

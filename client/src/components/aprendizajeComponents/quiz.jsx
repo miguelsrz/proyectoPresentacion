@@ -24,8 +24,6 @@ const Quiz = () => {
     puntajes,
   } = useContext(DatabaseContext);
 
-  window.addEventListener("beforeunload", deleteToken);
-
   useEffect(() => {
     getUser();
 

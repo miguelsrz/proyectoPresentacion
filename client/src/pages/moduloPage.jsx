@@ -44,8 +44,6 @@ const ModuloPage = () => {
   const { getUser, capitalizeFirstLetter, deleteToken } =
     useContext(UserContext);
 
-  window.addEventListener("beforeunload", deleteToken);
-
   // Fetch data when the component mounts
 
   useEffect(() => {
