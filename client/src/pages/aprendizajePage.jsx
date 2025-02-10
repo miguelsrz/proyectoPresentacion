@@ -61,19 +61,11 @@ const AprendizajePage = () => {
       });
   }, []);
 
-  const generateEncryptedToken = async (inputId) => {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(`secret-${inputId}-${Date.now()}`);
-    const hashArray = Array.from(new Uint8Array(data));
-    const hashHex = hashArray
-      .map((b) => b.toString(16).padStart(2, "0"))
-      .join("");
-    return hashHex;
-  };
-
-  if (loading) return <div>Cargando módulos...</div>;
+  if (loading)
+    return <div className="p-8 text-xl md:text-2xl"> Cargando módulos...</div>;
   if (error) return <div>{error}</div>;
 
+  const porcentajeProgreso = Math.round((progreso.length / 36) * 100);
   return (
     <div className="text-pretty">
       <ApHeader></ApHeader>
@@ -99,28 +91,37 @@ const AprendizajePage = () => {
                     <br></br> Gestión Inteligente del Dinero
                   </span>
                 </h1>
-                <h2 className="text-xl">Avance de curso: 40%</h2>
+                <h2 className="text-xl">
+                  Avance de curso: {porcentajeProgreso}%{" "}
+                  <span className="hidden md:inline-block">
+                    {" "}
+                    - ({progreso.length}/36 contenidos vistos)
+                  </span>
+                </h2>
               </div>
 
               <section className="rounded border border-black/25 bg-white p-8">
-                <h1 className="mb-4 border-b border-black/25 pb-4 text-2xl font-bold text-black">
+                <h1 className="mb-4 border-b border-black/25 pb-4 text-xl font-bold text-black md:text-2xl">
                   Acerca de este curso
                 </h1>
-                <p className="text-pretty text-base">
-                  Este curso está diseñado para proporcionar una base sólida en
-                  educación financiera, ayudándote a comprender los principios
-                  clave de las finanzas personales y la gestión del presupuesto.
-                  A lo largo del programa, explorarás cómo funciona el sistema
-                  económico y su impacto en tu vida diaria, aprenderás a evaluar
-                  tu situación financiera actual y desarrollarás estrategias
-                  efectivas para administrar tus ingresos y gastos. Además, el
-                  curso te guiará en la planificación de objetivos financieros
-                  realistas y alcanzables, ofreciendo herramientas prácticas
-                  para el control del gasto, el ahorro y la inversión. Con un
-                  enfoque claro y aplicable, este curso te permitirá tomar
-                  decisiones financieras más informadas y mejorar tu estabilidad
-                  económica a largo plazo.
-                </p>
+                <div className="max-h-48 overflow-y-auto">
+                  <p className="text-pretty text-base md:h-auto">
+                    Este curso está diseñado para proporcionar una base sólida
+                    en educación financiera, ayudándote a comprender los
+                    principios clave de las finanzas personales y la gestión del
+                    presupuesto. A lo largo del programa, explorarás cómo
+                    funciona el sistema económico y su impacto en tu vida
+                    diaria, aprenderás a evaluar tu situación financiera actual
+                    y desarrollarás estrategias efectivas para administrar tus
+                    ingresos y gastos. Además, el curso te guiará en la
+                    planificación de objetivos financieros realistas y
+                    alcanzables, ofreciendo herramientas prácticas para el
+                    control del gasto, el ahorro y la inversión. Con un enfoque
+                    claro y aplicable, este curso te permitirá tomar decisiones
+                    financieras más informadas y mejorar tu estabilidad
+                    económica a largo plazo.
+                  </p>
+                </div>
               </section>
             </div>
           </div>
@@ -133,13 +134,15 @@ const AprendizajePage = () => {
                     key={module.moduleId}
                     className="flex flex-col gap-4 rounded border border-black/25 bg-white p-8"
                   >
-                    <h2 className="border-b border-black/25 pb-4 text-2xl font-semibold text-black">
+                    <h2 className="border-b border-black/25 pb-4 text-xl font-semibold text-black md:text-2xl">
                       Modulo {module.moduleId}: {module.moduleTitle}
                     </h2>
-                    <p className="text-pretty">{module.desc}</p>
+                    <p className={`hidden text-pretty md:block`}>
+                      {module.desc}
+                    </p>
                     <section className="flex w-full flex-col justify-start gap-10 sm:flex-row">
                       <div className="flex-1">
-                        <p className="mb-4 text-lg font-bold text-black">
+                        <p className="mb-4 text-base font-bold text-black md:text-lg">
                           Aprende
                         </p>
                         <ul className="flex flex-col gap-2 text-black">
@@ -157,7 +160,7 @@ const AprendizajePage = () => {
                         </ul>
                       </div>
                       <div className="flex-1">
-                        <p className="mb-4 text-xl font-bold text-black">
+                        <p className="mb-4 text-base font-bold text-black md:text-lg">
                           Aplica
                         </p>
                         <ul className="flex flex-col gap-2">

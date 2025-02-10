@@ -11,6 +11,7 @@ import m1Icon from "../../public/assets/icons/m1Icon.svg";
 const ModuloPage = () => {
   const { moduleId } = useParams();
   const [module, setModule] = useState(null);
+  const [avanceModulo, setAvanceModulo] = useState(0);
 
   const location = useLocation();
 
@@ -70,7 +71,7 @@ const ModuloPage = () => {
   }, [moduleId]);
 
   if (!module) {
-    return <div>Modulo no encontrado!</div>;
+    return <div className="p-8 text-xl md:text-2xl">Cargando modulos...</div>;
   } else {
     return (
       <div id="0">
@@ -93,14 +94,16 @@ const ModuloPage = () => {
                   <h1 className="text-4xl font-bold text-black md:text-5xl">
                     Modulo {module.moduleId}: {module.moduleTitle}
                   </h1>
-                  <h2 className="text-xl">Avance de modulo: 50%</h2>
+                  <h2 className="text-xl">12 Contenidos - 4 Quizes</h2>
                 </div>
 
                 <section className="rounded border border-black/25 bg-white p-8">
-                  <h1 className="mb-4 border-b border-black/25 pb-4 text-2xl font-bold text-black">
+                  <h1 className="mb-4 border-b border-black/25 pb-4 text-xl font-bold text-black md:text-2xl">
                     Acerca de este modulo
                   </h1>
-                  <p className="text-pretty text-base">{module.desc}</p>
+                  <p className="max-h-48 overflow-y-auto text-pretty text-base">
+                    {module.desc}
+                  </p>
                 </section>
               </div>
             </div>
@@ -117,17 +120,18 @@ const ModuloPage = () => {
                       key={section.sectionTitle + index}
                       className="flex flex-col gap-4 rounded border border-black/25 bg-white p-8"
                     >
-                      <h2 className="border-b border-black/25 pb-4 text-2xl font-semibold text-black">
+                      <h2 className="border-b border-black/25 pb-4 text-xl font-semibold text-black md:text-2xl">
                         Seccion {index + 1}: {section.sectionTitle}
                       </h2>
                       <section className="flex w-full flex-col justify-start gap-10 lg:flex-row">
                         <div className="flex-1">
-                          <p className="mb-4 text-lg font-bold text-black">
+                          <p className="mb-4 text-base font-bold text-black md:text-lg">
                             Aprende
                           </p>
                           <ul className="flex flex-col gap-2">
                             {section.activities?.map((activity, index) => {
                               const completado = progreso.includes(activity.id); // Si el ID existe, está completado
+
                               return (
                                 <Link
                                   state={{ content: activity }}
@@ -145,7 +149,7 @@ const ModuloPage = () => {
                           </ul>
                         </div>
                         <div className="flex-1">
-                          <p className="mb-4 text-lg font-bold text-black">
+                          <p className="mb-4 text-base font-bold text-black md:text-lg">
                             Aplica
                           </p>
                           <ul className="flex flex-col gap-2">
@@ -160,12 +164,12 @@ const ModuloPage = () => {
                             >
                               <li className="">
                                 Quiz de seccion <br></br>
-                                <span className="text-2xl text-black">
+                                <span className="text-xl text-black md:text-2xl">
                                   {section.quiz.title}
                                 </span>
                               </li>{" "}
                             </Link>
-                            <p className="text-center text-lg font-semibold text-black sm:text-right">
+                            <p className="text-right text-base font-semibold text-black md:text-lg">
                               {quizPuntaje
                                 ? `Puntaje obtenido: ${quizPuntaje?.puntaje}/${section.quiz.preguntas.length}`
                                 : null}

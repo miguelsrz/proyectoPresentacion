@@ -42,7 +42,7 @@ const CrInicial = () => {
         // leftControl="bg-black rounded"
       >
         <div
-          className={`flex h-full w-full flex-col items-center justify-center gap-8 px-16 py-8`}
+          className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
         >
           <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
             ¿Cómo calificarías tu nivel de conocimiento sobre finanzas

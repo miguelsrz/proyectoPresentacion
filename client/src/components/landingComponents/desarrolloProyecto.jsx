@@ -87,11 +87,9 @@ const DesarrolloProyecto = () => {
               evolución del proyecto, desde los primeros bocetos hasta su
               implementación final. Aquí se incluyen capturas de la plataforma,
               esquemas de diseño, momentos clave del desarrollo y registros del
-              equipo de trabajo. A través de estas imágenes, los visitantes
-              podrán conocer la esencia del proyecto, su crecimiento y la
-              dedicación detrás de cada etapa. Esta sección refleja no solo el
-              avance técnico, sino también la visión y el esfuerzo que han dado
-              vida a FOCUS.
+              equipo de trabajo. A través de estas imágenes, se dara a conocer
+              la esencia del proyecto, su crecimiento y la dedicación detrás de
+              cada etapa.
             </p>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
               <CarouselDesarrollo></CarouselDesarrollo>

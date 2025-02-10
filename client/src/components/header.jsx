@@ -105,15 +105,19 @@ function Header() {
             </nav>
           </div>
 
-          <button
+          <div
             onClick={() => setActiveOptions(!activeOptions)}
-            className="relative hidden h-11 w-max items-center rounded-sm border-2 border-transparent font-semibold text-white xl:flex"
+            className="relative hidden h-auto w-max items-center rounded-sm font-semibold text-white xl:flex"
           >
-            <div className="flex h-full items-center justify-center rounded bg-purple-700 px-8 hover:bg-purple-600">
-              <p className="line-clamp-1">SECCIONES</p>
+            <div
+              className={`z-10 flex h-[72px] cursor-pointer items-center justify-center ${activeOptions ? "bg-black" : "bg-transparent delay-[1000ms]"}`}
+            >
+              <div className="line-clamp-1 flex h-11 items-center rounded bg-purple-700 px-8 align-middle hover:bg-purple-600">
+                <p>SECCIONES</p>
+              </div>
             </div>
             <div
-              className={`absolute left-0 top-[56px] h-full w-full text-left text-black ${activeOptions ? "block" : "hidden"}`}
+              className={`absolute left-0 -z-10 h-full w-full text-left text-black transition-all duration-1000 ease-in-out ${activeOptions ? "top-[72px]" : "-top-[120px]"}`}
             >
               <div
                 onClick={() => closeOptions()}
@@ -151,7 +155,7 @@ function Header() {
                 </aside>
               </div>
             </div>
-          </button>
+          </div>
 
           <button
             onClick={() => setActiveMenu(!activeMenu)}

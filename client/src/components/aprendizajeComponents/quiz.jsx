@@ -16,13 +16,12 @@ const Quiz = () => {
   const url = location.pathname;
   const nuevaUrl = url.split("/sections")[0];
   const {
-    progreso,
-    updateProgreso,
     registerPuntaje,
     setProgreso,
     fetchProgreso,
     fetchPuntajes,
     setPuntajes,
+    puntajes,
   } = useContext(DatabaseContext);
 
   window.addEventListener("beforeunload", deleteToken);
@@ -47,6 +46,7 @@ const Quiz = () => {
   }, []); // Dependencia en 'usuario' para que se ejecute cuando el usuario se loguee
 
   useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     setQuizStarted(false);
   }, [location]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -90,9 +90,10 @@ const Quiz = () => {
   };
 
   if (!content) return <p>Cargando preguntas del quiz...</p>;
+  const quizPuntaje = puntajes.find((p) => p.quiz === content.id);
 
   return (
-    <div>
+    <div className="flex flex-col">
       <ApHeader></ApHeader>
       <div className="flex flex-col md:flex-row">
         <div className="relative order-2 md:order-1 md:mt-[72px]">
@@ -111,7 +112,14 @@ const Quiz = () => {
                 <h2 className="text-2xl font-bold">Descripción</h2>
 
                 <p className="text-pretty text-base">{content.descripcion}</p>
+                {quizPuntaje ? (
+                  <span className="mt-4 w-max border-t border-black pt-4">
+                    Puntaje anteriormente obtenido: {quizPuntaje?.puntaje} de{" "}
+                    {content.preguntas.length} preguntas
+                  </span>
+                ) : null}
               </div>
+
               <button
                 onClick={handleStartQuiz}
                 className="w-max self-end rounded bg-purple-700 px-24 py-4 font-bold text-white hover:bg-purple-500"

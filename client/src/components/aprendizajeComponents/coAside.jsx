@@ -15,8 +15,8 @@ function CoAside() {
   const [currentContent, setCurrentContent] = useState("");
 
   const {
-    // puntajes,
-    // progreso,
+    puntajes,
+    progreso,
     fetchProgreso,
     fetchPuntajes,
     setProgreso,
@@ -98,9 +98,9 @@ function CoAside() {
   };
 
   return (
-    <aside className="static flex h-[540px] w-full flex-col px-6 py-6 md:sticky md:top-[72px] md:h-[calc(100vh-72px)] md:w-[280px] lg:w-[356px] xl:w-[420px]">
+    <aside className="static flex h-[540px] w-full flex-col py-6 md:sticky md:top-[72px] md:h-[calc(100vh-72px)] md:w-[280px] lg:w-[356px] xl:w-[420px]">
       <Link to={"/aprendizaje"}>
-        <div className="mb-4 flex flex-row items-center gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 hover:bg-purple-200 md:flex-col lg:flex-row lg:items-center">
+        <div className="mx-6 mb-4 flex flex-row items-center gap-3 border-l-8 border-purple-950 bg-purple-100 p-2 hover:bg-purple-200 md:flex-col lg:flex-row lg:items-center">
           <figure className="block h-16 md:hidden lg:block lg:h-24">
             <img className="h-full" src={pig} alt="Focus LOGO" />
           </figure>
@@ -108,12 +108,12 @@ function CoAside() {
             <h2 className="text-xl font-bold">
               Educación Financiera para Estudiantes
             </h2>
-            <p>4 Modulos | 12+ Pruebas</p>
+            <p>4 Modulos | +12 Pruebas</p>
           </div>
         </div>
       </Link>
 
-      <div className="flex w-full flex-row gap-4">
+      <div className="mx-6 flex w-auto flex-row gap-4 border-b border-black/25 pb-4">
         <button
           onClick={() => handleNextModule(0)}
           className="h-12 w-full rounded-sm border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500"
@@ -132,7 +132,7 @@ function CoAside() {
           </div>
         </button>
       </div>
-      <ul className="mt-4 h-fit w-full flex-1 flex-col gap-4 overflow-y-auto overflow-x-hidden border-y border-black/25">
+      <ul className="h-fit w-auto flex-1 flex-col gap-4 overflow-y-auto overflow-x-hidden px-6">
         {modulos.map((module, index) => {
           return (
             <li
@@ -150,6 +150,20 @@ function CoAside() {
                 <div className="flex-1">
                   <ul className="flex flex-col gap-2">
                     {module.sections?.map((sect, index) => {
+                      const completado0 = progreso.includes(
+                        sect.activities[0].id,
+                      );
+                      const completado1 = progreso.includes(
+                        sect.activities[1].id,
+                      );
+                      const completado2 = progreso.includes(
+                        sect.activities[2].id,
+                      );
+
+                      const quizPuntaje = puntajes.some(
+                        (p) => p.quiz === sect.quiz.id,
+                      );
+
                       return (
                         <div key={index} className="flex flex-col gap-2">
                           <Link
@@ -164,7 +178,7 @@ function CoAside() {
                             to={`/aprendizaje/modulo/${module.moduleId}/sections/${sect.sectionId}/${sect.activities[0].type}/${sect.activities[0].title}`}
                           >
                             <li
-                              className={`list-inside list-disc rounded p-4 hover:bg-purple-200 ${sect.activities[0].title.includes(currentContent) ? "bg-purple-200" : null}`}
+                              className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado0 ? "border-green-200" : "border-gray-200"} ${sect.activities[0].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
                               {sect.activities[0].title}
                             </li>
@@ -174,7 +188,7 @@ function CoAside() {
                             to={`/aprendizaje/modulo/${module.moduleId}/sections/${sect.sectionId}/${sect.activities[1].type}/${sect.activities[1].title}`}
                           >
                             <li
-                              className={`list-inside list-disc rounded p-4 hover:bg-purple-200 ${sect.activities[1].title.includes(currentContent) ? "bg-purple-200" : null}`}
+                              className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado1 ? "border-green-200" : "border-gray-200"} ${sect.activities[1].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
                               {sect.activities[1].title}
                             </li>
@@ -184,7 +198,7 @@ function CoAside() {
                             to={`/aprendizaje/modulo/${module.moduleId}/sections/${sect.sectionId}/${sect.activities[2].type}/${sect.activities[2].title}`}
                           >
                             <li
-                              className={`list-inside list-disc rounded p-4 hover:bg-purple-200 ${sect.activities[2].title.includes(currentContent) ? "bg-purple-200" : null}`}
+                              className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado2 ? "border-green-200" : "border-gray-200"} ${sect.activities[2].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
                               {sect.activities[2].title}
                             </li>
@@ -196,7 +210,10 @@ function CoAside() {
                             <li
                               className={`mb-4 rounded border-2 p-4 text-center hover:border-purple-200 hover:bg-purple-200 ${sect.quiz.title.includes(currentContent) ? "border-purple-200 bg-purple-200" : "border-purple-300"}`}
                             >
-                              Quiz {index + 1}: {sect.quiz.title}
+                              Quiz {index + 1}: {sect.quiz.title}{" "}
+                              {quizPuntaje
+                                ? `- (${puntajes[module.moduleId - 1]?.puntaje}/${sect.quiz.preguntas.length})`
+                                : null}
                             </li>
                           </Link>
                         </div>
@@ -209,6 +226,7 @@ function CoAside() {
           );
         })}
       </ul>
+      <div className="mx-6 h-px w-auto bg-black/25"></div>
     </aside>
   );
 }
