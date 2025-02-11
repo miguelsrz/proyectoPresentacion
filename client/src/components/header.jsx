@@ -248,7 +248,7 @@ function Header() {
 
           <section className="mt-2 flex flex-col gap-4">
             <Link
-              to={"https://focus.42web.io/"}
+              to={"https://focus.42web.io/sesion_aprendizaje.php"}
               className="h-11 w-full items-center rounded-sm border-2 border-transparent bg-purple-700 px-8 font-semibold text-white hover:bg-purple-600"
             >
               <button className="h-full w-full">

@@ -111,10 +111,10 @@ const Quiz = () => {
 
                 <p className="text-pretty text-base">{content.descripcion}</p>
                 {quizPuntaje ? (
-                  <span className="mt-4 w-max border-t border-black pt-4">
+                  <p className="mt-4 border-t border-black pt-4">
                     Puntaje anteriormente obtenido: {quizPuntaje?.puntaje} de{" "}
                     {content.preguntas.length} preguntas
-                  </span>
+                  </p>
                 ) : null}
               </div>
 

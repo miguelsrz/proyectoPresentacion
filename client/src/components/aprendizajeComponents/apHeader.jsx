@@ -24,18 +24,18 @@ function ApHeader() {
       >
         <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 sm:px-16 2xl:px-24">
           <div className="flex items-center py-5">
-            <Link to={"/"} className="relative">
+            <Link to={"/aprendizaje#0"} className="relative">
               <figure
-                title="VOLER A PRESENTACION"
+                title="VOLVER A INICIO DE SECCION APRENDIZAJE"
                 className="h-10 pr-4 transition-all duration-500 ease-in-out hover:scale-110"
               >
                 <img className="h-full" src={focus} alt="Focus LOGO" />
               </figure>
             </Link>
             <div className="block h-10 w-0.5 bg-white"></div>
-            <Link to={"/aprendizaje"}>
+            <Link to={"/aprendizaje#0"}>
               <p
-                title="VOLVER A INICIO APRENDIZAJE"
+                title="VOLVER A INICIO DE SECCION APRENDIZAJE"
                 className="w-auto select-none pl-4 text-xl text-white transition-all duration-200 hover:tracking-wider"
               >
                 APRENDIZAJE
@@ -121,13 +121,20 @@ function ApHeader() {
 
             <div
               onClick={() => closeMenu()}
-              className={`absolute right-0 top-[72px] -z-10 h-max w-full max-w-[240px] text-black transition-all duration-200 ${activeMenu ? "block" : "hidden"}`}
+              className={`absolute right-0 top-[72px] -z-10 w-full max-w-[240px] overflow-hidden text-black transition-all duration-1000 ease-in-out ${activeMenu ? "h-60" : "h-0"}`}
             >
               <aside
-                className={`flex flex-col rounded-b border-b-2 border-black bg-white px-4 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "top-[72px]" : "-top-[350px]"}`}
+                className={`flex cursor-default flex-col rounded-b border-b-2 border-black bg-white px-4 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "pb-4" : "pb-6"}`}
               >
-                <section className="mb-2 h-full border-b border-black pb-2">
-                  <nav className="flex h-full flex-col items-baseline justify-start gap-2 font-semibold">
+                <section className="mb-2 h-full border-b border-black pb-4">
+                  <nav className="flex h-full flex-col items-baseline justify-start gap-4 font-semibold">
+                    <div
+                      className={`w-full cursor-default border-b border-black pb-4 underline-offset-8 transition-all duration-200`}
+                    >
+                      <p className="truncate rounded bg-gray-100 px-4 py-2">
+                        {usuario}
+                      </p>
+                    </div>
                     <Link to={"https://focus.42web.io/"}>
                       <a
                         className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}

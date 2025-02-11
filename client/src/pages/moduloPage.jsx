@@ -7,6 +7,7 @@ import ApHeader from "../components/aprendizajeComponents/apHeader";
 import ApAside from "../components/aprendizajeComponents/apAside";
 import Footer from "../components/footer";
 import m1Icon from "../../public/assets/icons/m1Icon.svg";
+import left from "../../public/assets/icons/arrowLeft.svg";
 
 const ModuloPage = () => {
   const { moduleId } = useParams();
@@ -28,7 +29,7 @@ const ModuloPage = () => {
     // Espera un ciclo de renderizado antes de ejecutar el scroll
     const timeout = setTimeout(() => {
       requestAnimationFrame(scrollToElement);
-    }, 100); // Pequeño delay para asegurar que el contenido ya se montó
+    }, 300); // Pequeño delay para asegurar que el contenido ya se montó
 
     return () => clearTimeout(timeout);
   }, [location]);
@@ -86,6 +87,18 @@ const ModuloPage = () => {
             </figure> */}
               <div className="flex flex-col">
                 <div className="mb-8 flex flex-col gap-4 border-b border-black/25 pb-8">
+                  <Link to={"/aprendizaje"} className="max-w-64">
+                    <button
+                      href="/aprendizaje"
+                      className="block h-12 w-full cursor-pointer rounded border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500 md:hidden"
+                    >
+                      <div className="flex h-full items-center justify-center">
+                        <img className="h-7 rotate-180" src={left} alt="" />
+                        Inicio de curso
+                      </div>
+                    </button>
+                  </Link>
+
                   <figure className="h-32">
                     <img className="h-full" src={m1Icon} alt="Focus LOGO" />
                   </figure>

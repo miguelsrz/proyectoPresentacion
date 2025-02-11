@@ -58,7 +58,7 @@ const MetodologiaProyecto = () => {
               <div className="grid w-max grid-cols-5 gap-2 sm:h-auto sm:w-full sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
                 <div
                   onClick={() => handleBox(boxes[0])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal bg-gray-400 sm:col-span-1 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
@@ -90,7 +90,7 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[1])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal bg-gray-400 sm:col-span-1 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
@@ -123,7 +123,7 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[2])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-2 sm:w-auto"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal bg-gray-400 sm:col-span-2 sm:w-auto"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
@@ -159,7 +159,7 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[3])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto lg:col-span-2"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal bg-gray-400 sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img
@@ -200,7 +200,7 @@ const MetodologiaProyecto = () => {
 
                 <div
                   onClick={() => handleBox(boxes[4])}
-                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal sm:col-span-1 sm:w-auto lg:col-span-2"
+                  className="group relative z-0 h-80 w-72 cursor-pointer snap-center snap-normal bg-gray-400 sm:col-span-1 sm:w-auto lg:col-span-2"
                 >
                   <figure className="absolute z-[-1] h-full w-full brightness-[0.25] transition-all duration-200 ease-in-out group-hover:brightness-50">
                     <img

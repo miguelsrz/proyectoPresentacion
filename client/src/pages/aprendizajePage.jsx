@@ -64,7 +64,7 @@ const AprendizajePage = () => {
 
   const porcentajeProgreso = Math.round((progreso.length / 36) * 100);
   return (
-    <div className="text-pretty">
+    <div id="0" className="text-pretty">
       <ApHeader></ApHeader>
 
       <div className="flex">
@@ -131,9 +131,12 @@ const AprendizajePage = () => {
                     key={module.moduleId}
                     className="flex flex-col gap-4 rounded border border-black/25 bg-white p-8"
                   >
-                    <h2 className="border-b border-black/25 pb-4 text-xl font-semibold text-black md:text-2xl">
-                      Modulo {module.moduleId}: {module.moduleTitle}
-                    </h2>
+                    <Link to={`/aprendizaje/modulo/${module.moduleId}/#0`}>
+                      <h2 className="cursor-pointer border-b border-black/25 pb-4 text-xl font-semibold text-black underline-offset-8 hover:underline md:text-2xl">
+                        Modulo {module.moduleId}: {module.moduleTitle}
+                      </h2>
+                    </Link>
+
                     <p className={`hidden text-pretty md:block`}>
                       {module.desc}
                     </p>

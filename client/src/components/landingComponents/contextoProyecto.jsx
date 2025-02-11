@@ -210,7 +210,7 @@ const ContextoProyecto = () => {
               </h2>
               <div className="group flex flex-col justify-between gap-8 border-b-2 border-black py-8 pb-4 transition-all duration-500 ease-in-out md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                 <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                  <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                  <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                     <img
                       src={img31}
                       alt="Proyecto"
@@ -251,7 +251,7 @@ const ContextoProyecto = () => {
               <section className="h-[640px] snap-y snap-mandatory overflow-x-hidden overflow-y-scroll sm:h-[560px] md:h-96 lg:h-72">
                 <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                       <img
                         src={img32}
                         alt="Proyecto"
@@ -281,7 +281,7 @@ const ContextoProyecto = () => {
 
                 <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                       <img
                         src={img33}
                         alt="Proyecto"
@@ -311,7 +311,7 @@ const ContextoProyecto = () => {
 
                 <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                       <img
                         src={img34}
                         alt="Proyecto"
@@ -340,7 +340,7 @@ const ContextoProyecto = () => {
 
                 <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                       <img
                         src={img35}
                         alt="Proyecto"
@@ -369,7 +369,7 @@ const ContextoProyecto = () => {
 
                 <div className="group flex snap-center snap-normal flex-col justify-between gap-8 border-b-2 border-black py-10 pb-4 transition-all duration-500 ease-in-out sm:snap-normal md:h-80 md:flex-row md:gap-12 md:pb-8 lg:h-64">
                   <div className="flex w-full flex-col justify-start gap-8 md:flex-row xl:gap-16">
-                    <figure className="relative z-10 col-span-1 flex h-56 w-full transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:pl-4">
+                    <figure className="relative z-10 col-span-1 flex h-56 w-full bg-purple-400 transition-all duration-500 ease-in-out md:h-full md:w-1/4 md:group-hover:w-2/5 lg:ml-4">
                       <img
                         src={img36}
                         alt="Proyecto"

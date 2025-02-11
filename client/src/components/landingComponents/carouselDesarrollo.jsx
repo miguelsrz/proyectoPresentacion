@@ -5,6 +5,8 @@ import img43 from "/public/assets/imgs/img43.png";
 import img44 from "/public/assets/imgs/img44.png";
 import img45 from "/public/assets/imgs/img45.png";
 import img46 from "/public/assets/imgs/img46.png";
+import img47 from "/public/assets/imgs/img47.jpg";
+import img48 from "/public/assets/imgs/img48.jpg";
 import { Flowbite, Carousel } from "flowbite-react";
 
 const customTheme = {
@@ -22,13 +24,14 @@ const CarouselDesarrollo = () => {
     <>
       <Flowbite theme={{ theme: customTheme }}>
         <Carousel slide={false}>
-          <img src={img40} alt="" />
-
-          <img src={img41} alt="" />
-          <img src={img42} alt="" />
-          <img src={img43} alt="" />
-          <img src={img44} alt="" />
-          <img src={img45} alt="" />
+          <img className="bg-black" src={img47} alt="" />
+          <img className="bg-black" src={img40} alt="" />
+          <img className="bg-black" src={img41} alt="" />
+          <img className="bg-black" src={img42} alt="" />
+          <img className="bg-black" src={img43} alt="" />
+          <img className="bg-black" src={img44} alt="" />
+          <img className="bg-black" src={img48} alt="" />
+          <img className="bg-black" src={img45} alt="" />
 
           <img src={img46} alt="" />
         </Carousel>
