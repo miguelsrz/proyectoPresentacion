@@ -6,6 +6,9 @@ import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
 import plazaChe from "/public/assets/imgs/Plaza_Che,_Bogotá.webp";
 import img2 from "/public/assets/imgs/img2.webp";
 import img3 from "/public/assets/imgs/img3.webp";
+
+import left from "/public/assets/icons/arrowLeft.svg";
+
 const InicioProyecto = () => {
   const { activeComponent } = useContext(AppContext);
 
@@ -70,6 +73,16 @@ const InicioProyecto = () => {
                     gestor financiero.
                   </li>
                 </ul>
+                <a
+                  href="https://docs.google.com/document/d/1jimpbzKGrfzTWkiKOQ7PUVdeVe5Dlgm8/edit?usp=sharing&ouid=107374551304849690595&rtpof=true&sd=true"
+                  target="_blank"
+                  className="mt-9 flex h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
+                >
+                  <div className="flex h-auto w-auto items-center justify-center">
+                    <p className="">Documento Formal de Proyecto</p>
+                    <img className="ml-1 h-7" src={left} alt="" />
+                  </div>
+                </a>
               </div>
             </div>
 
@@ -90,6 +103,7 @@ const InicioProyecto = () => {
                   IDENTIDAD DEL{" "}
                   <span className="text-purple-900">PROYECTO</span>
                 </h2>
+
                 <p className="mb-9 text-pretty text-xl font-bold sm:text-2xl lg:text-3xl">
                   FOCUS: Finanzas Organizadas para Crecimiento y Uso Sostenible.
                 </p>

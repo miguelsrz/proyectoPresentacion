@@ -271,7 +271,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-center xl:text-left">
-              Ultima actualizacion: Febrero 03 de 2025
+              Ultima actualizacion: Febrero 26 de 2025
             </p>
           </div>
         </div>

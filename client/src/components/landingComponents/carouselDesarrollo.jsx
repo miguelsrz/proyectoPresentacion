@@ -17,6 +17,12 @@ const customTheme = {
     item: {
       base: "absolute left-1/2 top-1/2 block w-full  -translate-x-1/2 -translate-y-1/2",
     },
+    indicators: {
+      active: {
+        off: "bg-purple-400/50 hover:bg-purple-700 dark:bg-gray-800/50 dark:hover:bg-gray-800",
+        on: "bg-purple-700 dark:bg-gray-800",
+      },
+    },
   },
 };
 const CarouselDesarrollo = () => {

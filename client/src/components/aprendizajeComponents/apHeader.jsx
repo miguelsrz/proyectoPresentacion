@@ -24,28 +24,28 @@ function ApHeader() {
       >
         <div className="flex w-full max-w-[1800px] items-center justify-between gap-2 px-8 sm:px-16 2xl:px-24">
           <div className="flex items-center py-5">
-            <Link to={"/aprendizaje#0"} className="relative">
+            <a href="/aprendizaje#0" className="relative">
               <figure
                 title="VOLVER A INICIO DE SECCION APRENDIZAJE"
                 className="h-10 pr-4 transition-all duration-500 ease-in-out hover:scale-110"
               >
                 <img className="h-full" src={focus} alt="Focus LOGO" />
               </figure>
-            </Link>
+            </a>
             <div className="block h-10 w-0.5 bg-white"></div>
-            <Link to={"/aprendizaje#0"}>
+            <a href="/aprendizaje#0">
               <p
                 title="VOLVER A INICIO DE SECCION APRENDIZAJE"
                 className="w-auto select-none pl-4 text-xl text-white transition-all duration-200 hover:tracking-wider"
               >
                 APRENDIZAJE
               </p>
-            </Link>
+            </a>
           </div>
 
           <button
             onClick={() => setActiveMenu(!activeMenu)}
-            className="relative hidden h-full rounded-sm border border-transparent bg-purple-950 px-4 py-2 text-base font-semibold text-white sm:block"
+            className="relative hidden h-full min-w-52 rounded-sm border border-transparent bg-purple-950 px-4 py-2 text-base font-semibold text-white sm:block"
           >
             <div className="group z-0 flex h-full items-center justify-center gap-1">
               <img
@@ -121,7 +121,7 @@ function ApHeader() {
 
             <div
               onClick={() => closeMenu()}
-              className={`absolute right-0 top-[72px] -z-10 w-full max-w-[240px] overflow-hidden text-black transition-all duration-1000 ease-in-out ${activeMenu ? "h-60" : "h-0"}`}
+              className={`absolute right-0 top-[72px] -z-10 w-full max-w-[240px] overflow-hidden text-black transition-all duration-1000 ease-in-out ${activeMenu ? "h-[361px]" : "h-0"}`}
             >
               <aside
                 className={`flex cursor-default flex-col rounded-b border-b-2 border-black bg-white px-4 py-4 shadow-lg transition-all duration-1000 ease-in-out ${activeMenu ? "pb-4" : "pb-6"}`}
@@ -134,6 +134,36 @@ function ApHeader() {
                       <p className="truncate rounded bg-gray-100 px-4 py-2">
                         {usuario}
                       </p>
+                    </div>
+                    <div className="flex w-full flex-col items-start gap-2 border-b border-black pb-4">
+                      <Link to={"/aprendizaje/modulo/1/#0"}>
+                        <a
+                          className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
+                        >
+                          M1: INTRODUCCION
+                        </a>
+                      </Link>
+                      <Link to={"/aprendizaje/modulo/2/#0"}>
+                        <a
+                          className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
+                        >
+                          M2: FIN. PERSONALES
+                        </a>
+                      </Link>
+                      <Link to={"/aprendizaje/modulo/3/#0"}>
+                        <a
+                          className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
+                        >
+                          M3: PRESUPUESTACION
+                        </a>
+                      </Link>
+                      <Link to={"/aprendizaje/modulo/4/#0"}>
+                        <a
+                          className={`rounded-sm border-2 border-transparent py-1 underline-offset-8 transition-all duration-200 hover:text-purple-900`}
+                        >
+                          M4: AMPLIACION
+                        </a>
+                      </Link>
                     </div>
                     <Link to={"https://focus.42web.io/"}>
                       <a

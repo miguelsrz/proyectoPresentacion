@@ -109,9 +109,11 @@ const Quiz = () => {
               <div className="flex flex-col gap-2 rounded bg-gray-200 p-8">
                 <h2 className="text-2xl font-bold">Descripción</h2>
 
-                <p className="text-pretty text-base">{content.descripcion}</p>
+                <p className="text-pretty text-base text-gray-700">
+                  {content.descripcion}
+                </p>
                 {quizPuntaje ? (
-                  <p className="mt-4 border-t border-black pt-4">
+                  <p className="mt-4 border-t border-black pt-4 text-gray-700">
                     Puntaje anteriormente obtenido: {quizPuntaje?.puntaje} de{" "}
                     {content.preguntas.length} preguntas
                   </p>
@@ -131,7 +133,7 @@ const Quiz = () => {
                 <div className="flex flex-col gap-8">
                   <div className="flex flex-col gap-4 rounded bg-purple-200 p-8">
                     <h2 className="text-2xl font-bold">Resultado Final</h2>
-                    <p>
+                    <p className="text-gray-700">
                       Has acertado {correctAnswers} de{" "}
                       {content.preguntas.length} preguntas.
                     </p>
@@ -149,7 +151,7 @@ const Quiz = () => {
                 <div className="flex flex-col gap-4 rounded">
                   <div className="flex flex-col gap-4 rounded bg-purple-200 p-8">
                     <div className="mb-4 border-b border-black pb-4">
-                      <p className="mb-1 text-base">
+                      <p className="mb-1 text-base text-gray-700">
                         Pregunta {currentQuestionIndex + 1} de{" "}
                         {content.preguntas.length}
                       </p>
@@ -157,7 +159,7 @@ const Quiz = () => {
                         {content.preguntas[currentQuestionIndex].pregunta}
                       </h2>
                     </div>
-                    <div className="flex flex-col items-start justify-start gap-4">
+                    <div className="flex flex-col items-start justify-start gap-4 text-gray-700">
                       {content.preguntas[currentQuestionIndex].opciones.map(
                         (option, index) => (
                           <div
@@ -184,7 +186,7 @@ const Quiz = () => {
                     className={`rounded bg-gray-200 p-8 ${answerChecked ? "block" : "hidden"}`}
                   >
                     {answerChecked && (
-                      <p className="flex flex-col gap-2">
+                      <p className="flex flex-col gap-2 text-gray-700">
                         {selectedAnswer ===
                         content.preguntas[currentQuestionIndex].correcta ? (
                           <>

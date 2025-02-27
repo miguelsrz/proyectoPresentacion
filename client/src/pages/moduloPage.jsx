@@ -7,6 +7,9 @@ import ApHeader from "../components/aprendizajeComponents/apHeader";
 import ApAside from "../components/aprendizajeComponents/apAside";
 import Footer from "../components/footer";
 import m1Icon from "../../public/assets/icons/m1Icon.svg";
+import m2Icon from "../../public/assets/icons/m2Icon.svg";
+import m3Icon from "../../public/assets/icons/m3Icon.svg";
+import m4Icon from "../../public/assets/icons/m4Icon.svg";
 import left from "../../public/assets/icons/arrowLeft.svg";
 
 const ModuloPage = () => {
@@ -14,6 +17,12 @@ const ModuloPage = () => {
   const [module, setModule] = useState(null);
   const [avanceModulo, setAvanceModulo] = useState(0);
 
+  const icons = {
+    1: m1Icon,
+    2: m2Icon,
+    3: m3Icon,
+    4: m4Icon,
+  };
   const location = useLocation();
 
   useEffect(() => {
@@ -90,7 +99,7 @@ const ModuloPage = () => {
                   <Link to={"/aprendizaje"} className="max-w-64">
                     <button
                       href="/aprendizaje"
-                      className="block h-12 w-full cursor-pointer rounded border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500 md:hidden"
+                      className="mb-2 block h-12 w-full cursor-pointer rounded border-2 border-transparent bg-purple-700 align-middle font-semibold text-white hover:bg-purple-500 md:hidden"
                     >
                       <div className="flex h-full items-center justify-center">
                         <img className="h-7 rotate-180" src={left} alt="" />
@@ -100,12 +109,16 @@ const ModuloPage = () => {
                   </Link>
 
                   <figure className="h-32">
-                    <img className="h-full" src={m1Icon} alt="Focus LOGO" />
+                    <img
+                      className="h-full"
+                      src={icons[module.moduleId]}
+                      alt="Focus LOGO"
+                    />
                   </figure>
                   <h1 className="text-4xl font-bold text-black md:text-5xl">
                     Modulo {module.moduleId}: {module.moduleTitle}
                   </h1>
-                  <h2 className="text-xl">12 Contenidos - 4 Quizes</h2>
+                  <h2 className="text-xl">9 Contenidos - 3 Quizes</h2>
                 </div>
 
                 <section className="rounded border border-black/25 bg-white p-8">

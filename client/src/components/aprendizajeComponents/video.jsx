@@ -90,7 +90,7 @@ const Video = () => {
               <h2 className="text-2xl font-bold">Video original</h2>
 
               <a
-                className="underline-offset-8 hover:underline"
+                className="text-gray-700 underline-offset-8 hover:underline"
                 target="_blank"
                 href={content.urlOriginal}
               >
@@ -110,7 +110,9 @@ const Video = () => {
             <div className="flex flex-col gap-2 rounded bg-gray-200 p-8">
               <h2 className="text-2xl font-bold">Descripción</h2>
 
-              <p className="text-pretty text-base">{content.descripcion}</p>
+              <p className="text-pretty text-base text-gray-700">
+                {content.descripcion}
+              </p>
             </div>
             <button
               onClick={() => handleVisto()}

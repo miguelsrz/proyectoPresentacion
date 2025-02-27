@@ -62,13 +62,15 @@ const AprendizajePage = () => {
     return <div className="p-8 text-xl md:text-2xl"> Cargando módulos...</div>;
   if (error) return <div>{error}</div>;
 
-  const porcentajeProgreso = Math.round((progreso.length / 36) * 100);
+  const porcentajeProgreso = Math.round(
+    ((progreso.length + puntajes.length) / 48) * 100,
+  );
   return (
     <div id="0" className="text-pretty">
       <ApHeader></ApHeader>
 
       <div className="flex">
-        <div className="relative mt-[72px]">
+        <div className="relative mt-[72px] text-wrap">
           <ApAside></ApAside>
         </div>
 
@@ -84,7 +86,7 @@ const AprendizajePage = () => {
                 </figure>
                 <h1 className="text-4xl font-bold text-black md:text-5xl">
                   Educación Financiera para Estudiantes
-                  <span className="text-3xl font-semibold md:text-4xl">
+                  <span className="text-2xl font-semibold lg:text-4xl">
                     <br></br> Gestión Inteligente del Dinero
                   </span>
                 </h1>
@@ -92,7 +94,7 @@ const AprendizajePage = () => {
                   Avance de curso: {porcentajeProgreso}%{" "}
                   <span className="hidden md:inline-block">
                     {" "}
-                    - ({progreso.length}/36 contenidos vistos)
+                    - ({progreso.length + puntajes.length}/48 contenidos vistos)
                   </span>
                 </h2>
               </div>

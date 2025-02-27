@@ -22,7 +22,8 @@ function CoAside() {
     setProgreso,
     setPuntajes,
   } = useContext(DatabaseContext);
-  const { login, usuario, getUser } = useContext(UserContext);
+  const { login, usuario, getUser, capitalizeFirstLetter } =
+    useContext(UserContext);
 
   // Fetch data when the component mounts
 
@@ -160,7 +161,7 @@ function CoAside() {
                         sect.activities[2].id,
                       );
 
-                      const quizPuntaje = puntajes.some(
+                      const quizPuntaje = puntajes.find(
                         (p) => p.quiz === sect.quiz.id,
                       );
 
@@ -180,6 +181,7 @@ function CoAside() {
                             <li
                               className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado0 ? "border-green-200" : "border-gray-200"} ${sect.activities[0].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
+                              {capitalizeFirstLetter(sect.activities[0].type)}:{" "}
                               {sect.activities[0].title}
                             </li>
                           </Link>
@@ -190,6 +192,7 @@ function CoAside() {
                             <li
                               className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado1 ? "border-green-200" : "border-gray-200"} ${sect.activities[1].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
+                              {capitalizeFirstLetter(sect.activities[1].type)}:{" "}
                               {sect.activities[1].title}
                             </li>
                           </Link>
@@ -200,6 +203,7 @@ function CoAside() {
                             <li
                               className={`rounded border-l-[24px] p-4 hover:bg-purple-200 ${completado2 ? "border-green-200" : "border-gray-200"} ${sect.activities[2].title.includes(currentContent) ? "bg-purple-200" : null}`}
                             >
+                              {capitalizeFirstLetter(sect.activities[2].type)}:{" "}
                               {sect.activities[2].title}
                             </li>
                           </Link>
@@ -212,7 +216,7 @@ function CoAside() {
                             >
                               Quiz {index + 1}: {sect.quiz.title}{" "}
                               {quizPuntaje
-                                ? `- (${puntajes[module.moduleId - 1]?.puntaje}/${sect.quiz.preguntas.length})`
+                                ? `- (${quizPuntaje.puntaje}/${sect.quiz.preguntas.length})`
                                 : null}
                             </li>
                           </Link>

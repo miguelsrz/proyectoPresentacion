@@ -98,15 +98,15 @@ const Articulo = () => {
       console.log("Enviando progreso:", content.id, true);
     }
 
-    const scrollToElement = () => {
-      if (location) {
-        const element = document.getElementById("0");
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }
-    };
-    scrollToElement();
+    // const scrollToElement = () => {
+    //   if (location) {
+    //     const element = document.getElementById("0");
+    //     if (element) {
+    //       element.scrollIntoView({ behavior: "smooth", block: "start" });
+    //     }
+    //   }
+    // };
+    // scrollToElement();
   };
 
   return (
@@ -116,7 +116,8 @@ const Articulo = () => {
         <div className="relative order-2 md:order-1 md:mt-[72px]">
           <CoAside></CoAside>
         </div>
-        <div className="order-1 mt-[72px] flex flex-col gap-8 bg-gray-50 px-8 py-8 md:order-2 md:px-24">
+
+        <div className="order-1 mt-[72px] flex w-full flex-col gap-8 bg-gray-50 px-8 py-8 md:order-2 md:px-24">
           <div className="flex flex-col gap-2 border-b border-black/25 pb-8">
             <p className="text-xl font-bold">
               {capitalizeFirstLetter(content.type)}
@@ -126,7 +127,7 @@ const Articulo = () => {
           <div className="flex flex-col gap-2 rounded bg-purple-100 p-8">
             <h2 className="text-2xl font-bold">Articulo original</h2>
             <a
-              className="underline-offset-8 hover:underline"
+              className="text-gray-700 underline-offset-8 hover:underline"
               target="_blank"
               href={content.url}
             >
@@ -135,25 +136,25 @@ const Articulo = () => {
             </a>
           </div>
 
-          <div>
+          <div className="">
             {Array.from({ length: maxLength }).map((_, index) => (
               <div
                 key={index}
-                className="content-block mb-12 flex flex-col gap-12"
+                className="content-block mb-12 flex flex-col items-center gap-12"
               >
                 {index < info.imagenes.length && (
                   <img
                     src={info.imagenes[index]}
                     alt={`Imagen ${index + 1}`}
-                    className="h-auto w-full rounded shadow"
+                    className="h-auto max-h-[500px] w-full rounded object-cover shadow"
                   />
                 )}
                 {index < info.texto.length && (
-                  <div className="flex flex-col gap-4">
-                    <h1 className="text-3xl font-bold text-gray-950">
+                  <div className="flex w-full max-w-[850px] flex-col gap-4">
+                    <h1 className="text-3xl font-bold text-gray-900">
                       {info.texto[index].subtitulo}
                     </h1>
-                    <p className="text-pretty text-lg text-gray-950">
+                    <p className="text-pretty text-lg text-gray-700">
                       {renderText(info.texto[index].sub)}
                     </p>
                   </div>

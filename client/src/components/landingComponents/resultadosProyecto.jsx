@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../../context/presentacionContext";
+import left from "/public/assets/icons/arrowLeft.svg";
 
 import bgDecoration1 from "/public/assets/deco/bgDecoration1.svg";
 import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
@@ -39,6 +40,18 @@ const ResultadosProyecto = () => {
               orientar las funcionalidades y contenidos hacia las necesidades
               reales de los estudiantes.
             </p>
+            <a
+              href="https://docs.google.com/forms/u/1/d/1iUvxM1OEcqRmNIiqc8WTQ1PVrBlvVdyyvlSX5K1ToRk/viewanalytics?usp=drive_web"
+              target="_blank"
+              className="h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
+            >
+              <div className="flex h-full items-center justify-center">
+                <p className="line-clamp-1">
+                  Google Forms - Resultados Encuesta Inicial
+                </p>
+                <img className="ml-2 h-7" src={left} alt="" />
+              </div>
+            </a>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
               <CrInicial></CrInicial>
             </div>
@@ -69,6 +82,18 @@ const ResultadosProyecto = () => {
               oportunidades de mejora, proporcionando información valiosa para
               futuras optimizaciones del proyecto.
             </p>
+            <a
+              href="https://docs.google.com/forms/u/1/d/1IJf3vWDUYlsb_zgg88tRjlxNhjSxWNCgY0T0g0rLxCY/viewanalytics?usp=drive_web"
+              target="_blank"
+              className="h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
+            >
+              <div className="flex h-full items-center justify-center">
+                <p className="line-clamp-1">
+                  Google Forms - Resultados Encuesta Final
+                </p>
+                <img className="ml-2 h-7" src={left} alt="" />
+              </div>
+            </a>
             <div className="min-h-[360px] w-full rounded bg-black shadow-lg sm:min-h-[420px] md:min-h-[540px] lg:min-h-[640px]">
               <CrFinal></CrFinal>
             </div>
