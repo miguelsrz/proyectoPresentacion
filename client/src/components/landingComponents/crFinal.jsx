@@ -26,169 +26,154 @@ const customTheme = {
     },
   },
 };
-const CrInicial = () => {
+const CrFinal = () => {
   const data1 = [
-    {
-      name: "Muy Alto",
-      Total: 2,
-    },
-    {
-      name: "Alto",
-      Total: 5,
-    },
-    {
-      name: "Medio",
-      Total: 18,
-    },
-    {
-      name: "Bajo",
-      Total: 18,
-    },
-    {
-      name: "Muy Bajo",
-      Total: 11,
-    },
+    { name: "Muy Alto", Total: 7 },
+    { name: "Alto", Total: 12 },
+    { name: "Medio", Total: 20 },
+    { name: "Bajo", Total: 10 },
+    { name: "Muy Bajo", Total: 5 },
   ];
 
   const data2 = [
-    { name: "5 (Muy seguro/a)", Total: 2 },
-    { name: "4 (Bastante seguro/a)", Total: 5 },
-    { name: "3 (Neutral)", Total: 3 },
-    { name: "2 (Poco seguro/a)", Total: 25 },
-    { name: "1 (Nada seguro/a)", Total: 9 },
+    { name: "5 (Muy seguro/a)", Total: 6 },
+    { name: "4 (Bastante seguro/a)", Total: 10 },
+    { name: "3 (Neutral)", Total: 8 },
+    { name: "2 (Poco seguro/a)", Total: 20 },
+    { name: "1 (Nada seguro/a)", Total: 6 },
   ];
 
   const data3 = [
-    { name: "Sí, siempre es suficiente", Total: 4 },
-    { name: "Sí, pero con ajustes y limitaciones", Total: 21 },
-    { name: "No, suele ser insuficiente", Total: 29 },
+    { name: "Sí, siempre es suficiente", Total: 8 },
+    { name: "Sí, pero con ajustes y limitaciones", Total: 24 },
+    { name: "No, suele ser insuficiente", Total: 22 },
   ];
 
   const data4 = [
-    { name: "Sí, regularmente", Total: 8 },
-    { name: "Sí, ocasionalmente", Total: 29 },
-    { name: "No, no recibo ingresos", Total: 17 },
+    { name: "Sí, regularmente", Total: 12 },
+    { name: "Sí, ocasionalmente", Total: 30 },
+    { name: "No, no recibo ingresos", Total: 12 },
   ];
 
   const data5 = [
-    { name: "Frecuentemente", Total: 12 },
-    { name: "Algunas veces", Total: 6 },
-    { name: "Rara vez", Total: 22 },
-    { name: "Nunca", Total: 14 },
+    { name: "Frecuentemente", Total: 18 },
+    { name: "Algunas veces", Total: 10 },
+    { name: "Rara vez", Total: 18 },
+    { name: "Nunca", Total: 8 },
   ];
 
   const data6 = [
-    { name: "Alimentación", Total: 31 },
-    { name: "Transporte", Total: 38 },
-    { name: "Entretenimiento", Total: 26 },
-    { name: "Materiales escolares", Total: 26 },
-    { name: "Actividades sociales", Total: 23 },
-    { name: "Ahorro", Total: 13 },
-    { name: "Inversión", Total: 5 },
+    { name: "Alimentación", Total: 30 },
+    { name: "Transporte", Total: 35 },
+    { name: "Entretenimiento", Total: 24 },
+    { name: "Materiales escolares", Total: 22 },
+    { name: "Actividades sociales", Total: 20 },
+    { name: "Ahorro", Total: 18 },
+    { name: "Inversión", Total: 8 },
   ];
 
   const data7 = [
-    { name: "Siempre", Total: 4 },
-    { name: "A menudo", Total: 14 },
-    { name: "Algunas veces", Total: 22 },
-    { name: "Nunca", Total: 14 },
+    { name: "Siempre", Total: 6 },
+    { name: "A menudo", Total: 18 },
+    { name: "Algunas veces", Total: 20 },
+    { name: "Nunca", Total: 10 },
   ];
 
   const data8 = [
-    { name: "Sí, he utilizado estas herramientas financieras", Total: 5 },
-    { name: "Sí, tengo conocimiento básico sobre cómo funcionan", Total: 12 },
-    { name: "Sé algo, pero no tengo experiencia directa", Total: 12 },
-    { name: "No sé nada sobre crédito o préstamos", Total: 25 },
+    { name: "Sí, he utilizado estas herramientas financieras", Total: 8 },
+    { name: "Sí, tengo conocimiento básico sobre cómo funcionan", Total: 15 },
+    { name: "Sé algo, pero no tengo experiencia directa", Total: 15 },
+    { name: "No sé nada sobre crédito o préstamos", Total: 16 },
   ];
 
   const data9 = [
-    { name: "Sí, conozco varios métodos para el ahorro e inversión", Total: 8 },
+    {
+      name: "Sí, conozco varios métodos para el ahorro e inversión",
+      Total: 12,
+    },
     {
       name: "Sí, tengo conocimiento básico sobre métodos para el ahorro e inversión",
-      Total: 25,
+      Total: 28,
     },
     {
       name: "Sé algo, pero no tengo gran conocimiento de métodos de ahorro e inversión",
-      Total: 19,
+      Total: 14,
     },
     {
       name: "No tengo conocimiento de métodos de ahorro e inversión",
-      Total: 2,
+      Total: 0,
     },
   ];
 
   const data10 = [
-    { name: "Sí, tengo algún tipo de ahorro o inversión", Total: 16 },
-    { name: "No, no tengo ahorros o inversiones", Total: 38 },
+    { name: "Sí, tengo algún tipo de ahorro o inversión", Total: 22 },
+    { name: "No, no tengo ahorros o inversiones", Total: 32 },
   ];
 
   const data11 = [
-    { name: "Sí, tengo un fondo de emergencia", Total: 4 },
-    { name: "Sí, pero recurriría a otras personas o préstamos", Total: 20 },
-    { name: "No, no tengo recursos disponibles", Total: 30 },
+    { name: "Sí, tengo un fondo de emergencia", Total: 8 },
+    { name: "Sí, pero recurriría a otras personas o préstamos", Total: 24 },
+    { name: "No, no tengo recursos disponibles", Total: 22 },
   ];
 
   const data12 = [
-    { name: "Sí, siempre", Total: 6 },
-    { name: "Algunas veces", Total: 13 },
-    { name: "Rara vez", Total: 15 },
-    { name: "Nunca", Total: 20 },
+    { name: "Sí, siempre", Total: 10 },
+    { name: "Algunas veces", Total: 18 },
+    { name: "Rara vez", Total: 12 },
+    { name: "Nunca", Total: 14 },
   ];
 
   const data13 = [
-    { name: "Falta de tiempo", Total: 7 },
-    { name: "Falta de interés", Total: 7 },
-    { name: "Falta de conocimiento adecuado", Total: 22 },
-    { name: "Dificultad para entender conceptos complejos", Total: 18 },
+    { name: "Falta de tiempo", Total: 6 },
+    { name: "Falta de interés", Total: 6 },
+    { name: "Falta de conocimiento adecuado", Total: 18 },
+    { name: "Dificultad para entender conceptos complejos", Total: 15 },
   ];
 
   const data14 = [
-    { name: "Siempre", Total: 11 },
-    { name: "A veces", Total: 22 },
-    { name: "Nunca", Total: 21 },
+    { name: "Siempre", Total: 14 },
+    { name: "A veces", Total: 25 },
+    { name: "Nunca", Total: 15 },
   ];
 
   const data15 = [
-    { name: "Si, de manera formal", Total: 6 },
-    { name: "Si, de manera ocasional", Total: 25 },
-    { name: "No", Total: 23 },
+    { name: "Si, de manera formal", Total: 10 },
+    { name: "Si, de manera ocasional", Total: 28 },
+    { name: "No", Total: 16 },
   ];
 
   const data16 = [
-    { name: "Muy buena", Total: 2 },
-    { name: "Regular", Total: 12 },
-    { name: "Insuficiente", Total: 20 },
-    { name: "No recibí", Total: 21 },
+    { name: "Muy buena", Total: 5 },
+    { name: "Regular", Total: 16 },
+    { name: "Insuficiente", Total: 18 },
+    { name: "No recibí", Total: 18 },
   ];
 
   const data17 = [
-    { name: "Familiares o amigos", Total: 11 },
-    { name: "Medios de comunicación", Total: 12 },
-    { name: "Internet", Total: 18 },
-    { name: "No obtengo información", Total: 13 },
+    { name: "Familiares o amigos", Total: 10 },
+    { name: "Medios de comunicación", Total: 10 },
+    { name: "Internet", Total: 22 },
+    { name: "No obtengo información", Total: 10 },
   ];
 
   const data18 = [
-    { name: "Sí, es clara y comprensible", Total: 6 },
-    { name: "A veces es clara, pero en general es confusa", Total: 27 },
-    { name: "No, es difícil de entender", Total: 21 },
+    { name: "Sí, es clara y comprensible", Total: 10 },
+    { name: "A veces es clara, pero en general es confusa", Total: 28 },
+    { name: "No, es difícil de entender", Total: 16 },
   ];
 
   const data19 = [
-    { name: "Elaboración de presupuestos", Total: 35 },
-    { name: "Gestión de dinero", Total: 38 },
-    { name: "Ahorro e inversión", Total: 41 },
-    { name: "Manejo del crédito", Total: 26 },
-    { name: "Prevención de deudas", Total: 33 },
-    { name: "Apoyos socioeconómicos", Total: 1 },
-    { name: "Todo", Total: 1 },
-    { name: "Sobre todo", Total: 1 },
-    { name: "Montar empresas", Total: 1 },
+    { name: "Elaboración de presupuestos", Total: 38 },
+    { name: "Gestión de dinero", Total: 40 },
+    { name: "Ahorro e inversión", Total: 44 },
+    { name: "Manejo del crédito", Total: 30 },
+    { name: "Prevención de deudas", Total: 35 },
+    { name: "Apoyos socioeconómicos", Total: 2 },
   ];
 
   const data20 = [
-    { name: "Sí, definitivamente", Total: 52 },
-    { name: "No, no me interesa ahora mismo", Total: 2 },
+    { name: "Sí, definitivamente", Total: 48 },
+    { name: "No realmente", Total: 6 },
   ];
 
   return (
@@ -367,266 +352,6 @@ const CrInicial = () => {
           </div>
 
           <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              Seleccione 3 categorías de uso del dinero más frecuentes
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data6}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#7dd3fc"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Sueles ahorrar una parte de tus ingresos (Mensual, semanal)?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data7}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#8884d8"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`line-clamp-1 flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Sabes actualmente sobre el uso de tarjetas de crédito, préstamos
-              o créditos?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data8}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#86efac"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Tienes conocimiento de métodos de ahorro e inversión?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data9}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#7dd3fc"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Tienes algún ahorro o inversión actual (en cuentas bancarias,
-              fondos, criptomonedas, etc.)?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data10}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#8884d8"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`line-clamp-1 flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              Si tuvieras una emergencia financiera, ¿tienes recursos para
-              cubrirla?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data11}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#86efac"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Sueles establecer metas financieras mensuales o anuales?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data12}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#7dd3fc"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Qué principal obstáculo crees que podrías enfrentar al intentar
-              aplicar conocimientos financieros básicos en tu vida diaria?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data13}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#8884d8"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
             className={`line-clamp-1 flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
           >
             <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
@@ -637,39 +362,6 @@ const CrInicial = () => {
                 width={500}
                 height={300}
                 data={data14}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#86efac"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Recibiste clases o talleres sobre educación financiera en la
-              escuela?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data15}
                 margin={{
                   top: 5,
                   right: 30,
@@ -761,41 +453,8 @@ const CrInicial = () => {
             className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
           >
             <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Consideras que la información financiera disponible es clara y
-              fácil de entender para ti?
-            </h1>
-            <ResponsiveContainer width="100%" height="75%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data18}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="Total"
-                  fill="#7dd3fc"
-                  background={{ fill: "#eee" }}
-                />
-              </BarChart>
-            </ResponsiveContainer>{" "}
-          </div>
-
-          <div
-            className={`flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
-          >
-            <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Qué aspectos de las finanzas personales te gustaría aprender más
-              a fondo? (Selecciona todas las que apliquen)
+              ¿Qué aspectos de las finanzas personales consideras has aprendido
+              y aplicado mejor? (Selecciona todas las que apliquen)
             </h1>
             <ResponsiveContainer width="100%" height="75%">
               <BarChart
@@ -827,8 +486,9 @@ const CrInicial = () => {
             className={`line-clamp-1 flex h-full w-full flex-col items-center justify-center gap-8 px-0 py-8 lg:px-16`}
           >
             <h1 className="mb-8 line-clamp-2 text-center font-bold text-black sm:line-clamp-none md:text-2xl">
-              ¿Te gustaría aprender a ahorrar o gestionar mejor tu dinero para
-              tus estudios y metas personales?
+              ¿Consideras apropiados los contenidos y su estructura de la
+              herramienta Aprendizaje para el correcto aprendizaje de las
+              finanzas personales?
             </h1>
             <ResponsiveContainer width="100%" height="75%">
               <BarChart
@@ -849,7 +509,7 @@ const CrInicial = () => {
                 <Legend />
                 <Bar
                   dataKey="Total"
-                  fill="#86efac"
+                  fill="#7dd3fc"
                   background={{ fill: "#eee" }}
                 />
               </BarChart>
@@ -861,4 +521,4 @@ const CrInicial = () => {
   );
 };
 
-export default CrInicial;
+export default CrFinal;

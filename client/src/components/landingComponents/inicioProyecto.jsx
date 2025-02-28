@@ -3,7 +3,7 @@ import { AppContext } from "../../context/presentacionContext";
 
 import bgDecoration1 from "/public/assets/deco/bgDecoration1.svg";
 import bgDecoration2 from "/public/assets/deco/bgDecoration2.svg";
-import plazaChe from "/public/assets/imgs/Plaza_Che,_Bogotá.webp";
+import poster from "/public/assets/imgs/posterFocus.png";
 import img2 from "/public/assets/imgs/img2.webp";
 import img3 from "/public/assets/imgs/img3.webp";
 
@@ -28,9 +28,9 @@ const InicioProyecto = () => {
               alt=""
             />
             <div className="grid h-auto max-w-[1320px] grid-cols-1 gap-12 xl:grid-cols-2 xl:gap-8">
-              <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
+              <figure className="relative z-10 flex max-h-[320px] w-full sm:max-h-[480px] xl:max-h-[764px]">
                 <img
-                  src={plazaChe}
+                  src={poster}
                   alt="Proyecto"
                   className="z-10 h-full w-full object-cover shadow"
                 />
@@ -41,45 +41,58 @@ const InicioProyecto = () => {
                 <h2 className="mb-9 font-schabo text-5xl tracking-widest text-purple-900 sm:text-7xl lg:text-8xl">
                   INTRODUCCION
                 </h2>
-                <p className="mb-9 text-balance">
-                  Mediante un proceso de investigación empírica, se recogen
-                  datos demográficos que al analizarlos nos permiten identificar
-                  problemáticas en común de gente que convive en mismos espacios
-                  sociales y comunidades, como lo podría ser, para el menester
-                  de este trabajo investigativo, la comunidad estudiantil de la
-                  Universidad Nacional de Colombia, sede Bogotá. En este lugar
-                  se recogen personas pertenecientes a todos los sectores de la
-                  ciudad, tanto cultural como económicamente, por lo que la
-                  diversidad de los datos está asegurada.
+                <p className="mb-9 text-pretty">
+                  Bienvenido a la página{" "}
+                  <span className="font-bold">"Presentación"</span> de FOCUS, un
+                  proyecto diseñado para proporcionar herramientas tecnológicas
+                  que faciliten la educación financiera y la gestión de recursos
+                  para estudiantes universitarios. En la pagina{" "}
+                  <span className="font-bold">"Presentación" </span>
+                  encontrarás información resumida sobre la elaboración del
+                  proyecto, dividido en: Introduccion, contexto, fundamentos,
+                  metodologia, desarrollo y resultados. Accede a cada uno de
+                  ellos desde la barra de navegación.
                 </p>
 
-                <p className="mb-9 text-balance">
-                  Como método de recogida de datos de evaluación, se procederá a
-                  hacer una encuesta digital, teniendo como sujetos de estudio a
-                  los estudiantes de pregrado de Ingeniería de Sistemas y
-                  Computación de primer semestre. Esto será la base con la que
-                  se harán las distintas herramientas tecnológicas dispuestas
-                  para este proyecto.
+                <p className="mb-9 text-pretty">
+                  Desde aquí, también puedes acceder a las dos herramientas
+                  principales de FOCUS. Para comenzar a utilizar estas
+                  herramientas, accede a los botones morados{" "}
+                  <span className="font-bold">"Aprendizaje"</span> o{" "}
+                  <span className="font-bold">"Gestor Finanicero"</span>, crea o
+                  ingresa a tu cuenta de forma rapida, gratuita y segura para
+                  explorar los recursos disponibles:
                 </p>
 
-                <ul className="ml-5 mt-4 list-disc space-y-2">
+                <ul className="mb-9 ml-5 mt-4 list-disc space-y-2">
                   <li>
-                    Se propone una solución aplicable por los distintos
-                    estudiantes.
+                    <span className="font-bold">Aprendizaje:</span> Una
+                    herramienta de formación en linea estructurado para orientar
+                    desde cero los principios fundamentales de las finanzas
+                    personales.
                   </li>
 
                   <li>
-                    Se implementa una herramienta digital que funcione como
-                    gestor financiero.
+                    <span className="font-bold">Gestor Financiero:</span> Una
+                    herramienta que te permitirá organizar y administrar tus
+                    ingresos y gastos de manera eficiente en linea.
                   </li>
                 </ul>
+
+                <p className="mb-9 text-pretty">
+                  Si deseas conocer más detalles especificos sobre el desarrollo
+                  del proyecto, puedes consultar el{" "}
+                  <span className="font-bold">"Documento Escrito Formal" </span>
+                  haciendo clic en el botón que encontrarás a continuación
+                  (requiere cuenta @unal.edu.co).
+                </p>
                 <a
                   href="https://docs.google.com/document/d/1jimpbzKGrfzTWkiKOQ7PUVdeVe5Dlgm8/edit?usp=sharing&ouid=107374551304849690595&rtpof=true&sd=true"
                   target="_blank"
                   className="mt-9 flex h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
                 >
                   <div className="flex h-auto w-auto items-center justify-center">
-                    <p className="">Documento Formal de Proyecto</p>
+                    <p className="">Documento Escrito Formal</p>
                     <img className="ml-1 h-7" src={left} alt="" />
                   </div>
                 </a>
@@ -107,8 +120,15 @@ const InicioProyecto = () => {
                 <p className="mb-9 text-pretty text-xl font-bold sm:text-2xl lg:text-3xl">
                   FOCUS: Finanzas Organizadas para Crecimiento y Uso Sostenible.
                 </p>
-
-                <p className="mb-9 text-balance">
+                <p className="mb-9 text-pretty">
+                  Desarrollado por los estudiantes de Ingenieria de Sistemas y
+                  Computacion de primer semestre Miguel Suarez, David Arias y
+                  Cristian Parada como proyecto final del curso "Introduccion a
+                  la Ingenieria de Sistemas y Computacion" dado por Sandra
+                  Rojas, informacion de contacto de los estudiantes al pié de
+                  página.
+                </p>
+                <p className="mb-9 text-pretty">
                   La identidad del proyecto titulado FOCUS, busca transmitir a
                   la población objetivo un enfoque moderno, accesible y
                   profesional, que se alinea con los objetivos de desarrollar
@@ -159,23 +179,44 @@ const InicioProyecto = () => {
                 <h2 className="mb-9 font-schabo text-5xl tracking-widest text-gray-950 sm:text-7xl lg:text-8xl">
                   RESUMEN
                 </h2>
-                <p className="mb-9 text-balance">
-                  En el siguiente trabajo investigativo se procederá a hacer un
-                  análisis de la situación socioeconómica expresada por
-                  estudiantes de la Universidad Nacional de Colombia, revisando
-                  si hay una satisfacción general por parte de estos estudiantes
-                  en su gestión de los recursos que poseen, dependiendo de donde
-                  vienen, sus gastos diarios, expectativas para crecer en el
-                  futuro y demás factores.
+                <p className="mb-9 text-pretty text-xl font-bold xl:text-2xl">
+                  Herramientas para el déficit de educación y gestión financiera
+                  de estudiantes de pregrado en Ingenieria de Sistemas y
+                  Computación en primer semestre de la Universidad Nacional de
+                  Colombia - Sede Bogotá.{" "}
+                </p>
+                <p className="mb-9 text-pretty">
+                  Mediante un proceso de investigación empírica, se recogen
+                  datos demográficos que al analizarlos nos permiten identificar
+                  problemáticas en común de gente que convive en mismos espacios
+                  sociales y comunidades, como lo podría ser, para el menester
+                  de este trabajo investigativo, la comunidad estudiantil de la
+                  Universidad Nacional de Colombia, sede Bogotá. En este lugar
+                  se recogen personas pertenecientes a todos los sectores de la
+                  ciudad, tanto cultural como económicamente, por lo que la
+                  diversidad de los datos está asegurada.
                 </p>
 
-                <p className="mb-9 text-balance">
-                  Esto resulta ser una problemática que se embarcará, para
-                  efectos de este texto investigativo, en los estudiantes de
-                  entre 16 y 20 años, que están empezando a adentrarse en la
-                  vida adulta, teniendo sus primeros recursos económicos a la
-                  mano y necesitando el saber del cómo usarlo correctamente.
+                <p className="mb-9 text-pretty">
+                  Como método de recogida de datos de evaluación, se procederá a
+                  hacer una encuesta digital, teniendo como sujetos de estudio a
+                  los estudiantes de pregrado de Ingeniería de Sistemas y
+                  Computación de primer semestre. Esto será la base con la que
+                  se harán las distintas herramientas tecnológicas dispuestas
+                  para este proyecto.
                 </p>
+
+                <ul className="ml-5 mt-4 list-disc space-y-2">
+                  <li>
+                    Se propone una solución aplicable por los distintos
+                    estudiantes.
+                  </li>
+
+                  <li>
+                    Se implementa una herramienta digital que funcione como
+                    gestor financiero.
+                  </li>
+                </ul>
               </div>
             </div>
           </section>

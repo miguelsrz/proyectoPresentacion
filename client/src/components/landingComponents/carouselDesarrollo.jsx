@@ -32,11 +32,11 @@ const CarouselDesarrollo = () => {
         <Carousel slide={false}>
           <img className="bg-black" src={img47} alt="" />
           <img className="bg-black" src={img40} alt="" />
+          <img className="bg-black" src={img48} alt="" />
           <img className="bg-black" src={img41} alt="" />
           <img className="bg-black" src={img42} alt="" />
           <img className="bg-black" src={img43} alt="" />
           <img className="bg-black" src={img44} alt="" />
-          <img className="bg-black" src={img48} alt="" />
           <img className="bg-black" src={img45} alt="" />
 
           <img src={img46} alt="" />

@@ -28,33 +28,42 @@ const DesarrolloProyecto = () => {
                 DESARROLLO DE <span className="text-purple-900">PROYECTO</span>
               </h2>
 
-              <li className="mb-9 text-balance">
-                Presentación: Proporciona información detallada sobre el
-                propósito, objetivos y funcionalidades de FOCUS, permitiendo a
-                los usuarios comprender su importancia y alcance.
-              </li>
-              <li className="mb-9 text-balance">
-                Aprendizaje: Ofrece módulos educativos organizados en secciones
-                interactivas, donde los estudiantes pueden acceder a contenidos
-                teóricos y actividades diseñadas para fortalecer su conocimiento
-                financiero.
-              </li>
-              <li className="mb-9 text-balance">
-                Gestor Financiero: Permite a los estudiantes llevar un control
-                práctico de sus finanzas, aplicando los conceptos aprendidos
-                para una mejor toma de decisiones económicas.
-              </li>
               <p className="mb-9 text-pretty">
-                El desarrollo de FOCUS ha sido implementado utilizando React y
-                JS Base para el frontend y Node.js con Express y PHP para el
-                backend, con una base de datos en MySQL para gestionar el
-                progreso de los usuarios y sus puntajes en actividades
-                evaluativas. Además, la plataforma incorpora autenticación
-                segura y almacenamiento de sesiones, asegurando una experiencia
-                personalizada para cada usuario. Con un diseño responsivo y una
-                arquitectura escalable, FOCUS está optimizado para ofrecer un
-                aprendizaje accesible y eficiente.
+                El desarrollo de FOCUS ha sido implementado utilizando
+                tecnologías modernas para garantizar una plataforma eficiente,
+                segura y escalable. Con un diseño responsivo que se adapta a
+                distintos dispositivos y una arquitectura modular que facilita
+                su mantenimiento y expansión, FOCUS está optimizado para ofrecer
+                una experiencia de aprendizaje accesible y eficiente.
               </p>
+              <p className="mb-9 text-pretty">
+                Para la interfaz de usuario, se ha empleado React con JavaScript
+                Base, permitiendo una navegación fluida y dinámica. En el
+                servidor, se han integrado Node.js con Express y PHP,
+                facilitando la comunicación entre el frontend y la base de
+                datos, optimizando la gestión del progreso de los usuarios y sus
+                puntajes en actividades evaluativas. La base de datos utilizada
+                es MySQL, estructurada para almacenar y administrar de manera
+                eficiente la información relacionada con los contenidos
+                educativos, el historial de aprendizaje y los registros
+                financieros de los estudiantes. Además, la plataforma incorpora
+                un sistema de autenticación segura y almacenamiento de sesiones,
+                asegurando una experiencia personalizada y protegida para cada
+                usuario.
+              </p>
+
+              <p className="mb-9 text-pretty">
+                Para garantizar un acceso óptimo y estabilidad en su
+                funcionamiento, FOCUS ha sido desplegado en AWS, utilizando:
+              </p>
+              <li className="mb-4 text-pretty">
+                Amazon EC2 para la ejecución de la aplicación, proporcionando
+                escalabilidad y alto rendimiento.
+              </li>
+              <li className="mb-9 text-pretty">
+                Amazon RDS (MySQL) para la administración de la base de datos,
+                asegurando integridad y disponibilidad de la información.
+              </li>
             </div>
             <figure className="relative z-10 flex h-[320px] w-full sm:h-[480px] xl:h-auto">
               <img

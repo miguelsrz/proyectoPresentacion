@@ -113,7 +113,7 @@ function Header() {
               className={`z-10 flex h-[72px] cursor-pointer items-center justify-center ${activeOptions ? "bg-black" : "bg-transparent delay-[1000ms]"}`}
             >
               <div className="line-clamp-1 flex h-11 items-center rounded bg-purple-700 px-8 align-middle hover:bg-purple-600">
-                <p>SECCIONES</p>
+                <p>HERRAMIENTAS</p>
               </div>
             </div>
             <div

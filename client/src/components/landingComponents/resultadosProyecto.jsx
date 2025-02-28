@@ -41,14 +41,12 @@ const ResultadosProyecto = () => {
               reales de los estudiantes.
             </p>
             <a
-              href="https://docs.google.com/forms/u/1/d/1iUvxM1OEcqRmNIiqc8WTQ1PVrBlvVdyyvlSX5K1ToRk/viewanalytics?usp=drive_web"
+              href="https://forms.gle/v3o3tGSG61bm9wSQ7"
               target="_blank"
               className="h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
             >
               <div className="flex h-full items-center justify-center">
-                <p className="line-clamp-1">
-                  Google Forms - Resultados Encuesta Inicial
-                </p>
+                <p className="line-clamp-1">Encuesta Inicial</p>
                 <img className="ml-2 h-7" src={left} alt="" />
               </div>
             </a>
@@ -83,14 +81,12 @@ const ResultadosProyecto = () => {
               futuras optimizaciones del proyecto.
             </p>
             <a
-              href="https://docs.google.com/forms/u/1/d/1IJf3vWDUYlsb_zgg88tRjlxNhjSxWNCgY0T0g0rLxCY/viewanalytics?usp=drive_web"
+              href="https://forms.gle/mYjguQK91qrbfqJn7"
               target="_blank"
               className="h-11 w-max rounded-sm border-2 border-transparent bg-purple-700 px-8 align-middle font-semibold text-white hover:bg-purple-600"
             >
               <div className="flex h-full items-center justify-center">
-                <p className="line-clamp-1">
-                  Google Forms - Resultados Encuesta Final
-                </p>
+                <p className="line-clamp-1">Encuesta Final</p>
                 <img className="ml-2 h-7" src={left} alt="" />
               </div>
             </a>
